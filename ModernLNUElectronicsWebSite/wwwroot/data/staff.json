@@ -1,0 +1,2198 @@
+[
+  {
+    "Group": {
+      "Kind": 0,
+      "Title": "Деканат"
+    },
+    "FullName": "ФУРГАЛА Юрій Михайлович",
+    "Position": "декан",
+    "IsExternal": false,
+    "Email": "yuriy.furhala@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/furhala-yurij-myhajlovych/"
+  },
+  {
+    "Group": {
+      "Kind": 0,
+      "Title": "Деканат"
+    },
+    "FullName": "ВЕЛЬГОШ Сергій Романович",
+    "Position": "заступник декана",
+    "IsExternal": false,
+    "Email": "serhiy.velhosh@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/velhosh-s-r/"
+  },
+  {
+    "Group": {
+      "Kind": 0,
+      "Title": "Деканат"
+    },
+    "FullName": "ДУФАНЕЦЬ Марта Василівна",
+    "Position": "заступник декана",
+    "IsExternal": false,
+    "Email": "marta.dufanets@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dufanets-marta-vasylivna/"
+  },
+  {
+    "Group": {
+      "Kind": 0,
+      "Title": "Деканат"
+    },
+    "FullName": "КОФЛЮК Ірина Миколаївна",
+    "Position": "заступник декана",
+    "IsExternal": false,
+    "Email": "iryna.koflyuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kofliuk-iryna-mykolaivna/"
+  },
+  {
+    "Group": {
+      "Kind": 1,
+      "Title": "Секретаріат деканату"
+    },
+    "FullName": "КОСТЮК Леся Антонівна",
+    "Position": "методист 1 категорії",
+    "IsExternal": false,
+    "Email": "lesya.kostyuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kostyuk-lesya-antonivna/"
+  },
+  {
+    "Group": {
+      "Kind": 1,
+      "Title": "Секретаріат деканату"
+    },
+    "FullName": "САЛАМІН Анна Богданівна",
+    "Position": "секретар",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/salamin-a-b/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "КОРЧАК Юрій Михайлович",
+    "Position": "в.о. завідувача кафедри",
+    "IsExternal": false,
+    "Email": "yuriy.korchak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/korchak-yu-m/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "КРУПИЧ Олег Миколайович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "oleh.krupych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/krupych-oleh-mykolayovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "КУШНІР Олег Степанович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "oleh.kushnir@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kushnir-o-s/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ПОЛОВИНКО Ігор Іванович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "ihor.polovynko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/polovynko-i-i/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "СВЕЛЕБА Сергій Андрійович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "serhiy.sveleba@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/sveleba-serhij-andrijovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ГОРОН Богдан Ігорович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "bohdan.horon@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/horon-bohdan-ihorovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ГРАБОВСЬКИЙ Володимир Андрійович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "volodymyr.grabovskyi@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/hrabovskyj-volodymyr-andrijovych-2/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ДУФАНЕЦЬ Марта Василівна",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "marta.dufanets@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dufanets-marta-vasylivna/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "КАТЕРИНЧУК Іван Миколайович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "ivan.katerynchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/katerynchuk-ivan-mykolajovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "КУНЬО Іван Михайлович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "ivan.kuno@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kuno-ivan-mykolayovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ПАНОЧКО Галина Іванівна",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "galyna.panochko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/panochko-h-i/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "РУСИНЯК Михайло Омелянович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "mykhailo.rusyniak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rusyniak-mykhaylo-omelianovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ФРАНІВ Володимир Андрійович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "volodymyr.franiv@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/franiv-volodymyr-andriyovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ФУРГАЛА Юрій Михайлович",
+    "Position": "доцент",
+    "IsExternal": true,
+    "Email": "yuriy.furhala@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/furhala-yurij-myhajlovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ВАСЮТА Василь Михайлович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "vasyl.vasiuta@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/vasiuta-vasyl-mykhaylovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ДЕМЕДЮК Ігор Миколайович",
+    "Position": "асистент",
+    "IsExternal": true,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/demediuk-ihor-mykolayovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ІЖИК Олег Борисович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "oleh.izhyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/izhyk-oleh-borysovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ФЕСЮК Андрій Вікторович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "Andrii.Fesiuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/fesiuk-andriy-viktorovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ДУЦЯК Галина Зенонівна",
+    "Position": "інженер 1 категорії",
+    "IsExternal": false,
+    "Email": "halyna.dutsyak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dutsyak-halyna-zenonivna/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "АРТИМ Віталій Ігорович",
+    "Position": "аспірант, асистент",
+    "IsExternal": true,
+    "Email": "vitalii.artym@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/artym-vitaliy-ihorovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ВДОВИЧЕНКО Віктор Мар'янович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "Viktor.Vdovychenko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/vdovychenko-viktor-mar-ianovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ВЕЛЬГОШ Андрій Сергійович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/velhosh-andriy-serhiyovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ДОВГАНЬ Іван Ярославович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dovhan-ivan-yaroslavovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "КРАВЧУК Олексій Модестович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "Oleksii.Kravchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kravchuk-oleksiy-modestovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "КУЖІЙ Юрій Іванович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "Yurii.Kuzhii@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kuzhiy-yuriy-ivanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ЛУЧКА Василь-Тарас Ярославович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "vasyltaras.luchka@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/luchka-vasyl-taras-yaroslavovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "МРУЦЬ Володимир Михайлович",
+    "Position": "аспірант, асистент",
+    "IsExternal": true,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/mruts-volodymyr-mykhaylovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ОСТРІКОВ Данило Андрійович",
+    "Position": "аспірант, асистент",
+    "IsExternal": true,
+    "Email": "Danylo.Ostrikov@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/ostrikov-danylo-andriyovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "СМОЛЯК Андрій Юрійович",
+    "Position": "аспірант, асистент",
+    "IsExternal": true,
+    "Email": "Andrii.Smoliak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/smoliak-andriy-yuriyovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ФУТЕЙ Володимир Олександрович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/futey-volodymyr-oleksandrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 2,
+      "Title": "Кафедра оптоелектроніки та інформаційних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/optoelectronics-2/"
+    },
+    "FullName": "ШУПАРСЬКИЙ Анатолій Іванович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shuparskyy-anatoliy-ivanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "ОЛЕНИЧ Ігор Богданович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "igor.olenych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/olenych-i-b/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "КЛИМ Галина Іванівна",
+    "Position": "професор",
+    "IsExternal": true,
+    "Email": "halyna.klym@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/klym-halyna-ivanivna/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "КОЧАН Роман Володимирович",
+    "Position": "професор",
+    "IsExternal": true,
+    "Email": "roman.kochan@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kochan-roman-volodymyrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "МОНАСТИРСЬКИЙ Любомир Степанович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "lyubomyr.monastyrskyy@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/monastyrskyj-lyubomyr-stepanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "БОВГИРА Олег Вікторович",
+    "Position": "доцент",
+    "IsExternal": true,
+    "Email": "oleh.bovhyra@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bovhyra-oleh-viktorovych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "БОЙКО Ярослав Васильович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "yaroslav.boyko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bojko-ya-v/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "ГУРА Володимир Тарасович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "volodymyr.gura@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/hura-volodymyr-tarasovych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "ПАВЛИК Михайло Романович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "mykhailo.pavlyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pavlyk-m-r/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "РАБОШ Роман Васильович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "roman.rabosh@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rabosh-roman-vasylovych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "СІНЬКЕВИЧ Олег Олександрович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "oleh.sinkevych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/o_sinkevych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "СОКОЛОВСЬКИЙ Богдан Степанович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "bohdan.sokolovskyy@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/sokolovskyj-bohdan-stepanovych-2/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "БОРДУН Іван Олегович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "ivan.bordun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bordun-ivan-olehovych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "ГАБРІЄЛЬ Ігор Ігорович",
+    "Position": "асистент",
+    "IsExternal": true,
+    "Email": "ihor.gabriyel@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/habrijel-ihor-ihorovych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "КОРОСТЕНСЬКИЙ Роман Олегович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "Roman.Korostenskyi@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/korostenskyy-roman-olehovych/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "ПРОКОПІВ Роман Володимирович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "Roman.Prokopiv@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/39082/"
+  },
+  {
+    "Group": {
+      "Kind": 3,
+      "Title": "Кафедра радіоелектронних і комп'ютерних систем",
+      "Url": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/"
+    },
+    "FullName": "ФУТЕЙ Олександр Володимирович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "oleksandr.futey@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/futej-oleksandr-volodymyrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "КАРБОВНИК Іван Дмитрович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "Ivan.Karbovnyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/karbovnyk-i-d/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "БОЛЕСТА Іван Михайлович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "Ivan.Bolesta@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bolesta-i-m/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "НАЗАРКЕВИЧ Марія Андріївна",
+    "Position": "професор",
+    "IsExternal": true,
+    "Email": "mariia.nazarkevych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/nazarkevych-mariia-andriivna/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "РЕНДЗІНЯК Сергій Йосипович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "serhii.rendziniak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rendziniak-serhiy-yosypovych/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "БЛАГІТКО Богдан Ярославович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "Bohdan.Blahitko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/blahitko-b-ya/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ВЕЛЬГОШ Сергій Романович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "serhiy.velhosh@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/velhosh-s-r/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ЗЛОБІН Григорій Григорович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "Hryhoriy.Zlobin@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/zlobin-h-h/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "КАЛІВОШКА Богдана Михайлівна",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "bogdana.kalivoshka@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kalivoshka-bohdana-myhajlivna/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "КАТЕРНЯК Ігор Богданович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "ihor.katernyak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/katernyak-i-b/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "КУШНІР Олексій Олександрович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "oleksiy.kushnir@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kushnir-o-o/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ЛЮБУНЬ Зіновій Михайлович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "Zinoviy.Lyubun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/lyubun-z-m/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "РАБИК Василь Григорович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "Vasyl.Rabyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rabyk-v-h/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "РОМАНИШИН Ростислав Ігорович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "rostyslav.romanyshyn@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/romanyshyn-r-i/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "СЕРЕДНИЦЬКА Христина Ігорівна",
+    "Position": "доцент",
+    "IsExternal": true,
+    "Email": "khrystyna.serednytska@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/serednytska-khrystyna-ihorivna/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ХВИЩУН Іван Олександрович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "Ivan.Khvyshchun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/hvyschun-i-o/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "БАРАН Микола Орестович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "mykola.baran@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/baran-m-o/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "БЕРІЗКА Ігор Андрійович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "ihor.berizka@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/berizka-i-a/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ДЗІКОВСЬКИЙ Віктор Євгенович",
+    "Position": "асистент",
+    "IsExternal": true,
+    "Email": "viktor.dzikovskyy@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dzikovskyy-viktor-yevhenovych/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ЛЕВУШ Павло Назарович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "Pavlo.Levush@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/levush-pavlo-nazarovych/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "МИРОНЮК Дмитро Мирославович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "dmytro.myroniuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/myroniuk-d-m/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ПАРАНЧУК Роман Ярославович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "roman.paranchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/paranchuk-r-ya/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "РИКОВСЬКИЙ Петро Антонович",
+    "Position": "асистент",
+    "IsExternal": true,
+    "Email": "petro.rykovskyy@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rykovskyj-petro-a/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ШЕВЧУК Валерій Дмитрович",
+    "Position": "асистент",
+    "IsExternal": true,
+    "Email": "Valeriy.Shevchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shevchuk-valerij-dmytrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "Yaroslav.Shmyhelskyy@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shmyhelskyj-ya-a/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "РОМАНЯК Леся Іванівна",
+    "Position": "провідний інженер",
+    "IsExternal": true,
+    "Email": "Lesya.Romanyak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/romanyak-lesya-ivanivna/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "БОДНАР Микола Михайлович",
+    "Position": "інженер",
+    "IsExternal": true,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bodnar-mykola-myhajlovych/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
+    "FullName": "ЛЕВУШ Леся Назарівна",
+    "Position": "інженер",
+    "IsExternal": true,
+    "Email": "lesia.levush@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/levush-l-n/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "ЛУЧЕЧКО Андрій Петрович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "andriy.luchechko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/luchechko-a-p/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "ГАЛІЙ Павло Васильович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "pavlo.galiy@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/halij-p-v/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "ПАВЛИК Богдан Васильович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "bohdan.pavlyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pavlyk-b-v/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "КАПШІЙ Олег Вірославович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "oleg.kapshii@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kapshiy-oleh-viroslavovych/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "КАРПІН Олександр Олександрович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "oleksandr.karpin@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/karpin-oleksandr-oleksandrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "КОСТИК Людмила Василівна",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "lyudmyla.kostyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/16673/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "КРАВЕЦЬ Ігор Богданович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "igor.kravets@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kravets-ihor-bohdanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "КУШЛИК Маркіян Олегович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "markiyan.kushlyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kushlyk-markiyan-olehovych/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "ЛИС Роман Мирославович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "roman.lys@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/lys-r-m/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "МАТВІЇШИН Ігор Михайлович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "ihor.matviyishyn@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/matvijishyn-i-m/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "СЛОБОДЗЯН Дмитро Петрович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "dmytro.slobodzyan@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/slobodzyan-d-p/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "ШПОТЮК Ярослав Олегович",
+    "Position": "доцент",
+    "IsExternal": true,
+    "Email": "yaroslav.shpotyuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shpotyuk-ya-o/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "КАЮН Ігор Валерійович",
+    "Position": "асистент",
+    "IsExternal": true,
+    "Email": "ihor.kaiun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kayun-ihor-valerijovych/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "МАНДЗІЙ Василь Миронович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "Vasyl.Mandzii@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/mandziy-vasyl-myronovych/"
+  },
+  {
+    "Group": {
+      "Kind": 5,
+      "Title": "Кафедра сенсорної та напівпровідникової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/"
+    },
+    "FullName": "ЦВЄТКОВА Ольга Валентинівна",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/tsvjetkova-o-v/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ШУВАР Роман Ярославович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "roman.shuvar@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shuvar-r-ya-2/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "БУГРІЙ Олег Миколайович",
+    "Position": "професор",
+    "IsExternal": true,
+    "Email": "oleh.buhrii@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/buhrii-o-m/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "КОМАН Богдан Петрович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "koman.bohdan@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/koman-b-p/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "МОРКУН Наталя Володимирівна",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "nataliia.morkun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/morkun-n-v/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ПАВЛИШЕНКО Богдан Михайлович",
+    "Position": "професор",
+    "IsExternal": false,
+    "Email": "bohdan.pavlyshenko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pavlyshenko-bohdan-myhajlovych/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ЮЗЕВИЧ Володимир Миколайович",
+    "Position": "професор",
+    "IsExternal": true,
+    "Email": "volodymyr.yuzevych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/yuzevych-volodymyr-mykolajovych/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "АНОХІН Володимир Євгенович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "volodymyr.anokhin@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/anokhin-v-ye/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ГЕРА Орест Богданович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/hera-o-b/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ДЕМКІВ Лідія Степанівна",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "lidiya.demkiv@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/demkiv-l-s/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "КОЛИЧ Ігор Іванович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "igor.kolych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kolych-i-i/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ЛЯШКЕВИЧ Василь Яремович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "vasyl.liashkevych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/liashkevych-v-ya/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "МИСЮК Роман Володимирович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "roman.mysiuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/mysiuk-r-v/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "НЕНЧУК Тарас Миколайович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "taras.nenchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/nenchuk-t-m/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "СТАХІРА Роман Йосипович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "roman.stakhira@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/stahira-roman-josypovych/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ЦИБУЛЯК Богдан Зіновійович",
+    "Position": "доцент",
+    "IsExternal": true,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/tsybuliak-b-z/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "АЗАРОВ Ігор Валерійович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/azarov-i-v/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ГАЛЯТКІН Олександр Олександрович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/haliatkin-o-o/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ГУСАК Олег Васильович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/husak-o-v/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ЖИШКОВИЧ Андрій Володимирович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "andriy.zhyshkovych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/zhyshkovych-andriy-volodymyrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "КАСЬКУН Олег Данилович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "oleh.kaskun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kaskun-o-d/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "КУЛИК Петро Русланович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "petro.kulyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kulyk-p-r/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ЛЯШКЕВИЧ Марія Юріївна",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "mariia.liashkevych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/liashkevych-m-yu/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "МИСЮК Ірина Володимирівна",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "iryna.mysiuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/mysiuk-i-v/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ПАРУБОЧИЙ Віталій Олегович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "vitalius.parubochyi@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/parubochyj-v/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ПАТИНКО Андрій Михайлович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "andrii.patynko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/patynko-andriy/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ПРОДИВУС Андрій Михайлович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "andriy.prodyvus@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/prodyvus-andrij-myhajlovych/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ЧМИХАЛО Олександр Сергійович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/chmykhalo-o/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ЦХУРБАЄВ Владислав Христофорович",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "Email": "volodymyra.melnyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/melnyk-v-i/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "БУГРІЙ Богдан Олегович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "bohdan.buhrii@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/buhrii-b-o/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "БУЛКА Іван Ігорович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bulka-i-i/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ДРОЗДОВ Ігор",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "ihor.drozdov@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/drozdov-ihor/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ДУЦЯК Олег Вікторович",
+    "Position": "аспірант, асистент",
+    "IsExternal": true,
+    "Email": "oleh.dutsiak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dutsiak-oleh-viktorovych/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ПРЕЦЕЛЬ Віталій Олегович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "vitalii.pretsel@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pretsel-vitalii/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ПРЕЦЕЛЬ Віталій Олегович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "vitalii.pretsel@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pretsel-vitalii/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "СІГУНОВ Олег",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "Oleh.Sihunov@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/sihunov-oleh/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "СКОРУПСЬКИЙ Максим Олександрович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/skorunskyy-m-o/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "СТАСЮК Микола Іванович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "mykola.stasiuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/stasiuk-mykola-ivanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ФОСТЯК Маркіян",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "MarkiyanFostyak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/fostiak-markiian/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ЦУДЗЕНКО Юрій Євгенович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "Yurii.Tsudzenko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/tsudzenko-yuriy-yevhenovych/"
+  },
+  {
+    "Group": {
+      "Kind": 6,
+      "Title": "Кафедра системного проектування",
+      "Url": "https://electronics.lnu.edu.ua/department/system-design/"
+    },
+    "FullName": "ЯКУБОВИЧ Максим Ігорович",
+    "Position": "аспірант",
+    "IsExternal": false,
+    "Email": "maksym.yakubovych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/yakubovych-m-i/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "БОРДУН Олег Михайлович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "oleh.bordun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bordun-o-m/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "ДЕМКІВ Тарас Михайлович",
+    "Position": "професор",
+    "IsExternal": true,
+    "Email": "taras.demkiv@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/demkiv-taras-mykhaylovych/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "БІГДАЙ Володимир Гаррійович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "volodymyr.bihdai@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bihday-volodymyr-harriyovych/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "БІГУН Роман Іванович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "roman.bihun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bihun-roman-ivanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "КОФЛЮК Ірина Миколаївна",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "iryna.koflyuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kofliuk-iryna-mykolaivna/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "КУХАРСЬКИЙ Ігор Йосифович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "ihor.kukharskyy@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kukharsky-ihor-josyfovych/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "МАКСИМИЧ Віталій Миколайович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "vitalii.maksymych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/maksymych-v-m/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "МЕДВІДЬ Іванна Іванівна",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "ivanna.medvid@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/medvid-ivanna-i/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "ПЕНЮХ Богдан Романович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "bohdan.penyukh@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/penyuh-bohdan-romanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "ПТАШНИК Вадим Вікторович",
+    "Position": "доцент",
+    "IsExternal": true,
+    "Email": "vadym.ptashnyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/ptashnyk-vadym-viktorovych/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "КОПЛАК Ольга Михайлівна",
+    "Position": "асистент",
+    "IsExternal": true,
+    "Email": "olha.koplak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/koplak-olha-myhajlivna/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "МАКСИМЧУК Данило Максимович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "danylo.maksymchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/maksymchuk-d-m/"
+  },
+  {
+    "Group": {
+      "Kind": 7,
+      "Title": "Кафедра фізичної та біомедичної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/"
+    },
+    "FullName": "ХОМИШИН Іван Юрійович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "ivan.khomyshyn@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/khomyshyn-i-yu/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (1) Інтелектуальних автономних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radioelektronnoho-materialoznavstva/"
+    },
+    "FullName": "ПАРАНДІЙ Петро Петрович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "petro.parandiy@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/parandiy-petro-petrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (1) Інтелектуальних автономних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radioelektronnoho-materialoznavstva/"
+    },
+    "FullName": "СМЕТАНА Галина Ярославівна",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "Email": "galyna.smetana@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/smetana-halyna-yaroslavivna/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (1) Інтелектуальних автономних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radioelektronnoho-materialoznavstva/"
+    },
+    "FullName": "КОВТУН Роман Миколайович",
+    "Position": "інженер 1 категорії",
+    "IsExternal": false,
+    "Email": "roman.kovtun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/roman-kovtun/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (1) Інтелектуальних автономних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radioelektronnoho-materialoznavstva/"
+    },
+    "FullName": "ПАВЛІВ Н. В.",
+    "Position": "інженер 1 категорії",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pavliv-n-v/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (1) Інтелектуальних автономних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radioelektronnoho-materialoznavstva/"
+    },
+    "FullName": "БОЙКО В. Я.",
+    "Position": "інженер",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/boyko-v-ya/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (2) Оптоелектроніки та інформаційних технологій (навчально-наукова)",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/optoelektroniky-i-prykladnoji-optyky/"
+    },
+    "FullName": "ФЕДОРОВИЧ Іван Степанович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "ivan.fedorovych@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/fedorovych-ivan-stepanovych-2/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (2) Оптоелектроніки та інформаційних технологій (навчально-наукова)",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/optoelektroniky-i-prykladnoji-optyky/"
+    },
+    "FullName": "АЗАРОВА Ірина Миколаївна",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "Email": "iryna.azarova@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/azarova-i-m/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (2) Оптоелектроніки та інформаційних технологій (навчально-наукова)",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/optoelektroniky-i-prykladnoji-optyky/"
+    },
+    "FullName": "ПАЩЕНКО Сергій Петрович",
+    "Position": "інженер 2 категорії",
+    "IsExternal": false,
+    "Email": "serhii.pashchenko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pashchenko-serhiy-petrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (3) Проектування інформаційних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-proektuvannya-informatsijnyh-system/"
+    },
+    "FullName": "ПИСАРЕВСЬКИЙ Володимир Костянтинович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "volodymyr.pysarevskyi@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pysarevskyj-volodymyr-kostyantynovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (3) Проектування інформаційних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-proektuvannya-informatsijnyh-system/"
+    },
+    "FullName": "БОРДЮЖЕНКО Ігор Іванович",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "Email": "ihor.bordiuzhenko@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bordiuzhenko-ihor-ivanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (3) Проектування інформаційних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-proektuvannya-informatsijnyh-system/"
+    },
+    "FullName": "КРАШЕНІННІКОВ Сергій Валентинович",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/krasheninnikov-s-s/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (3) Проектування інформаційних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-proektuvannya-informatsijnyh-system/"
+    },
+    "FullName": "РЯБЧУК Ольга Юріївна",
+    "Position": "інженер 2 категорії",
+    "IsExternal": false,
+    "Email": "olha.riabchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/riabchuk-o-yu/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (3) Проектування інформаційних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-proektuvannya-informatsijnyh-system/"
+    },
+    "FullName": "ПРОДИВУС Андрій Михайлович",
+    "Position": "інженер",
+    "IsExternal": true,
+    "Email": "andriy.prodyvus@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/prodyvus-andrij-myhajlovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (3) Проектування інформаційних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-proektuvannya-informatsijnyh-system/"
+    },
+    "FullName": "ДУДКО Леонід Іванович",
+    "Position": "старший лаборант",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dudko-l-i/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (4) Радіофізики і комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radiofizyky-i-kompyuternyh-tehnolohij/"
+    },
+    "FullName": "ШЕВЧУК Валерій Дмитрович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "Valeriy.Shevchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shevchuk-valerij-dmytrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (4) Радіофізики і комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radiofizyky-i-kompyuternyh-tehnolohij/"
+    },
+    "FullName": "РОМАНЯК Леся Іванівна",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "Email": "Lesya.Romanyak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/romanyak-lesya-ivanivna/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (4) Радіофізики і комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radiofizyky-i-kompyuternyh-tehnolohij/"
+    },
+    "FullName": "КУШНІР Олексій Олександрович",
+    "Position": "інженер 1 категорії",
+    "IsExternal": true,
+    "Email": "oleksiy.kushnir@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kushnir-o-o/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (4) Радіофізики і комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radiofizyky-i-kompyuternyh-tehnolohij/"
+    },
+    "FullName": "БОДНАР Микола Михайлович",
+    "Position": "інженер",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bodnar-mykola-myhajlovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (4) Радіофізики і комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radiofizyky-i-kompyuternyh-tehnolohij/"
+    },
+    "FullName": "ЛЕВУШ Леся Назарівна",
+    "Position": "інженер",
+    "IsExternal": false,
+    "Email": "lesia.levush@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/levush-l-n/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (5) Сенсорної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-sensornoji-elektroniky/"
+    },
+    "FullName": "БЕЛЮХ Віктор Михайлович",
+    "Position": "науковий співробітник",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/belyuh-viktor-myhajlovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (5) Сенсорної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-sensornoji-elektroniky/"
+    },
+    "FullName": "ШИКОРЯК Йосип Андрійович",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shykoryak-j-a/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (5) Сенсорної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-sensornoji-elektroniky/"
+    },
+    "FullName": "ВАСИЛЬЦІВ В'ячеслав Іванович",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "Email": "vyacheslav.vasyltsiv@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/vasyltsiv-v-i/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (5) Сенсорної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-sensornoji-elektroniky/"
+    },
+    "FullName": "МОРОЗЕВИЧ Л. М.",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/morozevych-l-m/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (5) Сенсорної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-sensornoji-elektroniky/"
+    },
+    "FullName": "ШАРАБУРА Микола Іванович",
+    "Position": "інженер 1 категорії",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/sharabura-mykola-ivanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (5) Сенсорної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-sensornoji-elektroniky/"
+    },
+    "FullName": "КАЮН Ігор Валерійович",
+    "Position": "інженер",
+    "IsExternal": false,
+    "Email": "ihor.kaiun@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kayun-ihor-valerijovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (5) Сенсорної електроніки",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-sensornoji-elektroniky/"
+    },
+    "FullName": "ШЕВЧУК Володимир Никонович",
+    "Position": "інженер",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shevchuk-volodymyr-nykonovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (6) Електронних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-fizychnoji-elektroniky/"
+    },
+    "FullName": "КОПЛАК Ольга Михайлівна",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "olha.koplak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/koplak-olha-myhajlivna/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (6) Електронних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-fizychnoji-elektroniky/"
+    },
+    "FullName": "ХОМИШИН Іван Юрійович",
+    "Position": "інженер 1 категорії",
+    "IsExternal": true,
+    "Email": "ivan.khomyshyn@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/khomyshyn-i-yu/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (6) Електронних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-fizychnoji-elektroniky/"
+    },
+    "FullName": "ШУЛИК Ольга Теодорівна",
+    "Position": "інженер 2 категорії",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shulyk-olha-teodorivna/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Лабораторія (6) Електронних систем",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-fizychnoji-elektroniky/"
+    },
+    "FullName": "ФЕРЕНСОВИЧ Ярослав Петрович",
+    "Position": "інженер",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/ferensovych-yaroslav-petrovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "(7) Міжкафедральна обчислювальна лабораторія",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/mizhkafedralna-obchyslyuvalna-laboratoriji/"
+    },
+    "FullName": "КОСОВСЬКА Романа Романівна",
+    "Position": "завідувач",
+    "IsExternal": false,
+    "Email": "romana.kosovska@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kosovska-roma-romanivna/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "(7) Міжкафедральна обчислювальна лабораторія",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/mizhkafedralna-obchyslyuvalna-laboratoriji/"
+    },
+    "FullName": "ГАБРІЄЛЬ Ігор Ігорович",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "Email": "ihor.gabriyel@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/habrijel-ihor-ihorovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "(7) Міжкафедральна обчислювальна лабораторія",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/mizhkafedralna-obchyslyuvalna-laboratoriji/"
+    },
+    "FullName": "РИКОВСЬКИЙ Петро Антонович",
+    "Position": "провідний інженер",
+    "IsExternal": false,
+    "Email": "petro.rykovskyy@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rykovskyj-petro-a/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "(7) Міжкафедральна обчислювальна лабораторія",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/mizhkafedralna-obchyslyuvalna-laboratoriji/"
+    },
+    "FullName": "ОДІНЦОВА Вікторія Ігорівна",
+    "Position": "інженер 2 категорії",
+    "IsExternal": false,
+    "Email": "viktoriya.odintsova@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/odintsova-vita-i/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "(7) Міжкафедральна обчислювальна лабораторія",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/mizhkafedralna-obchyslyuvalna-laboratoriji/"
+    },
+    "FullName": "СИДОРУК М. О.",
+    "Position": "інженер",
+    "IsExternal": false,
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/sydoruk-m-o/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Науково-дослідна лабораторія НДЛ-20 сенсорики",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/naukovo-doslidna-laboratoriya-ndl-20-sensoryky/"
+    },
+    "FullName": "КУШЛИК Маркіян Олегович",
+    "Position": "старший науковий співробітник",
+    "IsExternal": true,
+    "Email": "markiyan.kushlyk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kushlyk-markiyan-olehovych/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Науково-дослідна лабораторія НДЛ-20 сенсорики",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/naukovo-doslidna-laboratoriya-ndl-20-sensoryky/"
+    },
+    "FullName": "ШПОТЮК Ярослав Олегович",
+    "Position": "старший науковий співробітник",
+    "IsExternal": false,
+    "Email": "yaroslav.shpotyuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shpotyuk-ya-o/"
+  },
+  {
+    "Group": {
+      "Kind": 8,
+      "Title": "Науково-дослідна лабораторія НДЛ-20 сенсорики",
+      "Url": "https://electronics.lnu.edu.ua/laboratory/naukovo-doslidna-laboratoriya-ndl-20-sensoryky/"
+    },
+    "FullName": "ВАСИЛЬЦІВ В'ячеслав Іванович",
+    "Position": "науковий співробітник",
+    "IsExternal": true,
+    "Email": "vyacheslav.vasyltsiv@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/vasyltsiv-v-i/"
+  }
+]

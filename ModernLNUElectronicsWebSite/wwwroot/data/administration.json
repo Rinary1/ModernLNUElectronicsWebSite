@@ -1,0 +1,228 @@
+[
+  {
+    "Section": 0,
+    "Role": "Декан",
+    "Rank": "доцент",
+    "Name": "Юрій Фургала",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/furhala-yurij-myhajlovych/"
+  },
+  {
+    "Section": 0,
+    "Role": "Заступник декана",
+    "RoleDetail": "з наукової і навчально-виховної роботи",
+    "Rank": "доцент",
+    "Name": "Сергій Вельгош",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/velhosh-s-r/"
+  },
+  {
+    "Section": 0,
+    "Role": "Заступник декана",
+    "RoleDetail": "з навчально-методичної роботи",
+    "Name": "Марта Дуфанець",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dufanets-marta-vasylivna/"
+  },
+  {
+    "Section": 0,
+    "Role": "Заступник декана",
+    "Name": "Ірина Кофлюк",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kofliuk-iryna-mykolaivna/"
+  },
+  {
+    "Section": 1,
+    "Role": "Голова ради",
+    "Rank": "доцент",
+    "Name": "Юрій Фургала",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/furhala-yurij-myhajlovych/"
+  },
+  {
+    "Section": 1,
+    "Role": "Заступник голови ради",
+    "Rank": "професор",
+    "Name": "Андрій Лучечко",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/luchechko-a-p/"
+  },
+  {
+    "Section": 1,
+    "Role": "Секретар",
+    "Name": "Михайло Русиняк",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rusyniak-mykhaylo-omelianovych/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "професор",
+    "Name": "Іван Болеста",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bolesta-i-m/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "професор",
+    "Name": "Олег Бордун",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bordun-o-m/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "професор",
+    "Name": "Іван Карбовник",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/karbovnyk-i-d/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "професор",
+    "Name": "Богдан Коман",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/koman-b-p/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "професор",
+    "Name": "Олег Кушнір",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kushnir-o-s/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "професор",
+    "Name": "Андрій Лучечко",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/luchechko-a-p/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "професор",
+    "Name": "Ігор Оленич",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/olenych-i-b/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "професор",
+    "Name": "Богдан Павлик",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pavlyk-b-v/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "доцент",
+    "Name": "Ярослав Бойко",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bojko-ya-v/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "доцент",
+    "Name": "Сергій Вельгош",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/velhosh-s-r/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "доцент",
+    "Name": "Володимир Грабовський",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/hrabovskyj-volodymyr-andrijovych-2/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "доцент",
+    "Name": "Тарас Ненчук",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/nenchuk-t-m/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "доцент",
+    "Name": "Богдан Пенюх",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/penyuh-bohdan-romanovych/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "доцент",
+    "Name": "Юрій Фургала",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/furhala-yurij-myhajlovych/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "доцент",
+    "Name": "Іван Хвищун",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/hvyschun-i-o/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "доцент",
+    "Name": "Роман Шувар",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shuvar-r-ya-2/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Name": "Марта Дуфанець",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dufanets-marta-vasylivna/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Name": "Леся Костюк",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kostyuk-lesya-antonivna/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Name": "Ірина Кофлюк",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kofliuk-iryna-mykolaivna/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Name": "Михайло Русиняк",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rusyniak-mykhaylo-omelianovych/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Name": "Олександр Футей",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/futej-oleksandr-volodymyrovych/"
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "студент",
+    "Name": "Аксьонова Є.І."
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "студент",
+    "Name": "Бабич Н.О."
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "студент",
+    "Name": "Кицун О.В."
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "студент",
+    "Name": "Луговська В.В."
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "студент",
+    "Name": "Мазурик Б.В."
+  },
+  {
+    "Section": 1,
+    "Role": "Член ради",
+    "Rank": "студент",
+    "Name": "Панчишин В.Т."
+  }
+]
