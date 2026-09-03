@@ -1,0 +1,12 @@
+.contacts-map {
+    overflow: hidden;
+    border: 1px solid var(--mud-palette-lines-default);
+    border-radius: var(--mud-default-borderradius);
+}
+
+.contacts-map iframe {
+    display: block;
+    width: 100%;
+    height: 380px;
+    border: 0;
+}

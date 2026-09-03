@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: scrape-data
@@ -34,6 +35,8 @@ jobs:
           ${{ (github.event_name == 'workflow_dispatch' && inputs.profiles) && 'profiles' || '' }}
 
       - name: Commit if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           DIR=ModernLNUElectronicsWebSite/wwwroot/data
           if git diff --quiet -- "$DIR"; then
@@ -45,3 +48,4 @@ jobs:
           git add "$DIR"
           git commit -m "chore(data): оновлення $(date -u +%FT%TZ)"
           git push
+          gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}"
