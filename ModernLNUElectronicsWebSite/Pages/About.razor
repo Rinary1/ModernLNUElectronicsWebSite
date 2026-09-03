@@ -1,0 +1,98 @@
+@page "/about"
+@using System.Net.Http.Json
+@using ModernLNUElectronicsWebSite.Scraping
+@inject HttpClient Http
+
+<PageTitle>Про факультет - Факультет Електроніки ЛНУ</PageTitle>
+
+<MudText Typo="Typo.h4" GutterBottom="true" Class="fw-600">Про факультет</MudText>
+
+<section class="about-block">
+    <MudText Typo="Typo.h5" Class="fw-600 mb-3">Про нас</MudText>
+
+    <MudText Typo="Typo.body1" Class="mb-3">
+        Факультет електроніки та комп’ютерних технологій ЛНУ ім. Івана Франка - технічний факультет, орієнтований на комп'ютерні науки, програмну інженерію, електроніку та комп'ютерні системи.
+        Студенти вивчають програмування, алгоритми, комп'ютерні системи, мікропроцесори, електроніку, IoT, AI та аналіз даних. Є можливості практики й співпраці з ІТ-компаніями Львова.
+    </MudText>
+</section>
+
+<MudDivider Class="my-8" />
+
+<section class="about-block">
+    <MudText Typo="Typo.h5" Class="fw-600 mb-3">Наші партнери</MudText>
+
+    @if (_busy)
+    {
+        <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+    }
+    else if (_note is not null)
+    {
+        <MudAlert Severity="@_noteSeverity" Dense="true" Class="mb-4">@_note</MudAlert>
+    }
+    else
+    {
+        <MudGrid Spacing="3">
+            @foreach (var partner in _partners)
+            {
+                <MudItem xs="12" md="6">
+                    <MudPaper Outlined="true" Class="pa-4" Style="height:100%">
+                        <div class="partner-head">
+                            @if (partner.LogoUrl is not null)
+                            {
+                                <span class="partner-logo">
+                                    <img src="@partner.LogoUrl" alt="@partner.Name" loading="lazy" />
+                                </span>
+                            }
+                            @if (partner.Url is not null)
+                            {
+                                <MudLink Href="@partner.Url" Target="_blank" rel="noopener"
+                                         Typo="Typo.subtitle1" Class="fw-600">@partner.Name</MudLink>
+                            }
+                            else
+                            {
+                                <MudText Typo="Typo.subtitle1" Class="fw-600">@partner.Name</MudText>
+                            }
+                        </div>
+                        <p class="partner-desc">@partner.Description</p>
+                    </MudPaper>
+                </MudItem>
+            }
+        </MudGrid>
+
+        <MudText Typo="Typo.caption" Color="Color.Secondary" Class="mt-3 d-block">
+            Джерело:
+            <MudLink Href="https://electronics.lnu.edu.ua/about/introduction/" Target="_blank"
+                     rel="noopener" Typo="Typo.caption">about/introduction ↗</MudLink>
+        </MudText>
+    }
+</section>
+
+@code {
+    private readonly List<Partner> _partners = new();
+    private string? _note;
+    private Severity _noteSeverity = Severity.Info;
+    private bool _busy = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var items = await Http.GetFromJsonAsync<List<Partner>>("data/partners.json");
+            _partners.AddRange(items ?? new());
+        }
+        catch (HttpRequestException)
+        {
+            _note = "data/partners.json ще не згенеровано (dotnet run --project tools/Scraper).";
+            _noteSeverity = Severity.Warning;
+        }
+        catch (Exception ex)
+        {
+            _note = $"Не вдалося прочитати partners.json: {ex.Message}";
+            _noteSeverity = Severity.Error;
+        }
+        finally
+        {
+            _busy = false;
+        }
+    }
+}

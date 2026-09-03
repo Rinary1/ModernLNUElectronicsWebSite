@@ -5,6 +5,7 @@ public enum SearchKind
     News,
     Staff,
     Administration,
+    Partner,
 }
 
 public sealed record SearchDoc(

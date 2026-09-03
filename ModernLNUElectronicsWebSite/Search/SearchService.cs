@@ -30,6 +30,7 @@ public sealed class SearchService(HttpClient http)
             docs.AddRange(await LoadNewsAsync(ct));
             docs.AddRange(await LoadStaffAsync(ct));
             docs.AddRange(await LoadAdministrationAsync(ct));
+            docs.AddRange(await LoadPartnersAsync(ct));
 
             _docs = docs
                 .GroupBy(d => (d.Kind, d.Url))
@@ -145,6 +146,21 @@ public sealed class SearchService(HttpClient http)
                 Url: a.ProfileUrl ?? "administration",
                 Subtitle: a.Rank is { Length: > 0 } r ? $"{a.Role} · {r}" : a.Role,
                 Text: $"{a.Name} {a.Role} {a.RoleDetail} {a.Rank}",
+                Date: null));
+    }
+
+    private async Task<IEnumerable<SearchDoc>> LoadPartnersAsync(CancellationToken ct)
+    {
+        var items = await TryGetAsync<List<Partner>>("data/partners.json", ct);
+        return items is null
+            ? Enumerable.Empty<SearchDoc>()
+            : items.Select(p => new SearchDoc(
+                Id: $"partner:{p.Name}",
+                Kind: SearchKind.Partner,
+                Title: p.Name,
+                Url: p.Url ?? "about",
+                Subtitle: "Партнер факультету",
+                Text: $"{p.Name} {p.Description}",
                 Date: null));
     }
 

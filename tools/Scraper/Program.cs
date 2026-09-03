@@ -61,6 +61,12 @@ await WriteJson(Path.Combine(outDir, "administration.json"), administration);
 Console.WriteLine($"administration -> {administration.Count} " +
     $"(рада: {administration.Count(p => p.Section == AdministrationSection.Council)})");
 
+var partnersScraper = new PartnersScraper(htmlSource);
+var partners = await partnersScraper.LoadPageAsync("https://electronics.lnu.edu.ua/about/introduction/");
+
+await WriteJson(Path.Combine(outDir, "partners.json"), partners);
+Console.WriteLine($"partners -> {partners.Count}");
+
 if (withProfiles)
 {
     var employeeScraper = new EmployeeScraper(htmlSource);
