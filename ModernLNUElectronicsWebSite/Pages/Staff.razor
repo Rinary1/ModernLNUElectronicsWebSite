@@ -1,0 +1,148 @@
+@page "/staff"
+@using System.Net.Http.Json
+@using ModernLNUElectronicsWebSite.Scraping
+@inject HttpClient Http
+
+<PageTitle>Співробітники - Факультет Електроніки ЛНУ</PageTitle>
+
+<MudText Typo="Typo.h4" GutterBottom="true" Class="fw-600">Співробітники</MudText>
+<MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-4">
+    Зведений список з <code>/about/staff/</code> оригінального сайту (16 підрозділів).
+</MudText>
+
+<MudTextField @bind-Value="_query"
+              Immediate="true"
+              Placeholder="Пошук за прізвищем, посадою або поштою..."
+              Adornment="Adornment.Start"
+              AdornmentIcon="@Icons.Material.Filled.Search"
+              Clearable="true"
+              Variant="Variant.Outlined"
+              Margin="Margin.Dense"
+              Class="mb-4" />
+
+@if (_busy)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+}
+else if (_note is not null)
+{
+    <MudAlert Severity="@_noteSeverity" Dense="true" Class="mb-4">@_note</MudAlert>
+}
+else
+{
+    var groups = VisibleGroups().ToList();
+    var shown = groups.Sum(g => g.People.Count);
+
+    <MudText Typo="Typo.subtitle2" Color="Color.Secondary" Class="mb-2">
+        Показано @shown із @_all.Count
+    </MudText>
+
+    @foreach (var group in groups)
+    {
+        <div class="mt-6">
+            <div class="d-flex align-center flex-wrap gap-2">
+                <MudText Typo="Typo.h6" Class="fw-600">@group.Title</MudText>
+                <MudText Typo="Typo.body2" Color="Color.Secondary">· @group.People.Count</MudText>
+                @if (group.Url is not null)
+                {
+                    <MudLink Href="@group.Url" Target="_blank" rel="noopener" Typo="Typo.caption">
+                        сторінка підрозділу ↗
+                    </MudLink>
+                }
+            </div>
+            <MudDivider Class="my-2" />
+
+            <MudGrid Spacing="2">
+                @foreach (var person in group.People)
+                {
+                    <MudItem xs="12" sm="6" md="4">
+                        <MudPaper Outlined="true" Class="pa-3" Style="height:100%">
+                            <div class="d-flex justify-space-between align-start gap-2">
+                                <MudLink Href="@person.ProfileUrl" Target="_blank" rel="noopener" Typo="Typo.subtitle2">
+                                    @person.FullName
+                                </MudLink>
+                                @if (person.IsExternal)
+                                {
+                                    <MudChip T="string" Size="Size.Small" Color="Color.Warning"
+                                             Variant="Variant.Text" Class="ma-0">сумісник</MudChip>
+                                }
+                            </div>
+                            <MudText Typo="Typo.body2" Color="Color.Secondary" Class="mt-1">@person.Position</MudText>
+                            @if (person.Email is not null)
+                            {
+                                <MudLink Href="@($"mailto:{person.Email}")" Typo="Typo.caption"
+                                         Class="d-inline-flex align-center gap-1 mt-2">
+                                    <MudIcon Icon="@Icons.Material.Filled.Email" Size="Size.Small" />
+                                    @person.Email
+                                </MudLink>
+                            }
+                        </MudPaper>
+                    </MudItem>
+                }
+            </MudGrid>
+        </div>
+    }
+
+    @if (shown == 0)
+    {
+        <MudText Class="mt-6" Color="Color.Secondary">За запитом "@_query" нікого не знайдено.</MudText>
+    }
+}
+
+@code {
+    private sealed record Group(string Title, string? Url, List<StaffItem> People);
+
+    private readonly List<StaffItem> _all = new();
+    private List<Group> _groups = new();
+
+    private string? _query;
+    private string? _note;
+    private Severity _noteSeverity = Severity.Info;
+    private bool _busy = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var items = await Http.GetFromJsonAsync<List<StaffItem>>("data/staff.json");
+            _all.AddRange(items ?? new());
+
+            _groups = _all
+                .GroupBy(s => s.Group.Title)
+                .Select(g => new Group(g.Key, g.First().Group.Url, g.ToList()))
+                .ToList();
+        }
+        catch (HttpRequestException)
+        {
+            _note = "data/staff.json ще немає - його має згенерувати GitHub Action " +
+                    "(dotnet run --project tools/Scraper).";
+            _noteSeverity = Severity.Info;
+        }
+        catch (Exception ex)
+        {
+            _note = $"Не вдалося прочитати staff.json: {ex.Message}";
+            _noteSeverity = Severity.Error;
+        }
+        finally
+        {
+            _busy = false;
+        }
+    }
+
+    private IEnumerable<Group> VisibleGroups()
+    {
+        if (string.IsNullOrWhiteSpace(_query))
+            return _groups;
+
+        var q = _query.Trim();
+
+        return _groups
+            .Select(g => g with { People = g.People.Where(p => Matches(p, q)).ToList() })
+            .Where(g => g.People.Count > 0);
+    }
+
+    private static bool Matches(StaffItem p, string q) =>
+        p.FullName.Contains(q, StringComparison.OrdinalIgnoreCase)
+        || p.Position.Contains(q, StringComparison.OrdinalIgnoreCase)
+        || (p.Email?.Contains(q, StringComparison.OrdinalIgnoreCase) ?? false);
+}

@@ -75,3 +75,91 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+
+.app-island {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1300;
+    width: max-content;
+    max-width: calc(100vw - 32px);
+    pointer-events: none;
+}
+
+.app-island .app-island__inner {
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background-color: var(--mud-palette-appbar-background);
+    border: 1px solid var(--mud-palette-lines-default);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    transition: box-shadow .2s ease, background-color .2s ease;
+}
+
+.app-island .app-island__divider {
+    height: 24px;
+    margin: 0 2px;
+    border-color: var(--mud-palette-lines-default);
+}
+
+.app-island .app-island__search {
+    width: 260px;
+    max-width: 42vw;
+    margin: 0 2px;
+}
+
+.app-island .app-island__search .mud-input-control,
+.app-island .app-island__search .mud-input.mud-input-text {
+    margin-top: 0;
+}
+
+.mud-main-content.app-content {
+    padding-top: 104px !important;
+    padding-bottom: 72px !important;
+    min-height: 100vh;
+}
+
+.app-content .mud-container {
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.app-footer {
+    background-color: var(--mud-palette-appbar-background);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    border-top: 1px solid var(--mud-palette-lines-default);
+}
+
+.app-footer .app-footer__note {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 60vw;
+    opacity: .8;
+}
+
+@media (max-width: 700px) {
+    .app-island {
+        top: 10px;
+        max-width: calc(100vw - 20px);
+    }
+
+    .app-island .app-island__search {
+        width: 150px;
+        max-width: 44vw;
+    }
+
+    .mud-main-content.app-content {
+        padding-top: 88px !important;
+    }
+
+    .app-footer .app-footer__note {
+        max-width: 46vw;
+    }
+}
