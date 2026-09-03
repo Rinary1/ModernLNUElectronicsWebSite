@@ -1,0 +1,31 @@
+.nf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 48px 16px 24px;
+}
+
+.nf__code {
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -4px;
+    font-size: clamp(96px, 22vw, 200px);
+    background: linear-gradient(135deg, var(--mud-palette-primary), var(--mud-palette-secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 8px;
+    user-select: none;
+}
+
+.nf__text {
+    max-width: 460px;
+}
+
+.nf__actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,159 @@
+@inherits LayoutComponentBase
+@inject IJSRuntime JS
+@inject NavigationManager Navigation
+
+<MudThemeProvider Theme="_theme" @bind-IsDarkMode="_isDarkMode" />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+
+    <MudDrawer @bind-Open="_navOpen"
+               Variant="DrawerVariant.Temporary"
+               Anchor="Anchor.Left"
+               Elevation="3"
+               Overlay="true">
+        <MudDrawerHeader Class="d-flex align-center gap-3">
+            <MudIcon Icon="@Icons.Material.Filled.Bolt" Color="Color.Primary" Size="Size.Large" />
+            <div>
+                <MudText Typo="Typo.subtitle1" Class="fw-600">Факультет Електроніки ЛНУ</MudText>
+                <MudText Typo="Typo.caption" Color="Color.Secondary">Зручне дзеркало</MudText>
+            </div>
+        </MudDrawerHeader>
+
+        <MudNavMenu Bordered="true">
+            <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Головна</MudNavLink>
+            <MudNavLink Href="about" Icon="@Icons.Material.Filled.Info">Про факультет</MudNavLink>
+
+            <MudNavGroup Title="Кафедри" Icon="@Icons.Material.Filled.AccountBalance" Expanded="false">
+                <MudNavLink Href="departments/radiophysics" Icon="@Icons.Material.Filled.Radar">Радіофізики</MudNavLink>
+                <MudNavLink Href="departments/sensor" Icon="@Icons.Material.Filled.Sensors">Сенсорної електроніки</MudNavLink>
+                <MudNavLink Href="departments/optoelectronics" Icon="@Icons.Material.Filled.Lightbulb">Оптоелектроніки</MudNavLink>
+            </MudNavGroup>
+
+            <MudNavLink Href="staff" Icon="@Icons.Material.Filled.Groups">Співробітники</MudNavLink>
+            <MudNavLink Href="administration" Icon="@Icons.Material.Filled.AccountBalanceWallet">Адміністрація</MudNavLink>
+            <MudNavLink Href="news" Icon="@Icons.Material.Filled.Article">Новини та події</MudNavLink>
+            <MudNavLink Href="schedule" Icon="@Icons.Material.Filled.CalendarMonth">Розклад</MudNavLink>
+            <MudNavLink Href="applicants" Icon="@Icons.Material.Filled.School">Абітурієнту</MudNavLink>
+            <MudNavLink Href="science" Icon="@Icons.Material.Filled.Science">Наука</MudNavLink>
+            <MudNavLink Href="contacts" Icon="@Icons.Material.Filled.Place">Контакти</MudNavLink>
+        </MudNavMenu>
+    </MudDrawer>
+
+    <div class="app-island">
+        <MudPaper Class="app-island__inner" Elevation="8">
+            <MudTooltip Text="Навігація" Arrow="true">
+                <MudIconButton Icon="@Icons.Material.Filled.Menu"
+                               Color="Color.Default"
+                               OnClick="@(() => _navOpen = !_navOpen)"
+                               aria-label="Відкрити навігацію" />
+            </MudTooltip>
+
+            <MudDivider Vertical="true" FlexItem="true" Class="app-island__divider" />
+
+            <MudTextField @bind-Value="_search"
+                          @onkeydown="OnSearchKeyDown"
+                          Immediate="true"
+                          Variant="Variant.Text"
+                          Margin="Margin.Dense"
+                          Placeholder="Пошук по сайту..."
+                          Adornment="Adornment.Start"
+                          AdornmentIcon="@Icons.Material.Filled.Search"
+                          Clearable="true"
+                          Class="app-island__search"
+                          Underline="false" />
+
+            <MudDivider Vertical="true" FlexItem="true" Class="app-island__divider" />
+
+            <MudTooltip Text="@(_isDarkMode ? "Світла тема" : "Темна тема")" Arrow="true">
+                <MudIconButton Icon="@(_isDarkMode ? Icons.Material.Rounded.LightMode : Icons.Material.Rounded.DarkMode)"
+                               Color="Color.Default"
+                               OnClick="ToggleThemeAsync"
+                               aria-label="Перемкнути тему" />
+            </MudTooltip>
+        </MudPaper>
+    </div>
+
+    <MudMainContent Class="app-content">
+        <MudContainer MaxWidth="MaxWidth.Large">
+            @Body
+        </MudContainer>
+    </MudMainContent>
+
+    <MudAppBar Bottom="true" Fixed="true" Dense="true" Elevation="0" Class="app-footer">
+        <MudText Typo="Typo.caption" Class="app-footer__note">
+            Неофіційне дзеркало сайту факультету електроніки та комп'ютерних технологій ЛНУ ім. Івана Франка.
+            Дані підтягуються з оригінального сайту.
+        </MudText>
+        <MudSpacer />
+        <MudLink Href="https://electronics.lnu.edu.ua/" Target="_blank" rel="noopener"
+                 Typo="Typo.caption" Color="Color.Inherit" Class="mr-4 d-none d-sm-flex">
+            Оригінальний сайт
+        </MudLink>
+        <MudText Typo="Typo.caption" Class="mr-2">© @DateTime.Now.Year</MudText>
+        <MudTooltip Text="Powered By Blazor" Arrow="true">
+            <MudButton Href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
+                <MudImage Src="blazor-icon.png" Width="26" Height="26" />
+            </MudButton>
+        </MudTooltip>
+        <MudTooltip Text="Powered By MudBlazor" Arrow="true">
+            <MudButton Href="https://mudblazor.com">
+                <MudImage Src="mudblazor-icon.png" Width="26" Height="26" />
+            </MudButton>
+        </MudTooltip>
+    </MudAppBar>
+
+</MudLayout>
+
+@code {
+    private bool _navOpen;
+    private bool _isDarkMode;
+    private string? _search;
+
+    private readonly MudTheme _theme = new()
+    {
+        PaletteLight = new PaletteLight
+        {
+            Primary = "#2563EB",
+            Secondary = "#7C3AED",
+            AppbarBackground = "rgba(255,255,255,0.85)",
+            AppbarText = "#1F2933",
+            Background = "#F5F6F8",
+            DrawerBackground = "#FFFFFF",
+        },
+        PaletteDark = new PaletteDark
+        {
+            Primary = "#60A5FA",
+            Secondary = "#A78BFA",
+            Surface = "#1E1F2B",
+            Background = "#14151C",
+            AppbarBackground = "rgba(30,31,43,0.85)",
+            DrawerBackground = "#1E1F2B",
+        },
+        LayoutProperties = new LayoutProperties
+        {
+            DefaultBorderRadius = "12px",
+        },
+    };
+
+    protected override void OnInitialized()
+    {
+        if (JS is IJSInProcessRuntime js)
+            _isDarkMode = js.Invoke<bool>("mlnTheme.resolve");
+    }
+
+    private async Task ToggleThemeAsync()
+    {
+        _isDarkMode = !_isDarkMode;
+
+        await JS.InvokeVoidAsync("mlnTheme.set", _isDarkMode);
+    }
+
+    private void OnSearchKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key is "Enter" or "NumpadEnter" && !string.IsNullOrWhiteSpace(_search))
+            Navigation.NavigateTo($"search?q={Uri.EscapeDataString(_search.Trim())}");
+    }
+}

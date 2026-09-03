@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#F5F6F8" />
+    <title>Факультет Електроніки ЛНУ - зручне дзеркало</title>
+    <base href="/" />
+
+    <script>
+        (function () {
+            window.mlnTheme = {
+                key: 'mln-theme',
+                resolve: function () {
+                    try {
+                        var s = localStorage.getItem(this.key);
+                        if (s === 'dark') return true;
+                        if (s === 'light') return false;
+                    } catch (e) { }
+                    return !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+                },
+                apply: function (dark) {
+                    var root = document.documentElement;
+                    root.classList.toggle('theme-dark', !!dark);
+                    root.style.colorScheme = dark ? 'dark' : 'light';
+                    var m = document.querySelector('meta[name="theme-color"]');
+                    if (m) m.setAttribute('content', dark ? '#14151C' : '#F5F6F8');
+                },
+                set: function (dark) {
+                    try { localStorage.setItem(this.key, dark ? 'dark' : 'light'); } catch (e) { }
+                    this.apply(dark);
+                }
+            };
+            window.mlnTheme.apply(window.mlnTheme.resolve());
+        })();
+    </script>
+
+    <style>
+        body {
+            margin: 0;
+            background: #F5F6F8;
+            font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        html.theme-dark body {
+            background: #14151C;
+        }
+
+        .splash {
+            position: fixed;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            color: #1F2933;
+        }
+
+        html.theme-dark .splash {
+            color: #E6E8EC;
+        }
+
+        .splash__mark {
+            width: 64px;
+            height: 64px;
+            flex: none;
+            filter: drop-shadow(0 8px 24px rgba(37, 99, 235, 0.35));
+            animation: splash-pulse 1.6s ease-in-out infinite;
+        }
+
+        @keyframes splash-pulse {
+            0%, 100% { transform: translateY(0); opacity: 1; }
+            50% { transform: translateY(-4px); opacity: 0.85; }
+        }
+
+        .splash__name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.2px;
+        }
+
+        .splash__sub {
+            margin-top: -6px;
+            font-size: 0.85rem;
+            opacity: 0.6;
+        }
+
+        .splash__track {
+            position: relative;
+            width: 220px;
+            height: 4px;
+            margin-top: 8px;
+            border-radius: 999px;
+            background: rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        html.theme-dark .splash__track {
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        .splash__track::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            width: var(--blazor-load-percentage, 0%);
+            border-radius: inherit;
+            background: linear-gradient(90deg, #2563EB, #7C3AED);
+            transition: width 0.2s ease;
+        }
+
+        .splash__pct {
+            font-size: 0.75rem;
+            opacity: 0.55;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .splash__pct::after {
+            content: var(--blazor-load-percentage-text, "Завантаження...");
+        }
+    </style>
+
+    <link rel="preload" id="webassembly" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="ModernLNUElectronicsWebSite.styles.css" rel="stylesheet" />
+    <script type="importmap"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="splash">
+            <svg class="splash__mark" width="64" height="64" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#splashGrad)" />
+                <path d="M27 7 13 28h9l-2 13 14-21h-9l2-13z" fill="#fff" />
+                <defs>
+                    <linearGradient id="splashGrad" x1="2" y1="2" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#2563EB" />
+                        <stop offset="1" stop-color="#7C3AED" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <div class="splash__name">Факультет Електроніки ЛНУ</div>
+            <div class="splash__sub">Зручне дзеркало сайту факультету</div>
+            <div class="loading-progress splash__track"></div>
+            <div class="loading-progress-text splash__pct"></div>
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        Сталася помилка.
+        <a href="." class="reload">Перезавантажити</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly#[.{fingerprint}].js"></script>
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+</body>
+
+</html>

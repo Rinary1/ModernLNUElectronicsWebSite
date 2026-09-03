@@ -1,0 +1,47 @@
+name: Scrape data
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      profiles:
+        description: "Також обійти всі /employee/<slug>/ (повільно, ~186 запитів)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-data
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Run scraper
+        run: >
+          dotnet run --project tools/Scraper/Scraper.csproj -c Release --
+          ModernLNUElectronicsWebSite/wwwroot/data 3
+          ${{ (github.event_name == 'workflow_dispatch' && inputs.profiles) && 'profiles' || '' }}
+
+      - name: Commit if changed
+        run: |
+          DIR=ModernLNUElectronicsWebSite/wwwroot/data
+          if git diff --quiet -- "$DIR"; then
+            echo "Даних не змінилося — коміт не потрібен."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DIR"
+          git commit -m "chore(data): оновлення $(date -u +%FT%TZ)"
+          git push
