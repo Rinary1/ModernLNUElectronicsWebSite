@@ -1,0 +1,80 @@
+@page "/news"
+@using System.Net.Http.Json
+@using ModernLNUElectronicsWebSite.Scraping
+@inject HttpClient Http
+
+<PageTitle>Новини - Факультет Електроніки ЛНУ</PageTitle>
+
+<MudText Typo="Typo.h4" GutterBottom="true" Class="fw-600">Новини та події</MudText>
+<MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-4">
+    Стрічка з оригінального сайту факультету. Оновлюється автоматично.
+</MudText>
+
+@if (_busy)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+}
+else if (_note is not null)
+{
+    <MudAlert Severity="@_noteSeverity" Dense="true" Class="mb-4">@_note</MudAlert>
+}
+else
+{
+    <MudText Typo="Typo.subtitle2" Color="Color.Secondary" Class="mb-3">@_items.Count новин</MudText>
+
+    @foreach (var item in _items)
+    {
+        <MudPaper Outlined="true" Class="pa-3 mb-2">
+            <MudLink Href="@item.Url" Target="_blank" rel="noopener" Typo="Typo.subtitle1">@item.Title</MudLink>
+            <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block mt-1">
+                @(item.PublishedAt?.ToString("dd.MM.yyyy HH:mm") ?? item.RawDate)
+            </MudText>
+            @if (item.Excerpt is not null)
+            {
+                <MudText Typo="Typo.body2" Class="mt-2">@item.Excerpt</MudText>
+            }
+        </MudPaper>
+    }
+
+    <MudButton Href="https://electronics.lnu.edu.ua/news/" Target="_blank" rel="noopener"
+               Variant="Variant.Text" Color="Color.Primary" Class="mt-2"
+               EndIcon="@Icons.Material.Filled.OpenInNew">
+        Уся стрічка на оригінальному сайті
+    </MudButton>
+}
+
+@code {
+    private readonly List<NewsItem> _items = new();
+    private string? _note;
+    private Severity _noteSeverity = Severity.Info;
+    private bool _busy = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var items = await Http.GetFromJsonAsync<List<NewsItem>>("data/news.json");
+            _items.AddRange(items ?? new());
+
+            if (_items.Count == 0)
+            {
+                _note = "Новин поки немає.";
+                _noteSeverity = Severity.Info;
+            }
+        }
+        catch (HttpRequestException)
+        {
+            _note = "data/news.json ще не згенеровано (GitHub Action / dotnet run --project tools/Scraper).";
+            _noteSeverity = Severity.Warning;
+        }
+        catch (Exception ex)
+        {
+            _note = $"Не вдалося прочитати news.json: {ex.Message}";
+            _noteSeverity = Severity.Error;
+        }
+        finally
+        {
+            _busy = false;
+        }
+    }
+}

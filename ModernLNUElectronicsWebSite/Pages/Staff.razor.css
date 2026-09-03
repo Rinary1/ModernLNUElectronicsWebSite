@@ -1,0 +1,34 @@
+.staff-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-height: 61px;
+    padding: 8px 4px;
+    border-bottom: 1px solid var(--mud-palette-lines-default);
+}
+
+.staff-row__main {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.staff-row__email {
+    flex: none;
+    white-space: nowrap;
+    opacity: .85;
+}
+
+.staff-row--header {
+    justify-content: flex-start;
+    gap: 8px;
+    margin-top: 20px;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--mud-palette-primary);
+}
+
+.staff-row__deptlink {
+    flex: none;
+    margin-left: auto;
+}

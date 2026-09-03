@@ -1,0 +1,165 @@
+@page "/search"
+@using System.Text
+@using ModernLNUElectronicsWebSite.Search
+@inject SearchService Search
+@inject NavigationManager Nav
+
+<PageTitle>Пошук - Факультет Електроніки ЛНУ</PageTitle>
+
+<MudText Typo="Typo.h4" GutterBottom="true" Class="fw-600">Пошук по сайту</MudText>
+
+<MudTextField T="string"
+              Value="_input"
+              ValueChanged="OnInput"
+              Immediate="true"
+              DebounceInterval="250"
+              Placeholder="Прізвище, посада, тема новини..."
+              Adornment="Adornment.Start"
+              AdornmentIcon="@Icons.Material.Filled.Search"
+              Clearable="true"
+              Variant="Variant.Outlined"
+              Margin="Margin.Dense"
+              Class="mb-4" />
+
+@if (!Search.IsLoaded)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+}
+else if (string.IsNullOrWhiteSpace(_query))
+{
+    <MudText Color="Color.Secondary">
+        Індекс: @Search.DocumentCount записів (новини, співробітники, адміністрація).
+        Почніть вводити запит.
+    </MudText>
+}
+else
+{
+    <MudText Typo="Typo.subtitle2" Color="Color.Secondary" Class="mb-3">
+        Знайдено @_hits.Count за запитом "@_query"
+    </MudText>
+
+    @foreach (var hit in _hits)
+    {
+        var external = hit.Doc.Url.StartsWith("http", StringComparison.OrdinalIgnoreCase);
+
+        <MudPaper Outlined="true" Class="pa-3 mb-2">
+            <div class="d-flex align-center gap-2 mb-1">
+                <MudChip T="string" Size="Size.Small" Variant="Variant.Text"
+                         Color="@KindColor(hit.Doc.Kind)" Class="ma-0">@KindLabel(hit.Doc.Kind)</MudChip>
+                <MudLink Href="@hit.Doc.Url"
+                         Target="@(external ? "_blank" : null)"
+                         rel="@(external ? "noopener" : null)"
+                         Typo="Typo.subtitle1">
+                    @Highlight(hit.Doc.Title)
+                </MudLink>
+            </div>
+
+            @if (!string.IsNullOrWhiteSpace(hit.Doc.Subtitle))
+            {
+                <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block">
+                    @Highlight(hit.Doc.Subtitle!)
+                </MudText>
+            }
+
+            @if (!string.Equals(hit.Snippet, hit.Doc.Title, StringComparison.Ordinal))
+            {
+                <MudText Typo="Typo.body2" Class="mt-1">@Highlight(hit.Snippet)</MudText>
+            }
+        </MudPaper>
+    }
+
+    @if (_hits.Count == 0)
+    {
+        <MudText Color="Color.Secondary">Нічого не знайдено. Спробуйте інші слова.</MudText>
+    }
+}
+
+@code {
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "q")]
+    public string? Q { get; set; }
+
+    private string? _input;
+    private string? _query;
+    private IReadOnlyList<SearchHit> _hits = Array.Empty<SearchHit>();
+    private string[] _tokens = Array.Empty<string>();
+
+    protected override async Task OnInitializedAsync() => await Search.EnsureLoadedAsync();
+
+    protected override void OnParametersSet()
+    {
+        _input = Q;
+        _query = string.IsNullOrWhiteSpace(Q) ? null : Q.Trim();
+        _tokens = _query is null
+            ? Array.Empty<string>()
+            : SearchService.Normalize(_query).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        _hits = Search.Query(_query);
+    }
+
+    private void OnInput(string? value)
+    {
+        _input = value;
+        var target = string.IsNullOrWhiteSpace(value)
+            ? "search"
+            : $"search?q={Uri.EscapeDataString(value.Trim())}";
+
+        Nav.NavigateTo(target, forceLoad: false, replace: true);
+    }
+
+    private MarkupString Highlight(string text)
+    {
+        if (_tokens.Length == 0 || string.IsNullOrEmpty(text))
+            return (MarkupString)System.Net.WebUtility.HtmlEncode(text);
+
+        var normalized = SearchService.Normalize(text);
+        var marks = new bool[text.Length];
+
+        foreach (var token in _tokens)
+        {
+            var from = 0;
+            while (from <= normalized.Length - token.Length)
+            {
+                var idx = normalized.IndexOf(token, from, StringComparison.Ordinal);
+                if (idx < 0)
+                    break;
+
+                for (var i = idx; i < idx + token.Length && i < marks.Length; i++)
+                    marks[i] = true;
+
+                from = idx + token.Length;
+            }
+        }
+
+        var sb = new StringBuilder(text.Length + 32);
+        var open = false;
+
+        for (var i = 0; i < text.Length; i++)
+        {
+            if (marks[i] && !open) { sb.Append("<mark>"); open = true; }
+            else if (!marks[i] && open) { sb.Append("</mark>"); open = false; }
+
+            sb.Append(System.Net.WebUtility.HtmlEncode(text[i].ToString()));
+        }
+
+        if (open)
+            sb.Append("</mark>");
+
+        return (MarkupString)sb.ToString();
+    }
+
+    private static string KindLabel(SearchKind kind) => kind switch
+    {
+        SearchKind.News => "Новина",
+        SearchKind.Staff => "Співробітник",
+        SearchKind.Administration => "Адміністрація",
+        _ => kind.ToString(),
+    };
+
+    private static Color KindColor(SearchKind kind) => kind switch
+    {
+        SearchKind.News => Color.Info,
+        SearchKind.Staff => Color.Primary,
+        SearchKind.Administration => Color.Secondary,
+        _ => Color.Default,
+    };
+}
