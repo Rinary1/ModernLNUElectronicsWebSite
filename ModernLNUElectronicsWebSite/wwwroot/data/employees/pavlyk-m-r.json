@@ -1,0 +1,64 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pavlyk-m-r/",
+  "Slug": "pavlyk-m-r",
+  "FullName": "Павлик Михайло Романович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Photo-Pavlyk-125x150.jpg",
+  "PositionText": "доцент кафедри радіоелектронних і комп’ютерних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Email": "mykhailo.pavlyk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=BaoZBrsAAAAJ",
+    "ORCID": "https://orcid.org/my-orcid?orcid=0009-0000-8644-753X",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=37029017400"
+  },
+  "ResearchInterests": "Штучний інтелект Робототехніка Вбудовані системи",
+  "Courses": [
+    {
+      "Title": "Вбудовані і мобільні операційні системи (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/vbudovani-i-mobil-ni-operatsiyni-systemy-ist/"
+    },
+    {
+      "Title": "Інформаційна безпека програм та даних (ІПЗ та ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/informatsiyna-bezpeka-prohram-ta-danykh-121-ipz/"
+    },
+    {
+      "Title": "Операційні системи реального часу (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/operatsiyni-systemy-ipz/"
+    },
+    {
+      "Title": "Операційні системи та системне програмування (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/operatsiyni-systemy-ta-systemne-prohramuvannia-ist/"
+    },
+    {
+      "Title": "Основи вбудованих систем (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-vbudovanykh-system-ipz-2022/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Штучний інтелект</li>\n<li>Робототехніка</li>\n<li>Вбудовані системи</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vbudovani-i-mobil-ni-operatsiyni-systemy-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Вбудовані і мобільні операційні системи (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/informatsiyna-bezpeka-prohram-ta-danykh-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Інформаційна безпека програм та даних (ІПЗ та ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/operatsiyni-systemy-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Операційні системи реального часу (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/operatsiyni-systemy-ta-systemne-prohramuvannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Операційні системи та системне програмування (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-vbudovanykh-system-ipz-2022/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи вбудованих систем (ІПЗ)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Вибрані публікації",
+      "Html": "<ol>\n<li>Olenych I.B. Charge carrier mobility in FETs based on reduced graphene oxide film with RF magnetron sputtered dielectric layers / I.B. Olenych, M.R. Pavlyk, Y.Y. Horbenko, B.I. Turko, B.S. Sokolovskii // Journal of Physical Studies. – 2025. – Vol. 29, No. 4. – P. 4701 (1-5). <a href=\"https://doi.org/10.30970/jps.29.4701\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/jps.29.4701</a></li>\n<li>Olenych I. Field-effect transistor based on reduced graphene oxide–porous silicon structure for application in selective gas sensors / I. Olenych, Yu. Horbenko, M. Pavlyk // Visnyk of the Lviv University. Series Physics. – 2024. – Issue 61. – P. 42-53. <a href=\"https://doi.org/10.30970/vph.61.2024.42\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/vph.61.2024.42</a></li>\n<li>Sinkevych O. Uncrewed vehicle pathfinding approach based on artificial bee colony method / O. Sinkevych, Ya. Boyko, B. Sokolovskyy, M. Pavlyk, O. Yarosh, O. Futey // Advances in Cyber-Physical Systems. – 2024. – Vol. 9, No. 1. – P. 1–9. <a href=\"https://doi.org/10.23939/acps2024.01.001\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.23939/acps2024.01.001</a></li>\n<li>Olenych I.B. Multi-walled carbon nanotube network on porous silicon for humidity sensing / I.B. Olenych, Ya.V. Boyko, M.R. Pavlyk, R.Ya. Serkiz // Journal of Physical Studies. – 2024. – Vol. 28, No. 2. – P. 2801 (1-5). <a href=\"https://doi.org/10.30970/jps.28.2801\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/jps.28.2801</a></li>\n<li>Olenych I. Sensor elements based on the multi-walled carbon nanotubes–porous silicon nanosystem / I. Olenych, M. Pavlyk, R. Serkiz // Visnyk of the Lviv University. Series Physics. – 2023. – Issue 60. – P. 116-126. <a href=\"https://doi.org/10.30970/vph.60.2023.116\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/vph.60.2023.116</a></li>\n<li>Sinkevych O. Comparative Study of ABC and GWO Implementations on Raspberry Pi 3 / O. Sinkevych, Y. Boyko, B. Sokolovskii, I. Olenych, L. Monastyrskii, M. Pavlyk // IEEE 13th International Conference on Electronics and Information Technologies (ELIT) – 2023. – P. 191–195. <a href=\"https://doi.org/10.1109/ELIT61488.2023.10310885\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/ELIT61488.2023.10310885</a></li>\n<li>Olenych I. System of forecasting the smart home solar battery power / I. Olenych, M. Pavlyk, M. Martsiniv // Electronics and information technologies. – 2022. – Issue 18. – P. 12–19. <a href=\"https://doi.org/10.30970/eli.18.2\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.18.2</a></li>\n<li>Aksimentyeva O.I. Luminescence in porous silicon – poly(paraphenylene) hybrid nanostructures / O.I. Aksimentyeva, B.R. Tsizh, L.S. Monastyrskii, I.B. Olenych, M.R. Pavlyk // Physics Procedia. – 2015. – V. 76. – P. 31–36. <a href=\"https://doi.org/10.1016/j.phpro.2015.10.006\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1016/j.phpro.2015.10.006</a></li>\n<li>Olenych I.B. Electrochromic effect in photoluminescent porous silicon–polyaniline hybrid structures / I.B. Olenych, O.I. Aksimentyeva, L.S. Monastyrskii, M.R. Pavlyk // Journal of Applied Spectroscopy. – 2012. – V. 79, No. 3. – P. 495–498. <a href=\"http://doi.org/10.1007/s10812-012-9629-8\" target=\"_blank\" rel=\"noopener noreferrer\">http://doi.org/10.1007/s10812-012-9629-8</a></li>\n<li>Monastyrskii L.S. Analytical and numerical calculations of photoconductivity in porous silicon / L.S. Monastyrskii, B.S. Sokolovskii, M.R. Pavlyk // Ukrainian Journal of Physics. – 2011. – V. 56, No. 9. – P. 902-906. <a href=\"https://doi.org/10.15407/ujpe56.9.902\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.15407/ujpe56.9.902</a></li>\n<li>Monastyrskii L.S. Modeling of photoconductivity of porous silicon / L.S. Monastyrskii, B.S. Sokolovskii, M.R. Pavlyk, P.P. Parandii // Advances in OptoElectronics. – 2011. –V. 2011. –ID 896962. <a href=\"https://doi.org/10.1155/2011/896962\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1155/2011/896962</a></li>\n<li>Monastyrskii L.S. Gas adsorption sensors on the basis of porous silicon / L.S. Monastyrskii, I.B. Olenych, O.I. Aksimentyeva, B.S. Sokolovskii, M.R. Pavlyk // Sensor Electronics and Microsystems Technologies. – 2011. – V. 8, No. 3. – P. 38-43. <a href=\"https://doi.org/10.18524/1815-7459.2011.3.117797\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.18524/1815-7459.2011.3.117797</a></li>\n<li>Monastyrskii L.S. Organic-inorganic nanosystems based on fullerene embedded in porous silicon matrix / L.S. Monastyrskyi, O.I. Aksimentyeva, M.R. Pavlyk, V.P. Savchyn, L.I. Yaryc’ka // Molecular Crystals &amp; Liquid Crystals. – 2011. – V.536. – P. 58-64. <a href=\"https://doi.org/10.1080/15421406.2011.538338\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1080/15421406.2011.538338</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>2004 – 2009 рр. Студент факультету електроніки Львівського національного університету імені Івана Франка. Спеціальність “Радіофізика і електроніка”. Магістр прикладної фізики.&nbsp;</p>\n<p>2009 – 2012 рр. Аспірант факультету електроніки Львівського національного університету імені Івана Франка.&nbsp;</p>\n<p>2013 р. Захистив кандидатську дисертацію і отримав науковий ступінь кандидата фізико-математичних наук.&nbsp;</p>\n<p>2012 – 2014 рр. Молодший науковий співробітник Науково-дослідної частини Львівського національного університету імені Івана Франка.&nbsp;</p>\n<p>2014 – 2016 рр. Старший викладач кафедри фізики і математики Львівського національного університету ветеринарної медицини та біотехнологій імені С. З. Гжицького.&nbsp;</p>\n<p>2016 – 2022 рр. ФОП у сфері ІТ.&nbsp;</p>\n<p>2022 – 2023 рр. Асистент кафедри радіоелектронних і комп’ютерних систем Львівського національного університету імені Івана Франка.&nbsp;</p>\n<p>З 2023 р. Доцент кафедри радіоелектронних і комп’ютерних систем Львівського національного університету імені Івана Франка.&nbsp;</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<ol>\n<li>Павлик М.Р. Електронний навчальний курс “Основи вбудованих систем”. <a href=\"https://e-learning.lnu.edu.ua/course/view.php?id=6017\" target=\"_blank\" rel=\"noopener noreferrer\">https://e-learning.lnu.edu.ua/course/view.php?id=6017</a>&nbsp;</li>\n<li>Соколовський Б.С. Методичні рекомендації до виконання лабораторних робіт з курсу “Теорія автоматичного керування” / Б.С. Соколовський, О.О. Сінькевич, М.Р. Павлик. Львів: ЛНУ імені Івана Франка, 2025. – 62 с.</li>\n<li>Оленич І.Б. Методичні рекомендації до виконання лабораторних робіт з курсу “Сенсори та виконавчі механізми” / І.Б. Оленич, М.Р. Павлик. Львів: ЛНУ імені Івана Франка, 2024. – 42 с.</li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=29187&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=29187&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

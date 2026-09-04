@@ -1,0 +1,92 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kushnir-o-o/",
+  "Slug": "kushnir-o-o",
+  "FullName": "Кушнір Олексій Олександрович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/kushnir-1.jpg",
+  "PositionText": "доцент кафедри радіофізики та комп’ютерних технологій, інженер 1 категорії Лабораторії (4) Радіофізики і комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Phone": "(032) 239-42-51",
+  "Email": "oleksiy.kushnir@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=HQhgxQ0AAAAJ&hl=uk",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=55546799000"
+  },
+  "ResearchInterests": "наноплазмоніка оптика дисперсійних середовищ робототехніка",
+  "Courses": [
+    {
+      "Title": "Архітектурні патерни високопродуктивних систем (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/arkhitekturni-paterny-vysokoproduktyvnykh-system-vpk/"
+    },
+    {
+      "Title": "Конструювання та надійність Інтернет речей (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/konstruiuvannia-ta-nadiynist-internet-rechey-126-informatsiyni-systemy-ta-tekhnolohii/"
+    },
+    {
+      "Title": "Мобільна розробка (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/mobilna-rozrobka-platforma-android-126-informatsiyni-systemy-ta-tekhnolohii/"
+    },
+    {
+      "Title": "Мобільний компʼютинг (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/mobilnyy-komp-iutynh-vpk/"
+    },
+    {
+      "Title": "Об'єктно-орієнтоване програмування (ІПЗ, ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-ipz/"
+    },
+    {
+      "Title": "Основи робототехніки (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-robototekhniky-126-informatsiyni-systemy-ta-tekhnolohii/"
+    },
+    {
+      "Title": "Програмування роботехнічних систем (Інженерія програмного забезпечення)",
+      "Url": "https://electronics.lnu.edu.ua/course/prohramuvannia-robotekhnichnykh-system-inzheneriia-prohramnoho-zabezpechennia/"
+    },
+    {
+      "Title": "Програмування робототехнічних систем (121 ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/prohramuvannia-robototekhnichnykh-system-121-ipz/"
+    },
+    {
+      "Title": "Робототехніка (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/robototekhnika-126-informatsiyni-systemy-ta-tekhnolohii/"
+    },
+    {
+      "Title": "Технології створення програмних продуктів (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/tekhnolohii-stvorennia-prohramnykh-produktiv-kn/"
+    },
+    {
+      "Title": "Ймовірнісні процеси (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/ymovirnisni-protsesy-kn/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>наноплазмоніка</li>\n<li>оптика дисперсійних середовищ</li>\n<li>робототехніка</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitekturni-paterny-vysokoproduktyvnykh-system-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектурні патерни високопродуктивних систем (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/konstruiuvannia-ta-nadiynist-internet-rechey-126-informatsiyni-systemy-ta-tekhnolohii/\" target=\"_blank\" rel=\"noopener noreferrer\">Конструювання та надійність Інтернет речей (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mobilna-rozrobka-platforma-android-126-informatsiyni-systemy-ta-tekhnolohii/\" target=\"_blank\" rel=\"noopener noreferrer\">Мобільна розробка (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mobilnyy-komp-iutynh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Мобільний компʼютинг (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Об'єктно-орієнтоване програмування (ІПЗ, ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-robototekhniky-126-informatsiyni-systemy-ta-tekhnolohii/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи робототехніки (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannia-robotekhnichnykh-system-inzheneriia-prohramnoho-zabezpechennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування роботехнічних систем (Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannia-robototekhnichnykh-system-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування робототехнічних систем (121 ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/robototekhnika-126-informatsiyni-systemy-ta-tekhnolohii/\" target=\"_blank\" rel=\"noopener noreferrer\">Робототехніка (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnolohii-stvorennia-prohramnykh-produktiv-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології створення програмних  продуктів (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ymovirnisni-protsesy-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Ймовірнісні процеси (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Adamiv V. T. Nonlinear optical properties of silver nanoparticles prepared in Ag doped borate glasses / V. T. Adamiv, I. M. Bolesta, Ya. V. Burak, R. V. Gamernyk, I. D. Karbovnyk, I. I. Kolych, M. G. Kovalchuk, O. O. Kushnir, M. V. Periv, I M. Teslyuk. / Physica B. – 2014. <a href=\"http://dx.doi.org/10.1016/j.physb.2014.05.009\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.1016/j.physb.2014.05.009</a></li>\n<li>Bolesta I. M. Local fields in nanostructured silver films / Ivan M. Bolesta, Ihor I. Kolych, Alexey A. Kushnir, Ivan D. Karbovnyk, John M. Collins, Roman V. Gamernyk, Andriy P. Luchechko and Serhiy V. Rykhlyuk // Journal of Nanophotonics. – 2014. – Vol. 8. – P. 083087. <a href=\"http://dx.doi.org/10.1117/1.JNP.8.083087\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.1117/1.JNP.8.083087</a></li>\n<li>Demchuk A. The Computational Studies of Plasmon Interaction / Demchuk A., Bolesta I., Kushnir O., Kolych I. // Nanoscale Res. Lett.– 2017. – V. 12. – P. 273 (7). <a href=\"http://nanoscalereslett.springeropen.com/articles/10.1186/s11671-017-2050-8\" target=\"_blank\" rel=\"noopener noreferrer\">http://nanoscalereslett.springeropen.com/articles/10.1186/s11671-017-2050-8</a></li>\n<li>Bolesta I.M. Plasmon Absorption by Silver Nanoparticles on LiNbO<sub>3</sub> Surface / Bolesta I.M., Vakiv M.M., Haiduchok V.G. Kolych I.I., Kushnir A.A., Rovetskyy I.M., Furgala Yu.M. // Ukr. J. Phys. – 2017. – Vol. 62. – N 1. – P.39-45. <a href=\"https://doi.org/10.15407/ujpe62.01.0039\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.15407/ujpe62.01.0039</a></li>\n<li>Bolesta I. M. AFM Investigations and Plasmon Spectra of Silver Clusters Formed on Li2B4O7:Ag Glass Surface in Reducing Atmosphere / Bolesta I. M., Kushnir O. O., Kolych I. I., Syvorotka I. I.; Adamiv V. T., Burak Ya. V., Teslyuk I. M. // Advanced Science, Engineering and Medicine. – 2014. – V. 6. – No. 3. – P. 226-232. <a href=\"https://doi.org/10.1166/asem.2014.1498\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1166/asem.2014.1498</a></li>\n<li><a href=\"https://base.uipv.org/searchINV/search.php?action=viewdetails&amp;IdClaim=195948&amp;chapter=description\" target=\"_blank\" rel=\"noopener noreferrer\">Патент №86830</a> Україна, МПК G01N 15/02 Спосіб визначення розподілу за розмірами частинок металу у дисперсійних системах / Кушнір О. О., Болеста І. М., Колич І. І., Ковальчук М. Г.; заявник і власник Львівський національний університет імені Івана Франка. – № u201309260; заявл. 23.07.2013; опубл. 10.01.2014, Бюл. № 1.</li>\n<li><a href=\"https://base.uipv.org/searchINV/search.php?action=viewdetails&amp;IdClaim=195749&amp;chapter=description\" target=\"_blank\" rel=\"noopener noreferrer\">Патент №86631</a> Україна, МПК (2013.01) G01N 13/00 Спосіб вимірювання товщин нанорозмірних об’єктів / Кушнір О. О., Болеста І. М., Колич І. І., Ковальчук М. Г.; заявник і власник Львівський національний університет імені Івана Франка. – № u2013 07147; заявл. 06.06.2013; опубл. 10.01.2014, Бюл. № 1.</li>\n<li><a href=\"https://base.uipv.org/searchINV/search.php?action=viewdetails&amp;IdClaim=204380&amp;chapter=description\" target=\"_blank\" rel=\"noopener noreferrer\">Патент №92956</a> Україна, МПК C03C 3/064 (2006.01) Спосіб виготовлення нанокомпозитного матеріалу / Адамів В. Т., Болеста І. М., Буряк Я. В., Гамерник Р. В., Карбовник І. Д., Ковальчук М. Г., Кушнір О. О., Теслюк І. М.; заявник і власник Львівський національний університет імені Івана Франка. – № u2014 03900; заявл. 14.04.2014; опубл. 10.09.2014, Бюл. № 17.</li>\n<li><a href=\"https://base.uipv.org/searchINV/search.php?action=viewdetails&amp;IdClaim=205811&amp;chapter=description\" target=\"_blank\" rel=\"noopener noreferrer\">Патент №94003</a> Україна. МПК G01N 21/47 Пристрій для вимірювання кутової залежності інтенсивності розсіяного світла / Болеста І. М., Ковальчук М. Г., &gt;Кушнір О. О.&lt;, Рабик В. Г., Сімків Б. О.; Заявник і власник патенту Львівський національний університет імені Івана Франка. Заявка № u201404733 від 5.05.2014. Опубл. 27.10.2014, Бюл. №20.</li>\n<li><a href=\"https://base.uipv.org/searchINV/search.php?action=viewdetails&amp;IdClaim=206628&amp;chapter=description\" target=\"_blank\" rel=\"noopener noreferrer\">Патент №94609</a> Україна. МПК G01N 21/64 Спосіб візуалізації локальних полів у метал-діелектричних нанокомпозитних матеріалах / Болеста І М., Гамерник Р. В., Карбовник І. Д., Ковальчук М. Г., Кушнір О. О.; Заявник і власник патенту Львівський національний університет імені Івана Франка. Заявка № u201404744 від 5.05.2014. Опубл. 25.11.2014, Бюл. №22.</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Народився 27 липня 1987 року у місті Львові.</p>\n<p>У 2009 році отримав диплом магістра за спеціальністю «Радіофізика та електроніка».</p>\n<p>З листопада 2009 до 2012 року навчався в аспірантурі.</p>\n<p>У 2013 році захистив кандидатську дисертацію на тему „Поверхневі плазмонні збудження в неоднорідних метал-діелектричних нанокомпозитах”, диплом від 17 січня 2014 року.</p>\n<p>У 2014-2015 роках працював молодшим науковим співробітником, потім науковим співробітником кафедри радіофізики та комп’ютерних технологій.</p>\n<p>З 2015 року працює асистентом, а з 2019 доцентом кафедри радіофізики та комп’ютерних технологій.</p>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<ol>\n<li>Світлогенеруючі низькорозмірні структури з поляризованою люмінесценцією на основі органічних і неорганічних матеріалів (\n<p>Науковий керівник: д-р. фіз.-мат. наук, доц. Карбовник Іван Дмитрович.<br>\nТермін виконання: 01.11.2020 ‑ 31.12.2022. Категорія роботи: прикладне дослідження (фінансування НФДУ).</p>\n</li>\n</ol>"
+    },
+    {
+      "Title": "Нагороди",
+      "Html": "<p>Лауреат <a href=\"https://zakon.rada.gov.ua/laws/show/705/2015#Text\" target=\"_blank\" rel=\"noopener noreferrer\">премії президента України для молодих вчених 2015</a> року за роботу „Електричні, оптичні та структурні властивості ультратонких плівок простих та перехідних металів”</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16643&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16643&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

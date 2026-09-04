@@ -1,0 +1,76 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/lyubun-z-m/",
+  "Slug": "lyubun-z-m",
+  "FullName": "Любунь Зіновій Михайлович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Foto_na_storinku-125x150.png",
+  "PositionText": "доцент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "AcademicDegree": "кандидат технічних наук",
+  "AcademicTitle": "доцент",
+  "Phone": "(032) 239 44 52",
+  "Email": "Zinoviy.Lyubun@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?view_op=list_works&hl=uk&user=Sqypl1gAAAAJ"
+  },
+  "ResearchInterests": "Адаптивні системи опрацювання сигналів і зображень на основі нейромереж. Автор понад 50 наук. праць.",
+  "Courses": [
+    {
+      "Title": "Адаптивні системи опрацювання інформації (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/adaptyvni-systemy-opratsyuvannya-informatsiji/"
+    },
+    {
+      "Title": "Аналіз даних (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/analiz-danykh/"
+    },
+    {
+      "Title": "Вбудовані нейромережеві пристрої (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/vbudovani-neyromerezhevi-prystroi-122-komp-iuterni-nauky/"
+    },
+    {
+      "Title": "Вбудовані системи опрацювання даних та управління на основі нейромереж (121 ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/vbudovani-systemy-opratsiuvannia-danykh-ta-upravlinnia-na-osnovi-neyromerezh-121-ipz/"
+    },
+    {
+      "Title": "Інтелектуальний аналіз даних (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/intelektualnyj-analiz-danyh/"
+    },
+    {
+      "Title": "Методи комп’ютерної інтерпретації даних (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/metody-komp-iuternoi-interpretatsii-danykh-kn/"
+    },
+    {
+      "Title": "Якість та тестування ПЗ (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/yakist-ta-testuvannia-pz-ipz/"
+    },
+    {
+      "Title": "Алгоритмізація та програмування (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/prohramuvannya/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Адаптивні системи опрацювання сигналів і зображень на основі нейромереж.</p>\n<p>Автор понад 50 наук. праць.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/adaptyvni-systemy-opratsyuvannya-informatsiji/\" target=\"_blank\" rel=\"noopener noreferrer\">Адаптивні системи опрацювання інформації (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/analiz-danykh/\" target=\"_blank\" rel=\"noopener noreferrer\">Аналіз даних (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vbudovani-neyromerezhevi-prystroi-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Вбудовані нейромережеві пристрої (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vbudovani-systemy-opratsiuvannia-danykh-ta-upravlinnia-na-osnovi-neyromerezh-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Вбудовані системи опрацювання даних та управління на основі нейромереж (121 ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/intelektualnyj-analiz-danyh/\" target=\"_blank\" rel=\"noopener noreferrer\">Інтелектуальний аналіз даних (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-komp-iuternoi-interpretatsii-danykh-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи комп’ютерної інтерпретації даних (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/yakist-ta-testuvannia-pz-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Якість та тестування ПЗ (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannya/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритмізація та програмування (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li><a href=\"https://ieeexplore.ieee.org/author/37088932864\" target=\"_blank\" rel=\"noopener noreferrer\">Zinovij Liubun</a>. Neural-network-based Gesture Detection for Capacitive Sensing. <a href=\"https://ieeexplore.ieee.org/author/37088932864\" target=\"_blank\" rel=\"noopener noreferrer\">Zinovij Liubun</a>, Vasyl Mandziy, Oleksandr &nbsp;Karpin, Vasyl Rabyk // Proceedings of 16th International Conference on” Advanced Trends in Radioelectronics, Telecommunications and Computer Engineering”.-2022/ P. 362 – 365. DOI:&nbsp;10.1109/TCSET55632.2022. 9767083</li>\n<li>Liubun Z. Hover Signal-Profile Detection / Liubun, V.&nbsp;Mandziy, H.&nbsp;Klein, O.&nbsp;Karpin, V.&nbsp;Rabyk // Proceedings of the XV International Scientific and Technical Conference “Computer Science and Information Technologies” – 2020. P. 7 – 10. (Scopus)</li>\n<li>Tsmots I. Method and Means of Symmetric Real-time Neural Network Data Encryption Ivan Tsmots / I.&nbsp;Tsmots, V.&nbsp;Rabyk, Lyubun, O.&nbsp;Skorokhoda // Proceedings of the XV International Scientific and Technical Conference “Computer Science and Information Technologies” – 2020. P. 47 – 51. (Scopus)</li>\n<li>Liubun Z. Hover Signal-Profile Detection / Liubun, V.&nbsp;Mandziy, H.&nbsp;Klein, O.&nbsp;Karpin, V.&nbsp;Rabyk // Proceedings of the XV International Scientific and Technical Conference “Computer Science and Information Technologies” – 2020. P. 7 – 10. (Scopus)</li>\n<li>А. Цемко, Я. Берко, В. Бігдай, З. Любунь . Використання бібліотеки програм TENSORFLOW для реалізації нейромереж на мікроконтролерах фірми INFINEON TECHNOLOGIES AG. // Електроніка та інформаційні технології. – 2020. – Випуск 14. – С. 64–72.</li>\n<li>Bihday V. Recognition of Handwritten Images Using Multilayer Neural Networks / &nbsp;Bihday, V.&nbsp;Brygilevych, Yu.&nbsp;Hychka, Z.&nbsp;Liubun, N.&nbsp;Pelypets, V.&nbsp;Rabyk&nbsp;//&nbsp;Proceedings &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; of the XI<sup>th</sup> International Scientific and Practical Conference “Electronics and Information &nbsp;&nbsp; Technologies” (ELIT – 2019), September 16 – 18, 2019, Lviv, Ukraine. – Lviv: 2019. P. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 59 – 62. Doi:<strong>&nbsp;</strong><a href=\"https://doi.org/10.1109/ELIT.2019.8893381\" target=\"_blank\" rel=\"noopener noreferrer\">10.1109/ELIT.2019.8893381</a>.</li>\n<li>Karpin O. Method of Neural Network Training with Integer Weights / O.&nbsp;Karpin, &nbsp;Mandziy, Z.&nbsp;Liubun, V.&nbsp;Rabyk&nbsp;//&nbsp;Proceedings of the XI<sup>th</sup> International Scientific and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Practical Conference “Electronics and Information Technologies” (ELIT – 2019), &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; September 16 – 18, 2019, Lviv, Ukraine. P. 168 – 172. doi: <a href=\"https://doi.org/10.1109/ELIT.2019.8893349\" target=\"_blank\" rel=\"noopener noreferrer\">10.1109/ELIT.2019.8893349</a>.</li>\n<li>З. Любунь, Р.Лісовський, І. Поплавський, Б. Рачій. Прогнозування властивостей вуглецевих матеріалів з використанням нейронних мереж. // Електроніка та інформаційні технології. – 2019. – Випуск 12. – С. 64–72.</li>\n<li>С.Свелеба, І. Катеринчук, І. Куньо, З Любунь. Створення багатовимірного OLAP-куба послуг готельно-туристичного комплексу Прикарпаття. Електроніка та інформаційні технології.&nbsp;–&nbsp;2017.–&nbsp;Вип.7&nbsp;.&nbsp;– С.&nbsp;72–79.</li>\n<li>О.Дзендзелюк, В.&nbsp;Рабик&nbsp;,З. Любунь. Прогнозування параметрів довкілля на основі штучних нейронних мереж.&nbsp;// Електроніка та інформаційні технології. – 2015. – Випуск 5. – С. 102–113.</li>\n<li><a href=\"https://scholar.google.com.ua/citations?view_op=view_citation&amp;hl=uk&amp;user=Sqypl1gAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Sqypl1gAAAAJ:UebtZRa9Y70C\" target=\"_blank\" rel=\"noopener noreferrer\">Neural-network-based Gesture Detection for Capacitive Sensing</a></li>\n<li><a href=\"https://scholar.google.com.ua/citations?view_op=view_citation&amp;hl=uk&amp;user=Sqypl1gAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Sqypl1gAAAAJ:roLk4NBRz8UC\" target=\"_blank\" rel=\"noopener noreferrer\">Neural Network Technology for Protecting Cryptographic Data</a></li>\n<li><a href=\"https://scholar.google.com.ua/citations?view_op=view_citation&amp;hl=uk&amp;user=Sqypl1gAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Sqypl1gAAAAJ:LkGwnXOMwfcC\" target=\"_blank\" rel=\"noopener noreferrer\">Correlation-based Contactless Hand-Gesture Detection for Capacitive Sensing</a></li>\n<li><a href=\"https://scholar.google.com.ua/citations?view_op=view_citation&amp;hl=uk&amp;user=Sqypl1gAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Sqypl1gAAAAJ:Se3iqnhoufwC\" target=\"_blank\" rel=\"noopener noreferrer\">Method and means of symmetric real-time neural network data encryption</a></li>\n<li><a href=\"https://scholar.google.com.ua/citations?view_op=view_citation&amp;hl=uk&amp;user=Sqypl1gAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Sqypl1gAAAAJ:_FxGoFyzp5QC\" target=\"_blank\" rel=\"noopener noreferrer\">Hover Signal-Profile Detection</a></li>\n<li><a href=\"https://scholar.google.com.ua/citations?view_op=view_citation&amp;hl=uk&amp;user=Sqypl1gAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Sqypl1gAAAAJ:IjCSPb-OGe4C\" target=\"_blank\" rel=\"noopener noreferrer\">Recognition of Handwritten Images Using Multilayer Neural Networks</a></li>\n<li><a href=\"https://scholar.google.com.ua/citations?view_op=view_citation&amp;hl=uk&amp;user=Sqypl1gAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Sqypl1gAAAAJ:Tyk-4Ss8FVUC\" target=\"_blank\" rel=\"noopener noreferrer\">Method of Neural Network Training with Integer Weights</a></li>\n<li><a href=\"https://scholar.google.com.ua/citations?view_op=view_citation&amp;hl=uk&amp;user=Sqypl1gAAAAJ&amp;sortby=pubdate&amp;citation_for_view=Sqypl1gAAAAJ:MXK_kJrjxJIC\" target=\"_blank\" rel=\"noopener noreferrer\">IMPLEMENTATION OF DIGITAL FILTERS USING NEURAL NETWORKS WHEN THE OBJECT MOVEMENT DYNAMICS ARE NOT KNOWN</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>(4.02.1957, м. Бережани, Тернопільська обл.) – радіофізик, канд. техн. наук.</p>\n<p>Тема дисертації: “Использование кусочно-линейной аппроксимации характеристик нелинейных элементов при расчете электронных схем”, 1986), доц. (2002).</p>\n<p>Закінчив фіз. ф-т Львів. ун-ту (1979). З 1979-87 інж., 1987-97 асист., з 1997 доц. кафедри радіофізики та комп’ютерних технологій.</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<ol>\n<li>Любунь З., Мочульський Ю. Основи радіоелектроніки Ч.1. Лабораторний практикум. – Львів: Видавничий центр ЛНУ імені Івана Франка, 2003.–32 с.</li>\n<li>Основи теорії нейромереж. Текст лекцій. Любунь З.М. Львів: Видавничий центр ЛНУ імені Івана Франка,2007, 142 с.</li>\n<li>Інтелектуальний аналіз даних: методичні вказівки до виконання лабораторних робіт / укл.: І.Д. Карбовник, З.М. Любунь, В.Г. Рабик – Львів: Видавн. центр Львів. нац. універ. ім. І. Франка, 2015. – 70 с.</li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16613&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16613&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

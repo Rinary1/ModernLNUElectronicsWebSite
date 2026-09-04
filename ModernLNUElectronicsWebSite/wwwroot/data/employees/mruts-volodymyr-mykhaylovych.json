@@ -1,0 +1,25 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/mruts-volodymyr-mykhaylovych/",
+  "Slug": "mruts-volodymyr-mykhaylovych",
+  "FullName": "Мруць Володимир Михайлович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Mruts-125x150.jpg",
+  "PositionText": "аспірант кафедри оптоелектроніки та інформаційних технологій, асистент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "Profiles": {},
+  "Courses": [
+    {
+      "Title": "Архітектура комп'ютерів (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-kompyuternoji-elektroniky-ta-arhitektura-kompyuteriv/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-kompyuternoji-elektroniky-ta-arhitektura-kompyuteriv/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів (126 Інформаційні системи та технології)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=40436&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=40436&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

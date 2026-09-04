@@ -1,0 +1,27 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/koplak-olha-myhajlivna/",
+  "Slug": "koplak-olha-myhajlivna",
+  "FullName": "Коплак Ольга Михайлівна",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Olya-2-125x150.jpg",
+  "PositionText": "завідувач Лабораторії (6) Електронних систем, асистент кафедри фізичної та біомедичної електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/",
+  "Phone": "(032) 239-41-30",
+  "Email": "olha.koplak@lnu.edu.ua",
+  "Profiles": {},
+  "Courses": [
+    {
+      "Title": "Основи електроніки (122 - Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-elektroniky/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-elektroniky/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи електроніки (122 - Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16907&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16907&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pretsel-vitalii/",
+  "Slug": "pretsel-vitalii",
+  "FullName": "Прецель Віталій Олегович",
+  "PositionText": "аспірант кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Email": "vitalii.pretsel@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=aKJGf3EAAAAJ",
+    "ORCID": "https://orcid.org/0009-0004-6509-2126",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=60170531400",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/MGU-4062-2025"
+  },
+  "ResearchInterests": "Метаевристичні алгоритми",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Метаевристичні алгоритми</li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ul>\n<li>V. Pretsel, R. Shuvar (2024). “Mutation influence and probability in neuro-genetic evolution and neat. Strategy for adjusting dynamic mutation parameters in response to fitness stagnation”. Electronics and Information Technologies, 25, p. 93-101.<br>\n<a href=\"https://doi.org/10.30970/eli.25.8\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.25.8</a></li>\n<li>Pretsel, V., Shuvar, R. (2024). “The speciation in genetic algorithms for preserving population diversity and optimization of functions with suboptimal solutions”. Electronics and Information Technologies, 28, pp. 38–45. <a href=\"https://doi.org/10.30970/eli.28.4\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.28.4</a></li>\n<li>Pretsel, V., Shuvar, R., Kukharskyy, V., Lyashkevych, V. (2025). “Evolving Neural Controllers for Autonomous Driving using NEAT”. 67th International Symposium on Electronics in Marine International Symposium (ELMAR-2025), Zadar, Croatia, 15-17 September 2025, pp. 287–290. <a href=\"https://doi.org/10.1109/ELMAR66948.2025.11194039\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/ELMAR66948.2025.11194039</a></li>\n<li>Pretsel, V., Shuvar, R. (2025). “Convergence metrics analysis for genetic algorithms. A composite convergence score”. Сomputational Intelligence and Smart Systems (CISS-2025), Lviv, Ukraine, 25-27 September 2025, pp. 140–142. <a href=\"https://science.lpnu.ua/uk/ciss-2025/zbirnyk-materialiv-konferenciyi-ciss-2025\" target=\"_blank\" rel=\"noopener noreferrer\">https://science.lpnu.ua/uk/ciss-2025/zbirnyk-materialiv-konferenciyi-ciss-2025</a></li>\n<li>Pretsel V., Shuvar R. (2025). “Dynamic mutation rate control in genetic algorithms using convergence and diversity metrics”. Ukrainian Journal of Information Technology, No. 7, 2, pp. 93-99. <a href=\"https://doi.org/10.23939/ujit2025.02.093\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.23939/ujit2025.02.093</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>У 2018-2023 рр. навчався на факультеті електроніки Львівського національного університету імені Івана Франка за спеціальністю «Комп’ютерні науки», отримав диплом магістра комп’ютерних наук. З 2024 р. навчається в аспірантурі факультету електроніки та комп’ютерних технологій Львівського національного університету імені Івана Франка.</p>"
+    }
+  ]
+}

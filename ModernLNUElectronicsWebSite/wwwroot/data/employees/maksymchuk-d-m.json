@@ -1,0 +1,22 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/maksymchuk-d-m/",
+  "Slug": "maksymchuk-d-m",
+  "FullName": "Максимчук Данило Максимович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Maksymchuk-125x150.jpg",
+  "PositionText": "асистент кафедри фізичної та біомедичної електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Email": "danylo.maksymchuk@lnu.edu.ua",
+  "Profiles": {},
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Публікації",
+      "Html": "<ul>\n<li>О. М. Bordun, B. О. Bordun, I. Yo. Kukharskyy, I. I. Medvid, <strong>D. М. Maksymchuk</strong>, Zh. Ya. Tsapovska, D. S. Leonov. <a href=\"https://www.imp.kiev.ua/nanosys/ua/articles/2023/1/nano_vol21_iss1_p0049p0055_2023_abstract.html\" target=\"_blank\" rel=\"noopener noreferrer\">Photoconductivity of Thin β-Ga<sub>2</sub>O<sub>3</sub> and β-Ga<sub>2</sub>O<sub>3</sub>:Cr<sup>3+</sup> Films</a><em> // </em>Nanosistemi, Nanomateriali, Nanotehnologii – 2023. V. 21, № 1, pp. 49–55.</li>\n<li>O. M. Bordun, B. O. Bordun, I. I. Medvid, M. V. Protsak, K. L. Biliak, I. Yo. Kucharskyy, <strong>D. M. Maksymchuk</strong>, I. M. Kofliuk, D. S. Leonov <a href=\"https://www.imp.kiev.ua/nanosys/media/pdf/2023/3/nano_vol21_iss3_p593p603_2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Surface Morphology of (La0.06Ga0.94)2O3:Eu Thin Films</a> // Nanosistemi, Nanomateriali, Nanotehnologii – 2023. – V. 21, № 3, pp. 593–603.</li>\n<li>О.М. Бордун, Б.О. Бордун, І.Й. Кухарський, <strong>Д.М. Максимчук</strong>, І.І. Медвідь <a href=\"https://journals.pnu.edu.ua/index.php/pcss/article/view/6612/7363\" target=\"_blank\" rel=\"noopener noreferrer\">Люмінесценція тонких плівок β-Ga2O3 легованих хромом</a> // Фізика і хімія твердого тіла – 2023. – Т. 24, № 3, С. 490–494.</li>\n<li>О.М. Бордун, Б.О. Бордун, І.І. Медвідь, І.Й. Кухарський, <strong>Д.М. Максимчук</strong>, І.М. Кофлюк. <a href=\"https://journals.pnu.edu.ua/index.php/pcss/article/view/7415/7831\" target=\"_blank\" rel=\"noopener noreferrer\">Дисперсійні властивості тонких плівок (La<sub>0.06</sub>Ga<sub>0.94</sub>)<sub>2</sub>O<sub>3</sub>:Eu</a> // Фізика і хімія твердого тіла – 2024. – Т. 25, № 1, С. 85–90.</li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=22114&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=22114&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/karbovnyk-i-d/",
+  "Slug": "karbovnyk-i-d",
+  "FullName": "Карбовник Іван Дмитрович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Karbovnyk-125x150.jpg",
+  "PositionText": "завідувач кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "AcademicDegree": "доктор фізико-математичних наук",
+  "AcademicTitle": "професор",
+  "Phone": "(032) 239-42-24",
+  "Email": "Ivan.Karbovnyk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=tZ5Kt34AAAAJ",
+    "ORCID": "http://orcid.org/0000-0002-3697-4902",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=55911323100",
+    "Web of Science": "https://publons.com/researcher/2864785/ivan-d-karbovnyk/"
+  },
+  "ResearchInterests": "Програмування у середовищі LabVIEW. Автоматизація експерименту. Проектування вбудованих систем. Комп’ютерне моделювання нанооб”єктів. Оптичні та електричні властивості нанокомпозитів.",
+  "Courses": [
+    {
+      "Title": "Internet of Things (122 КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/internet-of-things-122-kn/"
+    },
+    {
+      "Title": "Апаратне забезпечення вбудованих систем (Інженерія програмного забезпечення)",
+      "Url": "https://electronics.lnu.edu.ua/course/aparatne-zabezpechennia-vbudovanykh-system-inzheneriia-prohramnoho-zabezpechennia/"
+    },
+    {
+      "Title": "Графічне програмування в Labview (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/grafichne-programuvannia-kn/"
+    },
+    {
+      "Title": "Електротехніка та електроніка (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/elektrotehnika-i-elektronika/"
+    },
+    {
+      "Title": "Концепції побудови ІоТ рішень (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/kontseptsii-pobudovy-iot-rishen/"
+    },
+    {
+      "Title": "Платформи Інтернету речей (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/platformy-internetu-rechey-126-informatsiyni-systemy-ta-tekhnolohii/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Програмування у середовищі LabVIEW.</p>\n<p>Автоматизація експерименту.</p>\n<p>Проектування вбудованих систем.</p>\n<p>Комп’ютерне моделювання нанооб”єктів.</p>\n<p>Оптичні та електричні властивості нанокомпозитів.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/internet-of-things-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Internet of Things (122 КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/aparatne-zabezpechennia-vbudovanykh-system-inzheneriia-prohramnoho-zabezpechennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Апаратне забезпечення вбудованих систем (Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/grafichne-programuvannia-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Графічне програмування в Labview  (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/elektrotehnika-i-elektronika/\" target=\"_blank\" rel=\"noopener noreferrer\">Електротехніка та електроніка (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kontseptsii-pobudovy-iot-rishen/\" target=\"_blank\" rel=\"noopener noreferrer\">Концепції побудови ІоТ рішень (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/platformy-internetu-rechey-126-informatsiyni-systemy-ta-tekhnolohii/\" target=\"_blank\" rel=\"noopener noreferrer\">Платформи Інтернету речей (126 Інформаційні системи та технології)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>LabVIEW-Based Automated Setup for Interferometric Refractive Index Probing / N. Andrushchak, <strong>I. </strong><strong>Karbovnyk</strong><strong>&nbsp;</strong>// SLAS Technology. – 2020. <a href=\"https://doi.org/10.1177/2472630319891133\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1177/2472630319891133</a><u>&nbsp;</u></li>\n<li>Impedance analysis of PEDOT:PSS/CNT composites below percolation threshold /<strong>I. </strong><strong>Karbovnyk</strong>, H. Klym, D. Chalyy, I. Zhydenko, D. Lukashevych // Applied Nanoscience. – 2021.&nbsp;<a href=\"https://doi.org/10.1007/s13204-021-01810-x\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/s13204-021-01810-x</a></li>\n<li>Computer and experimental study of field-inducedconductivity modulation in liquid crystal–carbon nanotubes system / Yu. I. Olenych, I.B. Olenych, Yu.Yu. Horbenko, O.I. Aksimentyeva, <strong>I.</strong> <strong>D. </strong><strong>Karbovnyk</strong>, B.R. Tsizh // Molecular Crystals and Liquid Crystals. – 2022.&nbsp;<a href=\"https://doi.org/10.1080/15421406.2022.2073532\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1080/15421406.2022.2073532</a></li>\n<li>Позиціонування в приміщенні з використанням Bluetooth Low Energy / Т.-Н. Калинчук, <strong>І.</strong><strong> Карбовник</strong> // Електроніка та інформаційні технології. – 2023. – Т. 24. – С. 13-22.&nbsp;<a href=\"https://dx.doi.org/10.30970/eli.24.2\" target=\"_blank\" rel=\"noopener noreferrer\">https://dx.doi.org/10.30970/eli.24.2</a></li>\n<li>Платформа комп’ютеризованого вібраційного моніторингу для вбудованих у колесо електродвигунів / <strong>І.</strong> <strong>Карбовник</strong>, І. Яворський, І. Мацько, В. Шевчик // Електроніка та інформаційні технології. – 2024. – Т. 26. – С. 25-32.&nbsp;<u><a href=\"https://dx.doi.org/10.30970/eli.26.3\" target=\"_blank\" rel=\"noopener noreferrer\">https://dx.doi.org/10.30970/eli.26.3</a>&nbsp;</u></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Карбовник Іван Дмитрович вступив на фізичний факультет Львівського державного університету імені Івана Франка у 1995 році та отримав диплом з відзнакою після успішного закінчення університету у 2000 році. З 2000 по 2003 роки навчався в аспірантурі Львівського національного університету імені Івана Франка при кафедрі радіофізики факультету електроніки. Після закінчення аспірантури Карбовник І.Д. був обраний за конкурсом на посаду асистента кафедри радіофізики, а з 2011 року працює доцентом цієї кафедри. У 2012 році отримав атестат доцента кафедри радіофізики та комп’ютерних технологій.</p>\n<p>Працюючи на викладацькій посаді Карбовник І.Д. активно займався дослідженнями матеріалів мікроелектроніки та у 2007 році захистив кандидатську дисертаційну роботу «Електронні та іонні процеси у твердих електролітах Ag<sub>2</sub>HgI<sub>4</sub> та Ag<sub>2</sub>CdI<sub>4</sub>» (науковий керівник – професор Болеста І.М.).</p>\n<p>Cпівпрацює з закордонними науковими установами, у тому числі Варшавським інститутом високих тисків Польської академії наук та Італійським національним інститутом ядерної фізики. У 2007-2008 роках керує виконаням проекту міжнародного фонду INTAS на тему «Електронні та фононні спектри металічних кластерів у шаруватих кристалах CdI<sub>2</sub> та у наноструктурованих суперіонних сполуках у системі AgI-CdI<sub>2</sub>».</p>\n<p>У 2014 році Карбовник І.Д. перемагає в українсько-американській програмі спільних наукових проектів Фонду цивільних досліджень та розвитку США (ФЦДР) з проектом «Дослідження та застосування функціональних технологічних наноматеріалів для оцінки забруднення та захисту навколишнього середовища» (SAFENANOTEC) та отримує річний грант на проведення досліджень спільно з колегами із США (Wheaton College, Массачусетс). Ці дослідження стосуються використання багатофункціональних властивостей наноструктурованих матеріалів для виявлення впливу шкідливих елементів на навколишнє середовище та аналіз можливостей ідентифікації та нейтралізації шкідливих випромінювань з використанням передових нанотехнологій. Основні результати досліджень за грантом опубліковані у фахових виданнях (Journal of Nanophotonics, 2014, Nanoscale Research Letters, 2015).</p>\n<p>У 2019 р. захистив дисертацію “Механізми формування нанофаз та електронні процеси в шаруватих кристалічних і гібридних функціональних матеріалах” на здобуття наукового ступеня доктора фізико-математичних наук за спеціальністю 01.04.10 – фізика напівпровідників і діелектриків.</p>\n<p>З липня 2022 року очолює кафедру радіофізики та комп’ютерних технологій.</p>\n<p>У доробку Карбовника І.Д. понад 200 наукових праць, у тому числі – понад 50 статей у фахових міжнародних рецензованих журналах. H-index за даними Scopus становить 16 (станом на вересень 2022 року).</p>\n<p>Понад 10 років Карбовник І.Д. є головою Клубу інтелектуального дозвілля при факультеті електроніки та комп’ютерних технологій, організатором змагань студентської ліги&nbsp; «Що? Де? Коли?» та шахових турнірів для студентів та працівників.</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<ol>\n<li>Інтелектуальний аналіз даних: методичні вказівки до виконання лабораторних робіт / укл.: І.Д. Карбовник, З.М. Любунь, В.Г. Рабик – Львів: Видавн. центр Львів. нац. універ. ім. І. Франка, 2015. – 70 с.</li>\n<li>Вельгош С.Р., Карбовник І.Д, Ковальчук М.Г. Організація і програми практик. Методичні рекомендації для студентів спеціальності “Радіофізика і електроніка”. – Львів: Видавничий центр ЛНУ імені Івана Франка, 2006. – 28 с.</li>\n<li>Вельгош С.Р., Карбовник І.Д, Ковальчук М.Г.Футей О.В. Виконання та оформлення курсових, дипломних і магістерських робіт : методичні рекомендації [для студентів факультету електроніки]. – Львів: Видавничий центр ЛНУ імені Івана Франка, 2012. – 77 с.</li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16504&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16504&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

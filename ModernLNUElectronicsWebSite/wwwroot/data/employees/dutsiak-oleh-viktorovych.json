@@ -1,0 +1,28 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dutsiak-oleh-viktorovych/",
+  "Slug": "dutsiak-oleh-viktorovych",
+  "FullName": "Дуцяк Олег Вікторович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/photo_2023-11-03_10-12-33-125x150.jpg",
+  "PositionText": "аспірант кафедри системного проектування, асистент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Email": "oleh.dutsiak@lnu.edu.ua",
+  "Profiles": {
+    "ORCID": "https://orcid.org/0009-0009-5465-5102"
+  },
+  "ResearchInterests": "Хмарні технології Розробка веб-додатків з використанням мікросервісних архітектур Мікропроцесорна техніка Безпілотні літальні апарати",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Хмарні технології</li>\n<li>Розробка веб-додатків з використанням мікросервісних архітектур</li>\n<li>Мікропроцесорна техніка</li>\n<li>Безпілотні літальні апарати</li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Народився в с. Гребінці Жовківського району Львівської області. Навчався у Гребінцівській ЗОШ I-II ступенів. У 2012-2014 роках навчався у Львівському фізико-математичному ліцеї при ЛНУ ім. Івана Франка. У 2014 році вступив на факультет електроніки та комп’ютерних технологій ЛНУ ім. Івана Франка, де навчався за напрямом “Комп’ютерні науки”. У 2018 році отримав диплом бакалавра за цим напрямом. У 2019 році отримав диплом магістра (спеціальність “Комп’ютерні науки”, освітня програма “Інформаційні технології проектування”). У 2023 році вступв до аспірантури ЛНУ ім. Івана Франка, на даний момент є аспірантом кафедри системного проектування.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31876&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31876&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

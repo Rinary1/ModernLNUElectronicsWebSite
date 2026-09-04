@@ -1,0 +1,29 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/korostenskyy-roman-olehovych/",
+  "Slug": "korostenskyy-roman-olehovych",
+  "FullName": "Коростенський Роман Олегович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/foto-125x150.jpeg",
+  "PositionText": "асистент кафедри радіоелектронних і комп’ютерних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/",
+  "Email": "Roman.Korostenskyi@lnu.edu.ua",
+  "Profiles": {
+    "ORCID": "https://orcid.org/0009-0007-8848-8694",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/LOU-0163-2024"
+  },
+  "ResearchInterests": "Вбудовані системи, інтернет речей (IoT), мобільна розробка.",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Вбудовані системи, інтернет речей (IoT), мобільна розробка.</p>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Коростенський Р.О., Павлик М. Р., Оленич І. Б. ІНТЕЛЕКТУАЛЬНА СИСТЕМА ДОГЛЯДУ ЗА РОСЛИНАМИ. ЕВРИКА-2024 : тези доповідей. м. Львів, 14-16 травня 2024 р. / Львівський національний університет ім. І. Я. Франка, фізичний ф-т Львів, 2024. С. 118. <a href=\"https://physics.lnu.edu.ua/conferences/heureka2024/files/Heureka2024.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">https://physics.lnu.edu.ua/conferences/heureka2024/files/Heureka2024.pdf</a></li>\n<li> Roman Korostenskyi, Igor Olenych. Using Kotlin multiplatform technology for creating cross-platform mobile applications ЕВРИКА-2023 : тези доповідей. м. Львів, 16-18 травня 2023 р. / Львівський національний університет ім. І. Я. Франка, фізичний ф-т Львів, 2023. С. 111. <a href=\"https://physics.lnu.edu.ua/conferences/heureka2023/files/Heureka2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">https://physics.lnu.edu.ua/conferences/heureka2023/files/Heureka2023.pdf</a></li>\n<li> Igor Olenych, Roman Korostenskyi. АНАЛІЗ ЕФЕКТИВНОСТІ ВИКОРИСТАННЯ ТЕХНОЛОГІЇ KOTLIN MULTIPLATFORM MOBILE ДЛЯ СТВОРЕННЯ КРОСПЛАТФОРМНИХ ДОДАТКІВ // Електроніка та інформаційні технології / Electronics and information technologies; 26.04.2023 <a href=\"http://dx.doi.org/10.30970/eli.21.3\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.30970/eli.21.3</a></li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=37291&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=37291&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/levush-pavlo-nazarovych/",
+  "Slug": "levush-pavlo-nazarovych",
+  "FullName": "Левуш Павло Назарович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Levush-125x150.jpg",
+  "PositionText": "асистент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "Email": "Pavlo.Levush@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "мікропроцесори, робототехніка",
+  "Courses": [
+    {
+      "Title": "Алгоритми і структури даних (ІПЗ ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia/"
+    },
+    {
+      "Title": "Об'єктно-орієнтоване програмування (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-kn/"
+    },
+    {
+      "Title": "Об'єктно-орієнтоване програмування (ІПЗ, ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-ipz/"
+    },
+    {
+      "Title": "Технології створення програмних продуктів (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/tekhnolohii-stvorennia-prohramnykh-produktiv-kn/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>мікропроцесори,</li>\n<li>робототехніка</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритми і структури даних (ІПЗ ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Об'єктно-орієнтоване програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Об'єктно-орієнтоване програмування (ІПЗ, ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnolohii-stvorennia-prohramnykh-produktiv-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології створення програмних  продуктів (КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження :</strong> 12 липня 1999<br>\n<b> Освіта:</b> вища, 2016-2021, Львівський національний університет імені Івана Франка факультет<br>\nелектроніки та комп’ютерних технологій спеціальність – 122 Комп’ютерні науки.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=26999&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=26999&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

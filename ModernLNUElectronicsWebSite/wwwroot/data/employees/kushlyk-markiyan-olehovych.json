@@ -1,0 +1,73 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kushlyk-markiyan-olehovych/",
+  "Slug": "kushlyk-markiyan-olehovych",
+  "FullName": "Кушлик Маркіян Олегович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/20250204_214418-125x150.jpg",
+  "PositionText": "доцент кафедри сенсорної та напівпровідникової електроніки, старший науковий співробітник Науково-дослідної лабораторії НДЛ-20 сенсорики:",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Phone": "(032) 239-43-71",
+  "Email": "markiyan.kushlyk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=KYdqRxQAAAAJ&hl=uk",
+    "ORCID": "https://orcid.org/0000-0002-5311-0604",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=55345605300"
+  },
+  "ResearchInterests": "Методи підвищення інтенсивності дислокаційної люмінесценції в кристалах кремнію р-типу. Покращення ефективності випромінювальних структур кремнію р-типу та фотолюмінофорів методами плазмонного резонансу в металічних наночастинках.",
+  "Courses": [
+    {
+      "Title": "3Д моделювання компонентів електронних пристроїв",
+      "Url": "https://electronics.lnu.edu.ua/course/3d-modeliuvannia-komponentiv-elektronnykh-prystroiv/"
+    },
+    {
+      "Title": "Електромеханічні системи автоматизації",
+      "Url": "https://electronics.lnu.edu.ua/course/elektromekhanichni-systemy-avtomatyzatsii/"
+    },
+    {
+      "Title": "Комп'ютерне проектування елементів цифрової електротехніки",
+      "Url": "https://electronics.lnu.edu.ua/course/komp-iuterne-proektuvannia-elementiv-tsyfrovoi-elektrotekhniky/"
+    },
+    {
+      "Title": "Тестування електронних систем (171 Електроніка та комп'ютерні системи)",
+      "Url": "https://electronics.lnu.edu.ua/course/testuvannia-system-171-elektronika-ta-komp-iuterni-systemy/"
+    },
+    {
+      "Title": "Електротехніка(176)",
+      "Url": "https://electronics.lnu.edu.ua/course/teoriya-elektrychnyh-ta-elektronnyh-kil/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Методи підвищення інтенсивності дислокаційної люмінесценції в кристалах кремнію р-типу.</p>\n<p>Покращення ефективності випромінювальних структур кремнію р-типу та фотолюмінофорів методами плазмонного резонансу в металічних наночастинках.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/3d-modeliuvannia-komponentiv-elektronnykh-prystroiv/\" target=\"_blank\" rel=\"noopener noreferrer\">3Д моделювання компонентів електронних пристроїв</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/elektromekhanichni-systemy-avtomatyzatsii/\" target=\"_blank\" rel=\"noopener noreferrer\">Електромеханічні системи автоматизації</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/komp-iuterne-proektuvannia-elementiv-tsyfrovoi-elektrotekhniky/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп'ютерне проектування елементів цифрової електротехніки</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/testuvannia-system-171-elektronika-ta-komp-iuterni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Тестування електронних систем (171 Електроніка та комп'ютерні системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-elektrychnyh-ta-elektronnyh-kil/\" target=\"_blank\" rel=\"noopener noreferrer\">Електротехніка(176)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Вибрані публікації",
+      "Html": "<ul>\n<li>Р.І. Дідик, Й.А. Шикоряк, М.О. Кушлик Візуалізація результатів взаємодії точкових дефектів з поверхнею кристалів p-Si // Фізика і хімія твердого тіла – 2010. – Т.11, №3. – С.675-679.</li>\n<li>Б. Павлик, М. Кушлик, Р. Дідик та ін. Електрофізичні характеристики приповерхневих шарів кристалів Si p-типу з напиленими плівками Al, підданих пружній деформації// Електроніка та інформаційні технології. – 2011. – вип.2. – С.57-64.</li>\n<li>Б. Павлик, М. Кушлик, Р. Дідик та ін. Дослідження приповерхневих шарів кристалів p-Si, з напиленими плівками металів, підданих пружній деформації // Український фізичний журнал. – 2013р. – том.58. – №3. – С. 215-221</li>\n<li>Б.В. Павлик, М.О. Кушлик, Д.П. Слободзян Про природу центрів електролюмінесценції в пластично деформованих кристалах кремнію p-типу // Журнал нано- та електронної фізики. – 2015. – Т.7. – №3. – 03043-1-03041-5</li>\n<li>Д.П. Слободзян, Б.В. Павлик, М.О. Кушлик Особливості впливу X-випромінювання та магнітного поля на електрофізичні характеристики бар’єрних структур на основі дислокаційного p-Si, призначеного для сонячної енергетики // Журнал нано- та електронної фізики. – 2015. – Т.7. – №4. – 04051-1 – 04051-5</li>\n<li>B. Pavlyk, M. Kushlyk, D. Slobodzyan Origin of dislocation luminescence centers and their reorganization in p-type silicon crystal subjected to plastic deformation and high temperature annealing // Nanoscale Research Letters. – 2017. – V.12. – p.358</li>\n<li>Б. В. Павлик, М. О. Кушлик, Д. П. Слободзян, Р. М. Лис Перебудова дефектної структури та центрiв дислокацiйної люмiнесценцiї у приповерхневих шарах p-Si // Журнал Фізичних Досліджень. – 2017. – Т.21, № 1/2. – С. 1601-1608</li>\n<li>D. P. Slobodzyan, M. O. Kushlyk, B. V. Pavlyk Electroluminescence energy efficiency of Si-structures with different compound of nanoscale dislocation complexes // Applied Nanoscience. – 2018</li>\n<li>B. Pavlyk, M. Kushlyk, D. Slobodzyan, I. Matviishyn, R. Lys, M.Jałbrzykowski Radiation-stimulated changes in the characteristics of surface-barrier Al–Si–Bi structures with different concentrations of dislocations at the crystal surface // Acta mechanica et automatica. – 2018. – V.12, No.1. – pp.72-77</li>\n<li>M. Kushlyk, V. Tsiumra, Y. Zhydachevskyy, et al. Enhancement of the YAG: Ce, Yb down-conversion emission by plasmon resonance in Ag nanoparticles // Journal of Alloys and Compounds. – 2019. – V. 804. – pp. 202. https://doi.org/10.1007/s13204-020-01300-6</li>\n<li>B.V. Pavlyk, D.P. Slobodzyan, R.M. Lys, M.O. Kushlyk, R.I. Didyk, J.A. Shykorjak. Magnetically stimulated changes in the electrophysical properties of the near-surface silicon layer // Journal of Physical Studies – 2020. – Vol. 24, No. 3. – P. 3702-1-3702-5. https://doi.org/10.1007/s13204-020-01300-6</li>\n<li>D. Slobodzyan, M. Kushlyk, R. Lys, et al. Radiative and magnetically stimulated evolution of nanostructured complexes in silicon surface layers // Materials. – 2022. – V.15(12). – p.4052.https://doi.org/10.3390/ma15124052</li>\n<li>M. Kushlyk, V. Tsiumra, Ya. Zhydachevskyy, et al. Preparation and properties of Ag plasmonic structures on garnet substrates // Applied Nanoscience. – 2022. Vol. 12, №3. – P. 317 – 334 https://doi.org/10.1007/s13204-020-01624-3</li>\n<li>A. Luchechko, V. Vasyltsiv, M. Kushlyk, et al. Structural and luminescence characterization of β-Ga2O3 nanopowders obtained via high-energy ball milling // Applied Nanosci. – 2023. – Vol. 13, № 7. – P. 5149-5155. https://doi.org/10.1007/s13204-022-02717-x</li>\n<li>A. Luchechko, V. Vasyltsiv, M. Kushlyk, et al. Effect of sintering atmosphere on structural, luminescence and electrical properties of β-Ga2O3 ceramics // Applied Nanosci. – V.13. – 2023. – p.7327–7334. https://doi.org/10.1007/s13204-023-02911-5</li>\n<li>M. Kushlyk, A. Luchechko, V. Vasyltsiv, et al. UV–Vis luminescence in β-Ga2O3: Eu nanopowders obtained by mechano-chemical synthesis // Applied Nanosci. – V.13. – 2023. – p.7115–7124. https://doi.org/10.1007/s13204-023-02880-9</li>\n<li>A. Luchechko, V. Vasyltsiv, M. Kushlyk, et al. Crystal structure, luminescence and electrical conductivity of pure and Mg2+-doped β-Ga2O3-In2O3 solid solutions synthesized in oxygen or argon atmospheres // Materials. – 2024. – V.17, I.6. – 1391 (1-13) – https://doi.org/10.3390/ma17061391.</li>\n<li>A. Luchechko, V. Vasyltsiv, M. Kushlyk, et al. Electrical conductivity, luminescence, and deep acceptor levels in β-Ga2O3-In2O3 polycrystalline solid solution doped with Zr4+ or Ca2+ ions // Journal of Vacuum Science and Technology A. – 2024. – V. 42, I. 3. – P. 033202 (1-9) – https://doi.org/10.1116/6.0003466.</li>\n<li>M. Kushlyk, Y. Shpotyuk, V. Tsiumra, et al. Coupling mechanisms of plasmon resonance and Bi3+ emission in YAG: Bi, Ce, Yb epitaxial films at low temperatures // Scientific Reports. – 2025. – Vol.15. – p.1477. – https://doi.org/10.1038/s41598-025-85843-0</li>\n<li>Б.В. Павлик, М.О. Кушлик, Р.І. Дідик та ін. Спосіб отримання світловипромінювального елемента // Патент на корисну модель, 129373 Україна, МПК H01L 33/00, G02B 26/00, № u201805232; заявник і власник ЛНУ ім.І.Фрака; заявл. 11.05.2018; опубл. 25.10.2018, Бюл.№20</li>\n<li>Б.В. Павлик, М.О. Кушлик, Й.А. Шикоряк та ін. Предметний столик мікроскопа // Патент на корисну модель, 151711 Україна, МПК G02B 21/26 (2006.01), G02B 21/32 (2006.01). заявник і власник ЛНУ ім.І.Фрака; заявл. 14.04.2022; опубл. 31.08.2022, Бюл.№35</li>\n<li>М.О. Кушлик, Й.А. Шикоряк, Н.Р. Гризоглазов та ін. Пристрій для нанесення покриття // Патент на корисну модель, 155726 Україна, МПК B05C 21/00 (2024.01), B05C 5/00 (2024.01). заявник і власник ЛНУ ім.І.Франка; заявл. 20.06.2023; опубл. 03.04.2024, Бюл.№14</li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>У 2011 році закінчив факультет електроніки Львівського національного університету імені Івана Франка та здобув кваліфікацію магістр електроніки за спеціальністю «Фізична та біомедична електроніка».<br>\nВ період з листопада 2011 по жовтень 2014 року аспірант кафедри електроніки ЛНУ імені Івана Франка. З листопада 2014 зарахований на посаду молодшого наукового співробітника кафедри електроніки. З січня 2017 по серпень 2019 року працював на посаді наукового співробітника кафедри сенсорної та напівпровідникової електроніки. У вересні 2019 р. перейшов на посаду асистента кафедри сенсорної та напівпровідникової електроніки, а з 2022 року зарахований по конкурсу на посаду доцента кафедри сенсорної та напівпровідникової електроніки.<br>\nТематика наукових досліджень пов’язана із дослідженням процесів фото- та електролюмінесценції у матеріалах електронної техніки.<br>\nУ 2016 році захистив кандидатську дисертацію “Деформаційні процеси та дислокаційна електролюмінесценція в приповерхневих шарах кристалів p-Si” (кандидат фізико-математичних наук за спеціальністю 01.04.10 – фізика напівпровідників і діелектриків)<br>\nСпівавтор та виконавець 6 науково-дослідних проєктів, що фінансуються МОН України.<br>\nУ 2017-2019 році виконував грант Польського національного наукового центру (проект № 2015/17/B/ST5/01658) в Інституті Фізики ПАН (Варшава, Польща), на тему “Solar spectrum modification via down-conversion based on ytterbium-doped oxides for photovoltaic applications”.<br>\nУ період 2020-2022 роках стипендіат програми Кабінету Міністрів України для молодих вчених.<br>\nУ 2020-2022 рр був керівником держбюджетної теми для молодих науковців СЕ-02Нр: “Модифікація оптичних властивостей кремнієвих структур та РЗМ-вмісних матеріалів на основі оксидів і халькогенідів методами плазмонного резонансу” (номер держреєстрації 0120U101332).<br>\nЗ вересня 2021 по червень 2022 виконував індивідуальний дослідницький проєкт в Інституті геотехніки САН (Кошице, Словаччина) на тему: «Синтез прозорих полімерних плівок із вбудованими нанопорошками на основі плазмо-модифікованих люмінофорів для фотоелектричних застосувань», в рамках стипендіальної програми міжнародного Вишеградського фонду.<br>\nЗ 2023 року відповідальний виконавець держбюджетної теми для молодих науковців СЕ-40Нр: “Нові ефективні тонкоплівкові матеріали на основі плазмонно модифікованих люмінофорів для фотовольтаїчних застосувань” (номер держреєстрації 0123U100655).</p>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<ul>\n<li>СЕ-76Ф “Фізичні процеси у матеріалах сенсорики на основі оксидів та халькогенідів, активованих рідкісно-земельними елементами”</li>\n<li>СЕ-65Нр “Модифікація сенсорних властивостей кремнієвих структур та РЗМ-вмісних матеріалів на основі оксидів і халькогенідів”</li>\n<li>СЕ-23Ф “Фізичні процеси в ультраширокозонних оксидних матеріалах для енергозберігаючих технологій”</li>\n<li>СЕ-02Нр: “Модифікація оптичних властивостей кремнієвих структур та РЗМ-вмісних матеріалів на основі оксидів і халькогенідів методами плазмонного резонансу”</li>\n<li>СЕ-40Нр: “Нові ефективні тонкоплівкові матеріали на основі плазмонно модифікованих люмінофорів для фотовольтаїчних застосувань”</li>\n<li>СЕ-15E: “Оптико-люмінесцентні властивості нанокомпозитів на основі оксидних та халькогенідних сполук для новітніх фотонних застосувань”</li>\n</ul>"
+    },
+    {
+      "Title": "Нагороди",
+      "Html": "<p>Лауреат обласної премії молодим науковцям і спеціалістам Львівської Обласної Ради та Львівської Обласної Державної Адміністрації<br>\nУ 2020-2022 роках стипендіат Кабінету Міністрів України для молодих вчених.</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<ol>\n<li>М.О. Кушлик, І.М. Матвіїшин, Д.П. Слободзян. Методичні рекомендації до лабораторного практикуму з курсу «Теорія електричних та електронних кіл» Частина 1. – Львів. Видавничий центр ЛНУ імені Івана Франка, 2020. – 49 стор.</li>\n<li>М.О. Кушлик, І.М. Матвіїшин, Д.П. Слободзян. Методичні рекомендації до лабораторного практикуму з курсу «Теорія електричних та електронних кіл» Частина 2. – Львів. Видавничий центр ЛНУ імені Івана Франка, 2020. – 28 стор.</li>\n<li>М.О. Кушлик, Д.П. Слободзян. Методичні рекомендації до лабораторного практикуму з курсу «Автоматизація експерименту. » Частина 1. – Львів. Видавничий центр ЛНУ імені Івана Франка, 2021. – 50 стор.</li>\n<li>М.О. Кушлик, Д.П. Слободзян. Методичні рекомендації до лабораторного практикуму з курсу «Автоматизація експерименту. » Частина 2. – Львів. Видавничий центр ЛНУ імені Івана Франка, 2021. – 52 стор.</li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16753&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16753&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

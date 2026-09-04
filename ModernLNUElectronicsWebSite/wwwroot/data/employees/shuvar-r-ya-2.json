@@ -1,0 +1,67 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shuvar-r-ya-2/",
+  "Slug": "shuvar-r-ya-2",
+  "FullName": "Шувар Роман Ярославович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/shuvar-125x150.jpg",
+  "PositionText": "завідувач кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "AcademicTitle": "доцент",
+  "Phone": "(032) 239 46 77",
+  "Email": "roman.shuvar@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=ZpUf108AAAAJ",
+    "ORCID": "https://orcid.org/0000-0001-6768-4695",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=8521299500",
+    "Web of Science": "http://www.researcherid.com/rid/F-6915-2019"
+  },
+  "ResearchInterests": "Високопродуктивний комп’ютинг. Наука про дані. Машинне навчання. Технології штучного інтелекту.",
+  "Courses": [
+    {
+      "Title": "Основи паралельного програмування (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist/"
+    },
+    {
+      "Title": "Паралельні та розподілені обчислення",
+      "Url": "https://electronics.lnu.edu.ua/course/paralelne-prohramuvannia-ipz/"
+    },
+    {
+      "Title": "Паралельні та розподілені обчислення (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/paralelni-ta-rozpodileni-obchyslennia/"
+    },
+    {
+      "Title": "Технології аналізу даних / Technologies of Data Analysis (122 КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/tekhnolohii-analizu-danykh-technologies-of-data-analysis-122-kn/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Високопродуктивний комп’ютинг.<br>\nНаука про дані.<br>\nМашинне навчання.<br>\nТехнології штучного інтелекту.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи паралельного програмування (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paralelne-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Паралельні та розподілені обчислення</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paralelni-ta-rozpodileni-obchyslennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Паралельні та розподілені обчислення (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnolohii-analizu-danykh-technologies-of-data-analysis-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології аналізу даних / Technologies of Data Analysis (122 КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<p>Автор та співавтор понад 50 статей.<br>\n</p>\n<ol>\n<li>\n<p>Mysiuk I. Automating Web Scraping of User Comments for Sentiment Analysis in Social Networks / I. Mysiuk and R. Shuvar // 2023 IEEE 13th International Conference on Electronics and Information Technologies (ELIT) – Lviv, Ukraine, 2023 – P. 77–81. doi: 10.1109/ELIT61488.2023.10310867.</p>\n</li>\n<li>\n<p>Mysiuk I. “Category Classification of Content from Instagram Business Pages / I. Mysiuk, R. Mysiuk, R. Shuvar, V. Yuzevych, V. Hudyma and Y. Vizniak // 2023 13th International Conference on Advanced Computer Information Technologies (ACIT) – Wrocław, Poland. – 2023. – P. 570-573, doi: 10.1109/ACIT58437.2023.10275458.</p>\n</li>\n<li>\n<p>Mysiuk I. Detection of unnatural user behavior in social networks using machine learning technologies / I. Mysiuk, R. Shuvar // Electronics and information technologies – 2023 – Issue 22. – P. 46–56. DOI:<u><a href=\"http://dx.doi.org/10.30970/eli.22.5\" target=\"_blank\" rel=\"noopener noreferrer\">10.30970/eli.22.5</a></u></p>\n</li>\n<li>\n<p>Mysiuk I. Collecting and analyzing news from newspaper posts in Facebook using machine learning / Mysiuk I., Mysiuk R., Shuvar R. // Artificial Intelligence – 2023 – Vol.28(1) – P. 147-154/ DOI:<u><a href=\"https://doi.org/10.15407/jai2023.01.147\" target=\"_blank\" rel=\"noopener noreferrer\">10.15407/jai2023.01.147</a></u></p>\n</li>\n<li>\n<p> M. Lyashkevych, V. Lyashkevych and R. Shuvar, “Risks’ Attribute Values Evaluation in Software Engineering by Monte Carlo Simulation,”&nbsp;<em>2023 IEEE 13th International Conference on Electronics and Information Technologies (ELIT)</em>, Lviv, Ukraine, 2023, pp. 137-141, DOI: 10.1109/ELIT61488.2023.</p>\n</li>\n<li>\n<p>M. Lyashkevych. Content management system with markup ontology / M. Lyashkevych, V. Lyashkevych, R. Shuvar // Science, Software Engineering and Cyber Security. – Issue 1. – 2022. – P. 58-64. – DOI: <a href=\"https://doi.org/10.32782/it/2023-1-9\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.32782/it/2023-1-9</a></p>\n</li>\n<li>\n<p>Lyashkevych M. Get a list of feature extractors based on feature importance techniques /M. Lyashkevych, V. Lyashkevych, R. Shuvar // Electronics and information technologies. 2022. Issue 20. P. 51–61. – DOI: <a href=\"https://doi.org/10.30970/eli.20.6\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.20.6</a></p>\n</li>\n<li>\n<p>Mysiuk I. , Mysiuk  R., Shuvar R., Yuzevych V. Methods of analytics of big data of popular electronic newspapers on facebook// Electronics and information technologies. – 2022. – Vol. 19. – P. 66–74 DOI:<u><a href=\"http://dx.doi.org/10.30970/eli.19.6\" target=\"_blank\" rel=\"noopener noreferrer\">10.30970/eli.19.6</a></u></p>\n</li>\n<li>\n<p>P. Kulyk, I. Shcherbak, O. Kaskun, R. Shuvar, Effective mind mapping and its implementation using NoSQL database technologies, ISSN 2224-087X. Електроніка та інформаційні технології. 2021. Випуск 15. С. 3–15 Electronics and information technologies. 2021. Issue 15. P. 3–15 DOI: <u>https://doi.org/10.30970/eli.15.1</u></p>\n</li>\n<li>\n<p>Шувар Р.Я. Інформаційні технології та загрози у кіберфізичних системах для відображення інформації у підземних металоконструкціях з дефектами / А.М. Продивус, В.М. Юзевич, І.В. Огірко, О.І. Огірко, Р.Т. Ковтко, Р.В. Мисюк // Artificial intelligence 2021 №1 (91), 2021, Kyiv, Ukraine, c.85–94. DOI:<u><a href=\"http://dx.doi.org/10.15407/jai2021.01.085\" target=\"_blank\" rel=\"noopener noreferrer\">10.15407/jai2021.01.085</a></u></p>\n</li>\n<li>\n<p>Parubochyi V. O. Performance Evaluation of Self-Quotient Image Methods / V. O. Parubochyi, R. Y. Shuvar // Ukrainian Journal of Information Technologies, 2020. – Volume 2. – Number 1. P. 8–14. DOI: <a href=\"https://doi.org/10.23939/ujit2020.02.008\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.23939/ujit2020.02.008</a></p>\n</li>\n<li>\n<p>Kaskun O. Face emotion recognition with convolutional neural network / O. Kaskun, R. Shuvar, A. Prodyvus // Electronics and information technologies. – 2020. – Issue 13. – P. 38–49. DOI: https://doi.org/10.30970/eli.13.4</p>\n</li>\n<li>\n<p>Kushnir V. In game map generation using random pattern generation/ V. Kushnir, B. Koman, R. Shuwar // Electronics and information technologies. – 2020. – Issue 13. – P. 77 – 87. DOI: <a href=\"https://doi.org/10.30970/eli.13.1\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.13.1</a></p>\n</li>\n<li>\n<p>V.O. Parubochyi, R. Y. Shuvar. Normalization Modifications for Fast Self-Quotient Image Method // 2019 XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT), IEEE Ukraine Section; Proceedings. September 16-18 2019, Lviv, Ukraine,- P. 179-182. DOI:<a href=\"https://doi.org/10.1080/13682199.2018.1517857\" target=\"_blank\" rel=\"noopener noreferrer\"> https://doi.org/10.1080/13682199.2018.1517857</a></p>\n</li>\n<li>\n<p>V. O. Parubochyi, R. Y. Shuwar. Fast self-quotient image method for lighting normalization based on modified Gaussian filter kernel // The Imaging Science Journal. – 2018. – 66(8). – P. 471-478. DOI: <a href=\"https://doi.org/10.1080/13682199.2018.1517857\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1080/13682199.2018.1517857</a></p>\n</li>\n<li>\n<p>V. O. Parubochyi, R. Y. Shuwar, D. M. Afanassyev. Spectrum transformation of the restored signal with regular and irregular sampling // Electronics and information technologies. – 2018. – Issue 9. – P. 78-85. DOI: 8<a href=\"https://www.researchgate.net/deref/http%3A%2F%2Fdx.doi.org%2F10.30970%2Feli.9.78\" target=\"_blank\" rel=\"noopener noreferrer\">.30970/eli.9.78</a></p>\n</li>\n<li>\n<p>O.V. Vashchuk, R. Y. Shuwar. Pros and cons of consensus algorithm proof of stake. Difference in the network safety in proof of work and proof of stake // Electronics and information technologies. – 2018. – Issue 9. – P. 106-112. DOI: <a href=\"https://www.researchgate.net/deref/http%3A%2F%2Fdx.doi.org%2F10.30970%2Feli.9.106\" target=\"_blank\" rel=\"noopener noreferrer\">10.30970/eli.9.106</a></p>\n</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>1982 р. – закінчив Львівський державний університет імені Івана Франка з відзнакою</p>\n<p>У Львівському національному університеті працює з 1982 року</p>\n<p>1985-1988 рр – навчання в аспірантурі</p>\n<p>1989 р. – кандидат фіз.-мат. наук</p>\n<p>1988 – 1994 рр. – асистент</p>\n<p>1994 – по даний час – доцент</p>\n<p>2016 – 2018 рр. – в.о. завідувача кафедри системного проектування факультету електроніки та комп’ютерних технологій</p>\n<p>2018 – по даний час – завідувач кафедри системного проектування факультету електроніки та комп’ютерних технологій</p>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<p>Науковий керівник теми у межах робочого часу викладачів. Номер держреєстрації: 0122U200688. “Системний аналіз даних засобами штучного інтелекту та машинного навчання”.  2022 — 2024 рр.</p>\n<p>Науковий керівник госпдоговірної теми. Номер держреєстрації: 0121U114372/ “Дослідницько-освітній хаб технологій штучного інтелекту “AIT Research &amp; Learning HUB””. 2021 р.</p>\n<p>Науковий керівник теми у межах робочого часу викладачів. Номер держреєстрації: 0119U002409. “Аналіз даних засобами машинного навчання”. 2019 – 2021 рр.</p>\n<p>Науковий керівник теми у межах робочого часу викладачів. Номер держреєстрації: 0116U001683. “Паралельні алгоритми виділення інформативних елементів растрових зображень”. 2016 – 2018 рр.</p>\n<p>Науковий керівник теми у межах робочого часу викладачів. Номер держреєстрації: 0111U005535. “Алгоритми опрацювання даних дистанційного зондування Землі для їх використання в геоінформаційних системах”. 2013 — 2015 рр.</p>\n<p>Науковий керівник госпдоговірної теми Се 16-08 “Розробка проекту програмно-апаратного комплексу управління мобільним контентом“. 2008 р.</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<ul>\n<li>Савчин В.П., Шувар Р.Я. Електронне перенесення в напівпровідниках та напівпровідникових структурах: Навчальний посібник – Видавничий центр ЛНУ імені Івана Франка. 2007. – 667 с.</li>\n<li><a href=\"https://moodle.elct.lnu.edu.ua/course/view.php?id=189\" target=\"_blank\" rel=\"noopener noreferrer\">https://moodle.elct.lnu.edu.ua/course/view.php?id=189</a></li>\n<li><a href=\"https://moodle.elct.lnu.edu.ua/course/view.php?id=143\" target=\"_blank\" rel=\"noopener noreferrer\">https://moodle.elct.lnu.edu.ua/course/view.php?id=143</a></li>\n<li><a href=\"https://moodle.elct.lnu.edu.ua/course/view.php?id=75\" target=\"_blank\" rel=\"noopener noreferrer\">https://moodle.elct.lnu.edu.ua/course/view.php?id=75</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/wp-content/uploads/kotlin4ds-1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Стахiра Р. Й., Кулик П. Р., Шувар Р. Я. Kotlin для роботи з даними. Навчальний посiбник – Львiвський нацiональний унiверситет iменi Iвана Франка, 2023, 160 с.</a></li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16535&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16535&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

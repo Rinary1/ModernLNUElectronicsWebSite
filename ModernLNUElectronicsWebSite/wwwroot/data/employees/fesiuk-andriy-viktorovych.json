@@ -1,0 +1,46 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/fesiuk-andriy-viktorovych/",
+  "Slug": "fesiuk-andriy-viktorovych",
+  "FullName": "Фесюк Андрій Вікторович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Fesiuk-125x150.png",
+  "PositionText": "асистент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "AcademicDegree": "кандидат технічних наук",
+  "Email": "Andrii.Fesiuk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?hl=en&user=we-y2mAAAAAJ"
+  },
+  "ResearchInterests": "обробка зображень і розпізнавання образів",
+  "Courses": [
+    {
+      "Title": "Цифрова обробка інформації (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/"
+    },
+    {
+      "Title": "Цифрова обробка інформації (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii-ist/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>обробка зображень і розпізнавання образів</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка інформації (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка інформації (126 Інформаційні системи та технології)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>&nbsp;The Impact of Parameters on the Efficiency of Keypoints Detection and Description / A. Fesiuk, Yu. Furgala // 2023 IEEE 13th International Conference on Electronics and Information Technologies (ELIT) : Conference Proceedings. – 2023. – Lviv, Ukraine, September 26-28, 2023. – P. 261-264.</li>\n<li>Особливі точки на зображеннях: Порівняння результатів виявлення різними методами / А. Фесюк, Ю. Фургала // Електроніка та інформаційні технології. – 2023. – В. 21. – с. 15-23. <a href=\"http://dx.doi.org/10.30970/eli.21.2\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.30970/eli.21.2</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження</strong>: 12.05.1998 р.</p>\n<p><strong>Освіта</strong>: вища (з 2015-2019 рр. – освітній ступінь “Бакалавр”, Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, спеціальність ”122 Комп’ютерні науки”; 2019-2020 рр. – освітній ступінь “Магістр”, факультет електроніки та комп’ютерних технологій, спеціальність: “122 Комп’ютерні науки”, освітня програма: “Системи штучного інтелекту”, диплом з відзнакою )</p>\n<p><strong>Навчання в аспірантурі</strong>: (з 2022 – до тепер, спеціальність “122 Комп’ютерні науки” аспірант факультету електроніки та комп’ютерних технологій;&nbsp; тема дисертації: Просторово-інваріантні описи образів особливими точками )</p>\n<p><strong>Працевлаштування: </strong>з вересня 2023 р. – асистент кафедри оптоелектроніки та інформаційних технологій.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31030&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31030&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

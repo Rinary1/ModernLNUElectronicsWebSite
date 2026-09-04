@@ -1,0 +1,58 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rendziniak-serhiy-yosypovych/",
+  "Slug": "rendziniak-serhiy-yosypovych",
+  "FullName": "Рендзіняк Сергій Йосипович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Rendziniak-S.Y.jpg-125x150.jpg",
+  "PositionText": "професор кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "Email": "serhii.rendziniak@lnu.edu.ua",
+  "Profiles": {
+    "ORCID": "http://orcid.org/0000-0003-4544-4871",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=24480050100"
+  },
+  "ResearchInterests": "Паралелізація обчислювальних процесів при аналізі динамічних режимів електричних кіл Дослідження перехідних процесів в електричних колах діакоптичними методами",
+  "Courses": [
+    {
+      "Title": "Безпровідні та мобільні мережі (121 ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/bezprovidni-ta-mobilni-merezhi-121-ipz/"
+    },
+    {
+      "Title": "Проектування пристроїв цифрової та аналогової електроніки 2022 (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/proektuvannia-prystroiv-tsyfrovoi-ta-analohovoi-elektroniky-2022-ipz/"
+    },
+    {
+      "Title": "Цифрова та аналогова електроніка (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/tsyfrova-ta-analohova-elektronika-ipz/"
+    },
+    {
+      "Title": "Алгоритмізація та програмування (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/prohramuvannya/"
+    },
+    {
+      "Title": "Теорія обчислень, алгоритми і структури даних (122)",
+      "Url": "https://electronics.lnu.edu.ua/course/teoriya-alhorytmiv/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Паралелізація обчислювальних процесів при аналізі динамічних режимів електричних кіл</li>\n<li>Дослідження перехідних процесів в електричних колах діакоптичними методами</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/bezprovidni-ta-mobilni-merezhi-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Безпровідні та мобільні мережі (121 ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/proektuvannia-prystroiv-tsyfrovoi-ta-analohovoi-elektroniky-2022-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Проектування пристроїв цифрової та аналогової електроніки 2022 (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-ta-analohova-elektronika-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова та аналогова електроніка (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannya/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритмізація та програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-alhorytmiv/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія обчислень, алгоритми і структури даних (122)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Імітаційне моделювання лабораторного практикуму з курсу «Теорія електронних кіл»&nbsp;: навчальний посібник для студентів ВНЗів /&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%A1%D1%82%D0%B0%D1%85%D1%96%D0%B2_%D0%9F%D0%B5%D1%82%D1%80%D0%BE_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87\" target=\"_blank\" rel=\"noopener noreferrer\">Петро Григорович Стахів</a>, Сергій Йосипович Рендзіняк, Василь Іванович Михайлів; В.о.&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%C2%AB%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0%C2%BB\" target=\"_blank\" rel=\"noopener noreferrer\">Нац. ун-т “Львівська політехніка«</a>.— Львів&nbsp;:&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%92%D0%B8%D0%B4%D0%B0%D0%B2%D0%BD%D0%B8%D1%86%D1%82%D0%B2%D0%BE_%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B8\" target=\"_blank\" rel=\"noopener noreferrer\">Вид-во Нац. ун-ту «Львівська політехніка»</a>, 2008.— 72 с.&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0:%D0%94%D0%B6%D0%B5%D1%80%D0%B5%D0%BB%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3/9665537298\" target=\"_blank\" rel=\"noopener noreferrer\">ISBN 966-553-729-8</a></li>\n<li>Stakhiv P., Rendzinyak S., Krupskyy B. Parallelization of diacoptic methods for multiprocessor computing systems // Bulletin of the Polish Academy of Sciences, Technical Sciences (Warsaw, Poland). — 2003. — Vol. 51, No. 4. — P. 381-394.</li>\n<li>Рендзіняк С.Й. Удосконалений метод формування системи рівнянь стану електричних кіл // Електроенергетичні та електромеханічні системи. Вісник&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%C2%AB%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0%C2%BB\" target=\"_blank\" rel=\"noopener noreferrer\">Нац. ун-т «Львівська політехніка»</a>. — 2003. — № 479.— С. 166-171.</li>\n<li>Рендзіняк С.Й., Крупський Б.І., Мурин В.І. Застосування прямого діакоп-тичного метода розрахунку динамічних режимів на паралельних обчислювальних структурах // Комп’ютерна інженерія та інформаційні технології. Вісник&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%C2%AB%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0%C2%BB\" target=\"_blank\" rel=\"noopener noreferrer\">Нац. ун-т «Львівська політехніка»</a>. — 2003. — № 481. — С. 120-126.</li>\n<li>Рендзіняк С.Й., Мурин В.І. Розрахунок динамічних режимів складних електротехнічних кіл паралельними діакоптичними методами // Електроенергетичні та електромеханічні системи.Вісник&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%C2%AB%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0%C2%BB\" target=\"_blank\" rel=\"noopener noreferrer\">Нац. ун-т «Львівська політехніка»</a>. — 2003. — № 485. — С. 235-239.</li>\n<li>Byczkowska-Lipinska L., Stakhiv P., Rendzyniak S. Parallel algorithm for system of differential equations integration // Journal of Applied Computer Science (Lodz, Poland). — 2004. — Vol. 12, No. 2. — P. 35-43.</li>\n<li>Stakhiv Petro, Rendzinyak Serhiy. A Parallel Multirate Algorithm for the Numerical Integration of System of Nonlinear Differential Equations // Комп’ютинг. — 2005. — Том 4, вип. 1. — С. 34-41.</li>\n<li>Рендзіняк С.Й. Редукція системи рівнянь підсхеми з зосередженими параметрами в діакоптичних методах // Електроенергетичні та електромеханічні системи. Вісник&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%C2%AB%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0%C2%BB\" target=\"_blank\" rel=\"noopener noreferrer\">Нац. ун-т «Львівська політехніка»</a>. — 2006. — № 563. — С. 115-122.</li>\n<li>Rendzinyak S., Stakhiv P. New algorithm of subcircuits matching in multirate method // Proc. of the XIII Internatinal Symposium on Theoretical Electrical Engineering ISTET05. Lviv, Ukraine, July 4-7. — 2005. — P. 290-294.</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>У 1974-1979 рр. навчався у Львівському державному університеті ім. Ів. Франка за спеціальністю “радіофізика та електроніка” (диплом з відзнакою). Після навчання працював на Львівському заводі телеграфної апаратури (Виробниче об’єднання ім. 50-річчя Жовтня).</p>\n<p>У 1987 р. захистив кандидатську дисертацію.</p>\n<p>З 1992 р. до 1997 р. працював на фізичному факультеті Львівського державного університету, дотепер – в Інституті енергетики та систем керування Національного університету “Львівська політехніка”.</p>\n<p><i>Тема докторської дисертації:</i>&nbsp;Паралельні діакоптичні методи розрахунку динамічних режимів електричних кіл [Текст]&nbsp;: дис… д-ра техн. наук: 05.09.05 / Рендзіняк Сергій Йосипович&nbsp;;&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%C2%AB%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0%C2%BB\" target=\"_blank\" rel=\"noopener noreferrer\">Національний ун-т «Львівська політехніка»</a>. — Л., 2006. — 303 арк. — арк. 226-251</p>\n<p><i>Науковий консультант</i>&nbsp;— доктор технічних наук, професор&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%A1%D1%82%D0%B0%D1%85%D1%96%D0%B2_%D0%9F%D0%B5%D1%82%D1%80%D0%BE_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87\" target=\"_blank\" rel=\"noopener noreferrer\">Стахів Петро Григорович</a>, завідувач&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0_%D1%82%D0%B5%D0%BE%D1%80%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D1%97_%D1%82%D0%B0_%D0%B7%D0%B0%D0%B3%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97_%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B8\" target=\"_blank\" rel=\"noopener noreferrer\">кафедри теоретичної та загальної електротехніки</a>&nbsp;<a href=\"https://wiki.lpnu.ua/wiki/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%C2%AB%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0%C2%BB\" target=\"_blank\" rel=\"noopener noreferrer\">Національного університету «Львівська політехніка»</a></p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=26419&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=26419&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

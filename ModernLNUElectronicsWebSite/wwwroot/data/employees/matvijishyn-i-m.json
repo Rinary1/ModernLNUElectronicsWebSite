@@ -1,0 +1,67 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/matvijishyn-i-m/",
+  "Slug": "matvijishyn-i-m",
+  "FullName": "Матвіїшин Ігор Михайлович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/ke_matviishyn.jpg",
+  "PositionText": "доцент кафедри сенсорної та напівпровідникової електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "AcademicTitle": "доцент",
+  "Phone": "(032) 239-41-58",
+  "Email": "ihor.matviyishyn@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=cqPR9bAAAAAJ&hl=uk",
+    "ORCID": "https://orcid.org/0000-0001-9544-7056",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=8220567900",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/5490922"
+  },
+  "ResearchInterests": "Коло наукових інтересів: фотовольтаїчні, люмінесцентні, сцинтиляційні властивості шаруватих кристалів галогенідів кадмію і свинцю, детектори випромінювання на їх основі, рідкокристалічні системи в сенсорній електроніці.",
+  "Courses": [
+    {
+      "Title": "Електротехніка(176)",
+      "Url": "https://electronics.lnu.edu.ua/course/teoriya-elektrychnyh-ta-elektronnyh-kil/"
+    },
+    {
+      "Title": "Матеріали та компоненти сучасної електроніки (171 Електроніка та комп’ютерні системи",
+      "Url": "https://electronics.lnu.edu.ua/course/materialy-ta-komponenty-suchasnoi-elektroniky-eikt/"
+    },
+    {
+      "Title": "Рідкі кристали в сенсорній електроніці (176 Мікро- та наносистемна техніка)",
+      "Url": "https://electronics.lnu.edu.ua/course/ridki-krystaly-v-sensornij-elektronitsi/"
+    },
+    {
+      "Title": "Теорія електричних кіл (171 Електроніка та комп'ютерні системи)",
+      "Url": "https://electronics.lnu.edu.ua/course/teoriia-elektrychnykh-kil-171-elektronika-ta-komp-iuterni-systemy/"
+    },
+    {
+      "Title": "Програмування (176)",
+      "Url": "https://electronics.lnu.edu.ua/course/prohramuvannia/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Коло наукових інтересів: фотовольтаїчні, люмінесцентні, сцинтиляційні властивості шаруватих кристалів галогенідів кадмію і свинцю, детектори випромінювання на їх основі, рідкокристалічні системи в сенсорній електроніці.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-elektrychnyh-ta-elektronnyh-kil/\" target=\"_blank\" rel=\"noopener noreferrer\">Електротехніка(176)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/materialy-ta-komponenty-suchasnoi-elektroniky-eikt/\" target=\"_blank\" rel=\"noopener noreferrer\">Матеріали та компоненти сучасної  електроніки (171 Електроніка та комп’ютерні системи</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ridki-krystaly-v-sensornij-elektronitsi/\" target=\"_blank\" rel=\"noopener noreferrer\">Рідкі кристали в сенсорній електроніці (176 Мікро- та наносистемна техніка)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriia-elektrychnykh-kil-171-elektronika-ta-komp-iuterni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія електричних кіл   (171 Електроніка та комп'ютерні системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannia/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування (176)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ul>\n<li>Luminescence centers in low-dimensional layered cadmium iodide crystals and nanostructures / Rudka, M.,&nbsp;<a href=\"https://www.scopus.com/authid/detail.uri?authorId=8220567900\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Matviishyn, I</strong>.</a>,&nbsp;Seredyuk, B.,&nbsp;…Karkulovska, M.,&nbsp;Kravchuk, I. // 2020 IEEE 40th International Conference on Electronics and Nanotechnology, ELNANO 2020 – Proceedings,&nbsp;2020. – P. 268–271, 9088922.&nbsp;<a href=\"http://10.1109/ELNANO50318.2020.9088922\" target=\"_blank\" rel=\"noopener noreferrer\">http://10.1109/ELNANO50318.2020.9088922</a></li>\n<li>Temperature and Pressure Changes of the Refractive Properties of LiNH<sub>4</sub>SO<sub>4</sub> Crystal in β Modification / Rudysh, M.,&nbsp;Stadnyk, V.,&nbsp;Shchepanskyi, P.,&nbsp;…Myronchuk, G.,<strong>Matviishyn, I. // </strong>2019 11th International Scientific and Practical Conference on Electronics and Information Technologies, ELIT 2019 – Proceedings. – P. 316 – 320.&nbsp;<a href=\"http://10.1109/ELIT.2019.8892311\" target=\"_blank\" rel=\"noopener noreferrer\">http://10.1109/ELIT.2019.8892311</a></li>\n<li>The Effect of Uniaxial Pressures on the Infrared Spectra of LiNH<sub>4</sub>SO<sub>4</sub> Crystals /&nbsp;I. Stadnyk,&nbsp;Ya. Rudish, P.A.Shchepansky, <strong>I.Matviishyn</strong>, O. M. Gorina, M. Gaba &nbsp;// Optics and Spectroscopy. ‑ Vol. 124, No.2. – 2018. – P. 216-220.&nbsp;http://10.1134/S0030400X18020169</li>\n<li>Radiation-Stimulated Changes in the Characteristics of Surface-Barrier Al–Si–Bi Structures with Different Concentrations of Dislocations at the Crystal Surface / B. Pavlyk, M. Kushlyk,&nbsp;D. Slobodzyan, <strong>I. Matvijishyn</strong>, R. Lys, M. Jałbrzykowski // Acta mechanica et automatica. – Vol.12,№1. – 2018. – P. 72-77.&nbsp;http://10.2478/ama-2018-0012</li>\n<li>Спектральні характеристики кристалів Cs:RCl/ С. Новосад, <strong>І. Матвіїшин</strong>, І. Новосад, А. Лучечко, О.Кравець//Електроніка та інформаційні технології (ЕлІТ-2017): збірник матеріалів VIII-ої Українсько-польської науково-практичної конференції, (Львів – Чинадієво, 28-31 серпня 2017 р.)/ МОН України, Львівський національний університет імені Івана Франка.-Львів: Львів. нац. ун-т ім. Івана Франка, Україна, 2017.–С. 203-206.</li>\n<li>The Temperature Changes of Refractive Indices and Thickness of Doped Triglycine Sulfate Crystals / Kurlyak, V.Y.,&nbsp;Stadnyk, V.Y.,&nbsp;Gaba, V.M.,&nbsp;Kohut, Z.O.,&nbsp;Matviishyn, I.M. // Journal of Applied Spectroscopy. – &nbsp;Vol. 83(3). – 2016. –&nbsp; P. 472–477.&nbsp;http://10.1007/s10812-016-0313-2</li>\n<li>&nbsp;Курляк В. Зоннa структура кристалiв Rb2ZnCl4 у параелектричній фазі / В. Курляк, О. Бовгира, В. Стадник, <strong>І. Матвіїшин</strong>, В. Стахура, Л. Карплюк // Електроніка та інформаційні технології. – 2015. – № 5. – С.22-32.</li>\n<li>Стадник В.Й., Кашуба О.З., Брезвін Р.С., <strong>Матвіїшин І.М.</strong>, Рудиш М.Я. Двопроменезаломлюючі властивості одновісно стиснутих кристалів K2SO4. –Укр. фіз. журн. – 2013. – Т. 58, № 9. – С. 855-858.</li>\n<li>Стадник В. Пошук нових кристалів з ізотропною точкою / В. Стадник, З. Когут,<strong> І. Матвіїшин</strong>, М. Рудиш М, П. Щепанський // Вісник ЛНУ, серія фіз. – 2013. – № 48. – C. 148-158.</li>\n<li>Стадник В. Розрахунок електрооптичних коефіцієнтів в домішкових кристалах тригліцинсульфату / В. Стадник, Ю. Кірик,<strong> І. Матвіїшин</strong> // Електроніка та інформаційні технології. – 2011. – Вип. 1. – С. 126-133.</li>\n<li>Новосад С.С. Спектральные и кинетические характеристики сцитилляторов CdI2 и CdI2:Pb / С.С. Новосад, И.С. Новосад, <strong>И.М. Матвиишин</strong>, О.С. Новосад // Журн. прикл. спектроск. – 2008. – 75, №6. – С.830-835.</li>\n<li>Matvijishyn I.M. Transverse Photoeffect in PbI2 Crystals under X-ray and Laser Excitation / I.M. Matvijishyn, S.S. Novosad, L.I. Yaritska, I.S. Novosad, A.V. Futei // Inorganic Materials. – 2006. – 42, No9. – P. 1034-1038.</li>\n<li>Новосад С.С. Влияние адсорбции на поперечное фотонапряжение в кристаллах иодистого кадмия при рентгеновском возбуждении / С.С. Новосад, <strong>И.М. Матвиишин</strong>, И.С. Новосад // ЖТФ. – 2005. – 75, Вып. 2. – С. 121-123.</li>\n<li>С.С. Новосад, І.С. Новосад, А.М. Войцеховська, <strong>І.М. Матвіїшин</strong>, О.В. Футей. Деклараційний патент на корисну модель. UA №7841. Детектор іонізуючого випромінювання. – Опубл. 15.07.2005. Бюл. №7, заявл. 26.11.2004, G01T1/24, H01L31/04, №20041109746.</li>\n<li>Новосад С.С. Люминесценция и фоточувствительность кристаллов PbI2 / С.С. Новосад, И.С. Новосад., <strong>И.М. Матвиишин</strong> // Неорг.матер. – 2002. – 18, № 10. – С. 1253-1259.</li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Народився 16 червня 1958 р. у м. Стрий Львівської області. У 1980 р. закінчив фізичний факультет Львівського університету&nbsp; імені Івана Франка.</p>\n<p>У 1992 р. захистив кандидатську дисертацію на тему «Фотовольтаїчні ефекти у галогенідах кадмію та свинцю». У 2008 р. отримав Вчене звання доцента кафедри електроніки.</p>\n<p>Протягом&nbsp; 1980–1986 рр. працював старшим&nbsp; лаборантом кафедри загальної фізики фізичного факультету.</p>\n<p>1986–87 рр. – стажер-викладач кафедри.</p>\n<p>1987–1990 рр. – аспірант кафедри.</p>\n<p>1990–2000 рр. – науковий співробітник НДЛ-12.</p>\n<p>2000–2005 рр. – асистент кафедри електроніки.</p>\n<p>З 2005р. – доцент кафедри сенсорної та напівпровідникової електроніки.</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<p>Методичні рекомендації до лабораторного практикуму з курсу «Теорія електричних та електронних кіл». Частина 2 / М.О. Кушлик, І.М. Матвіїшин, Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2020. – 28 с.</p>\n<p>Методичні рекомендації до лабораторного практикуму з курсу «Теорія електричних та електронних кіл» / М.О. Кушлик, І.М. Матвіїшин, Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2020. – 49 с.</p>\n<p>Методичні рекомендації до лабораторного практикуму з курсу «Прилади і методи відображення біомедичних сигналів та зображень»/Д.П. Слободзян, І.М. Матвіїшин, Я.О. Шпотюк, Л.В. Костик, А.П. Лучечко, Р.М. Лис.– Львів: Видавничий центр ЛНУ імені Івана Франка, 2017. – 47 с.</p>\n<p>Методичні рекомендації до лабораторного практикуму з курсу «Енергетична електроніка»/Л.В. Костик, Р.М. Матвіїшин, Л.М. Шпак , Д.П. Слободзян. –Львів: Видавничий центр ЛНУ імені Івана Франка, 2017.– 59 с.</p>\n<p>Павлик Б.В., Лис Р.М., Матвіїшин І.М., Шпак Л.М., Лучечко А.П., Слободзян Д.П. // Методичні вказівки до лабораторного практикуму з курсу “Твердртільна електроніка”. –&nbsp; Львів: Видавничий центр ЛНУ імені Івана Франка, 2016. – 36 с.</p>\n<p>Матвіїшин І., Настишин Ю., Шпак Л., Крупич О., Слободзян Д. // Методичні рекомендації до лабораторного практикуму з курсу “Рідкі кристали в сенсорній електроніці” (ч.3). –&nbsp; Львів: Видавничий центр ЛНУ імені Івана Франка, 2015. – 58 с.</p>\n<p>Павлик Б.В., Матвіїшин І.М., Костик Л.В., Шпак Л.М. // Практикум з твердотільної електроніки. –&nbsp; Львів: Видавничий центр ЛНУ імені Івана Франка, 2012. – 130 с.</p>\n<p>Павлик Б.В., Матвіїшин І.М., Костик Л.В., Шпак Л.М. // Методичні рекомендації з курсу “Основні параметри та характеристики структур твердотільної електроніки”. –&nbsp; Львів: Видавничий центр ЛНУ імені Івана Франка, 2008. – 50 с.</p>\n<p>Павлик Б.В., Матвіїшин І.М., Костик Л.В., Шпак Л.М. // Методичні рекомендації з курсу “Основні параметри та характеристики пристроїв твердотільної електроніки”. –&nbsp; Львів: Видавничий центр ЛНУ імені Івана Франка, 2007. – 28 с.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16706&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16706&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

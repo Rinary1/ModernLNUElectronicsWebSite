@@ -1,0 +1,71 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/slobodzyan-d-p/",
+  "Slug": "slobodzyan-d-p",
+  "FullName": "Слободзян Дмитро Петрович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/ke_slobodzan.jpg",
+  "PositionText": "доцент кафедри сенсорної та напівпровідникової електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "AcademicTitle": "доцент",
+  "Phone": "032 239 43 71",
+  "Email": "dmytro.slobodzyan@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=I5GvajIAAAAJ&hl=uk",
+    "ORCID": "https://orcid.org/0000-0003-1248-0307",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=35489053000",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/4353574"
+  },
+  "ResearchInterests": "Процеси дефектоутворення в матеріалах сенсорної електроніки та структурах на їхній основі",
+  "Courses": [
+    {
+      "Title": "Архітектура комп'ютерів і програмування (171 Електроніка та комп’ютерні системи)",
+      "Url": "https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/"
+    },
+    {
+      "Title": "Архітектура комп'ютерів та комп'ютерні технології (Сенсорні та діагностичні автоматизовані системи)",
+      "Url": "https://electronics.lnu.edu.ua/course/personalni-kompyutery/"
+    },
+    {
+      "Title": "Цифрова обробка сигналів (171 Електроніка та комп'ютерні системи)",
+      "Url": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-syhnaliv-171-elektronika-ta-komp-iuterni-systemy/"
+    },
+    {
+      "Title": "Цифрова обробка сигналів 176",
+      "Url": "https://electronics.lnu.edu.ua/course/tsyfrovi-syhnaly-mnt/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Процеси дефектоутворення в матеріалах сенсорної електроніки та структурах на їхній основі</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів і  програмування (171 Електроніка та комп’ютерні системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/personalni-kompyutery/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів та комп'ютерні технології (Сенсорні та діагностичні автоматизовані системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-syhnaliv-171-elektronika-ta-komp-iuterni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка сигналів  (171 Електроніка та комп'ютерні системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrovi-syhnaly-mnt/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка сигналів 176</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Correlation between electrical conductivity and luminescence properties in β-Ga<sub>2</sub>O<sub>3</sub>:Cr<sup>3+</sup> and β-Ga<sub>2</sub>O<sub>3</sub>:Cr, Mg single crystals / V.&nbsp;Vasyltsiv, A.&nbsp;Luchechko, Y.&nbsp;Zhydachevskyy, L.&nbsp;Kostyk, R.&nbsp;Lys, <strong>Slobodzyan</strong>, R.&nbsp;Jakieła, B.&nbsp;Pavlyk, A.&nbsp;Suchocki // Journal of Vacuum Science and Technology A: Vacuum, Surfaces and Films. – 2021. – Vol.39(3). – P. 033201. <a href=\"https://doi.org/10.1116/6.0000859\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1116/6.0000859</a></li>\n<li>Magnetically stimulated changes in the electrophysical properties of the near-surface silicon layer / B.V. Pavlyk, <strong>D.P. Slobodzyan</strong>, R.M. Lys, M.O. Kushlyk, R.I. Didyk, J.A. Shykorjak // Journal of Physical Studies – 2020. – Vol. 24, No. 3. – P. 3702-1-3702-5. <a href=\"https://doi.org/10.30970/jps.24.3702\" target=\"_blank\" rel=\"noopener noreferrer\"><u>https://doi.org/10.30970/jps.24.3702</u></a></li>\n<li>Light-curing effects in acrylic-type dental nanocomposites probed by annihilating positrons: the case of densely monolith ЭCTA-3® restoratives / O. Shpotyuk, A. Ingram, O. Shpotyuk, D<strong>. Slobodzyan</strong>, J. Cebulski, N. Smolar // Applied Nanoscience. – 2020. Vol. 10, No. 12. – P. 4791-4796. <a href=\"https://doi.org/10.1007/s13204-020-01423-w.\" target=\"_blank\" rel=\"noopener noreferrer\"><u>https://doi.org/10.1007/s13204-020-01423-w</u>.</a></li>\n<li>Mathematical model of mechanically stimulated changes of irradiated silicon crystals’ surface conductivity / R. Lys, B. Pavlyk, R. Didyk, J. Shykorjak, <strong> Slobodzyan</strong>, M. Kyshlyk, W. Żyłka // Applied Nanoscience. – Vol. 10, №12. – P. 4767-4772. <a href=\"https://doi.org/10.1007/s13204-020-01300-6\" target=\"_blank\" rel=\"noopener noreferrer\"><u>https://doi.org/10.1007/s13204-020-01300-6</u></a></li>\n<li>Structural analysis of Se-rich arsenoselenide glass nanoparticles obtained by high-energy mechanical milling / Y. Shpotyuk, P. Demchenko, R. Lys, <strong>D. Slobodzian</strong>, Z. Bujňáková, P. Baláž, O. Shpotyuk // AIP Conference Proceedings. – 2019. – Vol. 2196. – P. 020039-1- 020039-5. <a href=\"https://doi.org/10.1063/1.5140312020039-5\" target=\"_blank\" rel=\"noopener noreferrer\"><u>https://doi.org/10.1063/1.5140312020039-5</u></a></li>\n<li>Electroluminescence energy efficiency of Si-structures with different compound of nanoscale dislocation complexes / <strong>D. Slobodzyan,</strong> B. Pavlyk, M. Kushlyk // Applied Nanoscience. –2019. – &nbsp;Vol. 9, №5. – P. 865-871. <u>DOI:&nbsp;10.1007/s13204-018-0729-5</u></li>\n<li>Features of changes in the electrical resistance of p-Si crystals under the action of an elastic one-axial mechanical load and a magnetic field / B.Pavlyk, R. Lys, <strong>D. Slobodzyan</strong>, M. Kushlyk, R. Didyk, J. Shykoryak, I. Karbovnyk // Applied Nanoscience. – 2019. – Vol. 9, №8. – P.1775-1779. <u>DOI: 10.1007/s13204-019-00964-z</u></li>\n<li>Free-volume structure of polyvinylpyrrolidone-capped glassy As<sub>2</sub>Se<sub>3</sub> nanocomposites prepared by mechanical milling / O. Shpotyuk, A. Ingram, Z. Bujnáková, P. Baláž, Ya. Shpotyuk, <strong> Slobodzyan</strong>, M. Wozny, C. Boussard-Pledel, B. Bureau // Polymer Engineering and Science. – Vol.59, №12. – 2019. – P. 2438-2442. <u>DOI 10.1002/pen.25101</u></li>\n<li>The role of a thin aluminum film in the reconstruction of silicon’s near-surface layers / R. Lys, B. Pavlyk, <strong>D.</strong> <strong>Slobodzyan,</strong> J. Cebulski, M. Kushlyk // Advances in Thin Films, Nanostructured Materials, and Coatings. – 2019. –&nbsp; P. 189–196.&nbsp;<a href=\"https://electronics.lnu.edu.ua/employee/slobodzyan-d-p/10.1007/978-981-13-6133-3_19\" target=\"_blank\" rel=\"noopener noreferrer\">doi:10.1007/978-981-13-6133-3_19</a></li>\n<li>Radiation-Stimulated Changes in the Characteristics of Surface-Barrier Al–Si–Bi Structures with Different Concentrations of Dislocations at the Crystal Surface / B. Pavlyk, M. Kushlyk, <strong>D. Slobodzyan</strong>, I. Matvijishyn, R. Lys, M. Jałbrzykowski //&nbsp;Acta mechanica et automatica. – Vol.12,№1. – 2018. – P. 72-77</li>\n<li>Origin of dislocation luminescence centers and their reorganization in p-type silicon crystal subjected to plastic deformation and high temperature annealing / B.V. Pavlyk, M.O. Kushlyk, <strong>D.P. Slobodzyan</strong> // Nanoscale Research Letters. – 2017. – 12, 358. – P. 1-8</li>\n<li>Особливості впливу X-випромінювання та магнітного поля на електрофізичні характеристики бар’єрних структур на основі дислокаційного p-Si, призначеного для сонячної енергетики /<strong> Д.П. Слободзян</strong>, Б.В. Павлик, М.О. Кушлик // Журнал Нано- та Електронної Фізики. – 2015. – Т.7, №4. – 04051-1 – 04051-5</li>\n<li>Про природу центрів електролюмінесценції в пластично деформованих кристалах кремнію p-типу / Б.В. Павлик, М.О. Кушлик, <strong>Д.П. Слободзян</strong> // Журнал Нано- та Електронної Фізики. – 2015. – Т.7, №3. – 03043-1-03041-5</li>\n<li>Дослідження Х-стимульованої еволюції дефектів у кристалах p-Si методом ємнісно-модуляційної спектроскопії / Б.В. Павлик, <strong>Д.П. Слободзян</strong>, Р.М. Лис, Р.І. Дідик, Й.А. Шикоряк // Журнал Фізичних Досліджень. – 2014. – Т.18, №4. – С. 4601-1-4601-7</li>\n<li>Електрофізичні характеристики приповерхневих шарів кристалів Si p-типу, з напиленими плівками Al, підданих пружній деформації / Б.В. Павлик, М.О. Кушлик, <strong>Д.П. Слободзян</strong>, Й.А. Шикоряк, Р.І. Дідик, Б.Я. Кулик // Український Фізичний Журнал. – 2013. – Т.58, №8. – С. 743-748</li>\n<li>Quality of the p-Si crystal surface and radiation-stimulated changes in the characteristics of Bi-Si-Al surface-barrier structures / B.V. Pavlyk, <strong>D.P. Slobodzyan</strong>, A.S. Hrypa, R.M. Lys, M.O. Kushlyk, J.A. Shykoryak, R.I. Didyk // Semiconductors. – 2012. – Vol.46, №8. – P. 993-997</li>\n<li>The Effect of a Magnetic Field on Electrical Properties of Surface-Barrier Bi-Si-Al Structures / B.V. Pavlyk, A.S. Hrypa, <strong>D.P. Slobodzyan</strong>, R.M. Lys, J.A. Shykoryak, R.I. Didyk // Semiconductors. – 2011. – Vol.45, No.5. – P. 599 – 602</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Народився 8 листопада 1985 року в с. Безброди Буського р-ну Львівської обл. У 2003 році закінчив Буську гімназію імені Євгена Петрушевича при Львівському національному університеті імені Івана Франка. У 2008 році закінчив Львівський національний університет. Здобув кваліфікацію “Магістр електроніки”. В період з серпня 2008 по грудень 2011 року працював на посаді інженера науково-дослідної частини НДЛ-20 кафедри електроніки. З січня 2012 зарахований на посаду інженера кафедри електроніки&nbsp; Львівського національного університету імені Івана Франка. З вересня 2012 по квітень 2015 року працював на посаді асистента кафедри електроніки за сумісництвом. У 2014 році захистив дисертацію на тему “Еволюція структурних дефектів у приповерхневому шарі бар’єрних структур на основі p-Si, стимульована дією зовнішніх факторів” та отримав науковий ступінь кандидата фізико-математичних наук зі спеціальності “Фізика напівпровідників і діелектриків”. У червні 2015 р. обраний по конкурсу на посаду асистента кафедри електроніки терміном на п’ять років. У червні 2017 р. обраний по конкурсу на посаду доцента кафедри сенсорної та напівпровідникової&nbsp; електроніки терміном на п’ять років.</p>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<ol>\n<li>Проект МОН України СЕ-42 Нр “Наноструктуровані та полікристалічні РЗМ-вмісні матеріали для сцинтиляторів, сенсорів та енергоощадних технологій” (№ держреєстрації0116U008069), 2016-2018&nbsp;рр.</li>\n<li>Проект МОН України СЕ-65 Нр «Модифікація сенсорних властивостей кремнієвих структур та РЗМ-вмісних матеріалів на основі оксидів і халькогенідів» (№ держреєстрації 0117U007189), 2017-2020 рр.</li>\n<li>Проект МОН України СЕ-02 Нр «Модифікація оптичних властивостей кремнієвих структур та РЗМ-вмісних матеріалів на основі оксидів і халькогенідів методами плазмонного резонансу», 2020-2022 рр.</li>\n</ol>"
+    },
+    {
+      "Title": "Нагороди",
+      "Html": "<p>Премія Львівської обласної державної адміністрації і Львівської обласної ради для молодих учених і дослідників наукових установ та закладів вищої освіти (університетів, академій, інститутів) Львівської області (2019 р.).</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<ol>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Автоматизація експерименту» Частина ІІ / М.О. Кушлик, Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2021. – 52 с.</li>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Автоматизація експерименту» Частина І / М.О. Кушлик,&nbsp; Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2021. – 52 с.</li>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Теорія електричних та електронних кіл». Частина 2 / М.О. Кушлик, І.М. Матвіїшин, Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2020. – 28 с.</li>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Теорія електричних та електронних кіл» / М.О. Кушлик, І.М. Матвіїшин, Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2020. – 49 с.</li>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Прилади і методи відображення біомедичних сигналів та зображень» / Д.П. Слободзян, І.М. Матвіїшин, Я.О. Шпотюк, Л.В. Костик, А.П. Лучечко, Р.М. Лис. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2017. – 47 с.</li>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Твердотільна електроніка» / Б.В. Павлик, Р.М. Лис, І.М. Матвіїшин, Л.М. Шпак, А.П. Лучечко, Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2016. – 36 с.</li>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Рідкі кристали в сенсорній електроніці» (Ч.3) / Ю.А.Настишин, І.М.&nbsp;Матвіїшин, Л.М.&nbsp;Шпак, О.М.&nbsp;Крупич, Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2015. – 58 с.</li>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Рідкі кристали в сенсорній електроніці» (Ч.2) / Ю.А.Настишин, І.М.&nbsp;Матвіїшин, Л.М.&nbsp;Шпак, О.М.&nbsp;Крупич, Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2014. – 47 с.</li>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Рідкі кристали в сенсорній електроніці» / Ю.А.Настишин, І.М.&nbsp;Матвіїшин, Л.М.&nbsp;Шпак, О.М.&nbsp;Крупич, Д.П. Слободзян. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2013. – 38 с.</li>\n\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16710&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16710&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/stahira-roman-josypovych/",
+  "Slug": "stahira-roman-josypovych",
+  "FullName": "Стахіра Роман Йосипович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/stakhira-125x150.jpg",
+  "PositionText": "доцент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "AcademicTitle": "доцент",
+  "Email": "roman.stakhira@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=iKFu_rsAAAAJ"
+  },
+  "ResearchInterests": "Big Data Kotlin Графові бази даних",
+  "Courses": [
+    {
+      "Title": "Візуалізація даних (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/vizualizatsiia-danykh-ipz/"
+    },
+    {
+      "Title": "Мобільні інформаційні системи (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/mobil-ni-informatsiyni-systemy/"
+    },
+    {
+      "Title": "Великі дані (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/velyki-dani-ist/"
+    },
+    {
+      "Title": "Методи обробки великих та надвеликих даних (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/metody-obrobky-velykykh-ta-nadvelykykh-danykh-vpk/"
+    },
+    {
+      "Title": "Розподілені технології та бази даних (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Big Data</li>\n<li>Kotlin</li>\n<li>Графові бази даних</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vizualizatsiia-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Візуалізація даних (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mobil-ni-informatsiyni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Мобільні інформаційні системи (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/velyki-dani-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Великі дані (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-obrobky-velykykh-ta-nadvelykykh-danykh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи обробки великих та надвеликих даних (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Розподілені технології та бази даних (ВПК)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<p><a href=\"https://github.com/RomanStakhira/kgl\" target=\"_blank\" rel=\"noopener noreferrer\">Kotlin Graph Library</a></p>\n<p><a href=\"https://electronics.lnu.edu.ua/wp-content/uploads/kotlin4ds.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"> Kotlin для роботи з даними</a></p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16865&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16865&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

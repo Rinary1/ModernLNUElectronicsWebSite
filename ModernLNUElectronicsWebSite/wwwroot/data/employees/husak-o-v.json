@@ -1,0 +1,29 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/husak-o-v/",
+  "Slug": "husak-o-v",
+  "FullName": "Гусак Олег Васильович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/processed-8de3d787-7c05-4f72-9ce8-f06c3a775f36_k4934Qat-125x150.jpeg",
+  "PositionText": "асистент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Profiles": {},
+  "Courses": [
+    {
+      "Title": "Організація баз даних та знань (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/orhanizatsiya-baz-danyh-ta-znan-2/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/orhanizatsiya-baz-danyh-ta-znan-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Організація баз даних та знань (КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "2011: Випускник факультету електроніки ЛНУ ім. Івана Франка\nЗ 2011 працюю в сфері ІТ спочатку на посаді програміста, потім виконую обов’язки керівника команд.\n&nbsp;До основних інтересів входять:\n<ul>\n<li>Хмарні технології та архітектура,</li>\n<li>архітектура програмного забезпечення.</li>\n<li>Машинне навчання</li>\n</ul>\nЧитаю курси:\n<ul>\n<li>Веб програмування на стороні сервера.</li>\n<li>Програмування та підтримка веб застосувань.</li>\n<li>Організація баз даних та знань.</li>\n<li>Веб-технології та програмування.</li>\n<li>Управління ІТ проектами.</li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31512&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31512&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

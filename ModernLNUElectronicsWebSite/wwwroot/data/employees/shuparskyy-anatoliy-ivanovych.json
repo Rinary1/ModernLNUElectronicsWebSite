@@ -1,0 +1,25 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shuparskyy-anatoliy-ivanovych/",
+  "Slug": "shuparskyy-anatoliy-ivanovych",
+  "FullName": "Шупарський Анатолій Іванович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/1703602927338-1-125x150.png",
+  "PositionText": "аспірант кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "Profiles": {},
+  "ResearchInterests": "Складні розподілені системи Інтернет речей (IoT)",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Складні розподілені системи</li>\n<li>Інтернет речей (IoT)</li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Shuparskyy A., Furgala Yu. – Selected Aspects of Digital Representation of Information Systems – Електроніка та інформаційні технології&nbsp; 2024&nbsp;<a href=\"http://dx.doi.org/10.30970/eli.27.1\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.30970/eli.27.1</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<b>Дата народження</b>: 20 квітня&nbsp;1977&nbsp;року.\n\n<b>Освіта:</b>\nУ&nbsp;2002&nbsp;році отримав диплом спеціаліста за спеціальністю “Радіофізика і електроніка”, Львівський національний університет імені Івана Франка, фізичний факультет.\nУ&nbsp;2013&nbsp;році отримав диплом спеціаліста за спеціальністю “Право”, Інститут післядипломної освіти та доуніверситетської підготовки при Львівському національному університеті імені Івана Франка.\n\n<b>Трудова діяльність:</b>\n2006&nbsp;– 2017 (11 років) компанія EPAM Systems, інженер, провідний розробник програмного забезпечення\n2017&nbsp;– до сьогодні (7 років) компанія Globallogic, провідний архітектор рішень у галузі Інтернету речей (ІоТ)\nРозробка рішень у галузі промисловості, телекомунікацій, охорони здоров’я, зокрема для компаній Verizon, Hilti, Schindler, Spacelab та інших."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/franiv-volodymyr-andriyovych/",
+  "Slug": "franiv-volodymyr-andriyovych",
+  "FullName": "Франів Володимир Андрійович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/my_foto-125x150.jpg",
+  "PositionText": "доцент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Email": "volodymyr.franiv@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=5MASI34AAAAJ&hl=uk",
+    "ORCID": "https://orcid.org/0000-0001-9856-1962",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=55353401400",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/GPX-3105-2022"
+  },
+  "ResearchInterests": "Штучний інтелект, Нейронні мережі",
+  "Courses": [
+    {
+      "Title": "Еволюційні, генетичні, евристичні та метаеврестичні алгоритми (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/evoliutsiyni-henetychni-evrystychni-ta-metaevrestychni-alhorytmy-vpk/"
+    },
+    {
+      "Title": "Життєвий цикл ПЗ. Управління IT проектами (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/zhyttievyy-tsykl-pz-upravlinnia-it-proektamy-vpk/"
+    },
+    {
+      "Title": "Мова програмування Java (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/mova-prohramuvannia-java-ist/"
+    },
+    {
+      "Title": "Нейронні мережі (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/neyronni-merezhi-ist/"
+    },
+    {
+      "Title": "Життєвий цикл ПЗ (121 Інженерія програмного забезпечення)",
+      "Url": "https://electronics.lnu.edu.ua/course/zhyttievyy-tsykl-pz-ipz/"
+    },
+    {
+      "Title": "Сучасні парадигми програмування (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/suchasni-paradyhmy-prohramuvannia-ist/"
+    },
+    {
+      "Title": "Теорія прийняття рішень (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/teoriya-pryjnyattya-rishen/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Штучний інтелект,<br>\nНейронні мережі</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/evoliutsiyni-henetychni-evrystychni-ta-metaevrestychni-alhorytmy-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Еволюційні, генетичні, евристичні та метаеврестичні алгоритми (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/zhyttievyy-tsykl-pz-upravlinnia-it-proektamy-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Життєвий цикл ПЗ. Управління IT проектами (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mova-prohramuvannia-java-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Мова програмування Java (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/neyronni-merezhi-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Нейронні мережі (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/zhyttievyy-tsykl-pz-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Життєвий цикл ПЗ (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/suchasni-paradyhmy-prohramuvannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Сучасні парадигми програмування (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-pryjnyattya-rishen/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія прийняття рішень (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Sveleba S., Katerynchuk I., Kuno I., Shmygelsky Ya., Velhosh S., Franiv V. – Multilayered Neural Network with an AMSgrad Optimization Learning Method – Електроніка та інформаційні технології 2024&nbsp;&nbsp;<a href=\"http://dx.doi.org/10.30970/eli.25.4\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.30970/eli.25.4</a></li>\n<li>Franiv V.A. Comparison usage ofagile, waterfalland other approaches for software development under unstable situations caused by russian invasion ofUkraine/ FranivV.A., Vasylyuk S.V., Franiv I.A. // Електроніка та інформаційні технології. – 2023. – 22. – P. 70-82.</li>\n<li>Franiv V.A. An Investigation into the Efficiency of Specific Databases for Tracking Purposes in Scope of IT Startup / Franiv V.A. Biletskyi O.R., Vasylyuk S.V, Franiv I.A. // 2023 IEEE 13th International Conference ELECTRONICS AND INFORMATION TECHNOLOGIES. – 2023. – Lviv, Ukraine, September 26-28, 2023. – С. 186-191.</li>\n<li>Predicting Equilibrium Geometries of Large Multicomponent Systems with Neural Networks M Moroz, O Bovgyra, V Franiv, V Dzikovskyi International Scientific and Practical Conference “Electronics and Information Technologies” (ELIT-2018) <a href=\"https://www.researchgate.net/profile/Oleg-Bovgyra/publication/328534277_Predicting_Equilibrium_Geometries_of_Large_Multicomponent_Systems_with_Neural_Networks/links/5bda223392851c6b279ca104/Predicting-Equilibrium-Geometries-of-Large-Multicomponent-Systems-with-Neural-Networks.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">режим доступу</a></li>\n<li>Optical and Energetic Properties of the Tl&nbsp;<sub>4</sub>&nbsp;CdI&nbsp;<sub>6</sub> Crystal /Kashuba, A.I.,&nbsp;Malyi, T.S.,&nbsp;Solovyov, M.V., …, Shchepanskyi, P.,&nbsp;Franiv, V.A. /Optics and Spectroscopythis link is disabled,&nbsp;2018, 125(6), pp. 853–857&nbsp;<a href=\"https://doi.org/10.1134/S0030400X18120081\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1134/S0030400X18120081</a></li>\n<li>Thermal properties of In<sub>x</sub>Tl<sub>1-x</sub>I solid state solutions /Kashuba, A.I.,&nbsp;Franiv, A.V.,&nbsp;Franiv, V.A.//Journal of Nano- and Electronic Physicsthis link is disabled,&nbsp;2018, 10(1), 01013&nbsp;<a href=\"http://dx.doi.org/10.21272/jnep.10(1).01013\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.21272/jnep.10(1).01013</a></li>\n<li>X-ray luminescence of Tl<sub>4</sub>CdI<sub>6</sub> crystals/ Solovyov, M.,&nbsp;Kashuba, A.,&nbsp;Franiv, V.,&nbsp;Franiv, A.,&nbsp;Futey, O. //2017 IEEE International Young Scientists Forum on Applied Physics and Engineering, YSF 2017,&nbsp;2017, 2017-January, pp. 19519 <a href=\"http://dx.doi.org/10.1109/YSF.2017.8126617\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.1109/YSF.2017.8126617</a></li>\n<li>Growth of AgGaGe<sub>3-x</sub>Sn<sub>x</sub>Se<sub>8</sub> single crystals with light-operated piezoelectricity / Kuznik, W.,&nbsp;Rakus, P.,&nbsp;Parasyuk, O.V.,&nbsp;…Fedorchuk, A.O.,&nbsp;Franiv, V.A. // Materials Lettersthis link is disabled,&nbsp;2015, 161, pp. 705–707, 19587&nbsp;<a href=\"https://doi.org/10.1016/j.matlet.2015.09.071\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1016/j.matlet.2015.09.071</a></li>\n<li>\n<p>Simulation of optical spectra of novel Tl<sub>4</sub>CdI<sub>6</sub>&nbsp;and Tl<sub>4</sub>HgI<sub>6</sub> optoelectronic crystals /Franiv, V.,&nbsp;Bovgyra, O.,&nbsp;Kushnir, O.,&nbsp;Franiv, A.,&nbsp;Plucinski, K.J. //Optica Applicatathis link is disabled,&nbsp;2014, 44(2), pp. 317–326&nbsp;<a href=\"http://dx.doi.org/10.5277/oa140212\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.5277/oa140212</a></p>\n</li>\n<li>\n<p>Structural transformations in Tl<sub>4</sub>HgI<sub>6</sub>&nbsp;and Tl<sub>4</sub>CdI<sub>6</sub> crystals as evidenced by dielectric properties and conductivity/ Franiv, V.A.,&nbsp;Czapla, Z.,&nbsp;Dacko, S.,&nbsp;Franiv, A.V.,&nbsp;Kushnir, O.S. // Ukrainian Journal of Physicsthis link is disabled,&nbsp;2014, 59(11), pp. 1078–1082&nbsp;<a href=\"https://doi.org/10.15407/ujpe59.11.1078\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.15407/ujpe59.11.1078</a></p>\n</li>\n<li>\n<p>Optically stimulated piezooptical effects in Cu-doped ZnO films /El Jald, E.M.,&nbsp;Franiv, V.A.,&nbsp;Belayachi, A.,&nbsp;Abd-Lefdil, M. //Optikthis link is disabled,&nbsp;2013, 124(23), pp. 6302–6304&nbsp;<a href=\"https://doi.org/10.1016/j.ijleo.2013.05.128\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1016/j.ijleo.2013.05.128</a></p>\n</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження :</strong> 7 серпня 1990</p>\n<p><strong>Освіта:</strong> вища (2007 – 2012, Львівський національний університет імені Івана Франка, факультет електроніки, спеціальність “Прикладна Фізика” )</p>\n<p><strong>Навчання в аспірантурі:</strong> 2012 – 2015.</p>\n<p><strong>Працевлаштування</strong>: 2015 – 2018 науковий співробітник Львівського національного університету імені Івана Франка;<br>\n2018 – 2022 н.р. Старший інженер програміст, “Oracle”<br>\nЗ 2022 – доцент кафедри отоелектроніки та інформаційних технологій.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=28817&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=28817&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/izhyk-oleh-borysovych/",
+  "Slug": "izhyk-oleh-borysovych",
+  "FullName": "Іжик Олег Борисович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/image-125x150.jpg",
+  "PositionText": "асистент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Email": "oleh.izhyk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=6BSTXBcAAAAJ&hl=en",
+    "ORCID": "https://orcid.org/0000-0003-2248-3771",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=57218370111",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/JDD-0936-2023"
+  },
+  "ResearchInterests": "розроблення композитних наноматеріалів, тонкі полімерні плівки, функціональні наночастинки, пористі структури, дослідження властивостей поверхні.",
+  "Courses": [
+    {
+      "Title": "Математичні методи дослідження операцій (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/matematychni-metody-doslidzhennia-operatsiy-kn/"
+    },
+    {
+      "Title": "Опрацювання інформації (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/opratsiuvannia-informatsii-vpk/"
+    },
+    {
+      "Title": "Оптоелектронна інформатика (F3 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-optoelektroniky-kn/"
+    },
+    {
+      "Title": "Основи комп'ютерної лінгвістики (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-komp-iuternoi-linhvistyky-122-kn/"
+    },
+    {
+      "Title": "Основи програмування (121 Інженерія програмного забезпечення)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-prohramuvannia-ipz/"
+    },
+    {
+      "Title": "Системи штучного інтелекту (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/metody-ta-systemy-shtuchnoho-intelektu/"
+    },
+    {
+      "Title": "Цифрова обробка інформації (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>розроблення композитних наноматеріалів,</li>\n<li>тонкі полімерні плівки,</li>\n<li>функціональні наночастинки,</li>\n<li>пористі структури,</li>\n<li>дослідження властивостей поверхні.</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/matematychni-metody-doslidzhennia-operatsiy-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Математичні методи дослідження операцій (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/opratsiuvannia-informatsii-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Опрацювання інформації (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-optoelektroniky-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Оптоелектронна інформатика (F3 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-komp-iuternoi-linhvistyky-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи комп'ютерної лінгвістики (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи програмування (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-ta-systemy-shtuchnoho-intelektu/\" target=\"_blank\" rel=\"noopener noreferrer\">Системи штучного інтелекту (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка інформації (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Мітіна Н.Є., Гаргай Х.І., Іжик О.Б., Заіченко О.С. – Особливості синтезу пористих мікрогелевих частинок на основі акрилових мономерів – Грааль Науки 2024&nbsp;<a href=\"http://dx.doi.org/10.36074/grail-of-science.06.09.2024.031\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.36074/grail-of-science.06.09.2024.031</a></li>\n<li>N. Y. Mitina, A. O. Riabtseva, V. M. Garamus, R. B. Lesyk, K. A. Volyaniuk, O. B. Izhyk, O. S. Zaichenko “Morphology of the Micelles Formed by a Comb-Like PEG-Containing Copolymer Loaded with Antitumor Substances with Different Water Solubilities”, Ukr. J. Phys., vol. 65, no. 8, p. 670, Jul. 2020, doi.org/10.15407/ujpe65.8.670.</li>\n<li>O. B. Izhyk, O. V. Balaban, N. Y. Mitina , K. A. Volianiuk, Kh. I. Harhay, I. I. Grygorchak, O. S. Zaichenko, “Unexpected Resistance of Polyelectrolyte Brushes Formed via Surface-Initiated Polymerization on Glass and Sitall,” Acta Phys. Pol., vol. 141, no. 4, 2022, doi: 10.12693/APhysPolA.141.293.</li>\n<li>O. V. Balaban, O. B. Izhyk, O. S. Zaichenko, N. Y. Mitina, I. I. Grygorchak, and Kh. I. Harhay, “Li<sup>+</sup> intercalation current generation in amorphous and crystalline MoS2: Experiment and theory,” Lith. J. Phys., vol. 63, no. 1, pp. 25–34, Apr. 2023, doi: 10.3952/PHYSICS.2023.63.1.4.</li>\n<li>V. Datsyuk, N. Y. Mitina, O. S. Zaichenko, S. Trotsenko, O. V. Balaban, Kh. I. Harhay, M. Teucher, O. B. Izhyk, I. I. Grygorchak, L. Sygellou, O. Trotsenko, R. S. Stoika, O. Y. Klyuchivska, “Multipurpose composites with switched surface functionality and morphology based on oligoperoxide-modified electrospun nanofiber,” Appl. Nanosci., pp. 1–16, Jun. 2023, doi: 10.1007/S13204-023-02882-7/METRICS.</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Освіта: </strong>вища ( 2012 – 2017 рр. – Національний університет «Львівська політехніка», Інститут прикладної математики та фундаментальних наук спеціальність: 105 «прикладна фізика та наноматеріали», освітній ступінь « Бакалавр». 2017 – 2018 рр. – Національний університет «Львівська політехніка», Інститут прикладної математики та фундаментальних наук, спеціальність: 105 «Прикладна фізика та наноматеріали», освітній ступінь «Магістр». )</p>\n<p><strong>Навчання в аспірантурі: </strong>2019 – 2023 рр. Спеціальність: 105 «прикладна фізика та наноматеріали» ( аспірант кафедри прикладної фізики і наноматеріалознавства , Інститут прикладної математики та фундаментальних наук, Національний університет «Львівська політехніка» ) .</p>\n<p><strong>Дисертація на здобуття наукового ступеня доктора філософії (канд. фіз.-мат. н.)</strong>: «Розроблення методів синтезу нанорозмірних полімерних та полімер-неорганічних щіток зі спеціальними електрофізичними та оптичними властивостями» (105 «Прикладна фізика та наноматеріали»&nbsp; НУ «Львівська політехніка» 22.12.2023 )</p>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<ol>\n<li>Учасник міжнародного науково-дослідного гранту (г/д-Schock) «Покращення прес-форми та рецептури Schock для поліакрилатного композиту з низькотемпературним затвердінням» (Schock GmbH, Hofbauerstrasse1, 94209 Regen, Germany).</li>\n<li>Учасник міжнародного проекту CRDF № G-202206-68885 «Розумні поверхні для виробництва біопалива на основі мікроводоростей» (CRDF Global).</li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31490&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31490&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

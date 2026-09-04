@@ -1,0 +1,20 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/yakubovych-m-i/",
+  "Slug": "yakubovych-m-i",
+  "FullName": "Якубович Максим Ігорович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/me-e1718751419810-125x150.jpg",
+  "PositionText": "аспірант кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Email": "maksym.yakubovych@lnu.edu.ua",
+  "Profiles": {
+    "ORCID": "https://orcid.org/0009-0006-3913-1421"
+  },
+  "ResearchInterests": "IoT smart office smart home media solutions cloud technologies project management",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>IoT</li>\n<li>smart office</li>\n<li>smart home</li>\n<li>media solutions</li>\n<li>cloud technologies</li>\n<li>project management</li>\n</ul>"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kuzhiy-yuriy-ivanovych/",
+  "Slug": "kuzhiy-yuriy-ivanovych",
+  "FullName": "Кужій Юрій Іванович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/photo_2024-02-07_16-09-07-125x150.jpg",
+  "PositionText": "аспірант кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "Email": "Yurii.Kuzhii@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "Full Stack Web Development, розпізнавання образів",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Full Stack Web Development, розпізнавання образів</p>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Kuzhii Y., Furgala Yu. – The anticheat development in the Counter-Strike main series – Електроніка та інформаційні технології 2024&nbsp;<a href=\"http://dx.doi.org/10.30970/eli.26.8\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.30970/eli.26.8</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження:</strong>&nbsp;7 травня 1990р.</p>\n<p><strong>Освіта:&nbsp;</strong>вища (2007 – 2012, Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, спеціальність “Прикладна Фізика” )</p>\n<p><strong>Працевлаштування:</strong><br>\n2012 – 2022 н.р. Інженер програміст</p>\n<p>2018 – 2022 н.р. Старший інженер програміст<br>\nЗ 2022р. – Старший інженер програміст, компанія Sift</p>"
+    }
+  ]
+}

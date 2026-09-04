@@ -1,0 +1,21 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/luchka-vasyl-taras-yaroslavovych/",
+  "Slug": "luchka-vasyl-taras-yaroslavovych",
+  "FullName": "Лучка Василь-Тарас Ярославович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/foto-Luchka-125x150.jpg",
+  "PositionText": "аспірант кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "Email": "vasyltaras.luchka@lnu.edu.ua",
+  "Profiles": {},
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Luchka V.-T., Vdovychenko V., Furgala Yu. – Comparison of support vector classification with key points and neural networks for object detection – Електроніка та інформаційні технології&nbsp; 2024&nbsp;<a href=\"http://dx.doi.org/10.30970/eli.25.7\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.30970/eli.25.7</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження: </strong>5 січня 2000 р.</p>\n<p><strong>Освіта: </strong>вища (2017 – 2021 рр. Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, спеціальність 126 «Інформаційні системи та технології», &nbsp;освітній ступінь « Бакалавр». 2021 – 2022 рр. Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, спеціальність 122&nbsp; «Комп’ютерні науки»)</p>\n<p><strong>Працевлаштування: </strong>з 2021 р.&nbsp; devils, SoftServe</p>"
+    }
+  ]
+}

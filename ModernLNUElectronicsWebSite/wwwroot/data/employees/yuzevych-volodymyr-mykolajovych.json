@@ -1,0 +1,73 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/yuzevych-volodymyr-mykolajovych/",
+  "Slug": "yuzevych-volodymyr-mykolajovych",
+  "FullName": "Юзевич Володимир Миколайович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/161024151438659-765-125x150.jpg",
+  "PositionText": ", професор кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "AcademicDegree": "доктор фізико-математичних наук",
+  "Email": "volodymyr.yuzevych@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=_GsoI8EAAAAJ",
+    "ORCID": "https://orcid.org/0000-0001-5244-1850",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=6506741420",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/32495282"
+  },
+  "ResearchInterests": "Безпека інформаційно-комунікаційних технологій Безпека кіберфізичних систем Моделювання інформаційно-комунікаційних процесів Механіка та фізика твердого тіла",
+  "Courses": [
+    {
+      "Title": "Вибрані розділи науки про дані (122 - Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/vybrani-rozdily-nauky-pro-dani-122-komp-iuterni-nauky/"
+    },
+    {
+      "Title": "Методи та технології аналізу даних (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-analizu-danykh-vpk/"
+    },
+    {
+      "Title": "Методи та технології аналізу даних (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/metody-i-tekhnolohii-analizu-danykh-ipz/"
+    },
+    {
+      "Title": "Основи аналізу даних (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-analizu-danykh-122-komp-iuterni-nauky/"
+    },
+    {
+      "Title": "Основи аналітики даних (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-analityky-danykh-122-komp-iuterni-nauky/"
+    },
+    {
+      "Title": "Сучасні хмаркові сервіси та обчислення (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/proektuvannia-kiberfizychnykh-system/"
+    },
+    {
+      "Title": "Методології дослідження даних (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/metodolohii-doslidzhennia-danykh-vpk-2/"
+    },
+    {
+      "Title": "Проектування інформаційних систем (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/proektuvannya-informatsijnyh-system/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Безпека інформаційно-комунікаційних технологій</li>\n<li>Безпека кіберфізичних систем</li>\n<li>Моделювання інформаційно-комунікаційних процесів</li>\n<li>Механіка та фізика твердого тіла</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vybrani-rozdily-nauky-pro-dani-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Вибрані розділи науки про дані (122 - Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-analizu-danykh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи та технології аналізу даних (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-i-tekhnolohii-analizu-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи та технології аналізу даних (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-analizu-danykh-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи аналізу даних (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-analityky-danykh-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи аналітики даних (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/proektuvannia-kiberfizychnykh-system/\" target=\"_blank\" rel=\"noopener noreferrer\">Сучасні хмаркові сервіси та обчислення  (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metodolohii-doslidzhennia-danykh-vpk-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Методології дослідження даних (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/proektuvannya-informatsijnyh-system/\" target=\"_blank\" rel=\"noopener noreferrer\">Проектування інформаційних систем (КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "Кількість наукових публікацій: – 368 наукових праць, п’ять монографій, понад 30 методичних розробок\n<ul>\n<li><i>Монографії:</i></li>\n</ul>\n1. Yuzevych V., Koman B. Mathematical and computer modeling of interphase interaction in heterogeneous solid structures. Chapter «Engineering Sciences». Theoretical and practical aspects of the development of modern scientific research: Scientific monograph. Part 1. Riga, Latvia: Baltija Publishing,&nbsp;2022. P.&nbsp;376-405. DOI:&nbsp;<a href=\"https://doi.org/10.30525/978-9934-26-195-4\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30525/978-9934-26-195-4</a>.Collective Scientific Monograph.\n2. Koman B., Yuzevych V. Regularities of macroplastic deformation of narrow-band single crystals of CdxHg 1-xTe solid solutions // State, Trends and Prospects of Land Sciences, Environment, Physics, Mathematics and Statistics’ Development. Collective Scientific Monograph. Edition 1. Dallas (USA)&nbsp;2021. P. 1-23. 19.03.2021. DOI:&nbsp;<a href=\"https://doi.org/10.36074/stplsepmad.ed-1.04\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.36074/stplsepmad.ed-1.04</a>.\n<ul>\n<li><i>Наукові праці:</i></li>\n</ul>\n1. Koman B., Yuzevych V. Synergetic Processes in Uniaxially Deformed Crystals. ELIT-2019: XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT). Proceedings. Ivan Franko National University of Lviv, Lviv, Ukraine, September&nbsp;16-18,&nbsp;2019. IEEE Ukraine section. P.&nbsp;265-267. (Abstracted/Indexed in SCOPUS).\n2. Kushnir V., Koman B., Yuzevych V. IoT image recognition system implementation for blind peoples using esp32, Mobile phone and convolutional neural network. ELIT-2019: XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT). Proceedings. Ivan Franko National University of Lviv, Lviv, Ukraine, September&nbsp;16-18,&nbsp;2019. IEEE Ukraine section. P.&nbsp;183-187. (Abstracted/Indexed in SCOPUS).\n3. Tovpinets I., Kovtko R., Yuzevych V. and Prodyvus A. The Usage of Apache Spark for Collection and Analysis of Social Networking Statistics. ELIT-2019: XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT). Proceedings. Ivan Franko National University of Lviv, Lviv, Ukraine, September&nbsp;16-18,&nbsp;2019. IEEE Ukraine section. P.&nbsp;197-200. (Abstracted/Indexed in SCOPUS).\n4. Improvement of the toolset for diagnosing underground pipelines of oil and gas enterprises considering changes in internal working pressure / V. Yuzevych, L. Yankovska, L. Sopilnyk, L. Yuzevych // Eastern-European Journal of Enterprise Technologies.&nbsp;2019. Vol. 6, No 5 (102). P.&nbsp;23–29. DOI: 10.15587/1729-4061.2019.184247. (SCOPUS).\n5. Decision Support System for the Diagnosis of Thyroid Cancer / O. Boyko, O. Chaban, V. Yuzevych, A. Kucher // Proceedings of the&nbsp;2021&nbsp;IEEE XIIth International Conference on Electronics and Information Technologies (ELIT). May&nbsp;19-21,&nbsp;2021&nbsp;Lviv, Ukrainę. P.&nbsp;76-79. (Scopus). DOI:10.1109/ELIT53502.2021.9501067. (Scopus).\n6. Yuzevych, V. M., Lozovan, V. P. Influence of Mechanical Stresses on the Propagation of Corrosion Cracks in Pipeline Walls // Materials Science,&nbsp;2022. Volume 57, No. 4. P.&nbsp;539-548;&nbsp;<a href=\"https://doi.org/10.1007/s11003-022-00576-z\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/s11003-022-00576-z</a>. DOI 10.1007/s11003-022-00576-z. (Scopus, Web of Science, Impact Factor – 0,3).\n7. Mysiuk R., Yuzevych V., Koman B. and Yasinskyi M. “High Availability System for Monitoring Material Degradation Processes at the Concrete-polymer Interface,”&nbsp;2022&nbsp;12th International Conference on Advanced Computer Information Technologies (ACIT),&nbsp;2022, P.&nbsp;415-418. doi:&nbsp;<a href=\"https://doi.org/10.1109/ACIT54803.2022.9913086\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/ACIT54803.2022.9913086</a>. (Scopus).\n8. Determination of conditions for loss of bearing capacity of underground ammonia pipelines based on the monitoring data and flexible search algorithms / R.V. Mysiuk, V.M. Yuzevych, M. F. Yasinskyi // Archives of Materials Science and Engineering.&nbsp;2022; Vol. 115. No. 1. P.&nbsp;13-20.&nbsp;<a href=\"https://doi.org/10.5604/01.3001.0016.0671\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.5604/01.3001.0016.0671</a>. (Scopus).\n9. Tovpinets I., Kovtko R., Yuzevych V. and Prodyvus A. The Usage of Apache Spark for Collection and Analysis of Social Networking Statistics. ELIT-2019: XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT). Proceedings. Ivan Franko National University of Lviv, Lviv, Ukraine, September&nbsp;16-18,&nbsp;2019. IEEE Ukraine section. P.&nbsp;197-200. (Abstracted/Indexed in SCOPUS).\n10. Improvement of the toolset for diagnosing underground pipelines of oil and gas enterprises considering changes in internal working pressure / L. Yuzevych, L. Yankovska, L. Sopilnyk, V. Yuzevych // Eastern-European Journal of Enterprise Technologies.&nbsp;2019. Vol. 6, No 5 (102). P.&nbsp;23–29. DOI: 10.15587/1729-4061.2019.184247. (SCOPUS).\n11. R. Mysiuk, G. Pawlowski, V. Yuzevych. “Video-based Concrete Road Damage Assessment Using JetRacer Kit,”&nbsp;2023&nbsp;17th International Conference on the Experience of Designing and Application of CAD Systems (CADSM), Jaroslaw, Poland,&nbsp;2023, P. 1-4, doi: 10.1109/CADSM58174.2023.10076528. (Scopus)\n12. Detection&nbsp;of Structure Changes&nbsp;in Lightweight Concrete&nbsp;with Nanoparticles Using Computer Vision Methods in the Construction Industry / Roman Mysiuk, Volodymyr Yuzevych, Bohdan Koman, Yuriy Tyrkalo / In: Yang, XS., Sherratt, R.S., Dey, N., Joshi, A. (eds) Proceedings of Eighth International Congress on Information and Communication Technology. ICICT&nbsp;2023. Lecture Notes in Networks and Systems,&nbsp;2023. vol 694. Springer, Singapore.&nbsp;<a href=\"https://doi.org/10.1007/978-981-99-3091-3_27\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/978-981-99-3091-3_27</a>. (Scopus, Web of Science)"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Народився 20 серпня&nbsp;1950&nbsp;р. у селі Трач Косівського району Івано-Франківської обл. У&nbsp;1972&nbsp;р. закінчив фізичний факультет Львівського університет імені Івана Франка. З&nbsp;1972&nbsp;р. до&nbsp;1974&nbsp;р. працював у Львівському університет імені Івана Франка (м. Львів). З&nbsp;1974&nbsp;р. до&nbsp;1988&nbsp;р. працював у Інституті прикладних проблем механіки і математики АН України (м. Львів). У&nbsp;1978&nbsp;р. вступив до заочної аспірантури Інституті прикладних проблем механіки і математики АН України, де навчався до&nbsp;1982. Після закінчення аспірантури на початку&nbsp;1983&nbsp;р. захистик кандидатську дисертацію за спеціальністю 01.02.04 – Механіка деформівного твердого тіла. З&nbsp;1988&nbsp;по даний час працював і працює у Фізико-механічному інституті НАН України на посадах старшого наукового співробітника та провідного наукового співробітника. Захист докторської дисертації відбувся у вересні&nbsp;1999&nbsp;року, спеціальність 02.04.07 – фізика твердого тіла. Науковий ступінь доктора фізико-математичних наук присвоєно 12 січня&nbsp;2000&nbsp;року.&nbsp;Член спеціалізованої вченої ради К 35.874.02 при Львівському державному університеті безпеки життєдіяльності за спеціальністю 05.13.22 — управління проектами та програмами. Під керівництвом В. М. Юзевича захищено 4 кандидатські дисертації, він був науковим консультантом докторської дисертації.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16869&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16869&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

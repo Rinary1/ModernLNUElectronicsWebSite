@@ -1,0 +1,43 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/hera-o-b/",
+  "Slug": "hera-o-b",
+  "FullName": "Гера Орест Богданович",
+  "PositionText": "доцент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=QOu5-QoAAAAJ&hl=en",
+    "ORCID": "https://orcid.org/0009-0006-9971-4346",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=10243976600",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/JKO-3142-2023"
+  },
+  "ResearchInterests": "високопродуктивні обчислювальні системи квантова інформація та квантове програмування сильно скорельовані системи",
+  "Courses": [
+    {
+      "Title": "Бази даних (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/bazy-danykh-vpk/"
+    },
+    {
+      "Title": "Веб-технології і програмування (ч.2) (ІПЗ та ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/veb-prohramuvannia-kn/"
+    },
+    {
+      "Title": "Веб-технології та програмування ч.1 (HTML, CSS, basic JS) (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/web-tekhnolohii-ipz/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>високопродуктивні обчислювальні системи</li>\n<li>квантова інформація та квантове програмування</li>\n<li>сильно скорельовані системи</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/bazy-danykh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Бази даних (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/veb-prohramuvannia-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб-технології і програмування (ч.2) (ІПЗ та ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/web-tekhnolohii-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб-технології та програмування ч.1 (HTML, CSS, basic JS) (ІПЗ)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31532&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31532&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rabosh-roman-vasylovych/",
+  "Slug": "rabosh-roman-vasylovych",
+  "FullName": "Рабош Роман Васильович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Rabosh-R.V-125x150.jpg",
+  "PositionText": "доцент кафедри радіоелектронних і комп’ютерних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Phone": "(032) 239-41-52",
+  "Email": "roman.rabosh@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=ALTlnBgAAAAJ&&hl=uk",
+    "ORCID": "https://orcid.org/0009-0005-1570-569X",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=25927495100",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/LGZ-9089-2024"
+  },
+  "ResearchInterests": "Методи машинного навчання, аналітика даних Методи оптимізації Обчислювальна механіка",
+  "Courses": [
+    {
+      "Title": "Архітектура ПЗ (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/arkhitektura-pz-ipz/"
+    },
+    {
+      "Title": "Вибрані розділи сучасних мов та засобів програмування (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/vybrani-rozdily-suchasnykh-mov-ta-zasobiv-prohramuvannia-vpk/"
+    },
+    {
+      "Title": "Нечіткі системи (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/nechitki-systemy-ipz/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Методи машинного навчання, аналітика даних</li>\n<li>Методи оптимізації</li>\n<li>Обчислювальна механіка</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitektura-pz-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура ПЗ (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vybrani-rozdily-suchasnykh-mov-ta-zasobiv-prohramuvannia-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Вибрані розділи сучасних мов та засобів програмування (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nechitki-systemy-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Нечіткі системи (ІПЗ)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ul>\n<li>Kunets Y.I., Matus V.V., Maksymiv Y.I., Rabosh R.V. Influence of a Thin Metal Interlayer on the Propagation of Bluestein–Gulyaev-Type Waves in Piezoelectric Bodies // Journal of Mathematical Sciences. – 2023. – Vol. 273. – P. 44–50.&nbsp;</li>\n<li>Rabosh R.V., Kunets Ya.I., Matus V.V., Maksymiv Yu.I. Propagation of Blushtein-Gulyaev Waves in a Piezoelectric Matrix with a Thin Metal Layer // IEEE 26th Int. Seminar/Workshop on Direct and Inverse Problems of Electromagnetic and Acoustic Wave Theory (DIPED). – Tbilisi, 2021. – P.\u202F237–240.&nbsp;</li>\n<li>Rabosh R.V., Kunets Ya.I., Maksymiv Yu.I. Effective models for metallic inclusions in piezoelectric medium // IEEE XXVth Int. Seminar/Workshop «Direct and inverse problems of electromagnetic and acoustic wave theory (DIPED)». – Tbilisi, 2020. – P. 168–171.&nbsp;</li>\n<li>Rabosh R.V., Kunets Ya.I., Maksymiv Yu.I. SH-waves reflection and transmission by a periodic array of piezoelectric inclusions in an elastic medium // Proc. XXIII Int. Seminar/Workshop «Direct and inverse problems of electromagnetic and acoustic wave theory» (DIPED–2019). – Lviv, 2019. – P.\u202F177–180.&nbsp;</li>\n<li>Максимів Ю.І., Пороховський Ю.В., Рабош Р.В., Міщенко В.О., Кунець Я.І. Динамічна взаємодія тонкого металічного включення з п’єзокерамічною матрицею // Прикл. проблеми механіки і математики. – 2019. – Вип. 17. – С. 134–138.&nbsp;</li>\n<li>Rabosh R.V., Kunets Ya.I., Maksymiv Yu.I. Effective dynamical parameters of piezoelectric medium with randomly distributed piezoelectric inclusions // Proc. XXIIIrd International Seminar/Workshop on Direct and Inverse Problems of Electromagnetic and Acoustic Wave Theory (DIPED–2018). – Tbilisi, 2018. – P.\u202F153–156.&nbsp;&nbsp;</li>\n<li>Максимів Ю.І., Рабош Р.В., Кунець Я.І., Пороховський В.В. Взаємодія SH-хвиль з тонким п’єзоелектричним неконтрастним включенням у пружному півпросторі // Прикл. проблеми механіки і математики. – 2017. – Вип. 15. – С. 97–101.&nbsp;</li>\n<li>Кунець Я.І., Матус В.В., Міщенко В.О., Рабош Р.В. Розсіяння імпульсів SH-хвиль тонким прямолінійним п’єзоелектричним включенням малої жорсткості у пружному середовищі // Прикл. проблеми мех. і мат. – 2013. – Вип. 11. – С. 129–134.&nbsp;</li>\n<li>Kunets Ya.I., Rabosh R.V. Longitudinal shear of an elastic medium with a thin rectilinear sharp-pointed piezoelectric inclusion of low rigidity // Journal of Mathematical Sciences. – 2012. – Vol. 180, Iss. 2. – P. 153–160.&nbsp;&nbsp;</li>\n<li>Rabosh R.V. Dynamic interaction between elastic medium and thin curvilinear piezoelectric inclusion under longitudinal vibration of composite // Journal of Mathematical Sciences. – 2010. – Vol. 168, Iss. 5. – P. 625–632.&nbsp;&nbsp;</li>\n<li>Kunets Ya.I., Rabosh R.V. Asymptotic solution for a sharp–edged piezoelectric inclusion in an elastic matrix subjected to dynamic antiplane shear loading // Proc. XІV Int. Seminar/Workshop «Direct and inverse problems of electromagnetic and acoustic wave theory» (DIPED–2009). – Lviv. – 2009. – P.\u202F279–281.&nbsp;&nbsp;</li>\n<li>Kunets Ya.I., Rabosh R.V. Effective boundary conditions for a thin curved piezoelectric inclusion in elastic medium // Proc. XIII Int. Seminar/Workshop «Direct and inverse problems of electromagnetic and acoustic wave theory» (DIPED–2008). – Tbilisi. – 2008. – P.\u202F172–175.&nbsp;&nbsp;</li>\n<li>Сулим Г.Т., Кунець Я.І., Рабош Р.В. Асимптотичний аналіз динамічної взаємодії тонкого прямолінійного п’єзоелектричного включення з пружним середовищем за поздовжнього зсуву // Вісн. Донецького університету. – 2008. – №1. – С. 137–141.&nbsp;</li>\n<li>Сулим Г.Т., Рабош Р.В. Антиплоска задача для тонкого пружного включення у п’єзоелектричному середовищі, Вісник Львівського університету // Серія мех.-мат. – 2008. – Вип. 69. – С. 189–202.&nbsp;</li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>У 2006 році закінчив механіко-математичний факультет Львівського національного університету ім. Івана Франка.&nbsp;</p>\n<p>У 2012 році захистив кандидатську дисертацію “Динамічні задачі поздовжнього зсуву для пружного середовища з тонкостінним п’єзоелектричним включенням” за спеціальністю 01.02.04 – механіка деформівного твердого тіла.&nbsp;</p>\n<p>З 2012 року працює в Інституті прикладних проблем механіки і математики ім.\u202FЯ.С. Підстригача НАН України.&nbsp;&nbsp;</p>\n<p>З 2023 року – робота на кафедрі радіоелектронних і комп’ютерних систем факультету електроніки \u202FЛьвівського національного університету ім. Івана Франка.&nbsp;</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=37141&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=37141&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

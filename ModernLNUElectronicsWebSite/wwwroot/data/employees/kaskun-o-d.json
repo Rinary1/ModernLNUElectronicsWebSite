@@ -1,0 +1,57 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kaskun-o-d/",
+  "Slug": "kaskun-o-d",
+  "FullName": "Каськун Олег Данилович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Rysunok3-1-125x150.png",
+  "PositionText": "асистент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Email": "oleh.kaskun@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=AhSbZeIAAAAJ"
+  },
+  "ResearchInterests": "Обробка, аналіз та розпізнавання зображень Машинне навчання та глибоке навчання Аналіз даних. Big data. Data warehouse. DB design",
+  "Courses": [
+    {
+      "Title": "Комп'ютерні інформаційні мережі (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/kompyuterni-informatsijni-merezhi/"
+    },
+    {
+      "Title": "Комп’ютерні інформаційні мережі та системи (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ta-systemy-ist/"
+    },
+    {
+      "Title": "Методи та технології обчислень(ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/metody-obchyslen-ipz/"
+    },
+    {
+      "Title": "Нереляційні бази даних (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/nereliatsiyni-bazy-danykh-kn/"
+    },
+    {
+      "Title": "Паралельні та розподілені обчислення",
+      "Url": "https://electronics.lnu.edu.ua/course/paralelne-prohramuvannia-ipz/"
+    },
+    {
+      "Title": "Хмарні обчислення (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/khmarni-obchyslennia-kn/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Обробка, аналіз та розпізнавання зображень</li>\n<li>Машинне навчання та глибоке навчання</li>\n<li>Аналіз даних.</li>\n<li>Big data. Data warehouse. DB design</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kompyuterni-informatsijni-merezhi/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп'ютерні інформаційні мережі (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ta-systemy-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп’ютерні інформаційні мережі та системи (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-obchyslen-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи та технології обчислень(ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nereliatsiyni-bazy-danykh-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Нереляційні бази даних (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paralelne-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Паралельні та розподілені обчислення</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/khmarni-obchyslennia-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Хмарні обчислення (КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Народився 1998 року у м.Львові.</p>\n<p>Закінчив НВК”Школа-гімназія”Сихівська”.<br>\nУ 2015-2020 роках навчався на факультеті електроніки та комп’ютерних технологій ЛНУ імені Івана Франка, який закінчив із відзнакою.<br>\nЗ 2021 року асистент кафедри системного проектування.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=23815&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=23815&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

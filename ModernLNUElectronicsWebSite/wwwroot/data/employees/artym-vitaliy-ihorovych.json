@@ -1,0 +1,35 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/artym-vitaliy-ihorovych/",
+  "Slug": "artym-vitaliy-ihorovych",
+  "FullName": "Артим Віталій Ігорович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Artym-125x150.jpg",
+  "PositionText": "аспірант кафедри оптоелектроніки та інформаційних технологій, асистент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "Email": "vitalii.artym@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "Обробка зображень Системи передачі даних Інтернет речей (IoT)",
+  "Courses": [
+    {
+      "Title": "Цифрова обробка інформації (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Обробка зображень</li>\n<li>Системи передачі даних</li>\n<li>Інтернет речей (IoT)</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка інформації (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження:</strong> 20 квітня 1990 р.</p>\n<p><strong>Освіта:</strong></p>\n<p>У&nbsp;2013&nbsp;році отримав диплом магістра за спеціальністю “Системне програмування”, Національний Університет “Львівська політехніка”.</p>\n<p>У&nbsp;2015&nbsp;році отримав диплом магістра за спеціальністю “Управління проектами”, Національний Університет “Львівська політехніка”.</p>\n<p><strong>Трудова діяльність:</strong></p>\n<p>2012&nbsp;– 2025&nbsp; компанія Plvision, інженер, провідний розробник програмного забезпечення</p>\n<p>2025&nbsp;– до сьогодні компанія Jabil, провідний розробник програмного забезпечення</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=39827&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=39827&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

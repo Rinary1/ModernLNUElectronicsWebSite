@@ -1,0 +1,32 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/hura-volodymyr-tarasovych/",
+  "Slug": "hura-volodymyr-tarasovych",
+  "FullName": "Гура Володимир Тарасович",
+  "PositionText": "доцент кафедри радіоелектронних і комп’ютерних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/",
+  "AcademicDegree": "кандидат технічних наук",
+  "Email": "volodymyr.gura@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?hl=uk&user=Hkj9QsAAAAAJ"
+  },
+  "Courses": [
+    {
+      "Title": "Надійність програмно-апаратних систем (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/nadiynist-prohramno-aparatnykh-system-122-komp-iuterni-nauky/"
+    },
+    {
+      "Title": "Технології захисту інформації (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/tehnolohiji-zahystu-informatsiji/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nadiynist-prohramno-aparatnykh-system-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Надійність програмно-апаратних систем (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tehnolohiji-zahystu-informatsiji/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології захисту інформації (КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=24181&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=24181&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

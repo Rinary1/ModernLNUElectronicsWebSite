@@ -1,0 +1,65 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/serednytska-khrystyna-ihorivna/",
+  "Slug": "serednytska-khrystyna-ihorivna",
+  "FullName": "Середницька Христина Ігорівна",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/foto_Serednytska-125x150.jpg",
+  "PositionText": ", доцент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Email": "khrystyna.serednytska@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?hl=uk&user=hiQJHfQAAAAJ",
+    "ORCID": "https://orcid.org/0000-0003-2037-1223",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=7801500264",
+    "Web of Science": "https://publons.com/researcher/2129994/kristina-i-serednytska/"
+  },
+  "ResearchInterests": "Математичне моделювання теплопровідності міжфазних тріщин в біматеріалах.",
+  "Courses": [
+    {
+      "Title": "Алгоритми і структури даних (ІПЗ ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia/"
+    },
+    {
+      "Title": "Дискретна математика (ІПЗ та ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/dyskretna-matematyka-ipz/"
+    },
+    {
+      "Title": "Алгоритми та структури даних (126 ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/algorithms-and-data-structures-126-information-systems-and-technologies/"
+    },
+    {
+      "Title": "Дискретна математика (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/dyskretna-matematyka/"
+    },
+    {
+      "Title": "Дискретна математика (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/dyskretna-matematyka-2/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Математичне моделювання теплопровідності міжфазних тріщин в біматеріалах.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритми і структури даних (ІПЗ ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/dyskretna-matematyka-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Дискретна математика (ІПЗ та ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/algorithms-and-data-structures-126-information-systems-and-technologies/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритми та структури даних (126 ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/dyskretna-matematyka/\" target=\"_blank\" rel=\"noopener noreferrer\">Дискретна математика (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/dyskretna-matematyka-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Дискретна математика (126 Інформаційні системи та технології)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Мартиняк Р.М., Середницька Х.І.Контактні задачі термопружності для міжфазнихтріщин в біматеріальних тілах. – Львів: Растр-7, 2017. – 168 с.</li>\n<li>EffectofPartialClosureofanInterfaceCrackwithHeat-conductingFillerandSurfaceFilmsintheCaseofThermalLoadingof a Bimaterial / <em>R.V. Goldstein, H.S. Kit, R.M. Martynyak, Kh.I. Serednytska</em>// JournalofMathematicalSciences. – 2014. – 198, No.1. – P. 75-86.DOI: 10.1007/s10958-014-1774-6. <a href=\"https://link.springer.com/article/10.1007%2Fs10958-014-1774-6\" target=\"_blank\" rel=\"noopener noreferrer\">https://link.springer.com/article/10.1007%2Fs10958-014-1774-6</a></li>\n<li><em>Мартиняк Р.М., Середницька Х.І.</em>Міжфазна теплопроникна щілина змінної висоти у біматеріалі з нульовим параметром Дандерса // Вісник Київського національного університету імені Тараса Шевченка. Фізико-математичні науки. – 2015. – Спецвипуск. – C. 243-247. <u>http</u><u>://www</u><u>.library</u><u>.univ</u><u>.kiev</u><u>.ua</u><u>/ukr</u><u>/host</u><u>/10.23.10.100/db</u><u>/ftp</u><u>/visnyk</u><u>/fiz</u><u>_mat</u><u>_spec</u><u>pdf</u></li>\n<li><em>Середницька Х.І.</em> Передача тепла через міжфазну щілину змінної висоти з теплопровідним заповнювачем // Фізико-математичне моделювання та інформаційні технології. – 2016. – Вип. 24. – C. 80–87. <a href=\"http://www.irbis-nbuv.gov.ua/cgi-bin/irbis_nbuv/cgiirbis_64.exe?I21DBN=LINK&amp;P21DBN=UJRN&amp;Z21ID=&amp;S21REF=10&amp;S21CNR=20&amp;S21STN=1&amp;S21FMT=ASP_meta&amp;C21COM=S&amp;2_S21P03=FILA=&amp;2_S21STR=Fmmit_2016_24_12\" target=\"_blank\" rel=\"noopener noreferrer\">http://nbuv.gov.ua/UJRN/Fmmit_2016_24_12</a></li>\n<li><em>Микитин М., Середницька Х., Монастирський Б., Мартиняк Р.</em> Кільцеве розшарування між тілами за локального охолодження коловим стоком тепла // Фізико-математичне моделювання та інформаційні технології. – 2017. – Вип. 26. – С. 55-62. –<a href=\"http://nbuv.gov.ua/UJRN/Fmmit_2017_26_7\" target=\"_blank\" rel=\"noopener noreferrer\"> http://nbuv.gov.ua/UJRN/Fmmit_2017_26_7</a></li>\n<li><em>Мартиняк Р.М., Середницька Х.І.</em> Аналітично-числова ітераційна процедура розв’язування задачі термопружності для біматеріалу з міжфазною тріщиною // Проблеми обчислювальної механіки і міцності конструкцій. – 2017. – Вип. 26. – С. 111-122. – <u>https</u><u>://pommk</u><u>.dp</u><u>.ua</u><u>/index</u><u>.php</u><u>/journal</u><u>/article</u><u>/view</u><u>/363</u></li>\n<li><em>Середницька Х.</em> Ефект термічної ректифікації в біматеріалі з міжфазною щілиною змінної висоти, заповненою ідеальним газом // Проблеми обчислювальної механіки і міцності конструкцій. – 2018. – Вип. 28. – C. 212-222.– <a href=\"https://pommk.dp.ua/index.php/journal/article/view/212\" target=\"_blank\" rel=\"noopener noreferrer\">https://pommk.dp.ua/index.php/journal/article/view/212</a>.</li>\n<li><em>Serednyts’ka I., Mykytyn M. M.,Martynyak R. M. </em>Breaking of Contact Between an Elastic Half Space and a Rigid Base in a Circular Region Under the Action of a Circular Heat Sink. // Mater.Sci. – 2019. – <strong>55</strong>, No. 3. – P. 320–326. – <a href=\"https://doi.org/10.1007/s11003-019-00305-z\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/s11003-019-00305-z</a><u>.</u></li>\n<li><em>Serednytska Kh., Martynyak R., Chumak K.</em> The thermoelastic state of a bi-material with an open gas-filled interface crack // JournalofTheoreticalandAppliedMechanics. – 2019.–<strong>57</strong>, 2. – P. 331-341.– <a href=\"https://doi.org/10.15632/jtam-pl/104587\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.15632/jtam-pl/104587</a>.</li>\n<li><em>Serednyts’ka I., Mykytyn M. M.,Martynyak R. M. </em>Breaking of Contact Between an Elastic Half Space and a Rigid Base in a Circular Region Under the Action of a Circular Heat Sink. // Mater.Sci. – 2019. – <strong>55</strong>, No. 3. – P. 320–326. – <a href=\"https://doi.org/10.1007/s11003-019-00305-z\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/s11003-019-00305-z</a><u>.</u></li>\n<li><em>СередницькаХ.І.</em>Термонапружений стан біматеріалу з міжфазною щілиною заповненою стисливою рідиною // Мат. методи та фіз.-мех. поля. – 2020. – Т. 63, № – С. 109-116. <a href=\"http://www.iapmm.lviv.ua/journal/632_pdf/632_10.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.iapmm.lviv.ua/journal/632_pdf/632_10.pdf</a></li>\n<li>Serednytska, K.I., Martynyak, R.M. Contact of the Faces of an Interface Thermally Insulated Crack Under Thermomechanical Loading. <em>Mater Sci</em> <strong>57</strong>, 173–179 (2021).<br>\n<u>https://doi.org/10.1007/s11003-021-00528-z</u></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження</strong>: 20.04.1980 р.</p>\n<p><strong>Освіта: вища (</strong>1997-2002 р. навчалася на механіко-математичному факультеті Львівського національного університету імені Івана Франка<strong>)</strong></p>\n<p><strong>Навчання в аспірантурі:</strong> 2011- 2015 р.р. Інститут прикладних проблем механіки і математики ім. Я.С. Підстригача НАН України (заочна форма навчання)</p>\n<p><strong>Дисертація на здобуття наукового ступення канд. фіз.-мат. н.</strong>: «Термонапружений стан біматеріалу з міжфазними теплопроникними тріщинами» (за спеціальністю 01.02.04 – механіка деформівного твердого тіла, 2015р )</p>\n<p><strong>Працевлаштування:</strong></p>\n<p>2002-2006 рр. – математик II та I категорії Інституту прикладних проблем механіки і математики ім. Я.С. Підстригача НАН України.</p>\n<p>2006-2014 р.р. провідний математик Інституту прикладних проблем механіки і математики ім. Я.С.Підстригача НАН України.</p>\n<p>2014- 2017 р.р. молодший науковий співробітник Інституту прикладних проблем механіки і математики ім. Я.С. Підстригача НАН України.</p>\n<p>2017-2019 р.р. науковий співробітник Інституту прикладних проблем механіки і математики ім. Я.С. Підстригача НАН України.</p>\n<p>2019 р.-2022 р.р. старший науковий співробітник Інституту прикладних проблем механіки і математики ім. Я.С. Підстригача НАН України. З липня 2022 р. завідувач лабораторії відділу обчислювальної механіки деформівних систем Інституту прикладних проблем механіки і математики ім. Я.С. Підстригача НАН України.</p>\n<p>З 2020 р. доцент (сумісник) кафедри радіофізики і комп’ютерних технологій Львівського національного університету імені Івана Франка.</p>"
+    },
+    {
+      "Title": "Нагороди",
+      "Html": "<p>Премія Верховної Ради України найталановитішим молодим ученим в галузі фундаментальних і прикладних досліджень та науково-технічних розробок за 2014 рік.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=24518&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=24518&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

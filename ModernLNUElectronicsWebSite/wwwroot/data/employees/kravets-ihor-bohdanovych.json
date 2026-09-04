@@ -1,0 +1,43 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kravets-ihor-bohdanovych/",
+  "Slug": "kravets-ihor-bohdanovych",
+  "FullName": "Кравець Ігор Богданович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Kravets-I-125x150.png",
+  "PositionText": "доцент кафедри сенсорної та напівпровідникової електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/",
+  "AcademicDegree": "кандидат технічних наук",
+  "AcademicTitle": "ст. наук. співробітник",
+  "Email": "igor.kravets@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=k_TLf2YAAAAJ&hl=uk"
+  },
+  "ResearchInterests": "Наукові інтереси: • Математичні моделі та аналіз стохастичних коливань • Ємнісні та індуктивні сенсори • BLE/WIFI/UWB локалізація • Мікроконтролери, вбудовані системи та системи на кристалі • Обробка сигналів Співавтор наукових публікацій: – 50 наукових статей; – 2 розділів книжок провідних закордонних видань; – 33 матеріалів конференцій; – 28 патентів на винахід (з них 25 міжнародних). Google Scholar: h-index = 13 (505 цитувань, 120 публікацій)",
+  "Courses": [
+    {
+      "Title": "Технічна електродинаміка (171 Електроніка та комп'ютерні системи)",
+      "Url": "https://electronics.lnu.edu.ua/course/tekhnichna-elektrodynamika-171-elektronika-ta-komp-iuterni-systemy/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Наукові інтереси:<br>\n• Математичні моделі та аналіз стохастичних коливань<br>\n• Ємнісні та індуктивні сенсори<br>\n• BLE/WIFI/UWB локалізація<br>\n• Мікроконтролери, вбудовані системи та системи на кристалі<br>\n• Обробка сигналів</p>\n<p>Співавтор наукових публікацій:<br>\n– 50 наукових статей;<br>\n– 2 розділів книжок провідних закордонних видань;<br>\n– 33 матеріалів конференцій;<br>\n– 28 патентів на винахід (з них 25 міжнародних).<br>\nGoogle Scholar: h-index = 13 (505 цитувань, 120 публікацій)</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnichna-elektrodynamika-171-elektronika-ta-komp-iuterni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Технічна електродинаміка (171 Електроніка та комп'ютерні системи)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ul>\n<li>1. Dyhdalovych, O., Yaroshevych, A., Kapshii, O., Kravets, I., &amp; Farenyuk, O. (2025). Particle filter-based BLE and IMU fusion algorithm for indoor localization. Telecommunication Systems, 88(1), 9. <a href=\"https://doi.org/10.1007/s11235-024-01230-6\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/s11235-024-01230-6</a></li>\n<li>2. Kravets, I., Kapshii, O., Shuparskyy, O., &amp; Luchechko, A. (2024). A new parametric three stage weighted least squares algorithm for tdoa-based localization. IEEE Access. <a href=\"https://doi.org/10.1109/ACCESS.2024.3449444\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/ACCESS.2024.3449444</a></li>\n<li>3. Santra, A., Kravets, I., Kotliar, N., &amp; Pandey, A. (2024). Enhancing Bluetooth channel sounding performance in complex indoor environments. IEEE Sensors Letters. <a href=\"https://doi.org/10.1109/LSENS.2024.3456002\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/LSENS.2024.3456002</a></li>\n<li>4. Zhuravinskyi, M., Maletskyi, D., Kravets, I., Kapshii, O., &amp; Farenyuk, O. (2023, October). Decentralized Provisioning Algorithm For BLE Mesh Network. In 2023 IEEE 18th International Conference on Computer Science and Information Technologies (CSIT) (pp. 1-4). IEEE. <a href=\"https://doi.org/10.1109/CSIT61576.2023.10324056\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/CSIT61576.2023.10324056</a></li>\n<li>5. Blagitko, B., Mochulskyi, Y., Zajachuk, I., Batiuk, M., Kravets, I., &amp; Bihday, V. (2019, September). Contactless IoT sensor of liquid level based on impedance method. In 2019 XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT) (pp. 132-135). IEEE. <a href=\"https://doi.org/10.1109/ELIT.2019.8893371\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/ELIT.2019.8893371</a></li>\n<li>6. Klein, H. W., Karpin, O., Kravets, I., Kolych, I., MacSweeney, D., Ogirko, R., … &amp; Walsh, P. (2019). Advanced capacitive sensing for mobile devices. Low-Power Analog Techniques, Sensors for Mobile Devices, and Energy Efficient Amplifiers: Advances in Analog Circuit Design 2018, 131-153. <a href=\"https://doi.org/10.1007/978-3-319-97870-3_7\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/978-3-319-97870-3_7</a></li>\n<li>7. Javorskyj, I., Kravets, I., Matsko, I., &amp; Yuzefovych, R. (2017). Periodically correlated random processes: Application in early diagnostics of mechanical systems. Mechanical Systems and Signal Processing, 83, 406-438. <a href=\"https://doi.org/10.1016/j.ymssp.2016.06.022\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1016/j.ymssp.2016.06.022</a></li>\n<li>8. Javors’ kyj, I., Yuzefovych, R., Matsko, I., &amp; Kravets, I. (2015). The stochastic recurrence structure of geophysical phenomena. In Cyclostationarity: Theory and Methods-II: Contributions to the 7th Workshop on Cyclostationary Systems And Their Applications, Grodek, Poland, 2014 (pp. 55-88). Springer International Publishing. <a href=\"https://doi.org/10.1007/978-3-319-16330-7_4\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/978-3-319-16330-7_4</a></li>\n</ul>\n\n<p>Міжнародні Патенти</p>\n<ul>\n<li>1. Fingerprint Sensor Packages / O. Hoshtanar, I. Kravets, O. Karpin, B. Chang, U.S. Patent Application No 18/181,455, 2024.</li>\n<li>2. Tracking of objects using reconstruction of data carried by wireless sensing signals from limited sensing frequencies / I. Kolych, I. Kravets, O. Kapshii, K. Uln, U.S. Patent Application No 17/733, 911, 2023.</li>\n<li>3. Capacitive differential rotary encoder / B. McAndrews, V. Bharathan, I. Kravets, M. Krekhovetskyy, D. Durlin, U.S. Patent Application No 17/496, 639, 2022.</li>\n<li>4. Multiphase fingerprint sensor layout and construction / I. Kravets, O. Hoshtanar, H. Klein, O. Karpin, U.S. Patent Application No 11/113, 497, 2021.</li>\n<li>5. Suppressing noise in touch panels using a shield layer / I. Kravets, V. Bihday, I. Musijchuk, U.S. Patent Application No 10/775, 929, 2020.</li>\n<li>6. Half-bridge Fingeprint Sensing Method / I. Kravets, R. Ogirko, H. Klein, O. Hoshtanar, U.S. Patent Application No 10/380, 397, 2019.</li>\n<li>7. Interleaving conductive elements of a capacitive-sense array / O. Hoshtanar, I. Kravets, U.S. Patent Application No 9/563, 318, 2017.</li>\n<li>8. Method and apparatus for accurate coordinate calculation of objects in touch applications / I. Kravets, V. Mandziy, U.S. Patent Application No 8/674, 958, 2014.</li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Біографія:<br>\n2023-по даний час – доцент кафедри сенсорної та напівпровідникової електроніки Львівського національного університету імені Івана Франка;<br>\n2012-по даний час – провідний інженер в Cypress / Infineon Technologies AG;<br>\n2008-2017 рр. – старший науковий співробітник Фізико-механічного інституту ім. Г.В. Карпенка НАН України;<br>\nОсвіта:<br>\n1998 р. – Львівський фізико-математичний ліцей;<br>\n2002 р. – Львівський національний університет імені Івана Франка, бакалавр, “Прикладна фізика”;<br>\n2003 р. – Львівський національний університет імені Івана Франка, магістр, “Радіофізика і електроніка”;<br>\n2008 р. – Національний університет “Львівська політехніка”, кандидат технічних наук зі спеціальності “Математичне моделювання та обчислювальні методи”, Тема дисертації: “Параметричні моделі і статистичний аналіз сигналів зі стохастичною повторюваністю”;<br>\n2013 р. – Фізико-механічний інститут ім. Г.В. Карпенка НАН України, старший науковий співробітник зі спеціальності “Діагностика матеріалів і конструкцій”.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=37707&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=37707&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

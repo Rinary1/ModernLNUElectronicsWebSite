@@ -1,0 +1,65 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/nazarkevych-mariia-andriivna/",
+  "Slug": "nazarkevych-mariia-andriivna",
+  "FullName": "Назаркевич Марія Андріївна",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/10-125x150.jpg",
+  "PositionText": ", професор кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "AcademicDegree": "доктор технічних наук",
+  "AcademicTitle": "професор",
+  "Email": "mariia.nazarkevych@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?hl=uk&user=w0Qb8AwAAAAJ&view_op=list_works&sortby=pubdate",
+    "ORCID": "https://orcid.org/0000-0002-6528-9867",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=26868037300"
+  },
+  "ResearchInterests": "Захист інформації, біометричні технології захисту, технології машинного навчання, мультимедійні технології",
+  "Courses": [
+    {
+      "Title": "Високорівневі системи комп’ютерного захисту (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/systemy-kompyuternoji-matematyky/"
+    },
+    {
+      "Title": "Програмування вбудованих та конфігурованих систем (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/prohramuvannia-vbudovanykh-system-121-ipz/"
+    },
+    {
+      "Title": "Проектування схем (друкованих плат) (126 Інформаційні системи та технології)",
+      "Url": "https://electronics.lnu.edu.ua/course/proektuvannia-skhem-drukovanykh-plat-126-informatsiyni-systemy-ta-tekhnolohii/"
+    },
+    {
+      "Title": "Прикладна теорія інформації / Applied Information Theory (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/teoriya-informatsiji/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Захист інформації,</li>\n<li>біометричні технології захисту,</li>\n<li>технології машинного навчання,</li>\n<li>мультимедійні технології</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/systemy-kompyuternoji-matematyky/\" target=\"_blank\" rel=\"noopener noreferrer\">Високорівневі системи комп’ютерного захисту  (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannia-vbudovanykh-system-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування вбудованих та конфігурованих систем (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/proektuvannia-skhem-drukovanykh-plat-126-informatsiyni-systemy-ta-tekhnolohii/\" target=\"_blank\" rel=\"noopener noreferrer\">Проектування схем (друкованих плат) (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-informatsiji/\" target=\"_blank\" rel=\"noopener noreferrer\">Прикладна теорія інформації / Applied Information Theory (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Hrytsyk V, Medykovskyy M, Nazarkevych M. Estimation of Symmetry in the Recognition System with Adaptive Application of Filters.&nbsp;Symmetry. 2022; 14(5):903. <a href=\"https://www.mdpi.com/2073-8994/14/5/903\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.3390/sym14050903</a></li>\n<li>Mariia Nazarkevych, AndriiMarchuk, Yaroslav Voznyi Development of biometric identification methods based on new filtration methods ЗБІРНИК НАУКОВИХ ПРАЦЬ “ЕЛЕКТРОНІКА ТА ІНФОРМАЦІЙНІ ТЕХНОЛОГІЇ” № 14 (2020) P. 55–64. DOI: <a href=\"https://doi.org/10.30970/eli.14.5\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.14.5</a></li>\n<li>Volodymyr Hrytsyk , Mariia Nazarkevych <a href=\"https://csecurity.kubg.edu.ua/index.php/journal/article/view/287\" target=\"_blank\" rel=\"noopener noreferrer\">ВПЛИВ ПАНДЕМІЇ COVID’19 НА СТУДЕНТІВ, ЯКІ НАВЧАЮТЬСЯ В НАЦІОНАЛЬНОМУ УНІВЕРСИТЕТІ “ЛЬВІВСЬКА ПОЛІТЕХНІКА”</a> с.&nbsp;<a href=\"https://csecurity.kubg.edu.ua/index.php/journal/article/view/287\" target=\"_blank\" rel=\"noopener noreferrer\">Режим доступу</a><br>\nЕлектронне фахове наукове видання “Кібербезпека: освіта, наука, техніка;,&nbsp; Том 1 № 13 (2021), 102-112. DOI:&nbsp;<a href=\"https://doi.org/10.28925/2663-4023.2021.13.102112\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.28925/2663-4023.2021.13.102112</a></li>\n<li>Nazarkevych, M., Voznyi, Y., Hrytsyk, V., Klyujnyk, I., Havrysh, B., &amp; Lotoshynska, N. (2021, May). Identification of Biometric Images by Machine Learning. In&nbsp;2021 IEEE 12th International Conference on Electronics and Information Technologies (ELIT)(pp. 95-98).&nbsp;<a href=\"https://www.scopus.com/record/display.uri?eid=2-s2.0-85124685807&amp;origin=resultslist&amp;sort=plf-f&amp;featureToggles=FEATURE_NEW_DOC_DETAILS_EXPORT:1\" target=\"_blank\" rel=\"noopener noreferrer\">Режим доступу</a></li>\n<li>Nazarkevych, M., Levush, P., &amp; Pankovych, B. (2021, May). Improving the Efficiency of Information Collection Based on the Development of a Chatbot with a Parser. In&nbsp;2021 IEEE 12th International Conference on Electronics and Information Technologies (ELIT)(pp. 125-129).&nbsp;<a href=\"https://www.scopus.com/record/display.uri?eid=2-s2.0-85124702673&amp;origin=resultslist&amp;sort=plf-f&amp;featureToggles=FEATURE_NEW_DOC_DETAILS_EXPORT:1\" target=\"_blank\" rel=\"noopener noreferrer\">Режим доступу</a></li>\n<li>НАЗАРКЕВИЧ, М., &amp; НАЗАРКЕВИЧ, Г. (2023). АДАПТИВНИЙ МЕТОД УПРАВЛІННЯ ПІДПРИЄМСТВОМ НА ОСНОВІ НЕЙРОННИХ МЕРЕЖ. Information Technology: Computer Science, Software Engineering and Cyber Security, (1), 93-99.</li>\n<li>Mariia Nazarkevych, Vitaly Lutsyshyn, Hanna Nazarkevych, Liubomyr Parkhuts, Maryna Kostiak Methods of face recognition in video sequences and performance studies</li>\n<li>Mariia Nazarkevych, Vitaly Lutsyshyn, Vasyl Lytvyn, Maryna Kostiak , Yaroslav Kis Methods of capturing and tracking objects in video sequences with subsequent identification by means of artificial intelligence</li>\n<li>Nazarkevych, H., Nazarkevych, M., Kostiak, M., Pavlysko, A. (2023). Designing an Information System to Create a Product in Terms of Adaptation. In: Kryvinska, N., Greguš, M., Fedushko, S. (eds) Developments in Information and Knowledge Management Systems for Business Applications. Studies in Systems, Decision and Control, vol 462. Springer, Cham. <a href=\"https://doi.org/10.1007/978-3-031-25695-0_8\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/978-3-031-25695-0_8</a></li>\n<li>M. Nazarkevych, A. Petrov, O. Onopriychuk, N. Oleksiv, Y. Kis DEVELOPMENT OF A FINGERPRINT PATTERN MATCHING METHOD USING K-MEANS Електроніка та інформаційні технології. 2022. Випуск 19. С. 58–65 Electronics and information technologies. 2022. Issue 19. P. 58–65.&nbsp;<a href=\"http://dx.doi.org/10.30970/eli.19.5\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.30970/eli.19.5</a></li>\n<li>Nazarkevych, H., Tsmots, I., Nazarkevych, M., Oleksiv, N., Tysliak, A., &amp; Faizulin, O. (2022, November). Research on the effectiveness of methods adaptive management of the enterprise’s goods sales using machine learning methods. In 2022 IEEE 17th International Conference on Computer Sciences and Information Technologies (CSIT) (pp. 539-542). IEEE</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження :&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 серпня 1973</p>\n<p><strong>Освіта</strong>: вища (1990 – 1995, Українська академія друкарства, факультет комп’ютерно-інтегрованих технологій, спеціальність “Інженер з автоматизації” )</p>\n<ul>\n<li><strong>Навчання в аспірантурі:&nbsp;</strong>1995 – 2000, спеціальність 01.05.02 – Математичне моделювання та обчислювальні методи. (аспірант кафедри автоматизації та комп’ютерних технологій Української академії друкарства).</li>\n</ul>\n<ul>\n<li><strong>Дисертація на здобуття наукового ступення к.т. н.</strong>: «Синтез, моделі та моделювання алгоритмів мікропроцесорної системи керування електроприводом друкарських машин<strong>»&nbsp;</strong>(005.02; 2000, НУЛП)</li>\n<li><strong>Дисертація на здобуття наукового ступення доктора техн. наук:</strong> «Методи та засоби підвищення рівня захищеності друкованих документів на основі Ateb-функцій<strong>»</strong> (21.05.01 Нац. авіац. ун-т. — К., 2013 )</li>\n<li><strong>Працевлаштування:</strong> 2003 – 2005 н.р. Асистент кафедри автоматизованих систем управління Національного університету “Львівська політехніка”; 2005 – 2011 н.р. доцент кафедри автоматизованих систем управління Національного університету “Львівська політехніка”. З 2011 – 2015 – доцент кафедри інформаційних технологій видавничої справи Національного університету “Львівська політехніка”. 2015 – 2022 професор <a href=\"http://wiki.lp.edu.ua/wiki/%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0_%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D1%85_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D0%B9_%D0%B2%D0%B8%D0%B4%D0%B0%D0%B2%D0%BD%D0%B8%D1%87%D0%BE%D1%97_%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B8\" target=\"_blank\" rel=\"noopener noreferrer\">кафедри інформаційних технологій видавничої справи</a>, з 2022 – дотепер – професор кафедри інформаційних систем та мереж <a href=\"http://wiki.lp.edu.ua/wiki/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%C2%AB%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0%C2%BB\" target=\"_blank\" rel=\"noopener noreferrer\">Національного університету «Львівська політехніка»</a> 2018 – дотепер професор <a href=\"http://wiki.lp.edu.ua/wiki/%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0_%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D1%85_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D0%B9_%D0%B2%D0%B8%D0%B4%D0%B0%D0%B2%D0%BD%D0%B8%D1%87%D0%BE%D1%97_%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B8\" target=\"_blank\" rel=\"noopener noreferrer\">кафедри радіофізики та комп’ютерних технологій</a> Львівського національного університету імені Івана Франка</li>\n</ul>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<ol>\n<li>Експериментальна мобільна робототехнічна платформа з інтелектуальною системою управлінням та захистом передачі даних», НУЛП 2022-2023 роки.</li>\n<li>EAGER IMPRESS-U: AI-powered Quickest Detection for Cybersecurity</li>\n</ol>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<ol>\n<li>Назаркевич М. А., Лотошинська Н.Д. Типографіка та редагування/Навчальний посібник. Львів : Видавництво Львівської політехніки, 2022.</li>\n<li>Назаркевич М. А., Міюшкович Ю. Г. Технічне редагування. Основи роботи в LaTeX /Навчальний посібник. Львів : Видавництво Львівської політехніки, 2020. 216 с.</li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=24513&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=24513&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

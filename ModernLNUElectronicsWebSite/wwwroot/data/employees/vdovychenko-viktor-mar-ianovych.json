@@ -1,0 +1,35 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/vdovychenko-viktor-mar-ianovych/",
+  "Slug": "vdovychenko-viktor-mar-ianovych",
+  "FullName": "Вдовиченко Віктор Мар'янович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/IMG_3570-125x150.jpg",
+  "PositionText": "аспірант кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "Email": "Viktor.Vdovychenko@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "Аналітика даних машинне навчання глибинні нейронні мережі компʼютерний зір",
+  "Courses": [
+    {
+      "Title": "Опрацювання природної мови (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/opratsiuvannia-pryrodnoi-movy-122-komp-iuterni-nauky/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Аналітика даних</li>\n<li>машинне навчання</li>\n<li>глибинні нейронні мережі</li>\n<li>компʼютерний зір</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/opratsiuvannia-pryrodnoi-movy-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Опрацювання природної мови (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Luchka V.-T., Vdovychenko V., Furgala Yu. – Comparison of support vector classification with key points and neural networks for object detection – Електроніка та інформаційні технології&nbsp; 2024&nbsp;<a href=\"http://dx.doi.org/10.30970/eli.25.7\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.30970/eli.25.7</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження:</strong> 8 жовтня 1999р.</p>\n<p><strong>Освіта:</strong> вища (2017 – 2021 рр. Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, спеціальність 126 «Інформаційні системи та технології»,&nbsp; освітній ступінь « Бакалавр». 2021 – 2022 рр. Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, спеціальність 122&nbsp; «Комп’ютерні науки»,&nbsp; освітній ступінь « Магістр»)</p>\n<p><strong>Навчання в аспірантурі:</strong> з 01.09. 2023 —&nbsp; аспірант кафедри оптоелектроніки та інформаційних технологій Львівського національного університету імені Івана Франка.</p>\n<p><strong>Працевлаштування:</strong> з 2020 р.&nbsp; Data Scientist, Lemberg solutions</p>"
+    }
+  ]
+}

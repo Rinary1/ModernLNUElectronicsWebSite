@@ -1,0 +1,43 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/mysiuk-i-v/",
+  "Slug": "mysiuk-i-v",
+  "FullName": "Мисюк Ірина Володимирівна",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/photo-125x150.jpg",
+  "PositionText": "асистент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Email": "iryna.mysiuk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=T3l20RUAAAAJ&hl=en&authuser=1",
+    "ORCID": "https://orcid.org/0000-0002-3641-4518",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?origin=resultslist&authorId=58178909800&zone="
+  },
+  "ResearchInterests": "Аналіз текстів засобами штучного інтелекту Машинне навчання Автоматизоване тестування Розробка програмних продуктів",
+  "Courses": [
+    {
+      "Title": "Основи інженерії програмного забезпечення (ІПЗ та ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Аналіз текстів засобами штучного інтелекту</li>\n<li>Машинне навчання</li>\n<li>Автоматизоване тестування</li>\n<li>Розробка програмних продуктів</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи інженерії програмного забезпечення (ІПЗ та ВПК)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li><strong>Mysiuk I</strong>., Mysiuk R., Shuvar R. Collecting and analyzing news from newspaper posts in facebook using machine learning / Stuc. intelekt. // 2023; 28(1):147-154 DOI: <a href=\"https://doi.org/10.15407/jai2023.01.147\" target=\"_blank\" rel=\"noopener noreferrer\">10.15407/jai2023.01.147</a></li>\n<li><strong>I. Mysiuk</strong>, R. Mysiuk, R. Shuvar, V. Yuzevych Methods of analytics of big data of popular electronic newspapers on facebook // Electronics and information technologies – 2022. – Vol. 19. – P. 66–74, DOI: <a href=\"http://dx.doi.org/10.30970/eli.19.6\" target=\"_blank\" rel=\"noopener noreferrer\">10.30970/eli.19.6</a></li>\n<li><strong>Mysiuk I.</strong>, Shuvar R. Modeling the system for accumulating a test set of data from the Instagram social network //&nbsp;Міжнародна мультидисциплінарна інтернет-конференція «Світ наукових досліджень». Випуск 12. 2022. <a href=\"http://www.economy-confer.com.ua/full-article/3892/\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.economy-confer.com.ua/full-article/3892/</a></li>\n<li>Mysiuk R., <strong>Mysiuk I.</strong>, Pawlowski G., Yuzevych V., Yasinskyi M., Tyrkalo Y. Video-based Concrete Road Damage Assessment Using JetRacer Kit (2023) 2023 IEEE 17th International Conference on the Experience of Designing and Application of CAD Systems, CADSM 2023 – Proceedings DOI: <a href=\"http://doi.org/10.1109/CADSM58174.2023.10076528\" target=\"_blank\" rel=\"noopener noreferrer\">10.1109/CADSM58174.2023.10076528</a></li>\n<li>Mysiuk R. Api test automation of search functionality with artificial intelligence / Mysiuk R., Yuzevych V., <strong>Mysiuk I.</strong> // Stuc. Intelekt – 2022. – Vol. 27, No 1. – P. 269-274. DOI: <a href=\"https://doi.org/10.15407/jai2022.01.269\" target=\"_blank\" rel=\"noopener noreferrer\">10.15407/jai2022.01.269</a></li>\n<li>Mysiuk R. Data processing and visualization for corrosion detection / Mysiuk R., Yuzevych V., Mysiuk I // Electronics and information technologies – 2021. – Vol. 16. – P. 50–60, DOI: <a href=\"https://doi.org/10.30970/eli.16\" target=\"_blank\" rel=\"noopener noreferrer\">10.30970/eli.16</a>.</li>\n<li>Mysiuk R. Data Modelling of Physical-Mechanical Processes in Nano Concrete with the Ensemble of Pores / R. Mysiuk, <strong>I. Mysiuk</strong>, G. Pawlowski // Path of Science. – 2022. – Vol. 8, No 9 – P. 1001-1009. DOI: <a href=\"http://dx.doi.org/10.22178/pos.85-6\" target=\"_blank\" rel=\"noopener noreferrer\">10.22178/pos.85-6</a></li>\n<li>Павленчик Н. Ф., Павловські Г., <strong>Мисюк І. В.</strong>, Тиркало Ю. Є., Куриліна О. В. Моделі та методи прийняття управлінських рішень у менеджменті // Міжнародний науковий журнал “Інтернаука”. Серія: “Економічні науки”. – 2023. – №1. <a href=\"https://doi.org/10.25313/2520-2294-2023-1-8520\" target=\"_blank\" rel=\"noopener noreferrer\">10.25313/2520-2294-2023-1-8520</a></li>\n<li>Mysiuk R. Determining the Place of Depressurization of Underground Pipelines (Gas Pipelines): New Solutions in Industry based on Thermal Image Analysis Using Computer Vision / R. Mysiuk, <strong>I. Mysiuk</strong>, V. Yuzevych, G. Pawlowski // Path of Science. – 2022. – Vol. 8, No 10 – P. 1001-1010. DOI:&nbsp;<a href=\"http://dx.doi.org/10.22178/pos.86-9\" target=\"_blank\" rel=\"noopener noreferrer\">22178/pos.86-9</a></li>\n<li>Mysiuk R. Detecting cracks in concrete based on images using Amazon Web Service Rekognition / Mysiuk R., Yuzevych V., <strong>Mysiuk I.</strong>, Ohirko I. // Electronics and information technologies – 2022. – Vol. 20. – P. 18–29, DOI: <a href=\"http://dx.doi.org/10.30970/eli.20.3\" target=\"_blank\" rel=\"noopener noreferrer\">30970/eli.20.3</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Навчалася в середній загальноосвітній школі №77 у м.Львові. У 2021 році закінчила магістратуру на факультеті електроніки та комп’ютерних технологій Львівського національного університету імені Івана Франка (спеціальність «Комп’ютерні науки»). В 2022 році вступ в аспірантуру у Львівському національному університеті імені Івана Франка, факультет електроніки та комп’ютерних технологій, кафедра системного проектування. З 2019 працювала викладечем-стажистом, пізніше асистентом кафедри системного проектування. З 2020 року працюю в ІТ компанії.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=29234&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=29234&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

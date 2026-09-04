@@ -1,0 +1,31 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shevchuk-valerij-dmytrovych/",
+  "Slug": "shevchuk-valerij-dmytrovych",
+  "FullName": "Шевчук Валерій Дмитрович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/krft_shevchuk-125x150.jpg",
+  "PositionText": "завідувач Лабораторії (4) Радіофізики і комп’ютерних технологій, асистент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "Phone": "(032) 239-42-24",
+  "Email": "Valeriy.Shevchuk@lnu.edu.ua",
+  "Profiles": {},
+  "Courses": [
+    {
+      "Title": "Об'єктно-орієнтоване програмування (ІПЗ, ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-ipz/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Об'єктно-орієнтоване програмування (ІПЗ, ВПК)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження:</strong> 19.05.1978 р.</p>\n<p><strong>Освіта:</strong> вища</p>\n<p><strong>Назва навчального закладу:</strong> Львівський національний університет імені Івана Франка</p>\n<p><strong>Факультет:</strong> фізичний</p>\n<p><strong>Спеціальність:</strong> радіофізика і електроніка</p>\n<p><strong>Спеціалізація:</strong> медикобіологічні системи.</p>\n<p><strong>Рік закінчення:</strong> 2000</p>\n<p>2003-2005 р.р. – аспірант кафедри радіофізики факультету електроніки ЛНУ ім.&nbsp;І.&nbsp;Франка.</p>\n<p>2005-2011 р.р – лаборант кафедри радіофізики факультету електроніки ЛНУ ім.&nbsp;І.&nbsp;Франка.</p>\n<p>з 2011 р. по теперішній час – завідувач лабораторії радіофізики та комп’ютерних технологій факультету електроніки та комп’ютерних технологій ЛНУ ім.&nbsp;І.&nbsp;Франка.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16831&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16831&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

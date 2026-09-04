@@ -1,0 +1,26 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/berizka-i-a/",
+  "Slug": "berizka-i-a",
+  "FullName": "Берізка Ігор Андрійович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Berizka-125x150.jpg",
+  "PositionText": "асистент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "Email": "ihor.berizka@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "ІоТ Робототехніка",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li><strong>ІоТ</strong></li>\n<li><strong>Робототехніка</strong></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження :&nbsp;16 вересня 1996</strong></p>\n<p><strong>Освіта</strong>: вища, 2014-2019, Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, спеціальність – 122 Комп’ютерні науки</p>\n<p><strong>Навчання в аспірантурі:&nbsp;</strong>&nbsp;2020 – дотепер</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=36584&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=36584&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

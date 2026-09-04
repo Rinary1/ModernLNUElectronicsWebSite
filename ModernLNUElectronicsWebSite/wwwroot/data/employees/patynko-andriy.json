@@ -1,0 +1,34 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/patynko-andriy/",
+  "Slug": "patynko-andriy",
+  "FullName": "Патинко Андрій Михайлович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/AP_photo-e1764061595763-125x150.jpg",
+  "PositionText": "асистент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Email": "andrii.patynko@lnu.edu.ua",
+  "Profiles": {},
+  "Courses": [
+    {
+      "Title": "Методи обчислень (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/chysel-ni-metody-ist/"
+    },
+    {
+      "Title": "Чисельні методи (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/chyselni-metody-2/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/chysel-ni-metody-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи обчислень (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/chyselni-metody-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Чисельні методи (КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>У 2003–2008 роках навчався на факультеті електроніки Львівського національного університету імені Івана Франка, де здобув кваліфікацію магістра прикладної фізики.</p>\n<p>З 2009 року працює у сфері інформаційних технологій: розпочинав кар’єру на посаді інженера із забезпечення якості програмного забезпечення (QA), а з 2017 року працює розробником програмного забезпечення (software engineer).</p>\n<p>З 2025 року — асистент кафедри системного проектування.</p>\n<p>Веде практичні заняття з дисциплін:<br>• «Чисельні методи»<br>• «Хмарні технології і великі дані»<br>• «Методи та технології обчислень»</p>\n<p>Сфера наукових інтересів:<br>• розробка програмного забезпечення;<br>• 3D-рендеринг та обробка зображень.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=38844&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=38844&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

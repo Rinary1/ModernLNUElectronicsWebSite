@@ -1,0 +1,62 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/o_sinkevych/",
+  "Slug": "o_sinkevych",
+  "FullName": "Сінькевич Олег Олександрович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/IMG_0197-125x150.jpg",
+  "PositionText": "доцент кафедри радіоелектронних і комп’ютерних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/",
+  "AcademicDegree": "кандидат технічних наук",
+  "Phone": "(032) 239-41-52",
+  "Email": "oleh.sinkevych@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=atXme2UAAAAJ",
+    "ORCID": "https://orcid.org/0000-0001-9834-2700",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=57211010573",
+    "Web of Science": "https://publons.com/researcher/4786977/oleh-sinkevych/"
+  },
+  "ResearchInterests": "Машинне та глибоке навчання (Machine and Deep Learning); Граничні та туманні обчислення (Edge and Fog Computing); Ройовий інтелект і багатоагентні системи (Swarm AI and Multi-Agent Systems); Методи оптимізації (Numerical Optimization).",
+  "Courses": [
+    {
+      "Title": "Безперервне розгортання обчислювальних систем (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/bezperervne-rozghortannia-obchysliuvalnykh-system-ist/"
+    },
+    {
+      "Title": "Інтеграція інформаційних систем (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/intehratsiia-informatsiynykh-system-kn/"
+    },
+    {
+      "Title": "Машинне навчання (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/mashynne-navchannia/"
+    },
+    {
+      "Title": "Мова програмування Python (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/mova-prohramuvannia-python-ist-2/"
+    },
+    {
+      "Title": "Патерни проектування (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/paterny-proektuvannia-ipz/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Машинне та глибоке навчання (Machine and Deep Learning);</li>\n<li>Граничні та туманні обчислення (Edge and Fog Computing);</li>\n<li>Ройовий інтелект і багатоагентні системи (Swarm AI and Multi-Agent Systems);</li>\n<li>Методи оптимізації (Numerical Optimization).</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/bezperervne-rozghortannia-obchysliuvalnykh-system-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Безперервне розгортання обчислювальних систем (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/intehratsiia-informatsiynykh-system-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Інтеграція інформаційних систем (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mashynne-navchannia/\" target=\"_blank\" rel=\"noopener noreferrer\">Машинне навчання (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mova-prohramuvannia-python-ist-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Мова програмування Python (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paterny-proektuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Патерни проектування (ІПЗ)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li><strong>Chekurin V</strong>. Boundary element method for thermal identification of near-surface cylindrical cavity / V. Chekurin, O. Sinkevych // <a href=\"https://link.springer.com/journal/10958\" target=\"_blank\" rel=\"noopener noreferrer\">Journal of Mathematical Sciences</a>. − 2015. – 205(5). – Pp. 667–676. DOI: <a href=\"https://doi.org/10.1007/s10958-015-2274-z\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/s10958-015-2274-z</a></li>\n<li><strong><strong>Sinkevych O. </strong></strong>Statistical Analysis of the Thermal Parameters of Smart Homes / О. Сінькевич, Л. Монастирський, Б. Соколовський // Електроніка та інформаційні технології. – 2018. – Вип. 10. – С. 99–108. Link: <a href=\"http://elit.lnu.edu.ua/pdf/10_9.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">http://elit.lnu.edu.ua/pdf/10_9.pdf</a></li>\n<li><strong>Sinkevych O</strong>. Gas Disaggregation Approach Based on Cluster Analysis. Computer Technologies of Printing / O. Sinkevych, L. Monastyrskii, B. Sokolovskii, Ya. Boyko. − 2019. – 41 (1). Pp. 23-33. Link: <a href=\"http://www.ctp.uad.lviv.ua/images//ktd/41_2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.ctp.uad.lviv.ua/images//ktd/41_2.pdf</a></li>\n<li><strong>Sinkevych O</strong>. On the Development of Object Detector Based on Capsule Neural Networks / O. Sinkevych, D. Berezhansky, Z. Matchyshyn // 2019 XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT), Lviv, Ukraine, 2019, pp. 159-162. DOI: <a href=\"https://doi.org/10.1109/ELIT.2019.8893328\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/ELIT.2019.8893328</a></li>\n<li><strong>Sinkevych O</strong>. Algorithm of Tunning Heating Source Thermophysical Parameters in Smart Home / Oleh Sinkevych, Liubomyr Monastyrskii, Bohdan Sokolovskii, Yaroslav Boyko, Zenyk Matchyshyn, Daniil Berezhansky. – 2020 IEEE XVIth International Conference on the Perspective Technologies and Methods in MEMS Design (MEMSTECH). – P. 9–12. DOI: <a href=\"https://doi.org/10.1109/MEMSTECH49584.2020.9109516\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/MEMSTECH49584.2020.9109516</a></li>\n<li><strong>Sinkevych O</strong>. Estimation of Smart Home Thermophysical Parameters Using Dynamic Series of Temperature and Energy Data / O. Sinkevych, L. Monastyrskyi, B. Sokolovskyi, Y. Boyko, Z. Matchyshyn // 2019 IEEE 2nd Ukraine Conference on Electrical and Computer Engineering (UKRCON), Lviv, Ukraine, 2019, pp. 934-937. DOI: <a href=\"https://doi.org/10.1109/UKRCON.2019.8879944\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/UKRCON.2019.8879944</a></li>\n<li><strong>Sinkevych O</strong>. Estimation of effective thermal parameters of heating sources based on dynamic measurements in smart home / O. Sinkevych, L. Monastyrskyi, B. Sokolovskyi, Y. Boyko // Вісник Національного університету “Львівська політехніка” “Computer Design Systems. Theory and Practice”. – 2020. – No.1 (1) . – P.– 58-66. DOI: <a href=\"https://doi.org/10.23939/cds2020.01.058\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.23939/cds2020.01.058</a></li>\n<li><strong>Sinkevych O</strong>. Development of neuro-controller based on STM 32 / О. Сінькевич, Л. Монастирський, Я. Бойко, Б. Соколовський // Електроніка та інформаційні технології. – 2020. – Вип. 13. – С. 118–125. DOI: <a href=\"https://doi.org/10.30970/eli.13.12\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.13.12</a></li>\n<li><strong>Sinkevych O.</strong> Embedding Sequence Model in STM32 Based Neuro-Controller / O. Sinkevych, Y. Boyko, O. Rechynskyi, B. Sokolovskii and L. Monastyrskii // 2021 IEEE 12th International Conference on Electronics and Information Technologies (ELIT). – &nbsp;2021, pp. 113-118, <a href=\"https://doi.org/10.1109/ELIT53502.2021.9501132\" target=\"_blank\" rel=\"noopener noreferrer\">doi: 10.1109/ELIT53502.2021.9501132.</a></li>\n<li><strong>Olenych I</strong>. Система автоматичного визначення тональності тексту / І. Оленич, М. Притула, О. Сінькевич, О. Хамар // Електроніка та інформаційні технології. – 2021. – Вип. 15. – С. 16–23. DOI: <a href=\"https://doi.org/10.30970/eli.15.2\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.15.2&nbsp;</a></li>\n<li>Text Tone Determination Using Fuzzy Logic&nbsp;/ I.&nbsp;Olenych та ін.&nbsp;<i>Applied Computer Systems</i>. 2021. Т.&nbsp;26, №&nbsp;2. С.&nbsp;158–163. URL:&nbsp;<a href=\"https://doi.org/10.2478/acss-2021-0019\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.2478/acss-2021-0019</a></li>\n<li>System of Automatic Determination of Ukrainian Text Tone / Igor Olenych [та ін.]&nbsp;// 2021 IEEE 12th International Conference on Electronics and Information Technologies (ELIT), Lviv, Ukraine, 19–21&nbsp;трав. 2021&nbsp;р. – [Б.&nbsp;м.], 2021. – Режим доступу:&nbsp;<a href=\"https://doi.org/10.1109/elit53502.2021.9501124\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/elit53502.2021.9501124</a>.</li>\n<li>\nModelling of variable band-gap superlattices with using a genetic algorithm / B. Sokolovskyy [та ін.]&nbsp;// Electronics and information technologies. – 2022. – Т.&nbsp;20. – Режим доступу:&nbsp;<a href=\"https://doi.org/10.30970/eli.20.1\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.20.1</a>.\n</li>\n<li>\nSinkevych&nbsp;O. Regression models for smart home data analysis / Oleh Sinkevych&nbsp;// Electronics and information technologies. – 2022. – Т.&nbsp;20. – Режим доступу:&nbsp;<a href=\"https://doi.org/10.30970/eli.20.7\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.20.7</a>.\n</li>\n<li>Comparative Study of ABC and GWO Implementations on Raspberry Pi 3 / Oleh Sinkevych [та ін.]&nbsp;// 2023 IEEE 13th International Conference on Electronics and Information Technologies (ELIT), Lviv, Ukraine, 26–28&nbsp;верес. 2023&nbsp;р. – [Б.&nbsp;м.], 2023. – Режим доступу:&nbsp;<a href=\"https://doi.org/10.1109/elit61488.2023.10310885\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/elit61488.2023.10310885</a>.</li>\n<li>Sinkevych&nbsp;O. Method of evaluating thermophysical characteristics of buildings based on the inverse problem of thermal conductivity / O. Sinkevych, I. Olenych, B. Sokolovsky&nbsp;// Electronics and information technologies. – 2023. – Т.&nbsp;23. – Режим доступу:&nbsp;<a href=\"https://doi.org/10.30970/eli.23.2\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.23.2</a>.</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Народився у Львові 5 серпня 1988 р.<br>\nНавчання у школі: 1995 – 2005.<br>\nНавчання в ЛНУ ім. І. Франка: 2005 – 2010, фак. прикладної математики та інформатики, магістр.<br>\nНавчання у аспірантурі: 2010-2013, Інститут Прикладних Проблем Механіки і Математики НАН України.<br>\nДруга освіта: 2011-1014, Інститут Післядипломної Освіти та Доуніверситетської Підготовки ЛНУ, психологія.</p>\n<p>З 2013 – 2017 робота в&nbsp;Інституті Прикладних Проблем Механіки і Математики НАН України. З 2018 р. робота на кафедрі Радіоелектронних і Комп’ютерних Систем фак. Електроніки ЛНУ.</p>\n<p>Хоббі: наукова фантастика, гірський туризм, пейзажна фотографія, популяризація науки, рок-музика.</p>\n<p><em>Per terras, per coelestas, per arem, per maria</em></p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=17928&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=17928&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

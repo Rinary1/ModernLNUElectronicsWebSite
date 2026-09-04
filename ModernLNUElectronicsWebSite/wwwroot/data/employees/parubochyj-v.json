@@ -1,0 +1,52 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/parubochyj-v/",
+  "Slug": "parubochyj-v",
+  "FullName": "Парубочий Віталій Олегович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/P9166433-125x150.jpg",
+  "PositionText": "асистент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Email": "vitalius.parubochyi@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=lHdKuV0AAAAJ",
+    "ORCID": "https://orcid.org/0000-0002-9847-6968",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=57203887078",
+    "Web of Science": "http://www.researcherid.com/rid/F-8203-2019"
+  },
+  "ResearchInterests": "Паралельні обчислення Високопродуктивні обчислення Обчислення загального призначення на графічних процесорах (GPGPU), CUDA Обробка, аналіз та розпізнавання зображень Машинне навчання та глибоке навчання Бази даних, розподілені бази даних, блокчейн, Web3",
+  "Courses": [
+    {
+      "Title": "Засоби глибинного навчання (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/zasoby-hlybynnoho-navchannia-ipz/"
+    },
+    {
+      "Title": "Засоби машинного навчання (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/zasoby-mashynnoho-navchannia-ipz/"
+    },
+    {
+      "Title": "Програмування з використанням технологій GPGPU (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/prohramuvannia-na-gp-gpu-vpk/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Паралельні обчислення</li>\n<li>Високопродуктивні обчислення</li>\n<li>Обчислення загального призначення на графічних процесорах (GPGPU), CUDA</li>\n<li>Обробка, аналіз та розпізнавання зображень</li>\n<li>Машинне навчання та глибоке навчання</li>\n<li>Бази даних, розподілені бази даних, блокчейн, Web3</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/zasoby-hlybynnoho-navchannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Засоби глибинного навчання (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/zasoby-mashynnoho-navchannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Засоби машинного навчання (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannia-na-gp-gpu-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування з використанням технологій GPGPU (ВПК)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>V. O. Parubochyi and R. Ya. Shuwar, “Performance Evaluation of Self-Quotient Image Methods,” <em>Ukrainian Journal of Information Technology</em>, vol. 2, no. 1, pp. 8-14, 2020.</li>\n<li>V. Parubochyi and R. Shuvar, “Normalization Modifications for Fast Self-Quotient Image Method,” <em>in Proceedings of the XIth International Scientific and Practical Conference “Electronics and information technologies” (ELIT-2019)</em>, Lviv, Ukraine, September 16-18, 2019, pp. 179-182.</li>\n<li>V. Parubochyi and R. Shuwar, “Fast self-quotient image method for lighting normalization based on modified Gaussian filter kernel,” <em>The Imaging Science Journal</em>, vol. 66, no. 8, pp. 471-478, 2018.</li>\n<li>V. Parubochyi, R. Shuwar, and D. Afanassyev, “Spectrum transformation of the restored signal with regular and irregular sampling,” <em>Electronics and information technologies</em>, Issue 9, pp. 78-85, 2018.</li>\n<li>V. Parubochyi and R. Shuvar, “Comparison of Multi-Object Recognition Models,” <em>in Proceedings of the Xth International Scientific and Practical Conference “Electronics and information technologies” (ELIT-2018)</em>, Lviv-Karpaty village, Ukraine, August 30 – September 2, 2018, pp. 98-101.</li>\n<li>В. О. Парубочий і Р. Я. Шувар, “Спектральний підхід для шаблонної сегментації і пошуку об’єктів,” <em>Електроніка та інформаційні технології</em>, Випуск 8, С. 93-101, 2017.</li>\n<li>В. О. Парубочий і Р. Я. Шувар, “Реалізація гібридної архітектури кластерних обчислень,” <em>Вісник Національного університету «Львівська політехніка». Серія: Інформаційні системи та мережі</em>, № 854, С. 108-118, 2016.</li>\n<li>V. Parubochyi, R. Shuwar, and D. Afanassyev, “Image upsampling with randomized interpolation,” <em>Electronics and information technologies</em>, Issue 5, pp. 175-184, 2015.</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>У 2010-2015 рр. навчався на факультеті електроніки Львівського національного університету імені Івана Франка за спеціальністю «Інформаційні технології проектування», отримав диплом магістра комп’ютерних наук. У 2015-2018 рр. навчався в аспірантурі факультету електроніки та комп’ютерних технологій Львівського національного університету імені Івана Франка. З 2018 н.р. – асистент кафедри системного проектування факультету електроніки та комп’ютерних технологій.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=19467&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=19467&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

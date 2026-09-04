@@ -1,0 +1,80 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/demkiv-l-s/",
+  "Slug": "demkiv-l-s",
+  "FullName": "Демків Лідія Степанівна",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/demkiv2-125x150.jpg",
+  "PositionText": "доцент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "AcademicTitle": "доцент",
+  "Phone": "(032) 296 41 35",
+  "Email": "lidiya.demkiv@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=gulRYKgAAAAJ"
+  },
+  "ResearchInterests": "Дослідження різних архітектурних підходів до побудови сховищ даних, з метою оптимізації продуктивності та ефективності роботи з даними. Розробка ефективних інструментів для аналізу та відображення -даних з метою сприяння розумінню та прийняття оптимальних рішень. Розробка методів та способів зберігання та опрацювання даних у веб-застосунках",
+  "Courses": [
+    {
+      "Title": "Веб програмування на стороні клієнта",
+      "Url": "https://electronics.lnu.edu.ua/course/veb-prohramuvannia-na-storoni-kliienta/"
+    },
+    {
+      "Title": "Веб програмування на стороні сервера",
+      "Url": "https://electronics.lnu.edu.ua/course/veb-prohramuvannia-na-storoni-servera/"
+    },
+    {
+      "Title": "Веб-технології і програмування (ч.2) (ІПЗ та ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/veb-prohramuvannia-kn/"
+    },
+    {
+      "Title": "Веб-технології та програмування ч.1 (HTML, CSS, basic JS) (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/web-tekhnolohii-ipz/"
+    },
+    {
+      "Title": "Засоби інженерії даних (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/zasoby-inzhenerii-danykh-ipz/"
+    },
+    {
+      "Title": "Інженерія даних (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/inzheneriia-danykh-kn-2/"
+    },
+    {
+      "Title": "Основи інженерії даних (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/velyki-dani/"
+    },
+    {
+      "Title": "Програмування та підтримка веб-застосувань (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/web-tehnolohiji/"
+    },
+    {
+      "Title": "Системи опрацювання даних (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/opratsiuvannia-danykh-ist/"
+    },
+    {
+      "Title": "Основи інженерії програмного забезпечення (ІПЗ та ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Дослідження різних архітектурних підходів до побудови сховищ даних, з метою оптимізації продуктивності та ефективності роботи з даними.</p>\n<p>Розробка ефективних інструментів для аналізу та відображення -даних з метою сприяння розумінню та прийняття оптимальних рішень.</p>\n<p>Розробка методів та способів зберігання та опрацювання даних у веб-застосунках</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/veb-prohramuvannia-na-storoni-kliienta/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб програмування на стороні клієнта</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/veb-prohramuvannia-na-storoni-servera/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб програмування на стороні сервера</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/veb-prohramuvannia-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб-технології і програмування (ч.2) (ІПЗ та ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/web-tekhnolohii-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб-технології та програмування ч.1 (HTML, CSS, basic JS) (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/zasoby-inzhenerii-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Засоби інженерії даних (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/inzheneriia-danykh-kn-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Інженерія даних (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/velyki-dani/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи інженерії даних (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/web-tehnolohiji/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування та підтримка веб-застосувань (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/opratsiuvannia-danykh-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Системи опрацювання даних (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи інженерії програмного забезпечення (ІПЗ та ВПК)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<p>Фостяк М., Демків Л.С. Оптимізація зберігання даних у web застосунках з використання моделей dwh / М. Фостяк, Л. Демків // Електроніка та інформаційні технології. 2023. Випуск 23. С. 36–45<br>\nDOI: https://doi.org/10.30970/eli.23.4</p>\n<p>О. Сігунов, Л. Демків Дослідження швидкодії обробки паралельних<br>\nзапитів хмарними сервісами aws // Електроніка та інформаційні технології. 2022. Випуск 20. С. 30–41 DOI: http://dx.doi.org/10.30970/eli.20.4</p>\n<p>Demkiv L. The speed of learning convolutional neural networks on the gpu and cpu to detect synthesized speech using spectrograms // Electronics and information technologies.- 2021. -Issue 16. – P. 3–10. DOI: https://doi.org/10.30970/eli.16.1</p>\n<p>Сертифікати та стажування.<br>\nПрофільне піврічне стажування: Національний університет «Львівська політехніка» з 26.11.2018р. по 31.06.19р.</p>\n<p>Сертифікат про закінчення навчання на програмі «Вдосконалення викладацької майстерності» (6 кредитів) виданий ЛНУ імені Івана Франка</p>\n<p>Certificate of IT Ukraine Association Teacher internship program held by EPAM Systems. 108 hours, 2020.</p>\n<p>Сертифікат Coursera про успішне закінчення курсу Python and Statistics for Financial Analytics, 2023/</p>\n<p>Сертифікат Soft Serve academy Tech Summer Bootcamp for Teachers, 2023, 0.3 кредита.</p>\n<p>Сертифікат Global Logic education ІТ-інструменти для викладачів, 18 год, 2023.</p>\n<p>Диплом про участь в IT марафоні компанії EPAM (40 годин), 2023.</p>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<table>\n<tbody>\n<tr>\n<td>2006 – дотепер</td>\n<td>доцент кафедри системного проектування&nbsp;Львівського національного університету імені Івана Франка.</td>\n</tr>\n<tr>\n<td>2000 – 2006</td>\n<td>асистент кафедри фізики напівпровідників Львівського національного університету імені Івана Франка.</td>\n</tr>\n<tr>\n<td>2001</td>\n<td>захистила дисертацію на здобуття вченого ступеня кандидата фізико-математичних наук на тему «Динаміка заселеності рівнів в нестаціонарних напівпровідниках»</td>\n</tr>\n<tr>\n<td>1997 -2000</td>\n<td>аспірант кафедри фізики напівпровідників Львівського національного університету імені Івана Франка</td>\n</tr>\n<tr>\n<td>1990 -1997</td>\n<td>інженер науково – дослідної частини</td>\n</tr>\n<tr>\n<td>1985-1990</td>\n<td>студентка фізичного факультету Львівського національного університету імені Івана Франка.</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16619&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16619&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

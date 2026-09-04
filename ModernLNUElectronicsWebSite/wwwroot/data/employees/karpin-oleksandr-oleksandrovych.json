@@ -1,0 +1,50 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/karpin-oleksandr-oleksandrovych/",
+  "Slug": "karpin-oleksandr-oleksandrovych",
+  "FullName": "Карпін Олександр Олександрович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Photo_Karpin-125x150.jpg",
+  "PositionText": "доцент кафедри сенсорної та напівпровідникової електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/",
+  "AcademicDegree": "кандидат технічних наук",
+  "Email": "oleksandr.karpin@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=WJtT9RQAAAAJ&hl=uk&oi=ao"
+  },
+  "ResearchInterests": "Мікроконтролери, вбудовані системита системи на кристалі; людино-машинні інтерфейси; біометрія; інтернет речей; бездротовий зв’язок; штучний інтелект для вбудованих систем. Співавтор понад 25 наукових статей та 40 патентів на винахід. h-індекс: 13 – GoogleScholar.",
+  "Courses": [
+    {
+      "Title": "Мікроелектронні пристрої",
+      "Url": "https://electronics.lnu.edu.ua/course/mikroelektronni-prystroi/"
+    },
+    {
+      "Title": "Мікроконтролери",
+      "Url": "https://electronics.lnu.edu.ua/course/mikrokontrolery/"
+    },
+    {
+      "Title": "Архітектура комп'ютерів і програмування (171 Електроніка та комп’ютерні системи)",
+      "Url": "https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Мікроконтролери, вбудовані системита системи на кристалі; людино-машинні інтерфейси; біометрія; інтернет речей; бездротовий зв’язок; штучний інтелект для вбудованих систем.<br>\nСпівавтор понад 25 наукових статей та 40 патентів на винахід.<br>\nh-індекс: 13 – GoogleScholar.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mikroelektronni-prystroi/\" target=\"_blank\" rel=\"noopener noreferrer\">Мікроелектронні пристрої</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mikrokontrolery/\" target=\"_blank\" rel=\"noopener noreferrer\">Мікроконтролери</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів і  програмування (171 Електроніка та комп’ютерні системи)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<p>Вибрані наукові статті:<br>\n• Карпін О.О. Реконструкція поверхонь на растрових зображеннях тривимірних об’єктів // Вісник НУ “Львівська політехніка”: “Комп’ютерні системи та мережі”. – 2006. – №573. – С. 82-89.<br>\n• Walsh P., Karpin O., Maharyta A., Healy M. Next Generation Current Sense Interfaces for the IoT Era // Analog Circuits for Machine Learning, Springer, 2022, pp 115–136, <a href=\"https://doi.org/10.1007/978-3-030-91741-8_8\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/978-3-030-91741-8_8</a><br>\n• Klein H., Karpin O., Kravets I., Kolych I., MacSweeney D., Ogirko R., O’Keefe D., Walsh P. Advanced Capacitive Sensing for Mobile Devices // Low-Power Analog Techniques, Sensors for Mobile Devices, and Energy Efficient Amplifiers. Springer, 2019, pp 131–153,  <a href=\"https://doi.org/10.1007/978-3-319-97870-3_7\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/978-3-319-97870-3_7</a><br>\n• Карпін О., Сокіл В., Кремінь В., Коновалов А. Метод побудови сенсорних дисплеїв з можливістю детектування багатьох одночасних дотиків // Вісн. Нац. ун-ту “Львів. політехніка”. – 2008. – № 630. – С. 51-56.<br>\n• Karpin O., Mandziy V., Liubun Z., Rabyk V. Method of Neural Network Training with Integer Weights // 2019 XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT), Lviv, Ukraine, 2019, pp. 168-172, <a href=\"http://doi.org/10.1109/ELIT.2019.8893349\" target=\"_blank\" rel=\"noopener noreferrer\">doi: 10.1109/ELIT.2019.8893349</a><br>\n• Maksymyuk T., Gazda J., Shubyn B., Karpin O., Kapshii O., Urikova O., El-Mehdi Amhoud, Liyanage M., Minho Jo., Dohler M. Metaverse of Things in 6G Era: An Emerging Fusion of IoT, XR, Edge AI and Blockchain Technologies // Emerging Networking in the Digital Transformation Age. TCSET 2022. Lecture Notes in Electrical Engineering, vol 965. Springer, Cham. 2023, pp 546–564, <a href=\"https://doi.org/10.1007/978-3-031-24963-1_31\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/978-3-031-24963-1_31</a></p>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Освіта<br>\nУ 1996р. закінчив Нововолинську загальноосвітню школу №1 із золотою медаллю;<br>\n1996-2000 рр.– бакалаврат зі спеціальності “Комп’ютерна інженерія”, кафедра ЕОМ, Національний університет “Львівська політехніка”, диплом з відзнакою;<br>\n2000-2001 рр. – магістратура з “Комп’ютерних систем та мереж”, кафедра ЕОМ, НУ“Львівська політехніка”, диплом з відзнакою;<br>\n2002-2006 рр. навчався в аспірантурі НУ “Львівська політехніка” без відриву від виробництва, спеціальність – 05.13.06 – автоматизовані системи управління та прогресивні інформаційні технології;<br>\n2007 р. – захистив дисертацію на тему “Реконструкція поверхонь в просторі за невпорядкованими даними аерозображень”</p>\n<p>Досвід професійної праці<br>\n2001-2002 рр. – інженер-програміст на українсько-канадському підприємстві “Мікро-код”<br>\n2002-2003 рр. – інженер кафедри ЕОМ НУ “Львівська політехніка”<br>\n2003-2007 рр. – асистент кафедри ЕОМ НУ “Львівська політехніка”;<br>\n2007-2008 рр. – старший викладач кафедри ЕОМ НУ “Львівська політехніка”;<br>\n2008-2013 рр. – доцент кафедри ЕОМ НУ “Львівська політехніка”;<br>\n2004-2021 рр. – інженер-дослідник в компанії Cypress Semiconductor;<br>\n2021-по даний час – інженер-дослідник в компанії Infineon Technologies;<br>\n2023-по даний час – доцент кафедри сенсорної та напівпровідникової електроніки</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=35702&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=35702&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

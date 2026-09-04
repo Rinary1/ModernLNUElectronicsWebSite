@@ -1,0 +1,54 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/prodyvus-andrij-myhajlovych/",
+  "Slug": "prodyvus-andrij-myhajlovych",
+  "FullName": "Продивус Андрій Михайлович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/foto-125x150.jpg",
+  "PositionText": "асистент кафедри системного проектування, інженер навчальної лабораторії проектування інформаційних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Phone": "(032) 239-46-59",
+  "Email": "andriy.prodyvus@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=ilXhZksAAAAJ"
+  },
+  "ResearchInterests": "Високопродуктивні обчислювальні системи Системи штучного інтелекту Інформаційні технології в навчальному процесі",
+  "Courses": [
+    {
+      "Title": "Комп'ютерні інформаційні мережі (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ist/"
+    },
+    {
+      "Title": "Комп'ютерні інформаційні мережі (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/kompyuterni-informatsijni-merezhi/"
+    },
+    {
+      "Title": "Веб-технології (дисципліна вільного вибору)",
+      "Url": "https://electronics.lnu.edu.ua/course/qqq/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Високопродуктивні обчислювальні системи</li>\n<li>Системи штучного інтелекту</li>\n<li>Інформаційні технології в навчальному процесі</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп'ютерні інформаційні мережі (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kompyuterni-informatsijni-merezhi/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп'ютерні інформаційні мережі (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/qqq/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб-технології (дисципліна вільного вибору)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Продивус А.М. Інформаційні технології та загрози у кіберфізичних системах для відображення інформації у підземних металоконструкціях з дефектами / Шувар Р.Я., Продивус А.М., Юзевич В.М., Огірко І.В., Огірко О.І., Ковтко Р.Т., Мисюк Р.В. //&nbsp; Штучний інтелект. – 2021, № 1. – c. 85-94. DOI: <a href=\"https://doi.org/10.15407/jai2021.01.085\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.15407/jai2021.01.085</a></li>\n<li>A. Prodyvus. Face Emotion Recognition with Convolutional Neural Network <strong>/ </strong>O. Kaskun, R. Shuvar, A. Prodyvus // Collected scientific papers “Electronics and information technologies”. Issue 13. – 2020. – p. 38-49. DOI: <a href=\"https://doi.org/10.30970/eli.13.4\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.13.4</a></li>\n<li>A. Prodyvus. The Usage of Apache Spark for Collection and Analysis of Social Networking Statistics / I. Tovpinets, R. Kovtko, V. Yuzevych, A. Prodyvus // XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT). Proceedings. – 2019, p. 197-200. DOI: <a href=\"https://doi.org/10.1109/ELIT.2019.8892332\" target=\"_blank\" rel=\"noopener noreferrer\">10.1109/ELIT.2019.8892332</a></li>\n<li>A. Prodyvus. Free Software for the Educational Cluster of Parallel and Distributed Computing / A. Prodyvus, R. Shuvar, V. Parubochyi, R. Kovtko // International Scientific and Practical Conference “Electronics and Information Technologies” (ELIT-2018). – p. A-102 – A-105. <a href=\"http://elct.lnu.edu.ua/elit_conf/pdf/10/10_A29.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">http://elct.lnu.edu.ua/elit_conf/pdf/10/10_A29.pdf</a></li>\n<li>А.М. Продивус. Інтеграція BigBlueButton у LMS Moodle / Р.Я. Шувар, А.М. Продивус, І.І. Габрієль, О.В. Столярчук // Матеріали четвертої міжнародної науково-практичної конференції FOSS Lviv 2014.&nbsp; – c. 93-94. <a href=\"http://elartu.tntu.edu.ua/bitstream/123456789/16901/2/FOSSLviv_2014_Shuvar_R_Ia-Integration_BigBlueButton_93-94.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">http://elartu.tntu.edu.ua/bitstream/123456789/16901/2/FOSSLviv_2014_Shuvar_R_Ia-Integration_BigBlueButton_93-94.pdf</a></li>\n<li>А.М. Продивус. Організація ІНТЕРНЕТ-доступу до віддалених баз даних. / О.В. Столярчук, Р.Я. Шувар, А.М. Продивус // Materials of second international scientific conference FOSS Lviv 2012. – c. 132-133. <a href=\"http://elartu.tntu.edu.ua/bitstream/123456789/6241/2/FOSSLviv_2012_Stoliarchuk_O_V-Organisation_of_Internet_132-133.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">http://elartu.tntu.edu.ua/bitstream/123456789/6241/2/FOSSLviv_2012_Stoliarchuk_O_V-Organisation_of_Internet_132-133.pdf</a></li>\n<li>А.М. Продивус. Концептуальна модель інформаційної системи розкладу занять з доступом через HTTP-протокол / О.В. Столярчук, Р.Я. Шувар, А.М. Продивус // Вісник Національного університету “Львівська політехніка”. – 2012. – № 743: Інформаційні системи та мережі. – С. 151–160. <a href=\"http://ena.lp.edu.ua:8080/handle/ntb/19661\" target=\"_blank\" rel=\"noopener noreferrer\">http://ena.lp.edu.ua:8080/handle/ntb/19661</a></li>\n<li>А. Продивус. Веб-інтерфейси доступу до баз даних / О. Столярчук, Р. Шувар, А. Продивус // Збірник наукових праць “Електроніка та інформаційні технології”, випуск 1. – 2011. – 223-228. <a href=\"http://elit.lnu.edu.ua/issue.php?lang=&amp;number=1&amp;numart=26\" target=\"_blank\" rel=\"noopener noreferrer\">http://elit.lnu.edu.ua/issue.php?lang=&amp;number=1&amp;numart=26</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>1991 р. – закінчив Львівський державний університет імені Івана Франка з відзнакою</p>\n<p>У Львівському національному університеті працює з 1991 року</p>\n<p>1991-1994 рр – навчання в аспірантурі.</p>\n<p>1994 – 2012 рр. – майстер виробничого навчання.</p>\n<p>2012 – 2018 рр – провідний спеціаліст.</p>\n<p>2018 – 2019 рр – провідний інженер.</p>\n<p>З вересня 2019 р. – асистент кафедри системного проектування.</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<p>Методичне забезпечення: програми курсів, зокрема, розроблені у співпраці зі спеціалістами Львівського ІТ кластеру, електронні методичні розробки завдань до лабораторних робіт, тестові завдання для контролю знань студентів.</p>\n\n<ul>\n<li>Комп’ютерні інформаційні мережі (ІСТ, 2 курс)</li>\n<li>Комп’ютерні інформаційні мережі (КН, 3 курс)</li>\n<li>Комп’ютерні інформаційні мережі та системи (ІПЗ, 1 курс)</li>\n<li>Апаратні засоби комп’ютерних систем (КН, 4 курс)</li>\n<li>Веб-технології (дисципліна вільного вибору студентів, 3 курс)</li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16892&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16892&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

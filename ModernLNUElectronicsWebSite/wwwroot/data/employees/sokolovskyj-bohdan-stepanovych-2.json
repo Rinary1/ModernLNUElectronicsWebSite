@@ -1,0 +1,55 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/sokolovskyj-bohdan-stepanovych-2/",
+  "Slug": "sokolovskyj-bohdan-stepanovych-2",
+  "FullName": "Соколовський Богдан Степанович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/2020_re3-1-125x150.jpg",
+  "PositionText": "доцент кафедри радіоелектронних і комп’ютерних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "AcademicTitle": "ст. наук. співробітник",
+  "Phone": "(032) 239-41-52",
+  "Email": "bohdan.sokolovskyy@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=o0X4yZUAAAAJ&hl=uk",
+    "ORCID": "https://orcid.org/0000-0002-2561-3255",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=55923202300",
+    "Web of Science": "https://publons.com/researcher/1769646/bohdan-s-sokolovskii/publications/"
+  },
+  "ResearchInterests": "Теоретичні дослідження неоднорідних напівпровідників та приладів на їх основі, комп’ютерне моделювання в напівпровідниковій електроніці",
+  "Courses": [
+    {
+      "Title": "Метаевристичні алгоритми / Metaheuristic Algorithms (122 КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/metaevrystychni-alhorytmy-metaheuristic-algorithms-122-kn/"
+    },
+    {
+      "Title": "Стохастичне моделювання / Stochastic Modeling (122 КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/stohastychne-modelyuvannya/"
+    },
+    {
+      "Title": "Теорія автоматичного керування (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/teoriia-avtomatychnoho-keruvannia-ist/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Теоретичні дослідження неоднорідних напівпровідників та приладів на їх основі, комп’ютерне моделювання в напівпровідниковій електроніці</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metaevrystychni-alhorytmy-metaheuristic-algorithms-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Метаевристичні алгоритми / Metaheuristic Algorithms (122 КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/stohastychne-modelyuvannya/\" target=\"_blank\" rel=\"noopener noreferrer\">Стохастичне моделювання / Stochastic Modeling (122 КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriia-avtomatychnoho-keruvannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія автоматичного керування (ІСТ)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Вибрані публікації",
+      "Html": "<p>1. Савицкий В. Г. Антистоксовское преобразование излучения варизонными полупроводниками при магнитоконцентрационном эффекте /В. Г. Савицкий, Б. С. Соколовский, В. И. Новак // ФТП. – 1993. –Т.27, №1.– C.95 -98.&nbsp; <a href=\"http://journals.ioffe.ru/articles/viewPDF/15207\" target=\"_blank\" rel=\"noopener noreferrer\">http://journals.ioffe.ru/articles/viewPDF/15207</a></p>\n<p>2. Соколовский Б. С. Фотовольтаический эффект в тонких варизонных слоях / Б. С. Соколовский //ФТП. – 1996. –Т.30, №6. – C.1006-1010.<a href=\"http://journals.ioffe.ru/articles/viewPDF/18444\" target=\"_blank\" rel=\"noopener noreferrer\"> http://journals.ioffe.ru/articles/viewPDF/18444</a></p>\n<p>4. Sokolovskii B.S. Multilayer structures based on doped graded-band-gap semiconductors: features of energy band diagram/ B. S. Sokolovskii // Phys. Stat. Solidi (a). – 1997. –V. 163, No.2. – P. 425 – 432. <a href=\"https://doi.org/10.1002/1521-396X(199710)163:2<425::AID-PSSA425>3.0.CO;2-Y\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1002/1521-396X(199710)163:2&lt;425::AID-PSSA425&gt;3.0.CO;2-Y</a></p>\n<p>3. Sokolovskii B.S. Current-voltage characteristics of p-n structures with band gap inhomogeneity in base region / B. S. Sokolovskii // Phys. Stat. Solidi (a). – 2001. –V. 186, No.3. – P. 453-460. <a href=\"https://doi.org/10.1002/1521-396X(200108)186:3<453::AID-PSSA453>3.0.CO;2-H\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1002/1521-396X(200108)186:3&lt;453::AID-PSSA453&gt;3.0.CO;2-H</a></p>\n<p>5. Sokolovskii B.S. Negative differential resistance in a reverse-biased diode with inhomogeneous base / B.S. Sokolovskii // Technical Physics Letters. – 2002. –V.2 8. ­– P.1027–1029. <a href=\"https://doi.org/10.1134/1.1535492\" target=\"_blank\" rel=\"noopener noreferrer\">&nbsp;https://doi.org/10.1134/1.1535492</a></p>\n<p>6. Sokolovskii B.S. Theoretical study of the photovoltaic effect in thin variable-gap semiconductor layers / B.S. Sokolovskii, V. K. Pysarevskii, O. V. Nemolovskii, Z. Swiatek // Thin Solid Films. – 2003.– V. 431-432. – P. 457-460. <a href=\"https://doi.org/10.1016/S0040-6090(03)00169-X\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1016/S0040-6090(03)00169-X</a></p>\n<p>7. Sokolovskii B.S. Electroluminescence of graded-gap structures with blocking and ohmic contacts / B. S. Sokolovskii, V. I. Ivanov-Omskii, G. A. Il’chuk // Semiconductors.– 2002. – V. 39. – P.1361–1368. <a href=\"https://doi.org/10.1134/1.2140304\" target=\"_blank\" rel=\"noopener noreferrer\">&nbsp;https://doi.org/10.1134/1.2140304</a></p>\n<p>8. Monastyrskii L.S. Modeling of photoconductivity of porous silicon // L. S. Monastyrskii, B. S. Sokolovskii, M. R. Pavlyk, P. P. Parandii // Advances in OptoElectronics . – 2011 . –V. 2011. –ID 896962. <a href=\"https://doi.org/10.1155/2011/896962\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1155/2011/896962</a></p>\n<p>9. Monastyrskii L.S. Calculation of energy diagram of asymmetric graded-band-gap superlattices / L.S. Monastyrskii, B.S. Sokolovskii, M.P. Alekseichyk // Nanoscale Research Letters. – 2017. – V. 12: 203. <a href=\"https://nanoscalereslett.springeropen.com/track/pdf/10.1186/s11671-017-1981-4.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">https://nanoscalereslett.springeropen.com/track/pdf/10.1186/s11671-017-1981-4.pdf</a></p>\n<p>10. Monastyrskii L. S. Modelling of the field effect in porous silicon / L.S. Monastyrskii, B.S. Sokolovskii,&nbsp;Y.V. Boyko, M. P. Alekseichyk //Applied Nanoscience. ­–2020. –&nbsp;V.&nbsp;10. –&nbsp;P.2639–2643. <a href=\"https://doi.org/10.1134/1.2140304\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1134/1.2140304</a></p>\n<p>Більш повний список на web-сторінці&nbsp; <a href=\"https://orcid.org/0000-0002-2561-3255\" target=\"_blank\" rel=\"noopener noreferrer\">https://orcid.org/0000-0002-2561-3255</a></p>"
+    },
+    {
+      "Title": "Наукова біографія",
+      "Html": "<p>Народився 9.03.1950р. в смт Куликів Жовківського р-ну&nbsp; Львівської обл. &nbsp;Фізик, канд. фіз.-мат. наук&nbsp; (“Перенос носіїв заряду у варізонних структурах”, 1987), ст. наук. співроб. (1991). Закінчив фізичний факультет Львівського університету (1972), аспірантуру (1978). Працював на посадах&nbsp; інж. (1972-1975),&nbsp; ст. інж.&nbsp; НДС (1978 -1986),&nbsp; мол. наук. співроб. проблемної &nbsp;НДЛ &nbsp;росту та дослідження фізичних властивостей кристалів (1986-1987),&nbsp; &nbsp;наук. співроб. СКТБ “Магнон” ( 1987-1989), с т. наук.співроб. (1989-1993), пров. наук. співроб.&nbsp; Інституту прикладної фізики (1993- 2000),&nbsp; пров. наук. співроб. НДЛ-14 фотоелектроніки кафедри фізики напівпровідників (2000-2014).&nbsp; З 2014р.&nbsp; доцент каф. радіоелектронних і комп’ютерних систем.&nbsp; Наукові інтереси:&nbsp; теоретичні дослідження неоднорідних напівпровідників та приладів на їх основі, комп’ютерне моделювання в напівпровідниковій електроніці. Автор (співавтор) близько 300 наукових публікацій.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=18153&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=18153&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

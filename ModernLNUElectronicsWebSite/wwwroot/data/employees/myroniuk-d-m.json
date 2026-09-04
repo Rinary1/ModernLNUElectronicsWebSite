@@ -1,0 +1,36 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/myroniuk-d-m/",
+  "Slug": "myroniuk-d-m",
+  "FullName": "Миронюк Дмитро Мирославович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Myroniuk-125x150.jpg",
+  "PositionText": "асистент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "AcademicDegree": "кандидат технічних наук",
+  "Email": "dmytro.myroniuk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?view_op=list_works&hl=uk&user=-QuFVtwAAAAJ",
+    "ORCID": "https://orcid.org/0009-0001-5634-9354",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=58759337700",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/87304367 "
+  },
+  "ResearchInterests": "Робототехніка Розпізнавання зображень у реальному масштабі часу на пристроях з обмеженою обчислювальною потужністю",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li><strong>Робототехніка</strong></li>\n<li><strong>Розпізнавання зображень у реальному масштабі часу на пристроях з обмеженою обчислювальною потужністю</strong></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li><strong>\u202F</strong><strong>Миронюк Д.</strong> Порівняння продуктивності популярних&nbsp;згорткових&nbsp;моделей для детектування механічних об’єктів /<strong> Д. Миронюк</strong>, Б.&nbsp;Благітко, І.&nbsp;Заячук&nbsp;// Комп’ютерні технології друкарства. -2020.- № 2(44).- С. 112–117. DOI: 10.32403/2411-9210-2020-2-44-112-118.&nbsp;</li>\n<li><strong>Myronyuk&nbsp;D.</strong>&nbsp;Deep&nbsp;Learning&nbsp;Models&nbsp;of&nbsp;the&nbsp;Manipulator&nbsp;on&nbsp;the&nbsp;Raspberry&nbsp;PI&nbsp;Platform&nbsp;for&nbsp;Objects&nbsp;Finding&nbsp;/ B.&nbsp;Blagitko, <strong>D.&nbsp;Myronyuk</strong>&nbsp;//&nbsp;Electronics&nbsp;and&nbsp;information&nbsp;technologies. 2022.&nbsp;Issue&nbsp;18. P. 3–11. DOI:&nbsp;<a href=\"https://doi.org/10.30970/eli.18.1\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.18.1</a>.&nbsp;</li>\n<li><strong>Миронюк Д.</strong> Виявлення об’єктів в процесі розпізнавання зображень за допомогою&nbsp;трансформерів&nbsp;/ <strong>Д. Миронюк</strong>, Б.&nbsp;Благітко, І.&nbsp;Заячук&nbsp;// 2022: Математичне та комп’ютерне моделювання. Серія: Технічні науки. Випуск 23. С.83–90. DOI: 10.32626/2308-5916.2022-23.83-90.&nbsp;</li>\n<li><strong>Myroniuk&nbsp;D.</strong>,&nbsp;Blagitko&nbsp;B.&nbsp;Optimizations&nbsp;of&nbsp;deep&nbsp;learning&nbsp;objects&nbsp;detection&nbsp;models&nbsp;for&nbsp;inference&nbsp;acceleration&nbsp;on&nbsp;general-purpose&nbsp;and&nbsp;hardware-accelerated&nbsp;single-board&nbsp;platforms&nbsp;/&nbsp;<strong>Myroniuk&nbsp;D.</strong>,&nbsp;Blagitko&nbsp;B. //&nbsp;Electronics&nbsp;and&nbsp;information&nbsp;technologies.2025.&nbsp;Issue&nbsp;29. – P. 57-68. DOI:&nbsp;<a href=\"https://doi.org/10.30970/eli.29.6\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.29.6</a>.&nbsp;</li>\n<li><strong>Myronyuk&nbsp;D.</strong> Nvidia Jetson&nbsp;NanoPlatform&nbsp;Using for Accelerating Image Recognition / <strong>D.&nbsp;Myronyuk</strong>, B.&nbsp;Blagitko&nbsp;//2023 IEEE 13th International Conference on Electronics and Information Technologies (ELIT): Conference Proceedings. – 2023. – Lviv, Ukraine, September 26-28, 2023. – P. 153-156.&nbsp;</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><b>Дата народження :\u202F16.03.1996,</b> смт. Заболоття Ратнівського р-ну Волинської обл.</p>\n<p><b>Освіта</b>:&nbsp;&nbsp;</p>\n<p>2002&nbsp;–&nbsp;2013 рр. – навчання у&nbsp;Заболоттівській&nbsp;ЗОШ І-ІІІ ступенів.&nbsp;</p>\n<p>2013&nbsp;–&nbsp;2017 – Львівський національний університет імені Івана Франка, факультет електроніки, бакалавр, спеціальність 122 “Комп’ютерні науки”&nbsp;</p>\n<p>2017&nbsp;–&nbsp;2018 – Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій,&nbsp;кафедра радіофізики та комп’ютерних технологій,&nbsp;магістр, спеціальність 122 “Комп’ютерні науки”&nbsp;</p>\n<p>2019 – 2024 – Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, кафедра радіофізики та комп’ютерних технологій, аспірантура, спеціальність 122 “Комп’ютерні науки”.&nbsp;</p>\n<p>2024 –&nbsp;т.ч. – асистент кафедри радіофізики та комп’ютерних технологій.&nbsp;</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=36588&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=36588&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

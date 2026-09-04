@@ -1,0 +1,45 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/mandziy-vasyl-myronovych/",
+  "Slug": "mandziy-vasyl-myronovych",
+  "FullName": "Мандзій Василь Миронович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Photo_Mandziy-125x150.jpg",
+  "PositionText": "асистент кафедри сенсорної та напівпровідникової електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/",
+  "Email": "Vasyl.Mandzii@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=uevd6tgAAAAJ&hl=ru&oi=sra"
+  },
+  "ResearchInterests": "Наукові інтереси: Мікроконтролери, вбудовані системи, обробка сигналів людино-машинні інтерфейси штучний інтелект для вбудованих систем Дослідження та публікації: співавтор 7 наукових статей співавтор 18 патентів на винахід h-index: 9 (Google Scholar)",
+  "Courses": [
+    {
+      "Title": "Сенсорна електроніка",
+      "Url": "https://electronics.lnu.edu.ua/course/sensorna-elektronika/"
+    },
+    {
+      "Title": "Сенсорні системи",
+      "Url": "https://electronics.lnu.edu.ua/course/sensorni-systemy/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p><strong>Наукові інтереси:</strong></p>\n<ul>\n<li>Мікроконтролери, вбудовані системи, обробка сигналів</li>\n<li>людино-машинні інтерфейси</li>\n<li>штучний інтелект для вбудованих систем</li>\n</ul>\n<p><strong>Дослідження та публікації:</strong></p>\n<ul>\n<li>співавтор 7 наукових статей</li>\n<li>співавтор 18 патентів на винахід</li>\n</ul>\n<p>h-index: 9 (Google Scholar)</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/sensorna-elektronika/\" target=\"_blank\" rel=\"noopener noreferrer\">Сенсорна електроніка</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/sensorni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Сенсорні системи</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ul>\n<li>Karpin O., Mandziy V., Liubun Z., Rabyk V. Method of Neural Network Training with Integer Weights // 2019 XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT), Lviv, Ukraine. – 2019. – P. 168-172. <a href=\"https://electronics.lnu.edu.ua/employee/mandziy-vasyl-myronovych/ https:/doi.org/10.1109/ELIT.2019.8893349\" target=\"_blank\" rel=\"noopener noreferrer\">&nbsp;https://doi.org/10.1109/ELIT.2019.8893349</a></li>\n<li>Liubun Z., Mandziy V., Klein H., Karpin O., Rabyk V. Hover Signal-Profile Detection //2020 IEEE 15th International Conference on Computer Sciences and Information Technologies (CSIT), Zbarazh, Ukraine. – 2020. – P. 7-10. <a href=\"https://doi.org/10.1109/CSIT49958.2020.9322027\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/CSIT49958.2020.9322027</a></li>\n<li>Liubun Z., Mandziy V., Karpin O., Rabyk V. Correlation-based Contactless Hand-Gesture Detection for Capacitive Sensing // 2021 IEEE 12th International Conference on Electronics and Information Technologies (ELIT), Lviv, Ukraine. – 2021. – P. 55-60. <a href=\"https://doi.org/10.1109/ELIT53502.2021.9501121\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/ELIT53502.2021.9501121</a></li>\n<li>Liubun Z., Mandziy V., Karpin O., Rabyk V. Neural-network-based Gesture Detection for Capacitive Sensing // 2022 IEEE 16th International Conference on Advanced Trends in Radioelectronics, Telecommunications and Computer Engineering (TCSET), Lviv-Slavske, Ukraine. – 2022. – P. 362-365. <a href=\"https://doi.org/10.1109/TCSET55632.2022.9767083\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/TCSET55632.2022.9767083</a></li>\n<li>Liubun Z., Nesterenko V., Mandziy V., Karpin O. Implementation of digital filters using neural networks when the object movement dynamics are not known // Electronics and information technologies. – 2022. Issue 19. – P. 48-57. <a href=\"http://dx.doi.org/10.309%2070/eli.19.4\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.309 70/eli.19.4</a></li>\n<li>Liubun Z., Bryk B., Mandziy V., Karpin O., Kalivoshka B., Velhosh S. Processing Sensor Signal Under Low Values of Signal to Noise Ratio // 2023 IEEE 13th International Conference on Electronics and Information Technologies (ELIT), Lviv, Ukraine. – 2023. – P. 73-76. <a href=\"https://doi.org/10.1109/ELIT61488.2023.10310890\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/ELIT61488.2023.10310890</a></li>\n<li>Karpin O., Brygilevych V, Liubun Z., Mandziy V. Processing of capacitive sensor signal profile for enhancing gestures detection // Przegląd Elektrotechniczny. – 2024. – Vol. 2024, Issue 9. – P. 252-255. <a href=\"https://doi.org/10.15199/48.2024.09.49\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.15199/48.2024.09.49</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>2023-по даний час – асистент кафедри сенсорної та напівпровідникової електроніки Львівського національногомуніверситету імені Івана Франка;</p>\n<p>2007-по даний час – інженер Cypress/Infineon Technologies, теперішня посада Lead Principal Engineer;</p>\n<p>Освіта:</p>\n<p>1994-1997 – Львівський фізико-математичний ліцей</p>\n<p>1997-2002 – Львівський національний університет імені Івана Франка, спеціальність «Радіофізика та електроніка», диплом з відзнакою.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=37696&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=37696&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

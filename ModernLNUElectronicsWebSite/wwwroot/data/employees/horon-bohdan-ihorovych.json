@@ -1,0 +1,56 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/horon-bohdan-ihorovych/",
+  "Slug": "horon-bohdan-ihorovych",
+  "FullName": "Горон Богдан Ігорович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Foto-Horon-125x150.jpg",
+  "PositionText": "доцент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Email": "bohdan.horon@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?view_op=list_works&hl=uk&user=xHtxs1sAAAAJ",
+    "ORCID": "https://orcid.org/0000-0002-4595-5789",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=57211998256"
+  },
+  "ResearchInterests": "моделювання фізичних процесів у кристалах, зокрема, моделювання від перших принципів; фазові переходи в фероелектричних кристалах.",
+  "Courses": [
+    {
+      "Title": "Аналіз складних систем і мереж (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/analiz-skladnykh-system-i-merezh-122-komp-iuterni-nauky/"
+    },
+    {
+      "Title": "Оптоелектронна інформатика (F3 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-optoelektroniky-kn/"
+    },
+    {
+      "Title": "Основи комп'ютерної лінгвістики (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-komp-iuternoi-linhvistyky-122-kn/"
+    },
+    {
+      "Title": "Програмування мовою Python (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/mova-prohramuvannia-python-kn/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>моделювання фізичних процесів у кристалах, зокрема, моделювання від перших принципів;</li>\n<li>фазові переходи в фероелектричних кристалах.</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/analiz-skladnykh-system-i-merezh-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Аналіз складних систем і мереж (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-optoelektroniky-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Оптоелектронна інформатика (F3 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-komp-iuternoi-linhvistyky-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи комп'ютерної лінгвістики (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mova-prohramuvannia-python-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування мовою Python (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Structure, electronic, optical and elastic properties of (NH4)2BeF4 crystal in paraelectric phase / M.Ya. Rudysh, A.O. Fedorchuk, V.Yo. Stadnyk, P.A. Shchepanskyi, R.S. Brezvin, B.I. Horon, O.Yu. Khyzhun, O.M. Gorina // Current Applied Physics. – 2023. – 45. – P. 76-85. – <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S1567173922002693\" target=\"_blank\" rel=\"noopener noreferrer\">DOI: 10.1016/j.cap.2022.11.005.</a></li>\n<li>&nbsp;Temperature dependence of dielectric permittivity in incommensurately modulated phase of ammonium fluoroberyllate&nbsp; / B. I. Horon, O. S. Kushnir, P. A. Shchepanskyi, V. Yo. Stadnyk&nbsp; // J. Phys.: Condens. Matter. – 2022. – 25, 4. – С. 1-11. – <a href=\"https://www.icmp.lviv.ua/journal/zbirnyk.112/43704/abstract.html\" target=\"_blank\" rel=\"noopener noreferrer\">DOI: 10.5488/CMP.25.43704.</a></li>\n<li>Вплив одновісного стичкання на ІЧ спектри кристалів (NH4)2BeF4 / Б. Горон, М. Рудиш, В. Стадник, Р. Брезвін, І. Матвіїшин, П. Щепанський // Вісник Львівського університету. Серія фізична. – 2022.</li>\n<li>Refractive indices of ammonium fluoroberyllate crystals in a wide range of temperatures / B. I. Horon, V. Y. Stadnyk, O. S. Kushnir // 11<sup>th</sup> International Conference RNAOPM-2022: Proceedings and Book of Abstracts. – June 01–05, 2022. – Lutsk, Ukraine. – P.&nbsp;44–45.</li>\n<li>Comparison of Levanyuk–Sannikov and Prelovsek–Levtšik–Filipič models for incommensurate–ferroelectric phase transition in ammonium fluoroberyllate / B. Horon, O. Kushnir, M. Rudysh, V. Stadnyk // XI International Seminar “Properties of Ferroelectric and Superionic Systems”: Book of Abstracts. – October 28, 2022. – Uzhhorod, Ukraine. – P. 11–12.</li>\n<li>Influence of structural defects on incommensurate–ferroelectric phase transition in ammonium fluoroberyllate / B. Horon, O. Kushnir, M. Rudysh, V. Stadnyk // International Conference in Theoretical and Experimental Physics “HEUREKA-2022”: Book of Abstracts. – October 18–20, 2022. – Lviv, Ukraine. – P.&nbsp;B7.</li>\n<li>Least-Squares Analysis of the Dielectric Permittivity for Improper Ferroelectric Ammonium Fluorobery llate / Horon B.I., Kushnir O.S., Stadnyk V.Yo., Kashuba A.I. // 2021 IEEE 12th InternationalConferenceonElectronicsandInformation Technologies (ELIT). – 2021. <a href=\"https://doi.org/10.1109/ELIT53502.2021.9501126\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/ELIT53502.2021.9501126</a></li>\n<li>First Principles Calculation of Band Structure and Physical Properties of Ferroelectric (NH4)2BeF4 Crystal / Rudysh M., Horon B., Schepanskyi P., Stadnyk V., Brezvin R. // 2021 IEEE 12th International Conference on Electronics and Information Technologies (ELIT). – 2021.<a href=\"http://10.1109/ELIT53502.2021.9501145\" target=\"_blank\" rel=\"noopener noreferrer\">http://10.1109/ELIT53502.2021.9501145</a></li>\n<li>Calculation of Magnetic Field Azimuthal Distribution of the Pipeline with Defect//&nbsp; ;;;International Scientific and Technical Conference on Computer Sciences and Information Technologies, 2, pp. 111–114, 9321888 (2020)&nbsp;<a href=\"http://10.1109/CSIT49958.2020.9321888\" target=\"_blank\" rel=\"noopener noreferrer\">http://10.1109/CSIT49958.2020.9321888</a></li>\n<li>Information Technology of Surveys and Diagnostics of Underground Pipelines//&nbsp;;;;;//2019 11th International Scientific and Practical Conference on Electronics and Information Technologies, ELIT 2019 – ProceedingsOpen AccessPages 214 – 217 (2019)&nbsp;<a href=\"http://10.1109/ELIT.2019.8892295\" target=\"_blank\" rel=\"noopener noreferrer\">http://10.1109/ELIT.2019.8892295</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Освіта: вища (2014 – 2019 Львівський національний університет, фізичний факультет,&nbsp; спеціальність “<em>Прикладна фізика та наноматеріали”</em> )</p>\n<p>Навчання в аспірантурі: з 01.09. 2020 —&nbsp; аспірант кафедри загальної фізики Львівського національного університету імені Івана Франка.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=23661&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=23661&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

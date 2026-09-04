@@ -1,0 +1,25 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/demediuk-ihor-mykolayovych/",
+  "Slug": "demediuk-ihor-mykolayovych",
+  "FullName": "Демедюк Ігор Миколайович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Demediuk-125x150.jpg",
+  "PositionText": ", асистент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "Profiles": {},
+  "Courses": [
+    {
+      "Title": "Сучасні інтелектуальні сенсори та системи (F3 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/intelektualni-sensorni-systemy/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/intelektualni-sensorni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Сучасні інтелектуальні сенсори та системи (F3 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=40433&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=40433&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

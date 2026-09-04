@@ -1,0 +1,35 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/smoliak-andriy-yuriyovych/",
+  "Slug": "smoliak-andriy-yuriyovych",
+  "FullName": "Смоляк Андрій Юрійович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/smoliak-125x150.jpg",
+  "PositionText": "аспірант кафедри оптоелектроніки та інформаційних технологій, асистент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "Email": "Andrii.Smoliak@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "Машинне навчання Інформаційні технології",
+  "Courses": [
+    {
+      "Title": "Теорія прийняття рішень (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/teoriya-pryjnyattya-rishen/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Машинне навчання</li>\n<li>Інформаційні технології</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-pryjnyattya-rishen/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія прийняття рішень (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження:</strong> 16.12.1998</p>\n<p><strong>Освіта:</strong> вища (з 2016-2020 рр. – освітній ступінь “Бакалавр”, Львівський національний університет імені Івана Франка, факультет прикладної математики та інформатики, спеціальність ”122 Комп’ютерні науки”; 2021-2022 рр. – освітній ступінь “Магістр”, УАД, факультет комп’ютерної поліграфічної інженерії, спеціальність: “151 Автоматизація та комп’ютерно-інтегровані технології ”)</p>\n<p><strong>Навчання в аспірантурі:</strong> з 2024 – до тепер, спеціальність “122 Комп’ютерні науки” аспірант факультету електроніки та комп’ютерних технологій; тема дисертації: Оптимізація методів машинного навчання для аналізу геномних даних з метою виявлення біомаркерів генетичних захворювань.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=39832&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=39832&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/habrijel-ihor-ihorovych/",
+  "Slug": "habrijel-ihor-ihorovych",
+  "FullName": "Габрієль Ігор Ігорович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/plan104-125x150.jpg",
+  "PositionText": "провідний інженер Лабораторії (7) Міжкафедральна обчислювальна лабораторія, асистент кафедри радіоелектронних і комп’ютерних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/",
+  "Phone": "(032) 239-67-59",
+  "Email": "ihor.gabriyel@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "Високопродуктивні обчислювальні системи. Алгоритми паралельних обчислень. Обчислення з використанням технологій MPI, CUDA, Grid та гібридних архітектур. Ситеми розпізнавання зображень. Спеціалізовані комп’ютерні системи.",
+  "Courses": [
+    {
+      "Title": "Проєктування вбудованих систем (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/proiektuvannia-vbudovanykh-system/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Високопродуктивні обчислювальні системи.</p>\n<p>Алгоритми паралельних обчислень.</p>\n<p>Обчислення з використанням технологій MPI, CUDA, Grid&nbsp; та гібридних архітектур.</p>\n<p>Ситеми розпізнавання зображень.</p>\n<p>&nbsp;Спеціалізовані комп’ютерні системи.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/proiektuvannia-vbudovanykh-system/\" target=\"_blank\" rel=\"noopener noreferrer\">Проєктування вбудованих систем (КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ul>\n<li>Babych О. Preparation and properties of doped Hg-based supercondcting copper oxides / O. Babych, Ya. Boyko, I. Gabriel, R. Lutciv, M. Matvijiv, M. Vasyuk // Acta Physica Polonica A. – 2010. – V. 117, N 1. – P. 27–29.</li>\n<li>Babych O. Band spectrum transformation and temperature dependences of thermoelectric power of Hg RxBa2Ca2Cu3O8+d/ O. Babych, I Gabriel., R. Lutciv, M. Matvijiv., M. Vasyuk// Condensed Matter Physics.-2011.-V.14, N1.-P.1-6.</li>\n<li>Пат. 94369 Україна, МПК H01B 12/01, H01L 39/12, C01L 39/24, C01G 1/02, C01G 3/02, C01G&nbsp;13/00,&nbsp;C04B&nbsp;35/01,&nbsp;C23C&nbsp;14/08. Спосіб отримання Hg-вмісних високотемпературних надпровідників / Луців Р. В., Матвіїв М. В., Морозов Л. М., Бабич О. Й., Бойко Я. В., Васюк М. М., Габрієль&nbsp;І.&nbsp;І.; заявник і власник Львівський національний університет імені Івана Франка. – № a 201009058 ; заявл. 19.07.10 ; опубл. 26.04.11, Бюл. № 8.</li>\n<li>Babych O. Synthesis and properties of doped HgBa2Ca2Cu3O8+d superconductors/ O. Babych Ya Boyko., I. Gabriel, R Lutciv., et. al.// Jornal of Physics: Conference Series 2011.-V.289,012015.-P.1-4.</li>\n<li>Бабич О. Температурні залежності коефіцієнта термо-е.р.с. і зонний спектр високотемпературних надпровідників вісмутової системи / О. Бабич, Я. Бойко, І. Габрієль // Електроніка та інформаційні технології. – 2016. – Вип. 6. – С. 25–31.</li>\n<li>&nbsp;Бабич О. Розробка програмного забезпечення для відображення й аналізу результатів наукових досліджень / О. Бабич, Я. Бойко, І. Габрієль, Д. Слотвінський // Електроніка та інформаційні технології. – 2017. – Випуск 8. – С. 59–65.</li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>1972 р. – народився в с. Оброшино Львівської області</p>\n<p>1990 р. – закінчив Оброшинську ЗСШ з золотою медаллю</p>\n<p>1995 р. – закінчив Львівський державний університет імені Івана Франка з відзнакою</p>\n<p>1995-1998 рр – навчання в аспірантурі Львівського національного університету імені Івана Франка</p>\n<p>1998 – 2015 рр. – працював в НДЧ&nbsp;Львівського національного університету імені Івана Франка на посадах наукового та старшого наукового співробітника</p>\n<p>2015 – по даний час – працює на кафедрі системного проектування</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16871&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16871&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

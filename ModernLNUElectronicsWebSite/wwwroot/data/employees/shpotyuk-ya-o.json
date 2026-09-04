@@ -1,0 +1,41 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shpotyuk-ya-o/",
+  "Slug": "shpotyuk-ya-o",
+  "FullName": "Шпотюк Ярослав Олегович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/shpotiuk-125x150.png",
+  "PositionText": "старший науковий співробітник Науково-дослідної лабораторії НДЛ-20 сенсорики:, доцент кафедри сенсорної та напівпровідникової електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Email": "yaroslav.shpotyuk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com.ua/citations?user=1YhC0H0AAAAJ&hl=uk"
+  },
+  "Courses": [
+    {
+      "Title": "Архітектура комп'ютерів і програмування (171 Електроніка та комп’ютерні системи)",
+      "Url": "https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/"
+    },
+    {
+      "Title": "Архітектура комп'ютерів та комп'ютерні технології (Сенсорні та діагностичні автоматизовані системи)",
+      "Url": "https://electronics.lnu.edu.ua/course/personalni-kompyutery/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів і  програмування (171 Електроніка та комп’ютерні системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/personalni-kompyutery/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів та комп'ютерні технології (Сенсорні та діагностичні автоматизовані системи)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Golovchak, A. Kozdras, T. Hodge, J. Szlęzak, C. Boussard-Pledel, <strong>Ya. Shpotyuk</strong>, B. Bureau. Optical and thermal properties of Sb/Bi-modified mixed Ge-Ga-Se-Te glasses // <strong><em>Journal of Alloys and Compounds</em></strong> 750 (2018) 721-728.<strong> (IF: 3.133)</strong></li>\n<li>Golovchak, <strong>Ya. Shpotyuk</strong>, J. Szlęzak, A. Dziedzic, A. Ingram, J. Cebulski. Giant visible and infrared light attenuation effect in nanostructured narrow-bandgap glasses // <strong><em>Optics Letters </em></strong><em>43</em> (2018) 387–390.<strong> (IF: 3.416)</strong></li>\n<li><strong> Shpotyuk.</strong> Nanoscale mechanism of rare-earth doping in Ga-codoped glassy As-Sb selenides // <strong><em>Journal of the American Ceramic Society </em></strong>100 (2017) 3865–3874.<strong> (IF: 2.841)</strong></li>\n<li><strong> Shpotyuk</strong>, C. Boussard-Pledel, V. Nazabal, B. Bureau. The influence of Sb on glass forming ability of Ga-containing As<sub>2</sub>Se<sub>3</sub> glasses // <strong><em>Journal of the American Ceramic Society </em></strong>100 (2017) 1388-1394.<strong> (IF: 2.841)</strong></li>\n<li><strong> Shpotyuk</strong>. Effect of rare-earth doping on free-volume nanostructure of Ga-codoped glassy (As/Sb)<sub>2</sub>Se<sub>3</sub> // <strong><em>Nanoscale Research Letters</em></strong> 12 (2017) 191-1-7.<strong> (IF: 2.833)</strong></li>\n<li>Baláž, Ľ. Balážová, N. Daneu, E. Dutková, M. Balážová, Z. Bujňáková, <strong>Ya. Shpotyuk</strong>. Plant-mediated synthesis of silver nanoparticles and their stabilization by wet stirred media milling // <strong><em>Nanoscale Research Letters</em></strong> 12 (2017) 83-1-9.<strong> (IF: 2.833)</strong></li>\n<li><strong> Shpotyuk,</strong> A. Ingram, O. Shpotyuk, C. Boussard-Pledel, V. Nazabal, B. Bureau. Effect of rare-earth doping on the free-volume structure of Ga-modified Te<sub>20</sub>As<sub>30</sub>Se<sub>50</sub> glass// <strong><em>RSC Advances</em></strong> 6 (2016) 22797-22802.<strong> (IF: 3.108)</strong></li>\n<li>Massera, <strong>Ya. Shpotyuk</strong>, F. Sabatier, T. Jouan, C. Boussard-Plédel, C. Roiland, B. Bureau, L. Petit, N. G. Boetti, D. Milanese, L. Hupa. Processing and characterization of novel borophosphate glasses and fibers for medical applications // <strong><em>Journal of Non-Crystalline Solids</em></strong> 425 (2015) 52-60. <strong>(IF: 2.124)</strong></li>\n<li>Golovchak,<strong> Ya. Shpotyuk</strong>, V. Nazabal, C. Boussard-Pledel, B. Bureau, J. Cebulski, H. Jain. Study of Ga incorporation in glassy arsenic selenides by high-resolution XPS and EXAFS // <strong><em>Journal of Chemical Physics</em></strong> 142 (2015) 184501-1-10. <strong>(IF: 2.965)</strong></li>\n<li><strong> Shpotyuk</strong>, C. Boussard-Pledel, V. Nazabal, R. Chahal, J. Ari, B. Pavlyk, J. Cebulski, J.L.Doualan, B. Bureau. Ga-modified As<sub>2</sub>Se<sub>3</sub>–Te glasses for active applications in IR photonics // <strong><em>Optical Materials</em></strong> 46 (2015) 228-232.<strong> (IF: 2.238)</strong></li>\n</ol>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<ol>\n<li>Методичні рекомендації до лабораторного практикуму з курсу «Прилади і методи відображення біомедичних сигналів та зображень» / Д. Слободзян, І. Матвіїшин, <strong>Я. Шпотюк</strong>, Л. Костик, А. Лучечко, Р. Лис.-Львів: Вид. центр ЛНУ ім. І. Франка, 2017.– 47с.</li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16603&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16603&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

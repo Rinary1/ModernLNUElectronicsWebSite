@@ -1,0 +1,37 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/khomyshyn-i-yu/",
+  "Slug": "khomyshyn-i-yu",
+  "FullName": "Хомишин Іван Юрійович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/KHomyshyn-125x150.jpg",
+  "PositionText": "асистент кафедри фізичної та біомедичної електроніки, інженер 1 категорії Лабораторії (6) Електронних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/physic-and-bioelectronics/",
+  "Email": "ivan.khomyshyn@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?view_op=new_profile&hl=uk"
+  },
+  "ResearchInterests": "Дослідження фізичних явищ на поверхнях тонких плівок.",
+  "Courses": [
+    {
+      "Title": "Основи електроніки (122 - Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-elektroniky/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Дослідження фізичних явищ на поверхнях тонких плівок.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-elektroniky/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи електроніки (122 - Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Хомишин Іван Юрійович, народився 13 серпня 1998 року в селі Родатичі, Городоцького району, Львівської області , українець.&nbsp; В 2015 році. вступив в ЛНУ імені І. Франка на перший курс бакалаврату факультету електроніки та комп’ютерних технологій. Закінчив четвертий курс в 2019 році за спеціальністю “Мікро- та наноелектроніка”. В 2019 році вступив у вище згаданий університет на перший курс магістратури та закінчив її у 2020 році за спеціальністю “Мікро- та наносистемна техніка”. З січня 2021 року працює інженером І категорії лабораторії Електронних систем кафедри фізичної та біомедичної електроніки факультету електроніки та комп’ютерних технологій.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=24585&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=24585&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

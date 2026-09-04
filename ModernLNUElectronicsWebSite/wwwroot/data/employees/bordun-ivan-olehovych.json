@@ -1,0 +1,26 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/bordun-ivan-olehovych/",
+  "Slug": "bordun-ivan-olehovych",
+  "FullName": "Бордун Іван Олегович",
+  "PositionText": "асистент кафедри радіоелектронних і комп’ютерних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Email": "ivan.bordun@lnu.edu.ua",
+  "Profiles": {},
+  "Courses": [
+    {
+      "Title": "Кіберфізичні системи (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/kiberfizychni-systemy-ist/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kiberfizychni-systemy-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Кіберфізичні системи (ІСТ)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=39078&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=39078&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

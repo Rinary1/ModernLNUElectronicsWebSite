@@ -1,0 +1,30 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/tsudzenko-yuriy-yevhenovych/",
+  "Slug": "tsudzenko-yuriy-yevhenovych",
+  "FullName": "Цудзенко Юрій Євгенович",
+  "PositionText": "аспірант кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Email": "Yurii.Tsudzenko@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "веб сервісна архітектура хмарні технології та обчислення автоматизація процесів",
+  "Courses": [
+    {
+      "Title": "Основи інженерії програмного забезпечення (ІПЗ та ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>веб сервісна архітектура</li>\n<li>хмарні технології та обчислення</li>\n<li>автоматизація процесів</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи інженерії програмного забезпечення (ІПЗ та ВПК)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Народився у Львові. У&nbsp;2018&nbsp;році закінчив Технічний коледж “Національного університету Львівівска політехніка” спеціальність “Інженерія програмного забезпечення”. У&nbsp;2022&nbsp;році закінчив магістратуру на факультеті електроніки та комп’ютерних технологій Львівського національного університету імені Івана Франка (спеціальність «Комп’ютерні науки»). В&nbsp;2022&nbsp;році вступ в аспірантуру у Львівському національному університеті імені Івана Франка, факультет електроніки та комп’ютерних технологій, кафедра системного проектування.</p>"
+    }
+  ]
+}

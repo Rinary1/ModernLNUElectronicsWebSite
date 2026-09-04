@@ -1,0 +1,29 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/dzikovskyy-viktor-yevhenovych/",
+  "Slug": "dzikovskyy-viktor-yevhenovych",
+  "FullName": "Дзіковський Віктор Євгенович",
+  "PositionText": ", асистент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "Email": "viktor.dzikovskyy@lnu.edu.ua",
+  "Profiles": {},
+  "Courses": [
+    {
+      "Title": "Алгоритми і структури даних (ІПЗ ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia/"
+    },
+    {
+      "Title": "Алгоритмізація та програмування (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/prohramuvannya/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритми і структури даних (ІПЗ ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannya/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритмізація та програмування (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=26423&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=26423&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

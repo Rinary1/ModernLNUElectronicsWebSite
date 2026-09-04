@@ -1,0 +1,51 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/romanyshyn-r-i/",
+  "Slug": "romanyshyn-r-i",
+  "FullName": "Романишин Ростислав Ігорович",
+  "PositionText": "доцент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "AcademicDegree": "кандидат технічних наук",
+  "AcademicTitle": "доцент",
+  "Email": "rostyslav.romanyshyn@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?hl=en&user=uGQU5GcAAAAJ",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=26535016700"
+  },
+  "ResearchInterests": "Розроблення підходів і засобів неруйнівного контролю Ультразвукова діагностика матеріалів і конструкцій Томографічне відновлення Неруйнівний контроль 4.0",
+  "Courses": [
+    {
+      "Title": "Хмарні технології для IoT та вбудованих систем (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/khmarni-tekhnolohii-dlia-iot-ta-vbudovanykh-system-kn/"
+    },
+    {
+      "Title": "Дискретна математика (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/dyskretna-matematyka/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Розроблення підходів і засобів неруйнівного контролю</li>\n<li>Ультразвукова діагностика матеріалів і конструкцій</li>\n<li>Томографічне відновлення</li>\n<li>Неруйнівний контроль 4.0</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/khmarni-tekhnolohii-dlia-iot-ta-vbudovanykh-system-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Хмарні технології для IoT та вбудованих систем (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/dyskretna-matematyka/\" target=\"_blank\" rel=\"noopener noreferrer\">Дискретна математика (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Romanyshyn R., Romanyshyn G., Romanyshyn I. Determination of the Source Localization and the Beginning Time of the Acoustic Signal. Chapter in Photoacoustic Imaging – Principles, Advances and Applications. – Intechopen. – 2020. – 7p. DOI: <a href=\"http://dx.doi.org/10.5772/intechopen.91199\" target=\"_blank\" rel=\"noopener noreferrer\">http://dx.doi.org/10.5772/intechopen.91199</a>.</li>\n<li>Свідоцтво про рестрацію авторського права на твір №99133 – Комп’ютерна програма «Спеціальне програмне забезпечення для лабораторії технічного діагностування авіаційної техніки»/ Шебордаєв О. М., Романишин Р. І., реєстр. 17.08.2020</li>\n<li>Romanishin R.I., Romanishin I.M. Assessment of Scattered Damage in Structural Materials // Russian Journal of Nondestructive Testing. – 2019, 55, No. 2. – P.111-121. (Scopus)</li>\n<li>Romanishin R.I., Romanishin I.M., Student M.M., Gvozdetskii V.M., Rusin B.P., Romanishin G.I., Koshevoi V.V., Semak S.I., Krygul’ R.E. An Ultrasonic Method for Determining Adhesive Strength // Russian Journal of Nondestructive Testing. – 2018, 54, No. 7. – P.479-486. (Scopus).</li>\n<li>Romanishin R.I., Romanishin I.M. Processing of Backscattered Signal in Ultrasonic Testing // Russian Journal of Nondestructive Testing. – 2018, 54, No. 6. – P.394-399. (Scopus).</li>\n<li>Koshovyi V.V., Romanyshyn I.M., Romanyshyn R.I., Semak P.M., Sharamaga R.V. Development of Passive Ultrasonic Tomography Techniques // Russian Journal of Nondestructive Testing. – 2016, 52, No. 10. – P.539–553. (Scopus).</li>\n<li>Картографування адгезійної міцності газо термічного покриття на основі реєстрації зворотно-розсіяного ультразвукового сигналу / В.І.Похмурський, В.В.Кошовий, М.М.Студент, Р.І.Романишин, І.М.Романишин, В.М.Гвоздецький, П.М.Семак, Р.В.Шарамага // Техническая диагностика и неразрушающий контроль. – 2015. – № 3. – С.32-38.</li>\n<li>Koshovyi V.V., Romanyshyn I.M., Romanyshyn R.I., Mokryi O.M., Sharamaga R.V., Kyryenko A.V., Semak P.M. Development of ultrasonic tomography techniques for diagnostics of nuclear power plant piping // Strength of Materials. – 2013, v.45, №4. – P.512-516. (Scopus).</li>\n<li>Koshovyi V.V., Romanyshyn I.M., Mokryi O.M., Romanyshyn R.I. Development of the technologies of ultrasonic tomography for the engineering diagnostics of structural materials // Materials Science. – 2011, v. 47, № 2. – P.236-244. (Scopus).</li>\n<li>Koshevoi V.V., Romanishin I.M., Romanishin R.I., Sharamaga R.V. Evaluation of Material Degradation on the Basis of Ultrasonic Tomography during the Detection of Scattered Signals // Russian Journal of Nondestructive Testing. – 2010, 46, No. 9. – P.651–663. (Scopus).</li>\n<li>Кошевой В.В. Ультразвуковая компьютерная томография на основе регистрации рассеянного структурой материала сигнала (Часть 1) / В.В.Кошевой, И.М.Романишин, Р.И.Романишин, Р.В.Шарамага // Техническая диагностика и неразрушающий контроль. – 2010. – №2. – С.37-42.</li>\n<li>Кошевой В.В. Ультразвуковая компьютерная томография на основе регистрации рассеянного структурой материала сигнала (Часть 2) / В.В.Кошевой, И.М.Романишин, Р.И.Романишин, Р.В.Шарамага // Техническая диагностика и неразрушающий контроль. – 2010. – №3. – С.19-24.</li>\n<li>Romanishin I.M., Romanishin R.I. Comparison of Acoustic-Emission Tomography Images to an Etalon // Russian Journal of Nondestructive Testing. – 2009, 45, No. 1. – P.50-60. (Scopus).</li>\n<li>Патент України на корисну модель № 44165. Спосіб оцінки деградації матеріалу на основі томографічних зображень / Кошовий В.В., Романишин І.М., Романишин Р.І., Шама М.А., Шарамага Р.В. / Опубліковано 25.09.2009. Бюл.№18.</li>\n<li>Romanyshyn R., Koshovy V., Romanyshyn I., Sharamaga R. Estimation of Material Degradation by Backscattered Ultrasonic Tomography / SENSOR+TEST Conferences 2011. 2011-06-07 – 2011-06-09. Nürnberg. Proceedings SENSOR 2011. A7 – Ultrasonic Sensors II. – 2011. – P. 177-180 (<a href=\"https://www.ama-science.org/proceedings/details/426\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.ama-science.org/proceedings/details/426</a> ). DOI: 10.5162/sensor11/a7.4.</li>\n<li>Романишин Г.І., Романишин Р.І. Інформаційна система діагностики матеріалів на основі реєстрації зворотно-розсіяного сигналу / Conf. Perspective Innovations in Science, Education, Production and Transport SWorld – 20-27 December 2016. – 6 p. <a href=\"https://sworld.education/konfer45/145.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">https://sworld.education/konfer45/145.pdf</a></li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><b>Дата народження :\u202F11 березня 1987</b>&nbsp;</p>\n<p><b>Освіта</b>:&nbsp;2004 – 2009 – Львівський національний університет ім. І. Франка&nbsp;<br>\nФакультет електроніки та комп’ютерних технологій<br>\nКафедра радіофізики та комп’ютерних технологій<br>\nСпеціаліст, бакалавр<br>\nСпеціальність – Радіофізика і електроніка&nbsp;</p>\n<p><b>Навчання в аспірантурі:\u202F</b>\u202F2011 – 2014 – Фізико-механічний інститут ім. Г. В. Карпенка НАН України&nbsp;<br>\nСпеціальність – 05.02.10 – Діагностика матеріалів і конструкцій&nbsp;<br>\nКерівник – Володимир Вікторович Кошовий, к. т. н.&nbsp;</p>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<ol>\n<li>2016 – 2017 – “Розроблення лабораторії технічного діагностування авіаційної техніки”</li>\n<li>2014 – 2016 – «Розроблення інформаційних технологій підвищення просторової роздільної здатності ультразвукових методів визначення об’ємної неоднорідності стану металу»<br>\nпостанова Бюро ВФТПМ від 10.12.2013 р., протокол № 15), номер держреєстрації 0108U004280, НД 23/ІІІ-100-14</li>\n<li>2011 – 2013 – «Розроблення методів оцінювання мікроструктури металу на основі томографічних зображень під час ультразвукового зондування»<br>\nпостанова Бюро ВФТПМ від 30.11.2010 р., протокол № 17), номер держреєстрації 0111U002377, НД 23-3/30</li>\n<li>2010 – 2012 – «Підвищення функціональних можливостей та розширення обсягів промислової перевірки на об’єктах АЕС портативного ультразвукового комп’ютерного томографа для оцінювання експлуатаційної деградації металу»<br>\nРозпорядження Президії НАН України від 14.06.2010 р. № 341, програма «РЕСУРС», ІІ-28-10), номер держреєстрації 0110U004562</li>\n<li>2008 – 2010 – «Розробка методів безконтактної і пасивної ультразвукової комп’ютерної томографії для задач оцінювання стану конструкційних матеріалів»<br>\nБюро ВФТПМ від 11.12.2007 р., протокол № 19), номер держреєстрації 0108U004280, НД 23/3.4/413</li>\n<li>2007 – 2009 – «Впровадження технології ультразвукової комп’ютерної томографії для моніторингу експлуатаційної деградації металу товстостінних елементів АЕС»<br>\nРозпорядження Президії НАН України від 20.04.2007 р. № 262, програма «РЕСУРС», 4.11/399), номер держреєстрації 0108U005170</li>\n<li>2005 – 2007 – «Розробка ультразвукових методів визначення структурної неоднорідності матеріалів на основі реєстрації розсіяного сигналу»<br>\nпостанова Бюро ВФТПМ від 21.06.2005 р., протокол № 11), номер держреєстрації 0105U004307, НД 23/309</li>\n<li>2004 – 2006 – «Виготовлення та промислова перевірка ультразвукового томографа для визначення просторового розподілу внутрішніх напружень і дефектів у товстостінних конструкціях обладнання АЕС»<br>\nРозпорядження Президії НАН України від 30.03.2004 р. № 244, програма «РЕСУРС», 4.11/291), номер держреєстрації 0104U004530</li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=32024&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=32024&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

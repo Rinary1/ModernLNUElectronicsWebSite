@@ -1,0 +1,39 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/ostrikov-danylo-andriyovych/",
+  "Slug": "ostrikov-danylo-andriyovych",
+  "FullName": "Остріков Данило Андрійович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/ostrikov-125x150.jpg",
+  "PositionText": "аспірант кафедри оптоелектроніки та інформаційних технологій, асистент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "Email": "Danylo.Ostrikov@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "Комп’ютерна лінгвістика Комп’ютерні мережі Машинне навчання",
+  "Courses": [
+    {
+      "Title": "Функційне програмування (121 Інженерія програмного забезпечення)",
+      "Url": "https://electronics.lnu.edu.ua/course/funktsional-ne-prohramuvannia/"
+    },
+    {
+      "Title": "Цифрова обробка інформації (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Комп’ютерна лінгвістика</li>\n<li>Комп’ютерні мережі</li>\n<li>Машинне навчання</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/funktsional-ne-prohramuvannia/\" target=\"_blank\" rel=\"noopener noreferrer\">Функційне програмування (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка інформації (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Дата народження: 04.08.2000 р.</p>\n<p>Освіта: вища (з 2018-2022 рр. – освітній ступінь “Бакалавр”, Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, спеціальність ”121 Інформаційні системи та технології”; 2022-2023 рр. – освітній ступінь “Магістр”, факультет електроніки та комп’ютерних технологій, спеціальність: “122 Комп’ютерні науки”)</p>\n<p>Навчання в аспірантурі: (з 2024 – до тепер, спеціальність “122 Комп’ютерні науки” аспірант факультету електроніки та комп’ютерних технологій; тема дисертації: “Мережеві властивості природних і рандомних текстів: виявлення семантики та визначення ключових слів”)</p>\n<p>Трудова діяльність:<br>\n2020 – до сьогодні: компанія GlobalLogic, C/C++ розробник програмного забезпечення для мережевих пристроїв на ОС OpenWRT</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=39817&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=39817&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

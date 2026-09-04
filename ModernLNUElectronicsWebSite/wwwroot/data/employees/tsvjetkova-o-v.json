@@ -1,0 +1,30 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/tsvjetkova-o-v/",
+  "Slug": "tsvjetkova-o-v",
+  "FullName": "Цвєткова Ольга Валентинівна",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/ke_tsvetkova-125x150.jpg",
+  "PositionText": "провідний інженер кафедри сенсорної та напівпровідникової електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/",
+  "Phone": "(032) 239-46-86",
+  "Profiles": {},
+  "ResearchInterests": "Люмінесцентна спектроскопія складних оксидів з домішками іонів перехідних металів та рідкісно-земельних елементів; фото-, термостимульовані процеси в полі- та нанокераміках оксидних сполук",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Люмінесцентна спектроскопія складних оксидів з домішками іонів перехідних металів та рідкісно-земельних елементів; фото-, термостимульовані процеси в полі- та нанокераміках оксидних сполук</p>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<p>1. Термостимульована люмінесценція та термостимульована деполяризація шпінелей MgGa<sub>2</sub>O<sub>4</sub>&nbsp;/ О.П. Кравець, Р.М. Лис, О.В. Цвєткова,&nbsp; А.П. Лучечко, Б.В. Павлик //&nbsp;ЖФД, 2018, Т.22, №1, с.&nbsp;1602-1 – 1602-7.</p>\n<p>2. Kostyk L.V., A. Tsvetkova O.V., Stryganyuk G. Luminescence properties of Ca3Ga2Ge4O14 Crystals.// Functional Materials .– 2008. – Vol.43, N4. -P. 487-491.</p>\n<p>3. Kostyk L., Luchechko A., Varvarenko S., Pavlyk B., Tsvetkova O. Preparation and luminescence properties of Gd3Ga5O12 nanocrystalline garnet // Chem. Met. Alloys. –2011. – Vol. 4, Issue 1/2. –P. 77 –80.</p>\n<p>4. Kostyk L., Luchechko A., Zakharko Ya., Tsvetkova O., Kukliński B. Cr-related centers in Gd3Ga5O12 polycrystals // Journal of Luminescence. –2009. -Vol. 129, Issue 3. -P.312-316.</p>\n<p>5. Zakharko Ya., Tsvetkova O., Luchechko A. Luminescence properties of β-(Ga1−xInx)2O3 solid solutions // Radiation Measurements. -2004. -V. 38, № 4-6. -P. 619-621.</p>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Народилася 23 жовтня 1948 р. в м. Львів. У 1972 році закінчила Львівський державний університет імені Івана Франка.</p>\n<p>З 1974 року – старший лаборант кафедри фізики напівпровідників фізичного факультету.</p>\n<p>З 1977 року працювала на посадах: інженер, старший інженер, мол. наук. співробітник, наук. співробітник НДЛ-10 НДЧ Львівського державного університету ім. І. Франка.</p>\n<p>З січня 2012 р. – провідний інженер кафедри електроніки факультету електроніки ЛНУ ім. І. Франка.</p>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<p>Участь в проекті МОН України&nbsp;<strong>CН-59Ф (2017-2019 роки)</strong>&nbsp;„Одержання та дослідження наносистем на основі халькогенідних напівпровідників з природними наноструктурованими матрицями”. Науковий керівник теми – доктор фіз.-мат. наук, проф. Галій П.В.</p>"
+    }
+  ]
+}

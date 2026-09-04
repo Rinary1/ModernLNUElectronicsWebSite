@@ -1,0 +1,29 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/baran-m-o/",
+  "Slug": "baran-m-o",
+  "FullName": "Баран Микола Орестович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Baran-M.-O-125x150.jpg",
+  "PositionText": "асистент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "Email": "mykola.baran@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?hl=uk&user=offlRpAAAAAJ",
+    "ORCID": "https://orcid.org/0009-0002-0342-7213",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/LDF-9378-2024"
+  },
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>&nbsp;Харів Андрій, Хвищун Іван, Баран Микола. Оптимальний вибір мови програмування при розробці програм моделювання динамічних систем. // “Теоретична електротехніка”, Вип. 60, 2009</li>\n<li>Баран Микола. Моделювання періодичних режимів високодобротних радіоелектронних схем. // Вісник Львівського Університету, Серія Фізична, Вип. 44, 2009</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження :&nbsp;</strong><strong>07.12.1983</strong></p>\n<p><strong>Освіта</strong>: повна вища</p>\n<p><strong>Навчання в аспірантурі:&nbsp;</strong>&nbsp;2006 – 2009</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=36580&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=36580&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/klym-halyna-ivanivna/",
+  "Slug": "klym-halyna-ivanivna",
+  "FullName": "Клим Галина Іванівна",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Klym-125x150.jpg",
+  "PositionText": ", професор кафедри радіоелектронних і комп’ютерних систем",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radioelectronics-and-computer-sciences/",
+  "AcademicDegree": "доктор технічних наук",
+  "Email": "halyna.klym@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?hl=en&user=fkmo8MoAAAAJ"
+  },
+  "ResearchInterests": "Проектування інтелектуальних сенсорних систем Сенсорика: сенсори температури та вологості. Матеріалознавство: скло-кераміка, їх мікроструктурна характеризація, фізико-хімічні властивості, деградаційні процеси, технологічні проблеми функціональної кераміки, об’ємні дефекти та радіаційно-індуковані ефекти в топологічно-невпорядкованих тілах.",
+  "Courses": [
+    {
+      "Title": "Edge/Fog технології та обчислення (121-ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/edge-fog-obchyslennia-121-ipz/"
+    },
+    {
+      "Title": "Fog/Edge комп'ютинг (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/fog-edge-komp-iutynh-vpk/"
+    },
+    {
+      "Title": "FPGA/CPLD комп'ютинг (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/fpga-cpld-komp-iutynh-vpk/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Проектування інтелектуальних сенсорних систем</li>\n<li>Сенсорика: сенсори температури та вологості.</li>\n<li>Матеріалознавство: скло-кераміка, їх мікроструктурна характеризація, фізико-хімічні властивості, деградаційні процеси, технологічні проблеми функціональної кераміки, об’ємні дефекти та радіаційно-індуковані ефекти в топологічно-невпорядкованих тілах.</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/edge-fog-obchyslennia-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Edge/Fog технології та обчислення (121-ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fog-edge-komp-iutynh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Fog/Edge комп'ютинг (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fpga-cpld-komp-iutynh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">FPGA/CPLD комп'ютинг (ВПК)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ul>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:4TOpqqG69KYC\" target=\"_blank\" rel=\"noopener noreferrer\">Positronics of subnanometer atomistic imperfections in solids as a high-informative structure characterization tool</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:J_g5lzvAfSwC\" target=\"_blank\" rel=\"noopener noreferrer\">PAL spectroscopy in application to humidity-sensitive MgAl2O4 ceramics</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:Y0pCki6q_DkC\" target=\"_blank\" rel=\"noopener noreferrer\">Thermally-induced crystallization behaviour of 80GeSe2–20Ga2Se3 glass as probed by combined X-ray diffraction and PAL spectroscopy</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:RYcK_YlVTxYC\" target=\"_blank\" rel=\"noopener noreferrer\">Evolution of porous structure and free-volume entities in magnesium aluminate spinel ceramics</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:Wp0gIr-vW9MC\" target=\"_blank\" rel=\"noopener noreferrer\">Positron annihilation characterization of free volume in micro-and macro-modified Cu0. 4Co0. 4Ni0. 4Mn1. 8O4 ceramics</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:maZDTaKrznsC\" target=\"_blank\" rel=\"noopener noreferrer\">‘Cold’ crystallization in nanostructurized 80GeSe<sub>2</sub>-20Ga<sub>2</sub>Se<sub>3</sub>&nbsp;glass</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:TFP_iSt0sucC\" target=\"_blank\" rel=\"noopener noreferrer\">Extended positron‐trapping defects in insulating MgAl<sub>2</sub>O<sub>4</sub>&nbsp;spinel‐type ceramics</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:aqlVkmm33-oC\" target=\"_blank\" rel=\"noopener noreferrer\">Effect of radiation on the electrical properties of PEDOT-based nanocomposites</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:YsMSGLbcyi4C\" target=\"_blank\" rel=\"noopener noreferrer\">Random nanostructured metallic films for environmental monitoring and optical sensing: experimental and computational studies</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:UebtZRa9Y70C\" target=\"_blank\" rel=\"noopener noreferrer\">Unified model of multichannel positron annihilation in nanoporous magnesium aluminate ceramics</a></li>\n<li><a href=\"https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=fkmo8MoAAAAJ&amp;citation_for_view=fkmo8MoAAAAJ:5nxA0vEk-isC\" target=\"_blank\" rel=\"noopener noreferrer\">Cathodoluminescence characterization of polystyrene-BaZrO3 hybrid composites</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Науковий ступінь:</strong></p>\n<ul>\n<li>Рік:&nbsp;2008.&nbsp;Cтупінь:&nbsp;Кандидат.&nbsp;Спеціальність:&nbsp;Фізико-математичні науки.&nbsp;<a href=\"http://irbis-nbuv.gov.ua/cgi-bin/suak/corp.exe?I21DBN=SAUA&amp;P21DBN=SAUA&amp;S21REF=10&amp;S21CNR=20&amp;S21STN=1&amp;S21SRW=nz&amp;S21SRD=UP&amp;S21FMT=brief_elib&amp;S21COLORTERMS=0&amp;C21COM=S&amp;2_S21P03=SPC=&amp;2_S21STR=01.04.10\" target=\"_blank\" rel=\"noopener noreferrer\">01.04.10 – Фізика напівпровідників і діелектриків</a>&nbsp;I?noi:&nbsp;Львів.&nbsp;Установа:&nbsp;<a href=\"http://irbis-nbuv.gov.ua/cgi-bin/suak/corp.exe?I21DBN=SUOU&amp;P21DBN=SUOU&amp;S21REF=10&amp;S21CNR=20&amp;S21STN=1&amp;S21SRW=nz&amp;S21FMT=elib_all&amp;S21COLORTERMS=0&amp;C21COM=S&amp;2_S21P03=NM=&amp;2_S21STR=Львівський національний університет імені Івана Франка\" target=\"_blank\" rel=\"noopener noreferrer\">Львівський національний університет імені Івана Франка (Львів)</a></li>\n<li>Рік:&nbsp;2016.&nbsp;Cтупінь:&nbsp;Доктор.&nbsp;Спеціальність:&nbsp;Фізико-математичні науки.&nbsp;<a href=\"http://irbis-nbuv.gov.ua/cgi-bin/suak/corp.exe?I21DBN=SAUA&amp;P21DBN=SAUA&amp;S21REF=10&amp;S21CNR=20&amp;S21STN=1&amp;S21SRW=nz&amp;S21SRD=UP&amp;S21FMT=brief_elib&amp;S21COLORTERMS=0&amp;C21COM=S&amp;2_S21P03=SPC=&amp;2_S21STR=01.04.07\" target=\"_blank\" rel=\"noopener noreferrer\">01.04.07 – Фізика твердого тіла</a>&nbsp;I?noi:&nbsp;Львів.&nbsp;Установа:&nbsp;<a href=\"http://irbis-nbuv.gov.ua/cgi-bin/suak/corp.exe?&amp;I21DBN=SUOU&amp;P21DBN=SUOU&amp;S21STN=1&amp;S21REF=10&amp;S21FMT=elib_all&amp;C21COM=S&amp;S21CNR=20&amp;S21P01=0&amp;S21P02=0&amp;S21P03=SG=&amp;S21COLORTERMS=0&amp;S21STR=NSOU0000225\" target=\"_blank\" rel=\"noopener noreferrer\">“Львівська політехніка”, національний університет</a></li>\n</ul>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=29475&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=29475&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

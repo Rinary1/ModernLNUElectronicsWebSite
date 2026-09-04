@@ -1,0 +1,55 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kulyk-p-r/",
+  "Slug": "kulyk-p-r",
+  "FullName": "Кулик Петро Русланович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/foto-125x150.png",
+  "PositionText": "асистент кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "Email": "petro.kulyk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=enmlVDEAAAAJ",
+    "ORCID": "https://orcid.org/0009-0008-1193-8578",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/PBW-3752-2025"
+  },
+  "ResearchInterests": "Бази даних та знань Системи організації персональних знань Нереляційні бази даних Програмування на м.п. Java",
+  "Courses": [
+    {
+      "Title": "Архітектура обчислювальних систем та комп'ютерна схемотехніка (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/kompyuterna-shemotehnika-ta-arhitektura-kompyuteriv/"
+    },
+    {
+      "Title": "Основи паралельного програмування (ІСТ)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist/"
+    },
+    {
+      "Title": "Паралельні та розподілені обчислення",
+      "Url": "https://electronics.lnu.edu.ua/course/paralelne-prohramuvannia-ipz/"
+    },
+    {
+      "Title": "Паралельні та розподілені обчислення (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/paralelni-ta-rozpodileni-obchyslennia/"
+    },
+    {
+      "Title": "Чисельні методи (КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/chyselni-metody-2/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Бази даних та знань</li>\n<li>Системи організації персональних знань</li>\n<li>Нереляційні бази даних</li>\n<li>Програмування на м.п. Java</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kompyuterna-shemotehnika-ta-arhitektura-kompyuteriv/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура обчислювальних систем та комп'ютерна схемотехніка (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи паралельного програмування (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paralelne-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Паралельні та розподілені обчислення</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paralelni-ta-rozpodileni-obchyslennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Паралельні та розподілені обчислення (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/chyselni-metody-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Чисельні методи (КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Протягом 2015-2020 рр. навчався у Львівському національному університеті ім. Івана Франка на факультеті електроніки та комп’ютерних технологій.<br>\nПо закінченню магістратури у 2020 році отримав диплом магістра комп’ютерних наук. З 2021 р. – асистент кафедри системного проектування факультету електроніки та комп’ютерних технологій.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=23819&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=23819&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

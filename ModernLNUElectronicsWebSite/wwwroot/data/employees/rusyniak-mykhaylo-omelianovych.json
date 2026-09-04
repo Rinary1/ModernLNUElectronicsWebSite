@@ -1,0 +1,56 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/rusyniak-mykhaylo-omelianovych/",
+  "Slug": "rusyniak-mykhaylo-omelianovych",
+  "FullName": "Русиняк Михайло Омелянович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/RMO_photo3x4-125x150.jpg",
+  "PositionText": "доцент кафедри оптоелектроніки та інформаційних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/optoelectronics-2/",
+  "AcademicDegree": "кандидат технічних наук",
+  "Email": "mykhailo.rusyniak@lnu.edu.ua",
+  "Profiles": {},
+  "ResearchInterests": "Системи автоматизації Інформаційні технології",
+  "Courses": [
+    {
+      "Title": "Розпізнавання образів (121 Інженерія програмного забезпечення)",
+      "Url": "https://electronics.lnu.edu.ua/course/rozpiznavannia-obraziv-121-inzheneriia-prohramnoho-zabezpechennia/"
+    },
+    {
+      "Title": "Оптоелектроніка (171 Електроніка)",
+      "Url": "https://electronics.lnu.edu.ua/course/optoelektronika-171-eks/"
+    },
+    {
+      "Title": "Оптоелектронна інформатика (F3 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-optoelektroniky-kn/"
+    },
+    {
+      "Title": "Основи штучного інтелекту (121 Інженерія програмного забезпечення)",
+      "Url": "https://electronics.lnu.edu.ua/course/osnovy-shtuchnoho-intelektu-ipz/"
+    },
+    {
+      "Title": "Подання знань і бази знань (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/podannia-znan-i-bazy-znan-122-komp-iuterni-nauky/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li>Системи автоматизації</li>\n<li>Інформаційні технології</li>\n</ul>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/rozpiznavannia-obraziv-121-inzheneriia-prohramnoho-zabezpechennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Розпізнавання образів (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/optoelektronika-171-eks/\" target=\"_blank\" rel=\"noopener noreferrer\">Оптоелектроніка (171 Електроніка)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-optoelektroniky-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Оптоелектронна інформатика (F3 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-shtuchnoho-intelektu-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи штучного інтелекту  (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/podannia-znan-i-bazy-znan-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Подання знань і бази знань (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Дослідження регулятора температури електропечі з різномантними алгоритмами фаззі-керування / П.Б. Клендій, В.Ю. Рамш, М.О. Русиняк, Г.Я. Клендій // Науковий вісник Національного університету біоресурсів і природокористування України: Серія: Техніка та енергетика АПК. – 2015. – Вип. 209, ч. 1. – С. 90-98.</li>\n<li>Алгоритм розпізнавання образів мікроклімату за допомогою штучних нейронних мереж /М.О. Русиняк// Науковий вісник НУБіП України. Серія: Техніка та енергетика АПК – К.: Вид-во ВЦ НУБіП України, 2014. – Вип. 194. – С.57-63</li>\n<li>Комп’ютерне моделювання частотно-регульованого електроприводу пневмотранспортної установки борошномельних підприємств / П. Б. Клендій, М. О. Русиняк, Г. Я. Клендій, В. Ю. Рамш. // <a href=\"http://www.irbis-nbuv.gov.ua/cgi-bin/irbis_nbuv/cgiirbis_64.exe?Z21ID=&amp;I21DBN=UJRN&amp;P21DBN=UJRN&amp;S21STN=1&amp;S21REF=10&amp;S21FMT=JUU_all&amp;C21COM=S&amp;S21CNR=20&amp;S21P01=0&amp;S21P02=0&amp;S21P03=IJ=&amp;S21COLORTERMS=1&amp;S21STR=Ж100024\" target=\"_blank\" rel=\"noopener noreferrer\">Енергетика і автоматика</a>. – 2013. – № 2(16).</li>\n<li>Енергозбереження при використанні системи управління мікрокліматом у промисловому пташнику / М.О.Русиняк, О.В.Калатало // Наукові дослідження — теорія і експеримент 2010: Матеріали шостої міжнародної науково-практичної конференції, м. Полтава 17-19 травня 2010 р. “ІнтерГрафіка”, 2010. – Т.5 — 108 с.</li>\n<li>Енергозбереження при використанні адаптивних математичних моделей / М.О. Русиняк // Матеріали дванадцятої наукової конференції Тернопільського державного технічного університету ім. Івана Пулюя, м. Тернопіль 14-15 травня 2008 р. Тернопіль ТДТУ, 2008 — 370 с.- с.15</li>\n<li>Аналіз традиційних систем управління мікрокліматом пташників. Способи зниження енергетичних затрат та підвищення ефективності роботи птахофабрик яєчного напряму. / В.П. Лисенко, Б.Л. Головінський, М.О. Русиняк // Науковий вісник Національного аграрного університету. Вип. 118, – 2008. с. 174-181</li>\n<li>Використання методу Лагранжа для визначення оптимальних параметрів мікроклімату в промисловому пташнику. / В.П. Лисенко, М.О. Русиняк // Електрифікація та автоматизація сільського господарства. № 10&nbsp; – 2004 — с.75-83</li>\n<li>Розробка алгоритму визначення оптимальних параметрів мікроклімату в промисловому пташнику / В.П. Лисенко, М.О. Русиняк // Аграрна наука і освіта. Том 4 № 3-4 — 2003 с. 92-97</li>\n<li>Адаптивна математична модель процесу виробництва яєць / В.П. Лисенко, М.О. Русиняк // Науковий вісник Національного аграрного університету. Вип. 60, – 2003. с. 228-238</li>\n<li>Інтеграція засобів математичного процесора MathCad з програмами автоматизації виробничих процесів промислового пташника / В.П. Лисенко, М.О. Русиняк, І.А. Семеген // // Аграрна наука і освіта. Том 3 № 3-4 — 2002 с. 100-103</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><strong>Дата народження</strong><em>: </em>07.11.1958 р.</p>\n<p><strong>Освіта</strong><em>: </em>Львівський державний університет імені Івана Франка, фізичний факультет, спеціальність «радіофізика і електроніка» 1981 р., кваліфікація «радіофізик».</p>\n<p>Кандидатська дисертація «Автоматизована енергозберігаюча система керування виробництвом у промисловому пташнику»,<br>\nспеціальність 05.13.07 – автоматизація процесів керування,<br>\nзахист в Національному університеті харчових технологій (м. Київ) у 2012 р.</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31492&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=31492&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

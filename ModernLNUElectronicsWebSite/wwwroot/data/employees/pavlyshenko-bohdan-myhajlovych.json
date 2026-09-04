@@ -1,0 +1,67 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/pavlyshenko-bohdan-myhajlovych/",
+  "Slug": "pavlyshenko-bohdan-myhajlovych",
+  "FullName": "Павлишенко Богдан Михайлович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/454-125x150.jpg",
+  "PositionText": "професор кафедри системного проектування",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/system-design/",
+  "AcademicDegree": "доктор технічних наук",
+  "AcademicTitle": "доцент",
+  "Email": "bohdan.pavlyshenko@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=Ld4m_aIAAAAJ"
+  },
+  "ResearchInterests": "Науковий ступінь: Кандидат фізико-математичних наук Поточні посади: Postdoc дослідник у Львівському національному університеті імені Івана Франка (Україна), Data Scientist у SoftServe Inc. Я поєдную академічні теорії та практичні підходи в галузі науки про дані. Мій поточний науковий інтерес лежить у таких основних сферах: – Предиктивна аналітика – Машинне навчання – Кількісна лінгвістика, обробка природної мови – Майнінг соціальних мереж – Аналітика часових рядів – Оцінка ризиків У моделях предиктивної аналітики я поєдную машинне навчання та байєсівське виведення, що є ефективним підходом для прогнозування та оцінки ризиків у бізнес-процесах з негаусівською статистикою. Я працюю над сучасними рішеннями предиктивної аналітики, беру участь у змаганнях Kaggle, де маю ступінь магістра та 7 медалей за високі позиції в лідербордах, 3 з яких золоті (найвищий ранг – 89). Я був учасником команди, яка виграла один конкурс Kaggle (“Попит на запаси Grupo Bimbo”) серед майже двох тисяч команд.",
+  "Courses": [
+    {
+      "Title": "Cloud Computing and Big Data (122 КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/cloud-computing-and-big-data-122-kn/"
+    },
+    {
+      "Title": "Методи та технології інженерії даних (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-ipz/"
+    },
+    {
+      "Title": "Методи та технології опрацювання даних (ВПК)",
+      "Url": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2/"
+    },
+    {
+      "Title": "Нереляційні бази даних (ІПЗ)",
+      "Url": "https://electronics.lnu.edu.ua/course/nereliatsiyni-bazy-danykh-ipz/"
+    },
+    {
+      "Title": "Виробнича практика / Internship (122 КН)",
+      "Url": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka-internship-122-kn/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Науковий ступінь: Кандидат фізико-математичних наук<br>\nПоточні посади: Postdoc дослідник у Львівському національному університеті імені Івана Франка (Україна), Data Scientist у SoftServe Inc.</p>\n<p>Я поєдную академічні теорії та практичні підходи в галузі науки про дані. Мій поточний науковий інтерес лежить у таких основних сферах:</p>\n<p>– Предиктивна аналітика</p>\n<p>– Машинне навчання</p>\n<p>– Кількісна лінгвістика, обробка природної мови</p>\n<p>– Майнінг соціальних мереж</p>\n<p>– Аналітика часових рядів</p>\n<p>– Оцінка ризиків</p>\n<p>У моделях предиктивної аналітики я поєдную машинне навчання та байєсівське виведення, що є ефективним підходом для прогнозування та оцінки ризиків у бізнес-процесах з негаусівською статистикою. Я працюю над сучасними рішеннями предиктивної аналітики, беру участь у змаганнях Kaggle, де маю ступінь магістра та 7 медалей за високі позиції в лідербордах, 3 з яких золоті (найвищий ранг – 89). Я був учасником команди, яка виграла один конкурс Kaggle (“Попит на запаси Grupo Bimbo”) серед майже двох тисяч команд.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/cloud-computing-and-big-data-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Cloud Computing and Big Data (122 КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи та технології інженерії даних (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи та технології опрацювання даних (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nereliatsiyni-bazy-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Нереляційні бази даних (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka-internship-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Виробнича практика / Internship (122 КН)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<p>Totally I have more than 50 scientific publications. Here are some of data science related scientific papers:</p>\n<ul>\n<li>Pavlyshenko, Bohdan. ”Clustering of Authors’ Texts of English Fiction in the Vector Space of Semantic Fields.” Cybernetics and Information Technologies 14, no. 3 (2014): 25-36.</li>\n<li>Genetic Optimization of Keyword Subsets in the Classification Analysis of Authorship of Texts // Journal of quantitative linguistics. – 2014. – Vol. 21, N4. – P. 341–349.</li>\n<li>B.Pavlyshenko The Distribution of Semantic Fields in Author ́ıs Texts //Cy- bernetics and Information Technologies, DOI: https://doi.org/10.1515/cait- 2016-0043, Volume 16, No 3, pp.195-204</li>\n<li>Pavlyshenko, Bohdan M. ”Linear, machine learning and probabilistic ap- proaches for time series analysis.” In Data Stream Mining &amp; Processing (DSMP), IEEE First International Conference on, pp. 377-381. IEEE, 2016.</li>\n</ul>\n\n\n\n\n\n\n<ul>\n<li>Pavlyshenko, Bohdan. ”Machine learning, linear and Bayesian models for logistic regression in failure detection problems.” In Big Data (Big Data), 2016 IEEE International Conference on, pp. 2046-2050. IEEE, Washington D.C. 2016.</li>\n<li>Pavlyshenko, B.M. Forecasting of Events by Tweets Data Mining. Electronics and information technologies. 2018. Issue 10. P. 71–85.</li>\n<li>Pavlyshenko, B.M. Can Twitter Predict Royal Baby’s Name ?. Electronics and information technologies. 2019. Issue 11. P. 52–60.</li>\n<li>Pavlyshenko, B. (2018, August). Using Stacking Approaches for Machine Learning Models. In 2018 IEEE Second International Conference on Data Stream Mining &amp; Processing (DSMP) (pp. 255-258). IEEE.</li>\n<li>Pavlyshenko, B.M. Bitcoin Price Predictive Modeling Using Expert Correction. 2019 XIth International Scientific and Practical Conference on Electronics and Information Technologies (ELIT), September 16 – 18, 2019 Lviv, Ukraine, pages: 163-167.</li>\n<li>Pavlyshenko, B. M. Machine learning models for sales time series forecasting. Data 4, no. 1 (2019): 15.</li>\n<li>Pavlyshenko B. M. Detection of Technical Failures on Production Lines Using Machine Learning, Linear and Bayesian Models of Logistic Regression // Electronics and information technologies. 2019. № 12. P. 3–19.</li>\n<li>Pavlyshenko B. M. Sales Time Series Analytics Using Deep Q-learning // International Journal of Computing. 2020. Sep. Vol. 19, № 3. P. 434–441.</li>\n<li>Павлишенко Б. М. Використання методів машинного навчання та семантичних ознак в інтелектуальному аналізі текстових даних // Електроніка та інформаційні технології. 2020. № 13. С. 3–18.</li>\n<li>Pavlyshenko B. M. Modeling COVID-19 Spread and Its Impact on Stock Market Using Different Types of Data // Electronics and information technologies. 2020.№ 14. P. 3–21.</li>\n<li>Pavlyshenko B. Using Bayesian Regression for Stacking Time Series Predictive Models // 2020 IEEE Third International Conference on Data Stream Mining &amp; Processing (DSMP). 2020. P. 305–309.&nbsp;</li>\n<li>Pavlyshenko, Bohdan M. “Forming Predictive Features of Tweets for Decision-Making Support.” In International Scientific Conference “Intellectual Systems of Decision Making and Problem of Computational Intelligence”, pp. 479-490. Springer, Cham, 2021.</li>\n<li>Pavlyshenko B.M. Forecasting of Non-Stationary Sales Time Series Using Deep Learning. arXiv:2205.11636. 2022 May 23. Download PDF: https://arxiv.org/pdf/2205.11636</li>\n\n<li>Pavlyshenko B.M. Methods of Informational Trends Analytics and Fake News Detec- tion on Twitter. arXiv preprint arXiv:2204.04891. 2022 Apr 11. Download PDF: https://arxiv.org/pdf/2204.04891.pdf</li>\n<li>Pavlyshenko B.M. Financial News Analytics Using Fine-Tuned Llama 2 GPT Model. arXiv preprint arXiv:2308.13032. 2023. Download PDF: https://arxiv.org/pdf/2308.13032.pdf</li>\n<li>Pavlyshenko B.M. Analysis of Disinformation and Fake News Detection Using Fine- Tuned Large Language Model. arXiv preprint arXiv:2309.04704. 2023. Download PDF: https://arxiv.org/pdf/2309.04704.pdf</li>\n<li>B. Pavlyshenko, M. Stasiuk &nbsp;Influence of learning rate parameter in different transformer models in text classification task &nbsp;// Електроніка та інформаційні технології –2023. – Issue 21.</li>\n<li>Б.М. Павлишенко, І.В. Дроздов, ЕФЕКТИВНІСТЬ РОЗПІЗНАВАННЯ ІМЕНОВАНИХ СУТНОСТЕЙ ЗА ДОПОМОГОЮ КЛАСУ МОДЕЛЕЙ OPENAI GPT. Електроніка та інформаційні технології. – 2023. – 23 – C. 46-58</li>\n<li>B. Pavlyshenko, M. Stasiuk Augmentation in a binary text classification task &nbsp;// 2023 IEEE 13th International Conference on Electronics and Information Technologies (ELIT): Conference Proceedings. – 2023. – Lviv, Ukraine, September 26-28, 2023. – P. 177-180.</li>\n</ul>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>1992 р. – з відзнакою закінчив Львівський державний університет імені Івана Франка з відзнакою</p>\n<p>З 1992 року&nbsp; працюю&nbsp; Львівському національному університеті&nbsp;</p>\n<p>1985-1988 рр – навчання в аспірантурі</p>\n<p>1995 р. – кандидат фіз.-мат. наук</p>\n<p>1995 р. – молодший науковий співробітник кафедри&nbsp; фізики напівпровідників</p>\n<p>1998 р. –&nbsp; науковий співробітник кафедри&nbsp; фізики напівпровідників</p>\n<p>2002 р. – асистент&nbsp; кафедри&nbsp; фізики напівпровідників</p>\n<p>2003 р. – на посаді доцента кафедри&nbsp; фізики напівпровідників</p>\n<p>2016 – переведений на посаду доцента кафедри системного проектування&nbsp; факультету електроніки та комп’ютерних технологій</p>\n<p>2018- 2020 – докторант кафедри системного проектування&nbsp; факультету електроніки та комп’ютерних технологій</p>\n<p>&nbsp;В 2021 захистив дисертацію «Методи інтелектуального аналізу консолідованих даних для підтримки прийняття рішень» на здобуття наукового ступеня доктора технічних наук за спеціальністю «Системи та засоби штучного інтелекту» за темою&nbsp; (Диплом ДД №011907). доктор техн. наук</p>\n<p>2022 – по даний час – професор кафедри (0.25 ставки) кафедри системного проектування факультету електроніки та комп’ютерних технологій</p>"
+    },
+    {
+      "Title": "Проекти",
+      "Html": "<pre></pre>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<p>Розробив навчальний відео-курс “<a href=\"https://www.youtube.com/playlist?list=PLMQt7tnruMvF1jetHNUKjMtHKSp78H2bb\" target=\"_blank\" rel=\"noopener noreferrer\">Практичні основи методів машинного навчання та інтелектуального аналізу даних</a>“</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16862&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16862&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

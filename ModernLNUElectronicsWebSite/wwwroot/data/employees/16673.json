@@ -1,0 +1,60 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/16673/",
+  "Slug": "16673",
+  "FullName": "Костик Людмила Василівна",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/ke_kostyk.jpg",
+  "PositionText": "доцент кафедри сенсорної та напівпровідникової електроніки",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/sensor-and-semiconductor-electronics/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "AcademicTitle": "доцент, ст. наук. співробітник",
+  "Phone": "(032) 239-42-00",
+  "Email": "lyudmyla.kostyk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=Q5wIidcAAAAJ&hl"
+  },
+  "ResearchInterests": "Коло наукових інтересів: люмінесцентна спектроскопія, фото-, термостимульовані процеси та процеси дефектоутворення в кристалах і нанокераміках оксидних сполук. Автор 12 підручників та навчальних посібників, 3 винаходів, більше 70 статтей, загальна кількість наукових публікацій –156.",
+  "Courses": [
+    {
+      "Title": "Енергетичні системи та комплекси",
+      "Url": "https://electronics.lnu.edu.ua/course/enerhetychni-systemy-ta-kompleksy/"
+    },
+    {
+      "Title": "Наноматеріали у сенсориці",
+      "Url": "https://electronics.lnu.edu.ua/course/nanomaterialy-u-sensorytsi/"
+    },
+    {
+      "Title": "Прилади і пристрої квантової електроніки",
+      "Url": "https://electronics.lnu.edu.ua/course/prylady-i-prystroi-kvantovoi-elektroniky/"
+    },
+    {
+      "Title": "Сонячна енергетика",
+      "Url": "https://electronics.lnu.edu.ua/course/soniachna-enerhetyka/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Коло наукових інтересів: люмінесцентна спектроскопія, фото-, термостимульовані процеси та процеси дефектоутворення в кристалах і нанокераміках оксидних сполук.</p>\n<p>Автор 12 підручників та навчальних посібників, 3 винаходів, більше 70 статтей, загальна кількість наукових публікацій –156.</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/enerhetychni-systemy-ta-kompleksy/\" target=\"_blank\" rel=\"noopener noreferrer\">Енергетичні системи та комплекси</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nanomaterialy-u-sensorytsi/\" target=\"_blank\" rel=\"noopener noreferrer\">Наноматеріали у сенсориці</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prylady-i-prystroi-kvantovoi-elektroniky/\" target=\"_blank\" rel=\"noopener noreferrer\">Прилади і пристрої квантової електроніки</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/soniachna-enerhetyka/\" target=\"_blank\" rel=\"noopener noreferrer\">Сонячна енергетика</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>A. Luchechko, V. Vasyltsiv, M. Kushlyk, L. Kostyk, D. Slobodzyan Electrical conductivity, luminescence, and deep acceptor levels in β-Ga<sub>2</sub>O<sub>3</sub>-In<sub>2</sub>O<sub>3</sub> polycrystalline solid solution doped with Zr<sup>4+</sup>&nbsp;or Ca<sup>2+</sup> ions&nbsp;/&nbsp; //&nbsp;Journal of Vacuum Science &amp; Technology A. – 2024. –Vol. 42, Issue 3. – P.&nbsp;&nbsp;033202 1-8. (Web of Science, Scopus, Q2, IF- 2.9, <a href=\"https://doi.org/10.1116/6.0003466\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1116/6.0003466</a>).</li>\n<li>Luchechko A<strong>.</strong>, Vasyltsiv V., Stasiv V., Kushlyk M., Kostyk L., Włodarczyk D., Zhydachevskyy Ya. Luminescence spectroscopy of Cr<sup>3+</sup>&nbsp;ions in bulk single crystalline β-Ga<sub>2</sub>O<sub>3</sub>-In<sub>2</sub>O<sub>3</sub>&nbsp;solid solutions // Optical Materials. – 2024. – Vol. 151. – P. 115323 1-8.&nbsp;<em>(Q2, IF-3.9, Web of Science, Scopus)&nbsp;</em><a href=\"https://doi.org/10.1016/j.optmat.2024.115323\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1016/j.optmat.2024.115323</a></li>\n<li>Luchechko A., Vasyltsiv V., Ploch D., Kostyk L., Kushlyk M., Slobodzyan D., Hreb V., Vasylechko L., Yang G., Shpotyuk Y. Effect of sintering atmosphere on structural, luminescence and electrical properties of β-Ga<sub>2</sub>O<sub>3</sub>&nbsp;ceramics // Applied Nanoscience. – 2023. –Vol. 13, Issue&nbsp;11. – P.&nbsp;7327–7334.&nbsp;<em>(Q2, Web of Science, Scopus).</em>&nbsp;<a href=\"https://doi.org/10.1007/s13204-023-02911-5\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1007/s13204-023-02911-5</a></li>\n<li>Shcherba I.D. X-ray spectroscopic properties and electronic structure of Ca<sub>3</sub>Ga<sub>2</sub>Ge<sub>4</sub>O<sub>14</sub> / I.D.Shcherba, L.V. Kostyk, L.V. Bekenov, M. Rudko, D. Uskokovic, H. Noga, R. M. Bilyk, B. M.Yatcyk, V. A. Denys. // J. Phys. Stud. – 2022. – 26, 4. – P. 4701-1-4701-6. – DOI: <a href=\"https://doi.org/10.30970/jps.26.4701\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/jps.26.4701</a></li>\n<li>Luchechko A., Vasyltsiv V., Kostyk L., Pavlyk B. Dual-Channel Solar-Blind UV Photodetector Based on β-Ga<sub>2</sub>O<sub>3</sub>&nbsp;// Physica Status Solidi (a) – Applications and Materials Science. – 2019. – Vol. 216, Issue 22. – P. 1900444.&nbsp;<em>(Q2, IF-1.75, Web of Science, Scopus).</em>&nbsp;<a href=\"https://doi.org/10.1002/pssa.201900444\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1002/pssa.201900444</a></li>\n<li>Kostyk L. Recombination Luminescence in Ca<sub>3-x</sub>Cd<sub>x</sub>Ga<sub>2</sub>Ge<sub>3</sub>O<sub>12</sub> Garnets Doped with Eu<sup>3+</sup> Ions / L Kostyk. A.Luchechko, S Novosad, M. Panasyuk, M. Rudko, O. Tsvetkova // Acta Physica Polonika A. – 2018.– Vol. 133, No.4. – P. 943–947.</li>\n<li>Luchechko А. Green-Emitting Gd<sub>3</sub>Ga<sub>5</sub>O<sub>12</sub>: Tb<sup>3+</sup> Nanoparticles Phosphor: Synthesis, Structure, and Luminescence/ A. Luchechko, L. Kostyk, S. Varvarenko, // Nanoscale Research Letters.- 2017.-V.12:263 – P.1-6..</li>\n<li>Shcherba I.D. X-ray spectra and electronic structure of the Ca3Ga2Ge3О12 compound/ I.D. Shcherba, L.V. Kostyk, H. Noga, L.V. Bekenov, D. Uskokovich, B.M. Jatsyk// Solid State Sciences.- 2017.-V.71 – P.1-2.</li>\n<li>Novosad S. The Luminescence of CdWO<sub>4</sub>:Tb,Li Crystals under Synchrotron Excitation at 10 K / S. Novosad, L.Kostyk, I.Novosad, // Acta Physica Polonika A. – 2012.– Vol. 122, No.4. – P. 717–720.</li>\n<li>5.Kostyk L. Preparation and luminescence properties of Gd3Ga5O12 nanocrystalline garnet/ L. Kostyk, A.Luchechko, S. Varvarenko, B. Pavlyk B., O.Tsvetkova // Chem. Met. Alloys. –2011. – Vol. 4, Issue 1/2. –P. 77 –80.</li>\n<li>Kostyk L Ya. Cr-related centers in Gd3Ga5O12 polycrystals / L.Kostyk L., A. Luchechko, Ya.Zakharko O.Tsvetkova, B Kukliński // Journal of Luminescence. –2009. -Vol. 129, Issue 3. -P.312-316.</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>&nbsp; &nbsp;У 1977 р. закінчила фізичний факультет Львівського університету&nbsp; імені Івана Франка.</p>\n<p>&nbsp; &nbsp;У 1988 р. захистила кандидатську дисертацію на тему «<em>Люмінесценція та центри забарвлення кристалів кальцій-галій-германієвого гранату</em>».</p>\n<p>&nbsp; &nbsp;У 2000 р. отримала Вчене звання ст. науковий співр., у 2005 р. отримала Вчене звання доцента кафедри електроніки.</p>\n<p>&nbsp; &nbsp;Протягом 1977 – 99 рр. працювала інженером, молодшим. наук.співр., наук., ст. наук. співр. НДЧ Львів. ун-ту, відповід. виконавець. держбюджетних тем.</p>\n<p>2000 – 2001 рр.&nbsp;– асист. каф. фіз. напівпровідників.</p>\n<p>2002&nbsp;– асист. каф. електроніки ЛНУ.</p>\n<p>З 2003р. – доцент кафедри сенсорної та напівпровідникової електроніки.</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<p><strong>&nbsp;</strong></p>\n<ol>\n<li>Костик Л.В., Лучечко А.П., Васильців В.І., Цвєткова О.В.&nbsp;Квантова електроніка //&nbsp;Методичні вказівки&nbsp;до лабораторного практикуму (Частина 2). Львів, Видавничий центр ЛНУ імені Івана Франка.&nbsp;-2022. -58 с.</li>\n<li>Слободзян Д.П., Матвіїшин І.М., Шпотюк Я.О., Костик Л.В., Лучечко А.П., Лис Р.М.&nbsp; Прилади і методи відображення біомедичних сигналів та зображень // Методичні рекомендації до лабораторного практикуму. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2017. – 47 с.</li>\n<li>Павлик Б.В., Лис Р.М.,&nbsp;Матвіїшин І.М., Шпак Л.М., Лучечко А.П., Слободзян Д.П.&nbsp;Твердотільна електроніка //&nbsp;Методичні вказівки&nbsp;до лабораторного практикуму. – Львів: Видавничий центр ЛНУ імені Івана Франка.–&nbsp; – 36 с.</li>\n<li>Захарко Я.М. Костик Л.В. Лучечко А.П.&nbsp;Квантова електроніка // Методичні рекомендації&nbsp;до лабораторного практикуму. – Львів: Видавничий центр ЛНУ імені Івана Франка.–&nbsp; – 59 с.</li>\n<li>Матвіїшин І.М.,Костик Л.В.,&nbsp;Павлик Б.В. Лучечко А.П.&nbsp;Матеріали електронної техніки&nbsp;// Методичні рекомендації&nbsp;до лабораторного практикуму. – Львів: Видавничий центр ЛНУ імені Івана Франка.&nbsp;–&nbsp; – 52 с.</li>\n<li>Костик Л.В., Лучечко А.П., Матвіїшин І.М. Аналіз та побудова спектрів за допомогою пакету “ORIGIN” // Методичні вказівки до оформлення та аналізу графічних матеріалів з лабораторних практикумів і візуалізації експериментальних даних при виконанні курсових та дипломних робіт. – Львів: Видавничий центр ЛНУ імені Івана Франка. – 2012. – 64с.</li>\n</ol>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16673&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=16673&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}
