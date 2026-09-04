@@ -57,6 +57,60 @@ def is_header(cells: list[str]) -> int | None:
     return labels if len(codes) >= 2 and len(codes) >= len(body) - 1 else None
 
 
+def covered_columns(x0: float, x1: float, bounds: list[tuple[float, float]]) -> list[int]:
+    return [
+        index
+        for index, (cx0, cx1) in enumerate(bounds)
+        if min(x1, cx1) - max(x0, cx0) > (cx1 - cx0) / 2
+    ]
+
+
+def column_bounds(table) -> list[tuple[float, float]] | None:
+    edges: list[float] = []
+    for row in table.rows:
+        edges.extend(box[0] for box in row.cells if box is not None)
+        edges.extend(box[2] for box in row.cells if box is not None)
+
+    unique: list[float] = []
+    for edge in sorted(edges):
+        if not unique or edge - unique[-1] > 1:
+            unique.append(edge)
+
+    bounds = list(zip(unique, unique[1:]))
+    return bounds if len(bounds) == len(table.columns) else None
+
+
+def extract_rows(table) -> list[list[str]]:
+    bounds = column_bounds(table)
+    if bounds is None:
+        return [[clean(c) for c in raw] for raw in table.extract()]
+
+    result = []
+
+    for row, raw in zip(table.rows, table.extract()):
+        cells = [""] * len(bounds)
+
+        for index, box in enumerate(row.cells):
+            if box is None or index >= len(raw):
+                continue
+
+            text = clean(raw[index])
+            if not text:
+                continue
+
+            targets = covered_columns(box[0], box[2], bounds)
+
+            if len(targets) > 1 and 0 in targets:
+                targets = [index]
+
+            for target in targets:
+                cells[target] = text
+
+        result.append(cells)
+
+    return result
+
+
 def parse_pdf(path: str) -> dict | None:
     groups: list[str] = []
     labels = 3
@@ -71,8 +125,7 @@ def parse_pdf(path: str) -> dict | None:
             text_parts.append(page.extract_text() or "")
 
             for table in page.find_tables():
-                for raw in table.extract():
-                    cells = [clean(c) for c in raw]
+                for cells in extract_rows(table):
                     if len(cells) < 2:
                         continue
 
@@ -86,11 +139,9 @@ def parse_pdf(path: str) -> dict | None:
                     body = cells[labels:labels + len(groups)]
                     body += [""] * (len(groups) - len(body))
 
-                    if not any(body):
-                        continue
-
                     if labels == 1:
-                        rows.append({"label": cells[0], "day": "", "pair": "", "time": "", "cells": body})
+                        if any(body):
+                            rows.append({"label": cells[0], "day": "", "pair": "", "time": "", "cells": body})
                         continue
 
                     named = match_day(cells[0])
@@ -98,11 +149,14 @@ def parse_pdf(path: str) -> dict | None:
 
                     if named:
                         day = named
-                    elif pair == "1" and previous_pair not in (None, "1"):
+                    elif pair and previous_pair and int(pair) < int(previous_pair):
                         day = DAYS[DAYS.index(day) + 1] if day in DAYS[:-1] else day
 
                     if pair:
                         previous_pair = pair
+
+                    if not any(body):
+                        continue
 
                     if not pair and rows:
                         rows[-1]["cells"] = [

@@ -124,3 +124,4 @@ ModernLNUElectronicsWebSite/wwwroot/robots.txt
 
 # Cache
 ModernLNUElectronicsWebSite/wwwroot/data/.pdf-cache/
+__pycache__/
