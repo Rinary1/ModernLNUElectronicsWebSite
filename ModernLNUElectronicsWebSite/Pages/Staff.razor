@@ -90,6 +90,10 @@ else
 }
 
 @code {
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "q")]
+    public string? Q { get; set; }
+
     private abstract record Row;
     private sealed record HeaderRow(string Title, string? Url, int Count) : Row;
     private sealed record PersonRow(StaffItem Person) : Row;
@@ -118,6 +122,7 @@ else
                 .Select(g => new Group(g.Key, g.First().Group.Url, g.ToList()))
                 .ToList();
 
+            _query = string.IsNullOrWhiteSpace(Q) ? null : Q;
             Rebuild();
         }
         catch (HttpRequestException)
@@ -168,5 +173,6 @@ else
     private static bool Matches(StaffItem p, string q) =>
         p.FullName.Contains(q, StringComparison.OrdinalIgnoreCase)
         || p.Position.Contains(q, StringComparison.OrdinalIgnoreCase)
+        || p.Group.Title.Contains(q, StringComparison.OrdinalIgnoreCase)
         || (p.Email?.Contains(q, StringComparison.OrdinalIgnoreCase) ?? false);
 }

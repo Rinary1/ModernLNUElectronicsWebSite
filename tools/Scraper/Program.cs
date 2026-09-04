@@ -67,6 +67,12 @@ var partners = await partnersScraper.LoadPageAsync("https://electronics.lnu.edu.
 await WriteJson(Path.Combine(outDir, "partners.json"), partners);
 Console.WriteLine($"partners -> {partners.Count}");
 
+var scheduleScraper = new SchedulePdfScraper(htmlSource);
+var schedule = await scheduleScraper.LoadPageAsync("https://electronics.lnu.edu.ua/students/rozklad-format-pdf/");
+
+await WriteJson(Path.Combine(outDir, "schedule.json"), schedule);
+Console.WriteLine($"schedule -> {schedule.Count} документів");
+
 if (withProfiles)
 {
     var employeeScraper = new EmployeeScraper(htmlSource);
