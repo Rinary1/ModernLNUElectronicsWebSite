@@ -1,9 +1,11 @@
 @page "/staff/{Slug}"
 @using ModernLNUElectronicsWebSite.Content
-@using ModernLNUElectronicsWebSite.Scraping
+@using ModernLNUElectronicsWebSite.Data
 @inject MirrorContentClient Content
 
-<PageTitle>@(_profile?.FullName ?? "Профіль") - Факультет Електроніки ЛНУ</PageTitle>
+<PageMeta Title="@(_profile?.FullName ?? "Профіль")"
+          Description="@Summary"
+          Canonical="@(_profile?.ProfileUrl ?? SourceUrl)" />
 
 <MudButton Href="staff" Variant="Variant.Text" Color="Color.Primary" Class="mb-4"
            StartIcon="@Icons.Material.Filled.ArrowBack">
@@ -16,6 +18,8 @@
 }
 else if (_profile is null)
 {
+    <MudText Typo="Typo.h4" HtmlTag="h1" Class="fw-600 mb-2">Профіль співробітника</MudText>
+
     <MudAlert Severity="Severity.Info" Dense="true" Class="mb-4">
         Профіль ще не перенесено в дзеркало.
         <MudLink Href="@SourceUrl" Target="_blank" rel="noopener noreferrer">Відкрити оригінал ↗</MudLink>
@@ -30,11 +34,11 @@ else
         }
 
         <div class="flex-grow-1">
-            <MudText Typo="Typo.h4" Class="fw-600">@_profile.FullName</MudText>
+            <MudText Typo="Typo.h4" HtmlTag="h1" Class="fw-600">@_profile.FullName</MudText>
 
             @if (_profile.PositionText is { Length: > 0 } position)
             {
-                <MudText Typo="Typo.body1" Color="Color.Secondary" Class="mt-1">@position</MudText>
+                <MudText Typo="Typo.body1" Class="mud-text-secondary mt-1">@position</MudText>
             }
 
             <MudList T="string" Dense="true" Class="pa-0 mt-3">
@@ -85,13 +89,13 @@ else
 
     @if (_profile.ResearchInterests is { Length: > 0 } interests)
     {
-        <MudText Typo="Typo.h6" Class="fw-600 mt-6 mb-2">Наукові інтереси</MudText>
+        <MudText Typo="Typo.h6" HtmlTag="h2" Class="fw-600 mt-6 mb-2">Наукові інтереси</MudText>
         <MudText Typo="Typo.body2">@interests</MudText>
     }
 
     @if (_profile.Courses.Count > 0)
     {
-        <MudText Typo="Typo.h6" Class="fw-600 mt-6 mb-2">Навчальні дисципліни</MudText>
+        <MudText Typo="Typo.h6" HtmlTag="h2" Class="fw-600 mt-6 mb-2">Навчальні дисципліни</MudText>
         <MudList T="string" Dense="true" Class="pa-0">
             @foreach (var course in _profile.Courses)
             {
@@ -105,7 +109,7 @@ else
 
     @foreach (var section in _profile.Sections.Where(s => !RenderedSeparately.Contains(s.Title)))
     {
-        <MudText Typo="Typo.h6" Class="fw-600 mt-6 mb-2">@section.Title</MudText>
+        <MudText Typo="Typo.h6" HtmlTag="h2" Class="fw-600 mt-6 mb-2">@section.Title</MudText>
         <div class="article__body">@((MarkupString)section.Html)</div>
     }
 
@@ -124,6 +128,11 @@ else
     private bool _busy = true;
 
     private string SourceUrl => $"{SiteUrls.Origin}/employee/{Slug}/";
+
+    private string? Summary => _profile is null
+        ? null
+        : MetaText.Summarize(MetaText.Join(
+            _profile.FullName, _profile.PositionText, _profile.AcademicDegree, _profile.AcademicTitle));
 
     private string? DepartmentRoute =>
         _profile?.DepartmentUrl is { } url ? SiteUrls.ToMirrorRoute(url) : null;

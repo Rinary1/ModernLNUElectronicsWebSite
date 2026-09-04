@@ -1,7 +1,9 @@
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using ModernLNUElectronicsWebSite.Scraping;
+using ModernLNUElectronicsWebSite.Data;
+using ModernLNUElectronicsWebSite.Scraper;
+using ModernLNUElectronicsWebSite.Scraper.Scraping;
 
 var options = ScraperOptions.Parse(args);
 
@@ -18,19 +20,42 @@ var htmlSource = new HttpHtmlSource(http);
 var articles = new ArticleScraper(htmlSource);
 var store = new JsonStore(options.OutDir);
 
-await ScrapeNewsAsync();
+// --index-only не ходить у мережу: перебудувати пошуковий індекс із уже
+// збережених даних корисно під час розробки, коли міняється його формат.
+if (options.IndexOnly)
+{
+    await EnrichStaffPhotosAsync();
+    await BuildSearchIndexAsync();
+    Console.WriteLine("Готово (лише похідні файли).");
+    return;
+}
+
+var newsCount = await ScrapeNewsAsync();
 var staff = await ScrapeStaffAsync();
 await ScrapeAdministrationAsync();
 await ScrapePartnersAsync();
-await ScrapeScheduleAsync();
+var scheduleCount = await ScrapeScheduleAsync();
 await ScrapeMirroredPagesAsync();
-await ScrapeDepartmentsAsync(staff);
-await ScrapeEmployeesAsync(staff);
+var departmentCount = await ScrapeDepartmentsAsync(staff);
+var profileCount = await ScrapeEmployeesAsync(staff);
+
+await EnrichStaffPhotosAsync();
+await BuildSearchIndexAsync();
+
+await store.WriteAsync("meta.json", new MirrorMeta
+{
+    GeneratedAt = DateTime.UtcNow,
+    NewsCount = newsCount,
+    StaffCount = staff.Count,
+    EmployeeProfileCount = profileCount,
+    DepartmentCount = departmentCount,
+    ScheduleDocCount = scheduleCount,
+});
 
 Console.WriteLine("Готово.");
 return;
 
-async Task ScrapeNewsAsync()
+async Task<int> ScrapeNewsAsync()
 {
     var scraper = new NewsScraper(htmlSource);
     var collected = new List<NewsItem>();
@@ -47,17 +72,235 @@ async Task ScrapeNewsAsync()
             await Delay();
     }
 
-    var index = collected
-        .GroupBy(i => i.Url)
-        .Select(g => g.First())
-        .OrderByDescending(i => i.PublishedAt ?? DateTime.MinValue)
-        .ToList();
+    // Стрічка-джерело має 260+ сторінок, а обходимо ми лише кілька перших.
+    // Якби ми просто перезаписували news.json, архів був би ковзним вікном
+    // і старі новини випадали б із дзеркала, хоча їхні статті вже збережені.
+    var archive = await store.ReadAsync<List<NewsItem>>("news.json") ?? [];
+    var byUrl = archive.ToDictionary(i => i.Url, StringComparer.Ordinal);
+    var added = 0;
+
+    foreach (var item in collected)
+    {
+        if (byUrl.TryGetValue(item.Url, out var known))
+        {
+            // Свіжі дані виграють, але обкладинку, знайдену раніше, не губимо.
+            byUrl[item.Url] = item with { CoverImageUrl = item.CoverImageUrl ?? known.CoverImageUrl };
+            continue;
+        }
+
+        byUrl[item.Url] = item;
+        added++;
+    }
+
+    Console.WriteLine($"  -> нових {added}, в архіві було {archive.Count}");
+
+    await MirrorEachAsync("news", byUrl.Values.Select(i => (i.Slug, i.Url)));
+
+    var index = new List<NewsItem>();
+    foreach (var item in byUrl.Values.OrderByDescending(i => i.PublishedAt ?? DateTime.MinValue))
+        index.Add(item with { CoverImageUrl = item.CoverImageUrl ?? await CoverOfAsync(item.Slug) });
 
     await store.WriteAsync("news.json", index);
-    Console.WriteLine($"  -> {index.Count} новин у стрічці");
+    Console.WriteLine($"  -> {index.Count} новин у стрічці, з обкладинками {index.Count(i => i.CoverImageUrl is not null)}");
 
-    await MirrorEachAsync("news", index.Select(i => (i.Slug, i.Url)));
+    return index.Count;
 }
+
+/// У списку співробітників на джерелі фотографій немає - беремо їх зі
+/// сторінок профілів, які й так уже завантажені.
+async Task EnrichStaffPhotosAsync()
+{
+    var staffList = await store.ReadAsync<List<StaffItem>>("staff.json");
+    if (staffList is null)
+        return;
+
+    var photos = new Dictionary<string, string?>(StringComparer.Ordinal);
+    var updated = new List<StaffItem>(staffList.Count);
+
+    foreach (var person in staffList)
+    {
+        var slug = SiteUrls.Slug(person.ProfileUrl);
+
+        if (!photos.TryGetValue(slug, out var photo))
+        {
+            photo = (await store.ReadAsync<EmployeeProfile>($"employees/{SiteUrls.FileName(slug)}.json"))?.PhotoUrl;
+            photos[slug] = photo;
+        }
+
+        updated.Add(person with { PhotoUrl = photo });
+    }
+
+    await store.WriteAsync("staff.json", updated);
+    Console.WriteLine($"staff -> фото у {updated.Count(p => p.PhotoUrl is not null)} із {updated.Count}");
+}
+
+/// Один файл замість 230+: пошук по тілах новин, профілів і сторінок
+/// підрозділів інакше означав би 3 МБ запитів із браузера.
+async Task BuildSearchIndexAsync()
+{
+    var docs = new List<SearchDoc>(SearchIndexBuilder.StaticPages());
+
+    foreach (var item in await store.ReadAsync<List<NewsItem>>("news.json") ?? [])
+    {
+        var page = await store.ReadAsync<MirrorPage>($"news/{SiteUrls.FileName(item.Slug)}.json");
+
+        docs.Add(new SearchDoc(
+            Id: $"news:{item.Slug}",
+            Kind: SearchKind.News,
+            Title: item.Title,
+            Route: $"news/{item.Slug}",
+            SourceUrl: item.Url,
+            Subtitle: item.PublishedAt?.ToString("dd.MM.yyyy") ?? item.RawDate,
+            Text: SearchIndexBuilder.Plain(page?.PlainText ?? item.Excerpt ?? item.Title),
+            Date: item.PublishedAt));
+    }
+
+    var staffList = await store.ReadAsync<List<StaffItem>>("staff.json") ?? [];
+
+    foreach (var person in staffList.DistinctBy(s => s.ProfileUrl))
+    {
+        var slug = SiteUrls.Slug(person.ProfileUrl);
+        var profile = await store.ReadAsync<EmployeeProfile>($"employees/{SiteUrls.FileName(slug)}.json");
+
+        var body = profile is null
+            ? string.Empty
+            : SearchIndexBuilder.Join(
+                profile.PositionText,
+                profile.AcademicDegree,
+                profile.AcademicTitle,
+                profile.ResearchInterests,
+                string.Join(' ', profile.Courses.Select(c => c.Title)),
+                string.Join(' ', profile.Sections.Select(x => SearchIndexBuilder.Plain(x.Html))));
+
+        docs.Add(new SearchDoc(
+            Id: $"staff:{slug}",
+            Kind: SearchKind.Staff,
+            Title: person.FullName,
+            Route: $"staff/{slug}",
+            SourceUrl: person.ProfileUrl,
+            Subtitle: $"{person.Group.Title} · {person.Position}",
+            Text: SearchIndexBuilder.Plain(SearchIndexBuilder.Join(
+                person.FullName, person.Position, person.Group.Title, person.Email, body)),
+            Date: null));
+    }
+
+    foreach (var group in staffList.Where(s => s.Group.Url is not null).GroupBy(s => s.Group.Url!))
+    {
+        var slug = SiteUrls.Slug(group.Key);
+        var page = await store.ReadAsync<MirrorPage>($"departments/{SiteUrls.FileName(slug)}.json");
+
+        docs.Add(new SearchDoc(
+            Id: $"department:{slug}",
+            Kind: SearchKind.Department,
+            Title: group.First().Group.Title,
+            Route: $"departments/{slug}",
+            SourceUrl: group.Key,
+            Subtitle: $"Підрозділ · {group.Count()} співробітників",
+            Text: SearchIndexBuilder.Plain(SearchIndexBuilder.Join(
+                group.First().Group.Title,
+                "кафедра підрозділ лабораторія",
+                page?.PlainText,
+                string.Join(' ', group.Select(s => s.FullName)))),
+            Date: null));
+    }
+
+    foreach (var person in await store.ReadAsync<List<AdministrationPerson>>("administration.json") ?? [])
+    {
+        docs.Add(new SearchDoc(
+            Id: $"adm:{person.Name}:{person.Role}",
+            Kind: SearchKind.Administration,
+            Title: person.Name,
+            Route: person.ProfileUrl is not null ? $"staff/{SiteUrls.Slug(person.ProfileUrl)}" : "administration",
+            SourceUrl: person.ProfileUrl ?? $"{SiteUrls.Origin}/about/administration/",
+            Subtitle: person.Rank is { Length: > 0 } rank ? $"{person.Role} · {rank}" : person.Role,
+            Text: SearchIndexBuilder.Join(person.Name, person.Role, person.RoleDetail, person.Rank),
+            Date: null));
+    }
+
+    foreach (var partner in await store.ReadAsync<List<Partner>>("partners.json") ?? [])
+    {
+        docs.Add(new SearchDoc(
+            Id: $"partner:{partner.Name}",
+            Kind: SearchKind.Partner,
+            Title: partner.Name,
+            Route: "about",
+            SourceUrl: partner.Url,
+            Subtitle: "Партнер факультету",
+            Text: SearchIndexBuilder.Plain(SearchIndexBuilder.Join(partner.Name, partner.Description)),
+            Date: null));
+    }
+
+    foreach (var doc in await store.ReadAsync<List<ScheduleDoc>>("schedule.json") ?? [])
+    {
+        docs.Add(new SearchDoc(
+            Id: $"schedule:{doc.Url}",
+            Kind: SearchKind.Schedule,
+            Title: doc.Title,
+            Route: $"schedule?doc={Uri.EscapeDataString(doc.Url)}",
+            SourceUrl: doc.SourceUrl,
+            Subtitle: $"{(doc.Category == ScheduleCategory.Exams ? "Сесія" : "Розклад занять")} · {doc.Section}",
+            Text: SearchIndexBuilder.Join(doc.Title, doc.Section, "розклад pdf"),
+            Date: null));
+    }
+
+    // Розібрані PDF: шукати за прізвищем викладача чи предметом і потрапляти
+    // одразу на розклад своєї групи - те, заради чого це все й робилося.
+    var tables = new Dictionary<string, ScheduleTable>(StringComparer.Ordinal);
+
+    foreach (var reference in await store.ReadAsync<List<ScheduleGroupRef>>("schedule-groups.json") ?? [])
+    {
+        if (!tables.TryGetValue(reference.File, out var table))
+        {
+            var loaded = await store.ReadAsync<ScheduleTable>($"schedule/{reference.File}.json");
+            if (loaded is null)
+                continue;
+
+            tables[reference.File] = table = loaded;
+        }
+
+        var cells = table.Rows
+            .Select(r => r.CellOf(reference.Column))
+            .Where(c => c.Length > 0)
+            .Distinct(StringComparer.Ordinal);
+
+        docs.Add(new SearchDoc(
+            Id: $"group:{reference.Group}:{reference.File}",
+            Kind: SearchKind.Schedule,
+            Title: $"Розклад {reference.Group}",
+            Route: $"schedule?group={Uri.EscapeDataString(reference.Group)}",
+            SourceUrl: table.Url,
+            Subtitle: $"{(reference.IsWeekly ? "Заняття" : "Сесія")} · {reference.Title}",
+            Text: SearchIndexBuilder.Plain(SearchIndexBuilder.Join(
+                reference.Group, reference.Title, reference.Section, string.Join(' ', cells))),
+            Date: null));
+    }
+
+    foreach (var reference in MirrorCatalog.Pages)
+    {
+        var page = await store.ReadAsync<MirrorPage>($"pages/{reference.Group}-{reference.Slug}.json");
+        if (page is null)
+            continue;
+
+        docs.Add(new SearchDoc(
+            Id: $"mirror:{reference.Group}/{reference.Slug}",
+            Kind: SearchKind.Page,
+            Title: reference.Title,
+            Route: $"{reference.Group}/{reference.Slug}",
+            SourceUrl: reference.SourceUrl,
+            Subtitle: reference.Group == MirrorCatalog.Applicants ? "Абітурієнту" : "Наука",
+            Text: SearchIndexBuilder.Plain(page.PlainText),
+            Date: page.PublishedAt));
+    }
+
+    var index = docs.GroupBy(d => d.Id).Select(g => g.First()).ToList();
+    await store.WriteAsync("search-index.json", index, indented: false);
+    Console.WriteLine($"search-index -> {index.Count} записів, " +
+        $"{index.Sum(d => d.Text.Length) / 1024} КБ тексту");
+}
+
+/// Обкладинки немає у стрічці-джерелі - беремо її з уже збереженої статті.
+async Task<string?> CoverOfAsync(string slug) =>
+    (await store.ReadAsync<MirrorPage>($"news/{SiteUrls.FileName(slug)}.json"))?.CoverImageUrl;
 
 async Task<List<StaffItem>> ScrapeStaffAsync()
 {
@@ -84,7 +327,7 @@ async Task ScrapePartnersAsync()
     Console.WriteLine($"partners -> {partners.Count}");
 }
 
-async Task ScrapeScheduleAsync()
+async Task<int> ScrapeScheduleAsync()
 {
     var scraper = new SchedulePdfScraper(htmlSource);
     var docs = new List<ScheduleDoc>();
@@ -104,6 +347,7 @@ async Task ScrapeScheduleAsync()
     }
 
     await store.WriteAsync("schedule.json", docs);
+    return docs.Count;
 }
 
 async Task ScrapeMirroredPagesAsync()
@@ -122,7 +366,7 @@ async Task ScrapeMirroredPagesAsync()
     Console.WriteLine($"pages -> {MirrorCatalog.Pages.Count} розділів");
 }
 
-async Task ScrapeDepartmentsAsync(List<StaffItem> staffList)
+async Task<int> ScrapeDepartmentsAsync(List<StaffItem> staffList)
 {
     var urls = staffList
         .Select(s => s.Group.Url)
@@ -132,14 +376,15 @@ async Task ScrapeDepartmentsAsync(List<StaffItem> staffList)
 
     await MirrorEachAsync("departments", urls.Select(u => (SiteUrls.Slug(u), u)));
     Console.WriteLine($"departments -> {urls.Count} сторінок підрозділів");
+    return urls.Count;
 }
 
-async Task ScrapeEmployeesAsync(List<StaffItem> staffList)
+async Task<int> ScrapeEmployeesAsync(List<StaffItem> staffList)
 {
     if (options.SkipProfiles)
     {
         Console.WriteLine("employees -> пропущено (--skip-profiles)");
-        return;
+        return store.Count("employees");
     }
 
     var scraper = new EmployeeScraper(htmlSource);
@@ -148,7 +393,7 @@ async Task ScrapeEmployeesAsync(List<StaffItem> staffList)
 
     foreach (var url in urls)
     {
-        var path = $"employees/{SiteUrls.Slug(url)}.json";
+        var path = $"employees/{SiteUrls.FileName(SiteUrls.Slug(url))}.json";
         if (!options.Refresh && store.Exists(path))
             continue;
 
@@ -167,6 +412,7 @@ async Task ScrapeEmployeesAsync(List<StaffItem> staffList)
     }
 
     Console.WriteLine($"employees -> завантажено {written}, всього в списку {urls.Count}");
+    return store.Count("employees");
 }
 
 async Task MirrorEachAsync(string folder, IEnumerable<(string Slug, string Url)> items)
@@ -178,7 +424,7 @@ async Task MirrorEachAsync(string folder, IEnumerable<(string Slug, string Url)>
         if (slug.Length == 0)
             continue;
 
-        var path = $"{folder}/{slug}.json";
+        var path = $"{folder}/{SiteUrls.FileName(slug)}.json";
         if (!options.Refresh && store.Exists(path))
             continue;
 
@@ -214,24 +460,56 @@ Task Delay() => Task.Delay(options.DelayMs);
 
 file sealed class JsonStore(string root)
 {
+    // Індентація потрібна лише щоб дифи даних читалися оком у git.
     private static readonly JsonSerializerOptions Options = new()
     {
         WriteIndented = true,
         Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
         DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+        PropertyNameCaseInsensitive = true,
     };
+
+    private static readonly JsonSerializerOptions Compact = new(Options) { WriteIndented = false };
 
     public bool Exists(string relativePath) => File.Exists(Path.Combine(root, relativePath));
 
-    public async Task WriteAsync<T>(string relativePath, T value)
+    public int Count(string folder)
+    {
+        var path = Path.Combine(root, folder);
+        return Directory.Exists(path) ? Directory.EnumerateFiles(path, "*.json").Count() : 0;
+    }
+
+    public async Task<T?> ReadAsync<T>(string relativePath)
+    {
+        var full = Path.Combine(root, relativePath);
+        if (!File.Exists(full))
+            return default;
+
+        try
+        {
+            return JsonSerializer.Deserialize<T>(await File.ReadAllTextAsync(full), Options);
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine($"  ! не вдалося прочитати {relativePath}: {ex.Message}");
+            return default;
+        }
+    }
+
+    /// <param name="indented">
+    /// Вимикається для файлів, які людина не читає: пошуковий індекс без відступів
+    /// на третину менший, а дифити його все одно немає сенсу.
+    /// </param>
+    public async Task WriteAsync<T>(string relativePath, T value, bool indented = true)
     {
         var full = Path.GetFullPath(Path.Combine(root, relativePath));
         Directory.CreateDirectory(Path.GetDirectoryName(full)!);
-        await File.WriteAllTextAsync(full, JsonSerializer.Serialize(value, Options) + Environment.NewLine);
+        await File.WriteAllTextAsync(
+            full, JsonSerializer.Serialize(value, indented ? Options : Compact) + Environment.NewLine);
     }
 }
 
-file sealed record ScraperOptions(string OutDir, int NewsPages, bool SkipProfiles, bool Refresh, int DelayMs)
+file sealed record ScraperOptions(string OutDir, int NewsPages, bool SkipProfiles, bool Refresh, bool IndexOnly, int DelayMs)
 {
     public static ScraperOptions Parse(string[] args)
     {
@@ -239,6 +517,7 @@ file sealed record ScraperOptions(string OutDir, int NewsPages, bool SkipProfile
         var newsPages = 3;
         var skipProfiles = false;
         var refresh = false;
+        var indexOnly = false;
         var delayMs = 1000;
 
         for (var i = 0; i < args.Length; i++)
@@ -267,12 +546,16 @@ file sealed record ScraperOptions(string OutDir, int NewsPages, bool SkipProfile
                     refresh = true;
                     break;
 
+                case "--index-only":
+                    indexOnly = true;
+                    break;
+
                 default:
                     Console.WriteLine($"Невідомий аргумент: {args[i]}");
                     break;
             }
         }
 
-        return new ScraperOptions(outDir, newsPages, skipProfiles, refresh, delayMs);
+        return new ScraperOptions(outDir, newsPages, skipProfiles, refresh, indexOnly, delayMs);
     }
 }

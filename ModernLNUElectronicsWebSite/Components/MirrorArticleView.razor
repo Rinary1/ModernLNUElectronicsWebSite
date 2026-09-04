@@ -1,7 +1,12 @@
-@using ModernLNUElectronicsWebSite.Scraping
+@using ModernLNUElectronicsWebSite.Data
 
 @if (Page is null)
 {
+    @if (ShowTitle && FallbackTitle is { Length: > 0 } fallback)
+    {
+        <MudText Typo="Typo.h4" HtmlTag="@TitleTag" Class="fw-600 mb-2">@fallback</MudText>
+    }
+
     <MudAlert Severity="Severity.Info" Dense="true" Class="mb-4">
         Текст цієї сторінки ще не перенесено в дзеркало.
         @if (SourceUrl is not null)
@@ -15,12 +20,12 @@ else
     <article class="article">
         @if (ShowTitle)
         {
-            <MudText Typo="Typo.h4" Class="fw-600 mb-2">@Page.Title</MudText>
+            <MudText Typo="Typo.h4" HtmlTag="@TitleTag" Class="fw-600 mb-2">@Page.Title</MudText>
         }
 
         @if (Page.RawDate is { Length: > 0 } date)
         {
-            <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block mb-4">@date</MudText>
+            <MudText Typo="Typo.caption" Class="mud-text-secondary d-block mb-4">@date</MudText>
         }
 
         @if (Page.CoverImageUrl is { Length: > 0 } cover)
@@ -46,4 +51,10 @@ else
 
     [Parameter]
     public bool ShowTitle { get; set; } = true;
+
+    [Parameter]
+    public string TitleTag { get; set; } = "h1";
+
+    [Parameter]
+    public string? FallbackTitle { get; set; }
 }

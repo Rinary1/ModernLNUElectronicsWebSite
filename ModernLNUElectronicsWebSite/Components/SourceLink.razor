@@ -1,8 +1,8 @@
 @if (!string.IsNullOrWhiteSpace(Url))
 {
     <div class="source-link @Class">
-        <MudIcon Icon="@Icons.Material.Filled.Link" Size="Size.Small" Color="Color.Secondary" />
-        <MudText Typo="Typo.caption" Color="Color.Secondary">
+        <MudIcon Icon="@Icons.Material.Filled.Link" Size="Size.Small" Class="mud-text-secondary" />
+        <MudText Typo="Typo.caption" Class="mud-text-secondary">
             @Prefix
             <MudLink Href="@Url" Target="_blank" rel="noopener noreferrer" Typo="Typo.caption">
                 @(Label ?? ShortPath(Url!)) ↗

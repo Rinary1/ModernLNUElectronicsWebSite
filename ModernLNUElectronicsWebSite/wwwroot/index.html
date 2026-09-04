@@ -6,8 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#F5F6F8" />
-    <title>Факультет Електроніки ЛНУ - зручне дзеркало</title>
+    <title>Факультет електроніки ЛНУ - зручне дзеркало</title>
     <base href="/" />
+
+    <meta name="description" content="Неофіційне дзеркало сайту факультету електроніки та комп'ютерних технологій ЛНУ ім. Івана Франка: пошук по всьому сайту, розклад, новини, кафедри та співробітники." />
+    <link rel="canonical" href="https://electronics.lnu.edu.ua/" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Факультет електроніки ЛНУ - дзеркало" />
+    <meta property="og:locale" content="uk_UA" />
+    <meta property="og:title" content="Факультет електроніки та комп'ютерних технологій ЛНУ" />
+    <meta property="og:description" content="Неофіційне дзеркало: пошук по всьому сайту, розклад, новини, кафедри та співробітники." />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Факультет електроніки та комп'ютерних технологій ЛНУ" />
+    <meta name="twitter:description" content="Неофіційне дзеркало: пошук по всьому сайту, розклад, новини, кафедри та співробітники." />
+    <meta name="twitter:image" content="og-image.png" />
 
     <script>
         (function () {
@@ -50,6 +69,71 @@
                         document.removeEventListener('keydown', this.handler);
                         this.handler = null;
                     }
+                }
+            };
+
+            window.mlnMeta = {
+                set: function (m) {
+                    this.attr('meta[name="description"]', 'content', m.description);
+                    this.attr('meta[property="og:title"]', 'content', m.title);
+                    this.attr('meta[property="og:description"]', 'content', m.description);
+                    this.attr('meta[property="og:url"]', 'content', m.url);
+                    this.attr('meta[property="og:type"]', 'content', m.type);
+                    this.attr('meta[name="twitter:title"]', 'content', m.title);
+                    this.attr('meta[name="twitter:description"]', 'content', m.description);
+                    this.attr('link[rel="canonical"]', 'href', m.canonical);
+                    this.attr('meta[name="robots"]', 'content', m.robots);
+                },
+                attr: function (selector, name, value) {
+                    var el = document.querySelector(selector);
+                    if (el && value) el.setAttribute(name, value);
+                }
+            };
+
+            window.mlnStore = {
+                get: function (key) {
+                    try { return localStorage.getItem(key); } catch (e) { return null; }
+                },
+                set: function (key, value) {
+                    try {
+                        if (value) localStorage.setItem(key, value);
+                        else localStorage.removeItem(key);
+                    } catch (e) { }
+                }
+            };
+
+            window.mlnLayout = {
+                width: function () { return window.innerWidth || 0; }
+            };
+
+            window.mlnIsland = {
+                onScroll: null,
+                watch: function () {
+                    if (this.onScroll) return;
+
+                    var last = window.scrollY;
+                    var self = this;
+                    this.onScroll = function () {
+                        var el = document.querySelector('.app-island');
+                        if (!el) return;
+
+                        var y = window.scrollY;
+                        var down = y > last && y > 140;
+                        el.classList.toggle('app-island--hidden', down && !self.pinned());
+                        last = y;
+                    };
+                    window.addEventListener('scroll', this.onScroll, { passive: true });
+                },
+                unwatch: function () {
+                    if (!this.onScroll) return;
+                    window.removeEventListener('scroll', this.onScroll);
+                    this.onScroll = null;
+                },
+
+                pinned: function () {
+                    var el = document.querySelector('.app-island');
+                    return !!document.querySelector('.search-overlay')
+                        || !!(el && el.matches(':hover, :focus-within'));
                 }
             };
 
@@ -148,6 +232,8 @@
     <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <link href="ModernLNUElectronicsWebSite.styles.css" rel="stylesheet" />
     <script type="importmap"></script>
 </head>
@@ -179,6 +265,13 @@
     </div>
     <script src="_framework/blazor.webassembly#[.{fingerprint}].js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            var swUrl = new URL('service-worker.js', document.baseURI).href;
+            navigator.serviceWorker.register(swUrl);
+        }
+    </script>
 </body>
 
 </html>

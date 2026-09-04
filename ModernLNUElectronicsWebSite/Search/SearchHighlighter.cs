@@ -6,60 +6,44 @@ namespace ModernLNUElectronicsWebSite.Search;
 
 public static class SearchHighlighter
 {
-    public static string[] Tokenize(string? query) =>
-        string.IsNullOrWhiteSpace(query)
-            ? []
-            : SearchService.Normalize(query).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+    private const string Apostrophes = "'ʼ’‘";
 
-    public static MarkupString Highlight(string? text, string[] tokens)
+    public static string[] Tokenize(string? query) => SearchService.Stems(query);
+
+    public static MarkupString Highlight(string? text, string[] stems)
     {
         if (string.IsNullOrEmpty(text))
             return default;
 
-        if (tokens.Length == 0)
+        if (stems.Length == 0)
             return (MarkupString)WebUtility.HtmlEncode(text);
 
-        var normalized = SearchService.Fold(text);
-        var marks = new bool[text.Length];
-
-        foreach (var token in tokens)
-        {
-            var from = 0;
-            while (from <= normalized.Length - token.Length)
-            {
-                var index = normalized.IndexOf(token, from, StringComparison.Ordinal);
-                if (index < 0)
-                    break;
-
-                for (var i = index; i < index + token.Length && i < marks.Length; i++)
-                    marks[i] = true;
-
-                from = index + token.Length;
-            }
-        }
-
         var builder = new StringBuilder(text.Length + 32);
-        var open = false;
+        var start = 0;
 
-        for (var i = 0; i < text.Length; i++)
+        while (start < text.Length)
         {
-            if (marks[i] && !open)
+            var end = start;
+            var isWord = IsWordChar(text[start]);
+
+            while (end < text.Length && IsWordChar(text[end]) == isWord)
+                end++;
+
+            var run = text[start..end];
+
+            if (isWord && stems.Contains(UkrainianStemmer.Stem(SearchService.Fold(run))))
             {
-                builder.Append("<mark>");
-                open = true;
+                builder.Append("<mark>").Append(WebUtility.HtmlEncode(run)).Append("</mark>");
             }
-            else if (!marks[i] && open)
+            else
             {
-                builder.Append("</mark>");
-                open = false;
+                builder.Append(WebUtility.HtmlEncode(run));
             }
 
-            builder.Append(WebUtility.HtmlEncode(text[i].ToString()));
+            start = end;
         }
-
-        if (open)
-            builder.Append("</mark>");
 
         return (MarkupString)builder.ToString();
     }
+    private static bool IsWordChar(char c) => char.IsLetterOrDigit(c) || Apostrophes.Contains(c);
 }

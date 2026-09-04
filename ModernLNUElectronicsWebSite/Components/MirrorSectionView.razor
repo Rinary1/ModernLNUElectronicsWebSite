@@ -1,11 +1,13 @@
 @using ModernLNUElectronicsWebSite.Content
-@using ModernLNUElectronicsWebSite.Scraping
+@using ModernLNUElectronicsWebSite.Data
 @inject MirrorContentClient Content
 
-<PageTitle>@Title - Факультет Електроніки ЛНУ</PageTitle>
+<PageMeta Title="@(_current is null ? Title : $"{_current.Title} - {Title}")"
+          Description="@Description"
+          Canonical="@_current?.SourceUrl" />
 
-<MudText Typo="Typo.h4" GutterBottom="true" Class="fw-600">@Title</MudText>
-<MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-4">@Description</MudText>
+<MudText Typo="Typo.h4" HtmlTag="h1" GutterBottom="true" Class="fw-600">@Title</MudText>
+<MudText Typo="Typo.body2" Class="mud-text-secondary mb-4">@Description</MudText>
 
 <div class="d-flex flex-wrap gap-2 mb-6">
     @foreach (var reference in _references)
@@ -29,7 +31,7 @@
 }
 else
 {
-    <MirrorArticleView Page="_page" SourceUrl="@_current?.SourceUrl" />
+    <MirrorArticleView Page="_page" SourceUrl="@_current?.SourceUrl" TitleTag="h2" />
 }
 
 @code {

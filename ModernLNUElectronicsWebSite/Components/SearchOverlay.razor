@@ -1,3 +1,4 @@
+@using ModernLNUElectronicsWebSite.Data
 @using ModernLNUElectronicsWebSite.Search
 @implements IAsyncDisposable
 @inject SearchService Search
@@ -12,7 +13,7 @@
 
         <MudPaper Class="search-overlay__panel" Elevation="12">
             <div class="search-overlay__field">
-                <MudIcon Icon="@Icons.Material.Filled.Search" Color="Color.Secondary" />
+                <MudIcon Icon="@Icons.Material.Filled.Search" Class="mud-text-secondary" />
 
                 <MudTextField @ref="_input"
                               T="string"
@@ -50,14 +51,15 @@
                 @if (!Search.IsLoaded)
                 {
                     <MudProgressLinear Indeterminate="true" Color="Color.Primary" />
-                    <MudText Typo="Typo.body2" Color="Color.Secondary" Class="pa-4">Готуємо індекс...</MudText>
+                    <MudText Typo="Typo.body2" Class="mud-text-secondary pa-4">Готуємо індекс...</MudText>
                 }
                 else if (string.IsNullOrWhiteSpace(_query))
                 {
                     <div class="pa-4">
-                        <MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-3">
+                        <MudText Typo="Typo.body2" Class="mud-text-secondary mb-3">
                             В індексі @Search.DocumentCount записів: новини, співробітники, кафедри,
-                            адміністрація, розклади й перенесені розділи.
+                            адміністрація, розклади й перенесені розділи. Пошук іде по текстах,
+                            а не лише по заголовках, і враховує форми слів.
                         </MudText>
                         <div class="search-overlay__hints">
                             @foreach (var hint in Hints)
@@ -70,13 +72,13 @@
                 }
                 else if (_hits.Count == 0)
                 {
-                    <MudText Typo="Typo.body2" Color="Color.Secondary" Class="pa-4">
-                        За запитом «@_query» нічого не знайдено.
+                    <MudText Typo="Typo.body2" Class="mud-text-secondary pa-4">
+                        За запитом "@_query" нічого не знайдено.
                     </MudText>
                 }
                 else
                 {
-                    <MudText Typo="Typo.caption" Color="Color.Secondary" Class="px-4 pt-3 d-block">
+                    <MudText Typo="Typo.caption" Class="mud-text-secondary px-4 pt-3 d-block">
                         Знайдено @_hits.Count · ↑↓ вибір · Enter відкрити · Esc закрити
                     </MudText>
 
@@ -102,7 +104,7 @@
 
                                 @if (!string.IsNullOrWhiteSpace(hit.Doc.Subtitle))
                                 {
-                                    <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block">
+                                    <MudText Typo="Typo.caption" Class="mud-text-secondary d-block">
                                         @SearchHighlighter.Highlight(hit.Doc.Subtitle, _tokens)
                                     </MudText>
                                 }

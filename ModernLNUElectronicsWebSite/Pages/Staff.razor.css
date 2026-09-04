@@ -1,34 +1,89 @@
+.staff-filter,
+.staff-alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.staff-alphabet__letter {
+    min-width: 26px;
+    padding: 2px 6px;
+    border: 1px solid var(--mud-palette-lines-default);
+    border-radius: 6px;
+    background: transparent;
+    color: var(--mud-palette-text-primary);
+    font: inherit;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.staff-alphabet__letter:hover:not(:disabled) {
+    border-color: var(--mud-palette-primary);
+}
+
+.staff-alphabet__letter:disabled {
+    opacity: .3;
+    cursor: default;
+}
+
+.staff-alphabet__letter--active {
+    border-color: var(--mud-palette-primary);
+    background: var(--mud-palette-primary);
+    color: var(--mud-palette-primary-text);
+}
+
+.staff-group__head {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--mud-palette-primary);
+}
+
+.staff-group__link {
+    margin-left: auto;
+}
+
 .staff-row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 12px;
-    min-height: 61px;
+    min-height: 64px;
     padding: 8px 4px;
     border-bottom: 1px solid var(--mud-palette-lines-default);
+}
+
+.staff-row__photo {
+    flex: none;
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 50%;
+    background: var(--mud-palette-action-default-hover);
+}
+
+.staff-row__photo--empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--mud-palette-text-secondary);
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .staff-row__main {
     display: flex;
     flex-direction: column;
     min-width: 0;
+    flex: 1;
 }
 
 .staff-row__email {
     flex: none;
     white-space: nowrap;
     opacity: .85;
-}
-
-.staff-row--header {
-    justify-content: flex-start;
-    gap: 8px;
-    margin-top: 20px;
-    border-bottom-width: 2px;
-    border-bottom-color: var(--mud-palette-primary);
-}
-
-.staff-row__deptlink {
-    flex: none;
-    margin-left: auto;
 }

@@ -1,6 +1,6 @@
 using System.Net.Http.Json;
 using System.Text.Json;
-using ModernLNUElectronicsWebSite.Scraping;
+using ModernLNUElectronicsWebSite.Data;
 
 namespace ModernLNUElectronicsWebSite.Content;
 
@@ -9,16 +9,25 @@ public sealed class MirrorContentClient(HttpClient http)
     private readonly Dictionary<string, object?> _cache = new(StringComparer.Ordinal);
 
     public Task<MirrorPage?> TryGetNewsAsync(string slug, CancellationToken ct = default) =>
-        TryGetAsync<MirrorPage>($"data/news/{slug}.json", ct);
+        TryGetAsync<MirrorPage>($"data/news/{SiteUrls.FileName(slug)}.json", ct);
 
     public Task<MirrorPage?> TryGetDepartmentAsync(string slug, CancellationToken ct = default) =>
-        TryGetAsync<MirrorPage>($"data/departments/{slug}.json", ct);
+        TryGetAsync<MirrorPage>($"data/departments/{SiteUrls.FileName(slug)}.json", ct);
 
     public Task<MirrorPage?> TryGetPageAsync(MirrorPageRef reference, CancellationToken ct = default) =>
         TryGetAsync<MirrorPage>($"data/pages/{reference.Group}-{reference.Slug}.json", ct);
 
+    public Task<List<ScheduleGroupRef>?> TryGetScheduleGroupsAsync(CancellationToken ct = default) =>
+        TryGetAsync<List<ScheduleGroupRef>>("data/schedule-groups.json", ct);
+
+    public Task<ScheduleTable?> TryGetScheduleTableAsync(string file, CancellationToken ct = default) =>
+        TryGetAsync<ScheduleTable>($"data/schedule/{file}.json", ct);
+
+    public Task<MirrorMeta?> TryGetMetaAsync(CancellationToken ct = default) =>
+        TryGetAsync<MirrorMeta>("data/meta.json", ct);
+
     public Task<EmployeeProfile?> TryGetEmployeeAsync(string slug, CancellationToken ct = default) =>
-        TryGetAsync<EmployeeProfile>($"data/employees/{slug}.json", ct);
+        TryGetAsync<EmployeeProfile>($"data/employees/{SiteUrls.FileName(slug)}.json", ct);
 
     private async Task<T?> TryGetAsync<T>(string url, CancellationToken ct) where T : class
     {

@@ -1,9 +1,12 @@
 @page "/news/{Slug}"
 @using ModernLNUElectronicsWebSite.Content
-@using ModernLNUElectronicsWebSite.Scraping
+@using ModernLNUElectronicsWebSite.Data
 @inject MirrorContentClient Content
 
-<PageTitle>@(_page?.Title ?? "Новина") - Факультет Електроніки ЛНУ</PageTitle>
+<PageMeta Title="@(_page?.Title ?? "Новина")"
+          Description="@Summary"
+          Canonical="@SourceUrl"
+          IsArticle="true" />
 
 <MudButton Href="news" Variant="Variant.Text" Color="Color.Primary" Class="mb-4"
            StartIcon="@Icons.Material.Filled.ArrowBack">
@@ -16,7 +19,7 @@
 }
 else
 {
-    <MirrorArticleView Page="_page" SourceUrl="@SourceUrl" />
+    <MirrorArticleView Page="_page" SourceUrl="@SourceUrl" FallbackTitle="Новина" />
 }
 
 @code {
@@ -27,6 +30,8 @@ else
     private bool _busy = true;
 
     private string SourceUrl => $"{SiteUrls.Origin}/news/{Slug}/";
+
+    private string? Summary => MetaText.Summarize(_page?.PlainText);
 
     protected override async Task OnParametersSetAsync()
     {

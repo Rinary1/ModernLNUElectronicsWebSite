@@ -92,6 +92,7 @@ mark {
     width: max-content;
     max-width: calc(100vw - 32px);
     pointer-events: none;
+    transition: transform .25s ease, opacity .25s ease;
 }
 
 .app-island .app-island__inner {
@@ -106,6 +107,15 @@ mark {
     backdrop-filter: saturate(180%) blur(12px);
     -webkit-backdrop-filter: saturate(180%) blur(12px);
     transition: box-shadow .2s ease, background-color .2s ease;
+}
+
+.app-island--hidden {
+    transform: translateX(-50%) translateY(-140%);
+    opacity: 0;
+}
+
+.mud-drawer-open-responsive-lg-left .app-island {
+    left: calc(50% + var(--mud-drawer-width-left, 240px) / 2);
 }
 
 .app-island .app-island__divider {
@@ -156,7 +166,6 @@ mark {
 
 .mud-main-content.app-content {
     padding-top: 104px !important;
-    padding-bottom: 72px !important;
     min-height: 100vh;
 }
 
@@ -166,18 +175,39 @@ mark {
 }
 
 .app-footer {
-    background-color: var(--mud-palette-appbar-background);
-    backdrop-filter: saturate(180%) blur(12px);
-    -webkit-backdrop-filter: saturate(180%) blur(12px);
-    border-top: 1px solid var(--mud-palette-lines-default);
+    margin-top: 56px;
+    color: var(--mud-palette-text-secondary);
+    font-size: 0.75rem;
+    line-height: 1.6;
 }
 
-.app-footer .app-footer__note {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 60vw;
-    opacity: .8;
+.app-footer p {
+    margin: 0 0 4px;
+}
+
+.app-footer__note {
+    max-width: 70ch;
+}
+
+.app-footer__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+}
+
+.app-footer__sep {
+    opacity: .5;
+}
+
+.app-footer a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.app-footer a:hover {
+    color: var(--mud-palette-primary);
 }
 
 @media (max-width: 700px) {
@@ -199,9 +229,6 @@ mark {
         padding-top: 88px !important;
     }
 
-    .app-footer .app-footer__note {
-        max-width: 46vw;
-    }
 }
 
 .search-overlay {
@@ -337,6 +364,22 @@ mark {
     overflow-wrap: anywhere;
 }
 
+.article > h1 {
+    max-width: 70ch;
+}
+
+.article__body > p,
+.article__body > ul,
+.article__body > ol,
+.article__body > h2,
+.article__body > h3,
+.article__body > h4,
+.article__body > h5,
+.article__body > h6,
+.article__body > blockquote {
+    max-width: 70ch;
+}
+
 .article__body p {
     margin: 0 0 1em;
 }
@@ -418,4 +461,134 @@ mark {
     object-fit: cover;
     border-radius: var(--mud-default-borderradius);
     background: var(--mud-palette-action-default-hover);
+}
+
+.news-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.news-card {
+    display: flex;
+    gap: 16px;
+    padding: 12px;
+}
+
+.news-card__cover {
+    flex: none;
+    width: 140px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: var(--mud-default-borderradius);
+    background: var(--mud-palette-action-default-hover);
+}
+
+.news-card__body {
+    min-width: 0;
+    flex: 1;
+}
+
+.news-card__excerpt {
+    margin: 8px 0 0;
+    color: var(--mud-palette-text-secondary);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .news-card__cover {
+        display: none;
+    }
+}
+
+.data-freshness {
+    white-space: nowrap;
+}
+
+.lesson {
+    display: flex;
+    gap: 16px;
+    padding: 10px 0;
+    border-top: 1px solid var(--mud-palette-lines-default);
+}
+
+.lesson__when {
+    flex: none;
+    width: 104px;
+    display: flex;
+    flex-direction: column;
+    color: var(--mud-palette-text-secondary);
+    font-size: 0.8rem;
+}
+
+.lesson__pair {
+    font-weight: 600;
+    color: var(--mud-palette-primary);
+}
+
+.lesson__time {
+    font-variant-numeric: tabular-nums;
+}
+
+.lesson__what {
+    min-width: 0;
+    flex: 1;
+}
+
+.lesson__what p {
+    margin: 0 0 4px;
+    line-height: 1.45;
+}
+
+.lesson__what p:last-child {
+    margin-bottom: 0;
+}
+
+.exam {
+    display: flex;
+    gap: 16px;
+    padding: 8px 0;
+    border-top: 1px solid var(--mud-palette-lines-default);
+    font-size: 0.9rem;
+}
+
+.exam__when {
+    flex: none;
+    width: 210px;
+    color: var(--mud-palette-text-secondary);
+    font-variant-numeric: tabular-nums;
+}
+
+.exam__what {
+    min-width: 0;
+}
+
+.schedule-doc {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+}
+
+@media (max-width: 600px) {
+    .lesson,
+    .exam {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .lesson__when {
+        flex-direction: row;
+        gap: 8px;
+        width: auto;
+    }
+
+    .exam__when {
+        width: auto;
+    }
 }

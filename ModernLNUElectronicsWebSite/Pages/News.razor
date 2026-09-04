@@ -1,13 +1,16 @@
 @page "/news"
 @using System.Net.Http.Json
-@using ModernLNUElectronicsWebSite.Scraping
+@using ModernLNUElectronicsWebSite.Data
 @inject HttpClient Http
+@inject NavigationManager Nav
 
-<PageTitle>Новини - Факультет Електроніки ЛНУ</PageTitle>
+<PageMeta Title="Новини та події"
+          Description="Новини, анонси та оголошення факультету електроніки та комп'ютерних технологій ЛНУ ім. Івана Франка."
+          Canonical="@($"{SiteUrls.Origin}/news/")" />
 
-<MudText Typo="Typo.h4" GutterBottom="true" Class="fw-600">Новини та події</MudText>
-<MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-4">
-    Стрічка з оригінального сайту факультету. Оновлюється автоматично.
+<MudText Typo="Typo.h4" HtmlTag="h1" GutterBottom="true" Class="fw-600">Новини та події</MudText>
+<MudText Typo="Typo.body2" Class="mud-text-secondary mb-4">
+    Архів стрічки з оригінального сайту факультету. Поповнюється автоматично.
 </MudText>
 
 @if (_busy)
@@ -20,47 +23,122 @@ else if (_note is not null)
 }
 else
 {
-    <MudText Typo="Typo.subtitle2" Color="Color.Secondary" Class="mb-3">@_items.Count новин</MudText>
+    <div class="news-filter mb-4">
+        <MudChip T="string" Size="Size.Small" Class="ma-0"
+                 Variant="@(Year is null ? Variant.Filled : Variant.Outlined)"
+                 Color="@(Year is null ? Color.Primary : Color.Default)"
+                 OnClick="@(() => Apply(null, 1))">
+            Усі (@_all.Count)
+        </MudChip>
 
-    @foreach (var item in _items)
+        @foreach (var year in _years)
+        {
+            <MudChip T="string" Size="Size.Small" Class="ma-0"
+                     Variant="@(Year == year.Value ? Variant.Filled : Variant.Outlined)"
+                     Color="@(Year == year.Value ? Color.Primary : Color.Default)"
+                     OnClick="@(() => Apply(year.Value, 1))">
+                @year.Value (@year.Count)
+            </MudChip>
+        }
+    </div>
+
+    @if (_filtered.Count == 0)
     {
-        <MudPaper Outlined="true" Class="pa-3 mb-2">
-            <div class="d-flex align-start gap-2">
-                <MudLink Href="@($"news/{item.Slug}")" Typo="Typo.subtitle1" Class="flex-grow-1">@item.Title</MudLink>
-                <MudTooltip Text="Оригінал новини на сайті факультету" Arrow="true">
-                    <MudIconButton Icon="@Icons.Material.Filled.OpenInNew" Size="Size.Small"
-                                   Href="@item.Url" Target="_blank" rel="noopener noreferrer"
-                                   aria-label="Відкрити оригінал" />
-                </MudTooltip>
+        <MudText Class="mud-text-secondary">За цей рік новин у дзеркалі немає.</MudText>
+    }
+    else
+    {
+        <MudText Typo="Typo.subtitle2" Class="mud-text-secondary mb-3">
+            Показано @(FirstIndex + 1)–@(FirstIndex + _visible.Count) із @_filtered.Count
+        </MudText>
+
+        @foreach (var item in _visible)
+        {
+            <MudPaper Outlined="true" Class="news-card mb-3">
+                @if (item.CoverImageUrl is { Length: > 0 } cover)
+                {
+                    <img class="news-card__cover" src="@cover" alt="" loading="lazy" />
+                }
+
+                <div class="news-card__body">
+                    <div class="d-flex align-start gap-2">
+                        <MudLink Href="@($"news/{item.Slug}")" Typo="Typo.subtitle1" Class="flex-grow-1">@item.Title</MudLink>
+                        <MudTooltip Text="Оригінал новини на сайті факультету" Arrow="true">
+                            <MudIconButton Icon="@Icons.Material.Filled.OpenInNew" Size="Size.Small"
+                                           Href="@item.Url" Target="_blank" rel="noopener noreferrer"
+                                           aria-label="Відкрити оригінал" />
+                        </MudTooltip>
+                    </div>
+
+                    <MudText Typo="Typo.caption" Class="mud-text-secondary d-block mt-1">
+                        @(item.PublishedAt?.ToString("dd.MM.yyyy HH:mm") ?? item.RawDate)
+                    </MudText>
+
+                    @if (item.Excerpt is not null)
+                    {
+                        <p class="news-card__excerpt">@item.Excerpt</p>
+                    }
+                </div>
+            </MudPaper>
+        }
+
+        @if (PageCount > 1)
+        {
+            <div class="d-flex justify-center mt-6">
+                <MudPagination Color="Color.Primary" Count="PageCount" Selected="CurrentPage"
+                               SelectedChanged="@(p => Apply(Year, p))"
+                               BoundaryCount="1" MiddleCount="3" />
             </div>
-            <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block mt-1">
-                @(item.PublishedAt?.ToString("dd.MM.yyyy HH:mm") ?? item.RawDate)
-            </MudText>
-            @if (item.Excerpt is not null)
-            {
-                <MudText Typo="Typo.body2" Class="mt-2">@item.Excerpt</MudText>
-            }
-        </MudPaper>
+        }
     }
 
-    <SourceLink Url="https://electronics.lnu.edu.ua/news/" Class="mt-4"
+    <SourceLink Url="https://electronics.lnu.edu.ua/news/" Class="mt-6"
                 Prefix="Стрічка-джерело:" Label="Уся стрічка на оригінальному сайті" />
 }
 
 @code {
-    private readonly List<NewsItem> _items = new();
+    private const int PageSize = 12;
+
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "year")]
+    public int? Year { get; set; }
+
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "page")]
+    public int? Page { get; set; }
+
+    private sealed record YearCount(int Value, int Count);
+
+    private readonly List<NewsItem> _all = new();
+    private List<YearCount> _years = new();
+    private List<NewsItem> _filtered = new();
+    private List<NewsItem> _visible = new();
+
     private string? _note;
     private Severity _noteSeverity = Severity.Info;
     private bool _busy = true;
+
+    private int CurrentPage => Math.Clamp(Page ?? 1, 1, Math.Max(PageCount, 1));
+
+    private int PageCount => (int)Math.Ceiling(_filtered.Count / (double)PageSize);
+
+    private int FirstIndex => (CurrentPage - 1) * PageSize;
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
             var items = await Http.GetFromJsonAsync<List<NewsItem>>("data/news.json");
-            _items.AddRange(items ?? new());
+            _all.AddRange(items ?? new());
 
-            if (_items.Count == 0)
+            _years = _all
+                .Where(i => i.PublishedAt is not null)
+                .GroupBy(i => i.PublishedAt!.Value.Year)
+                .OrderByDescending(g => g.Key)
+                .Select(g => new YearCount(g.Key, g.Count()))
+                .ToList();
+
+            if (_all.Count == 0)
             {
                 _note = "Новин поки немає.";
                 _noteSeverity = Severity.Info;
@@ -68,7 +146,7 @@ else
         }
         catch (HttpRequestException)
         {
-            _note = "data/news.json ще не згенеровано (GitHub Action / dotnet run --project tools/Scraper).";
+            _note = "новини ще не перенесені.";
             _noteSeverity = Severity.Warning;
         }
         catch (Exception ex)
@@ -80,5 +158,20 @@ else
         {
             _busy = false;
         }
+    }
+
+    protected override void OnParametersSet()
+    {
+        _filtered = Year is null
+            ? _all
+            : _all.Where(i => i.PublishedAt?.Year == Year).ToList();
+
+        _visible = _filtered.Skip(FirstIndex).Take(PageSize).ToList();
+    }
+
+    private void Apply(int? year, int page)
+    {
+        var query = year is null ? $"?page={page}" : $"?year={year}&page={page}";
+        Nav.NavigateTo($"news{query}");
     }
 }

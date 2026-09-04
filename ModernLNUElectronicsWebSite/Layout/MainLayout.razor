@@ -1,5 +1,6 @@
 @inherits LayoutComponentBase
 @using ModernLNUElectronicsWebSite.Components
+@implements IAsyncDisposable
 @inject IJSRuntime JS
 
 <MudThemeProvider Theme="_theme" @bind-IsDarkMode="_isDarkMode" />
@@ -10,15 +11,16 @@
 <MudLayout>
 
     <MudDrawer @bind-Open="_navOpen"
-               Variant="DrawerVariant.Temporary"
+               Variant="DrawerVariant.Responsive"
+               Breakpoint="Breakpoint.Lg"
                Anchor="Anchor.Left"
-               Elevation="3"
-               Overlay="true">
+               Elevation="1"
+               ClipMode="DrawerClipMode.Never">
         <MudDrawerHeader Class="d-flex align-center gap-3">
             <MudIcon Icon="@Icons.Material.Filled.Bolt" Color="Color.Primary" Size="Size.Large" />
             <div>
                 <MudText Typo="Typo.subtitle1" Class="fw-600">Факультет Електроніки ЛНУ</MudText>
-                <MudText Typo="Typo.caption" Color="Color.Secondary">Зручне дзеркало</MudText>
+                <MudText Typo="Typo.caption" Class="mud-text-secondary">Зручне дзеркало</MudText>
             </div>
         </MudDrawerHeader>
 
@@ -39,22 +41,18 @@
 
     <div class="app-island">
         <MudPaper Class="app-island__inner" Elevation="8">
-            <MudTooltip Text="Навігація" Arrow="true">
+            <MudTooltip Text="@(_navOpen ? "Сховати навігацію" : "Навігація")" Arrow="true">
                 <MudIconButton Icon="@Icons.Material.Filled.Menu"
                                Color="Color.Default"
                                OnClick="@(() => _navOpen = !_navOpen)"
-                               aria-label="Відкрити навігацію" />
+                               aria-label="Перемкнути навігацію" />
             </MudTooltip>
 
             <MudDivider Vertical="true" FlexItem="true" Class="app-island__divider" />
 
-            @*
-                Не поле, а кнопка: єдиний ввід живе в оверлеї, тож на сторінці ніколи
-                не буває двох різних пошуків.
-            *@
             <button type="button" class="app-island__search" @onclick="OpenSearchAsync"
                     aria-label="Відкрити пошук по сайту">
-                <MudIcon Icon="@Icons.Material.Filled.Search" Size="Size.Small" Color="Color.Secondary" />
+                <MudIcon Icon="@Icons.Material.Filled.Search" Size="Size.Small" Class="mud-text-secondary" />
                 <span class="app-island__search-label">Пошук по сайту</span>
                 <kbd class="app-island__kbd">Ctrl K</kbd>
             </button>
@@ -75,35 +73,32 @@
     <MudMainContent Class="app-content">
         <MudContainer MaxWidth="MaxWidth.Large">
             @Body
+
+            <footer class="app-footer">
+                <MudDivider Class="mb-3" />
+                <p class="app-footer__note">
+                    Неофіційне дзеркало сайту факультету електроніки та комп'ютерних технологій
+                    ЛНУ ім. Івана Франка. Дані підтягуються з
+                    <a href="https://electronics.lnu.edu.ua/" target="_blank" rel="noopener">оригінального сайту</a>.
+                </p>
+                <p class="app-footer__meta">
+                    <span>© @DateTime.Now.Year</span>
+                    <span class="app-footer__sep">·</span>
+                    <DataFreshness />
+                    <span class="app-footer__sep">·</span>
+                    <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" target="_blank" rel="noopener">Blazor</a>
+                    <span class="app-footer__sep">+</span>
+                    <a href="https://mudblazor.com" target="_blank" rel="noopener">MudBlazor</a>
+                </p>
+            </footer>
         </MudContainer>
     </MudMainContent>
-
-    <MudAppBar Bottom="true" Fixed="true" Dense="true" Elevation="0" Class="app-footer">
-        <MudText Typo="Typo.caption" Class="app-footer__note">
-            Неофіційне дзеркало сайту факультету електроніки та комп'ютерних технологій ЛНУ ім. Івана Франка.
-            Дані підтягуються з оригінального сайту.
-        </MudText>
-        <MudSpacer />
-        <MudLink Href="https://electronics.lnu.edu.ua/" Target="_blank" rel="noopener"
-                 Typo="Typo.caption" Color="Color.Inherit" Class="mr-4 d-none d-sm-flex">
-            Оригінальний сайт
-        </MudLink>
-        <MudText Typo="Typo.caption" Class="mr-2">© @DateTime.Now.Year</MudText>
-        <MudTooltip Text="Powered By Blazor" Arrow="true">
-            <MudButton Href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor">
-                <MudImage Src="blazor-icon.png" Width="26" Height="26" />
-            </MudButton>
-        </MudTooltip>
-        <MudTooltip Text="Powered By MudBlazor" Arrow="true">
-            <MudButton Href="https://mudblazor.com">
-                <MudImage Src="mudblazor-icon.png" Width="26" Height="26" />
-            </MudButton>
-        </MudTooltip>
-    </MudAppBar>
 
 </MudLayout>
 
 @code {
+    private const int WideLayoutWidth = 1280;
+
     private SearchOverlay? _search;
     private bool _navOpen;
     private bool _isDarkMode;
@@ -136,8 +131,18 @@
 
     protected override void OnInitialized()
     {
-        if (JS is IJSInProcessRuntime js)
-            _isDarkMode = js.Invoke<bool>("mlnTheme.resolve");
+        if (JS is not IJSInProcessRuntime js)
+            return;
+
+        _isDarkMode = js.Invoke<bool>("mlnTheme.resolve");
+
+        _navOpen = js.Invoke<int>("mlnLayout.width") >= WideLayoutWidth;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+            await JS.InvokeVoidAsync("mlnIsland.watch");
     }
 
     private async Task ToggleThemeAsync()
@@ -148,4 +153,15 @@
     }
 
     private Task OpenSearchAsync() => _search?.OpenAsync() ?? Task.CompletedTask;
+
+    public async ValueTask DisposeAsync()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("mlnIsland.unwatch");
+        }
+        catch (JSDisconnectedException)
+        {
+        }
+    }
 }

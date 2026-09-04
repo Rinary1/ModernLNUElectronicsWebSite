@@ -1,0 +1,40 @@
+@inject IJSRuntime JS
+@inject NavigationManager Nav
+
+<PageTitle>@FullTitle</PageTitle>
+
+@code {
+    private const string SiteName = "Факультет електроніки ЛНУ";
+
+    private const string DefaultDescription =
+        "Неофіційне дзеркало сайту факультету електроніки та комп'ютерних технологій "
+        + "ЛНУ ім. Івана Франка: пошук по всьому сайту, розклад, новини, кафедри та співробітники.";
+
+    [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
+    public string? Description { get; set; }
+
+    [Parameter]
+    public string? Canonical { get; set; }
+
+    [Parameter]
+    public bool IsArticle { get; set; }
+
+    [Parameter]
+    public bool NoIndex { get; set; }
+
+    private string FullTitle => string.IsNullOrWhiteSpace(Title) ? SiteName : $"{Title} - {SiteName}";
+
+    protected override async Task OnParametersSetAsync() =>
+        await JS.InvokeVoidAsync("mlnMeta.set", new
+        {
+            title = FullTitle,
+            description = string.IsNullOrWhiteSpace(Description) ? DefaultDescription : Description,
+            url = Nav.Uri,
+            canonical = string.IsNullOrWhiteSpace(Canonical) ? Nav.Uri : Canonical,
+            type = IsArticle ? "article" : "website",
+            robots = NoIndex ? "noindex, follow" : "index, follow",
+        });
+}

@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="../../ModernLNUElectronicsWebSite/Scraping/**/*.cs" LinkBase="Scraping" />
+    <Compile Include="../../ModernLNUElectronicsWebSite/Data/*.cs" LinkBase="Data" />
   </ItemGroup>
 
 </Project>

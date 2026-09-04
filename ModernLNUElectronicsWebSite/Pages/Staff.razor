@@ -1,15 +1,14 @@
 @page "/staff"
 @using System.Net.Http.Json
-@using Microsoft.AspNetCore.Components.Web.Virtualization
-@using ModernLNUElectronicsWebSite.Scraping
+@using ModernLNUElectronicsWebSite.Data
+@using ModernLNUElectronicsWebSite.Search
 @inject HttpClient Http
 
-<PageTitle>Співробітники - Факультет Електроніки ЛНУ</PageTitle>
+<PageMeta Title="Співробітники"
+          Description="Викладачі та наукові співробітники факультету електроніки та комп'ютерних технологій ЛНУ з пошуком за прізвищем, посадою і кафедрою."
+          Canonical="@($"{SiteUrls.Origin}/about/staff/")" />
 
-<MudText Typo="Typo.h4" GutterBottom="true" Class="fw-600">Співробітники</MudText>
-<MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-4">
-    Зведений список з <code>/about/staff/</code> оригінального сайту (16 підрозділів).
-</MudText>
+<MudText Typo="Typo.h4" HtmlTag="h1" GutterBottom="true" Class="fw-600">Співробітники</MudText>
 
 <MudTextField T="string"
               Value="_query"
@@ -22,7 +21,7 @@
               Clearable="true"
               Variant="Variant.Outlined"
               Margin="Margin.Dense"
-              Class="mb-4" />
+              Class="mb-3" />
 
 @if (_busy)
 {
@@ -34,58 +33,102 @@ else if (_note is not null)
 }
 else
 {
-    <MudText Typo="Typo.subtitle2" Color="Color.Secondary" Class="mb-2">
+    <div class="staff-filter mb-2">
+        <MudChip T="string" Size="Size.Small" Class="ma-0"
+                 Variant="@(_department is null ? Variant.Filled : Variant.Outlined)"
+                 Color="@(_department is null ? Color.Primary : Color.Default)"
+                 OnClick="@(() => SetDepartment(null))">
+            Усі підрозділи (@_all.Count)
+        </MudChip>
+
+        @foreach (var group in _groups)
+        {
+            <MudChip T="string" Size="Size.Small" Class="ma-0"
+                     Variant="@(_department == group.Title ? Variant.Filled : Variant.Outlined)"
+                     Color="@(_department == group.Title ? Color.Primary : Color.Default)"
+                     OnClick="@(() => SetDepartment(group.Title))">
+                @group.Title (@group.People.Count)
+            </MudChip>
+        }
+    </div>
+
+    <div class="staff-alphabet mb-4">
+        <button type="button" class="staff-alphabet__letter @(_letter is null ? "staff-alphabet__letter--active" : null)"
+                @onclick="@(() => SetLetter(null))">усі</button>
+
+        @foreach (var letter in UkrainianAlphabet.Letters)
+        {
+            var available = _present.Contains(letter);
+
+            <button type="button" disabled="@(!available)"
+                    class="staff-alphabet__letter @(_letter == letter ? "staff-alphabet__letter--active" : null)"
+                    @onclick="@(() => SetLetter(letter))">@letter</button>
+        }
+    </div>
+
+    <MudText Typo="Typo.subtitle2" Class="mud-text-secondary mb-2">
         Показано @_shown із @_all.Count
     </MudText>
 
-    @if (_rows.Count == 0)
+    @if (_visible.Count == 0)
     {
-        <MudText Class="mt-6" Color="Color.Secondary">За запитом "@_query" нікого не знайдено.</MudText>
+        <MudText Class="mt-6 mud-text-secondary">За цим запитом нікого не знайдено.</MudText>
     }
     else
     {
-        <Virtualize Items="_rows" ItemSize="61" OverscanCount="8" Context="row">
-            @if (row is HeaderRow h)
-            {
-                <div class="staff-row staff-row--header">
-                    <MudText Typo="Typo.subtitle1" Class="fw-600">@h.Title</MudText>
-                    <MudText Typo="Typo.body2" Color="Color.Secondary">· @h.Count</MudText>
-                    @if (h.Url is not null)
+        @foreach (var group in _visible)
+        {
+            <div class="staff-group">
+                <div class="staff-group__head">
+                    <MudText Typo="Typo.subtitle1" HtmlTag="h2" Class="fw-600">@group.Title</MudText>
+                    <MudText Typo="Typo.body2" Class="mud-text-secondary">· @group.People.Count</MudText>
+                    @if (group.Url is not null)
                     {
-                        <span class="staff-row__deptlink">
-                            <MudLink Href="@($"departments/{SiteUrls.Slug(h.Url)}")" Typo="Typo.caption">
+                        <span class="staff-group__link">
+                            <MudLink Href="@($"departments/{SiteUrls.Slug(group.Url)}")" Typo="Typo.caption">
                                 сторінка підрозділу
                             </MudLink>
                         </span>
                     }
                 </div>
-            }
-            else if (row is PersonRow pr)
-            {
-                <div class="staff-row">
-                    <div class="staff-row__main">
-                        <div class="d-flex align-center gap-2">
-                            <MudLink Href="@($"staff/{SiteUrls.Slug(pr.Person.ProfileUrl)}")" Typo="Typo.body1">
-                                @pr.Person.FullName
-                            </MudLink>
-                            @if (pr.Person.IsExternal)
-                            {
-                                <MudChip T="string" Size="Size.Small" Color="Color.Warning"
-                                         Variant="Variant.Text" Class="ma-0">сумісник</MudChip>
-                            }
+
+                @foreach (var person in group.People)
+                {
+                    <div class="staff-row">
+                        @if (person.PhotoUrl is { Length: > 0 } photo)
+                        {
+                            <img class="staff-row__photo" src="@photo" alt="" loading="lazy" decoding="async" />
+                        }
+                        else
+                        {
+                            <span class="staff-row__photo staff-row__photo--empty">@Initials(person.FullName)</span>
+                        }
+
+                        <div class="staff-row__main">
+                            <div class="d-flex align-center gap-2 flex-wrap">
+                                <MudLink Href="@($"staff/{SiteUrls.Slug(person.ProfileUrl)}")" Typo="Typo.body1">
+                                    @person.FullName
+                                </MudLink>
+                                @if (person.IsExternal)
+                                {
+                                    <MudChip T="string" Size="Size.Small" Color="Color.Warning"
+                                             Variant="Variant.Text" Class="ma-0">сумісник</MudChip>
+                                }
+                            </div>
+                            <MudText Typo="Typo.caption" Class="mud-text-secondary">@person.Position</MudText>
                         </div>
-                        <MudText Typo="Typo.caption" Color="Color.Secondary">@pr.Person.Position</MudText>
+
+                        @if (person.Email is { Length: > 0 } email)
+                        {
+                            <span class="staff-row__email d-none d-sm-flex align-center gap-1">
+                                <MudIcon Icon="@Icons.Material.Filled.Email" Size="Size.Small" Class="mud-text-secondary" />
+                                <MudLink Href="@($"mailto:{email}")" Typo="Typo.caption">@email</MudLink>
+                            </span>
+                        }
                     </div>
-                    @if (pr.Person.Email is not null)
-                    {
-                        <span class="staff-row__email d-none d-sm-flex align-center gap-1">
-                            <MudIcon Icon="@Icons.Material.Filled.Email" Size="Size.Small" Color="Color.Secondary" />
-                            <MudLink Href="@($"mailto:{pr.Person.Email}")" Typo="Typo.caption">@pr.Person.Email</MudLink>
-                        </span>
-                    }
-                </div>
-            }
-        </Virtualize>
+                }
+            </div>
+        }
     }
 }
 
@@ -94,18 +137,18 @@ else
     [SupplyParameterFromQuery(Name = "q")]
     public string? Q { get; set; }
 
-    private abstract record Row;
-    private sealed record HeaderRow(string Title, string? Url, int Count) : Row;
-    private sealed record PersonRow(StaffItem Person) : Row;
-
     private sealed record Group(string Title, string? Url, List<StaffItem> People);
 
     private readonly List<StaffItem> _all = new();
+    private readonly HashSet<char> _present = new();
+
     private List<Group> _groups = new();
-    private List<Row> _rows = new();
+    private List<Group> _visible = new();
     private int _shown;
 
     private string? _query;
+    private string? _department;
+    private char? _letter;
     private string? _note;
     private Severity _noteSeverity = Severity.Info;
     private bool _busy = true;
@@ -119,16 +162,22 @@ else
 
             _groups = _all
                 .GroupBy(s => s.Group.Title)
-                .Select(g => new Group(g.Key, g.First().Group.Url, g.ToList()))
+                .Select(g => new Group(
+                    g.Key,
+                    g.First().Group.Url,
+                    g.OrderBy(p => p.FullName, UkrainianAlphabet.Comparer).ToList()))
+                .OrderBy(g => g.Title, UkrainianAlphabet.Comparer)
                 .ToList();
+
+            foreach (var letter in _all.Select(p => UkrainianAlphabet.FirstLetter(p.FullName)).OfType<char>())
+                _present.Add(letter);
 
             _query = string.IsNullOrWhiteSpace(Q) ? null : Q;
             Rebuild();
         }
         catch (HttpRequestException)
         {
-            _note = "data/staff.json ще немає - його має згенерувати GitHub Action " +
-                    "(dotnet run --project tools/Scraper).";
+            _note = "інформація про персонал ще не перенесена.";
             _noteSeverity = Severity.Info;
         }
         catch (Exception ex)
@@ -148,26 +197,48 @@ else
         Rebuild();
     }
 
+    private void SetDepartment(string? title)
+    {
+        _department = title;
+        Rebuild();
+    }
+
+    private void SetLetter(char? letter)
+    {
+        _letter = letter;
+        Rebuild();
+    }
+
     private void Rebuild()
     {
         var q = _query?.Trim();
-        var rows = new List<Row>();
+        var visible = new List<Group>();
 
         foreach (var group in _groups)
         {
-            var people = string.IsNullOrEmpty(q)
-                ? group.People
-                : group.People.Where(p => Matches(p, q)).ToList();
-
-            if (people.Count == 0)
+            if (_department is not null && group.Title != _department)
                 continue;
 
-            rows.Add(new HeaderRow(group.Title, group.Url, people.Count));
-            rows.AddRange(people.Select(p => new PersonRow(p)));
+            var people = group.People
+                .Where(p => _letter is null || UkrainianAlphabet.FirstLetter(p.FullName) == _letter)
+                .Where(p => string.IsNullOrEmpty(q) || Matches(p, q))
+                .ToList();
+
+            if (people.Count > 0)
+                visible.Add(group with { People = people });
         }
 
-        _rows = rows;
-        _shown = rows.Count(r => r is PersonRow);
+        _visible = visible;
+        _shown = visible.Sum(g => g.People.Count);
+    }
+
+    private static string Initials(string fullName)
+    {
+        var parts = fullName.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+        return parts.Length == 0
+            ? "?"
+            : string.Concat(parts.Take(2).Select(p => char.ToUpperInvariant(p[0])));
     }
 
     private static bool Matches(StaffItem p, string q) =>

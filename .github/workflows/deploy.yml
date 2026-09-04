@@ -38,9 +38,22 @@ jobs:
           else
             BASE="/$REPO/"
           fi
+          SITE="https://${GITHUB_REPOSITORY_OWNER,,}.github.io$BASE"
           echo "base href -> $BASE"
+          echo "site url  -> $SITE"
+          echo "SITE_URL=$SITE" >> "$GITHUB_ENV"
+
           sed -i -E "s#<base href=\"/\" ?/?>#<base href=\"$BASE\" />#" publish/wwwroot/index.html
           grep -o '<base [^>]*>' publish/wwwroot/index.html
+
+      - name: robots.txt + sitemap.xml
+        run: python3 tools/assets/generate_seo.py publish/wwwroot "$SITE_URL"
+
+      - name: Clean .br/.gz
+        run: |
+          before=$(du -sm publish/wwwroot | cut -f1)
+          find publish/wwwroot -name '*.br' -delete -o -name '*.gz' -delete
+          echo "артефакт: ${before}MB -> $(du -sm publish/wwwroot | cut -f1)MB"
 
       - name: SPA fallback + disable Jekyll
         run: |

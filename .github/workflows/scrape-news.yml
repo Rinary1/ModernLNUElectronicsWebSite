@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       news_pages:
-        description: "Скільки сторінок стрічки новин обійти (5 новин на сторінку)"
+        description: "Скільки сторінок стрічки новин обійти (5 новин на сторінку). Архів накопичувальний: постав 261, щоб заповнити його вглиб"
         type: string
         default: "6"
       refresh:
@@ -32,12 +32,27 @@ jobs:
         with:
           dotnet-version: "10.0.x"
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Залежності для розбору PDF
+        run: pip install --quiet pdfplumber
+
       - name: Run scraper
         run: >
           dotnet run --project tools/Scraper/Scraper.csproj -c Release --
           --out ModernLNUElectronicsWebSite/wwwroot/data
           --news-pages ${{ inputs.news_pages || '6' }}
           ${{ (github.event_name == 'workflow_dispatch' && inputs.refresh) && '--refresh' || '' }}
+
+      - name: Розібрати PDF розкладу
+        run: python tools/schedule/parse_schedules.py ModernLNUElectronicsWebSite/wwwroot/data
+
+      - name: Перезібрати пошуковий індекс
+        run: >
+          dotnet run --project tools/Scraper/Scraper.csproj -c Release --
+          --out ModernLNUElectronicsWebSite/wwwroot/data --index-only
 
       - name: Commit if changed
         env:
