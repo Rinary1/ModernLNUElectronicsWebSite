@@ -1,0 +1,13 @@
+@page "/science"
+@page "/science/{Slug}"
+@using ModernLNUElectronicsWebSite.Scraping
+
+<MirrorSectionView Group="@MirrorCatalog.Science"
+                   Title="Наука"
+                   Description="Напрями досліджень, проєкти, конференції та видання факультету."
+                   Slug="@Slug" />
+
+@code {
+    [Parameter]
+    public string? Slug { get; set; }
+}

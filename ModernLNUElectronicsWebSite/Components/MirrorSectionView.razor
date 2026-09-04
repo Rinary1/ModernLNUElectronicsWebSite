@@ -1,0 +1,62 @@
+@using ModernLNUElectronicsWebSite.Content
+@using ModernLNUElectronicsWebSite.Scraping
+@inject MirrorContentClient Content
+
+<PageTitle>@Title - Факультет Електроніки ЛНУ</PageTitle>
+
+<MudText Typo="Typo.h4" GutterBottom="true" Class="fw-600">@Title</MudText>
+<MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-4">@Description</MudText>
+
+<div class="d-flex flex-wrap gap-2 mb-6">
+    @foreach (var reference in _references)
+    {
+        var active = reference.Slug == _current?.Slug;
+
+        <MudChip T="string"
+                 Href="@($"{Group}/{reference.Slug}")"
+                 Variant="@(active ? Variant.Filled : Variant.Outlined)"
+                 Color="@(active ? Color.Primary : Color.Default)"
+                 Size="Size.Small"
+                 Class="ma-0">
+            @reference.Title
+        </MudChip>
+    }
+</div>
+
+@if (_busy)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+}
+else
+{
+    <MirrorArticleView Page="_page" SourceUrl="@_current?.SourceUrl" />
+}
+
+@code {
+    [Parameter]
+    public required string Group { get; set; }
+
+    [Parameter]
+    public required string Title { get; set; }
+
+    [Parameter]
+    public required string Description { get; set; }
+
+    [Parameter]
+    public string? Slug { get; set; }
+
+    private IReadOnlyList<MirrorPageRef> _references = [];
+    private MirrorPageRef? _current;
+    private MirrorPage? _page;
+    private bool _busy = true;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _references = MirrorCatalog.In(Group).ToList();
+        _current = _references.FirstOrDefault(p => p.Slug == Slug) ?? _references.FirstOrDefault();
+
+        _busy = true;
+        _page = _current is null ? null : await Content.TryGetPageAsync(_current);
+        _busy = false;
+    }
+}

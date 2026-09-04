@@ -1,0 +1,31 @@
+@if (!string.IsNullOrWhiteSpace(Url))
+{
+    <div class="source-link @Class">
+        <MudIcon Icon="@Icons.Material.Filled.Link" Size="Size.Small" Color="Color.Secondary" />
+        <MudText Typo="Typo.caption" Color="Color.Secondary">
+            @Prefix
+            <MudLink Href="@Url" Target="_blank" rel="noopener noreferrer" Typo="Typo.caption">
+                @(Label ?? ShortPath(Url!)) ↗
+            </MudLink>
+        </MudText>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string? Url { get; set; }
+
+    [Parameter]
+    public string? Label { get; set; }
+
+    [Parameter]
+    public string Prefix { get; set; } = "Джерело:";
+
+    [Parameter]
+    public string? Class { get; set; }
+
+    private static string ShortPath(string url) =>
+        Uri.TryCreate(url, UriKind.Absolute, out var uri)
+            ? $"{uri.Host}{uri.AbsolutePath.TrimEnd('/')}"
+            : url;
+}

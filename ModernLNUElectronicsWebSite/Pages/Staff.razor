@@ -53,8 +53,8 @@ else
                     @if (h.Url is not null)
                     {
                         <span class="staff-row__deptlink">
-                            <MudLink Href="@h.Url" Target="_blank" rel="noopener" Typo="Typo.caption">
-                                підрозділ ↗
+                            <MudLink Href="@($"departments/{SiteUrls.Slug(h.Url)}")" Typo="Typo.caption">
+                                сторінка підрозділу
                             </MudLink>
                         </span>
                     }
@@ -65,7 +65,7 @@ else
                 <div class="staff-row">
                     <div class="staff-row__main">
                         <div class="d-flex align-center gap-2">
-                            <MudLink Href="@pr.Person.ProfileUrl" Target="_blank" rel="noopener" Typo="Typo.body1">
+                            <MudLink Href="@($"staff/{SiteUrls.Slug(pr.Person.ProfileUrl)}")" Typo="Typo.body1">
                                 @pr.Person.FullName
                             </MudLink>
                             @if (pr.Person.IsExternal)

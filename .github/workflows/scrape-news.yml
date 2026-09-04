@@ -5,8 +5,12 @@ on:
     - cron: "17 */6 * * *"
   workflow_dispatch:
     inputs:
-      profiles:
-        description: "Також обійти всі /employee/<slug>/ (повільно, ~186 запитів)"
+      news_pages:
+        description: "Скільки сторінок стрічки новин обійти (5 новин на сторінку)"
+        type: string
+        default: "6"
+      refresh:
+        description: "Перезавантажити вже збережені статті та профілі, а не лише нові"
         type: boolean
         default: false
 
@@ -31,8 +35,9 @@ jobs:
       - name: Run scraper
         run: >
           dotnet run --project tools/Scraper/Scraper.csproj -c Release --
-          ModernLNUElectronicsWebSite/wwwroot/data 3
-          ${{ (github.event_name == 'workflow_dispatch' && inputs.profiles) && 'profiles' || '' }}
+          --out ModernLNUElectronicsWebSite/wwwroot/data
+          --news-pages ${{ inputs.news_pages || '6' }}
+          ${{ (github.event_name == 'workflow_dispatch' && inputs.refresh) && '--refresh' || '' }}
 
       - name: Commit if changed
         env:

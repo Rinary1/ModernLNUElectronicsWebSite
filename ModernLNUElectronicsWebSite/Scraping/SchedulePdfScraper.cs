@@ -6,82 +6,157 @@ namespace ModernLNUElectronicsWebSite.Scraping;
 
 public sealed class SchedulePdfScraper(IHtmlSource source)
 {
-    private const int ShortTitleThreshold = 16;
+    private const int ShortTitleThreshold = 24;
+
+    private const int MaxTitleLength = 140;
+
+    private const int PseudoHeadingLevel = 5;
 
     private static readonly Regex WhitespaceRun = new(@"\s+", RegexOptions.Compiled);
 
     private readonly HtmlParser _parser = new();
 
-    public async Task<IReadOnlyList<ScheduleDoc>> LoadPageAsync(string pageUrl, CancellationToken ct = default)
-    {
-        var html = await source.GetHtmlAsync(pageUrl, ct);
-        return Parse(html, baseUrl: pageUrl);
-    }
+    public async Task<IReadOnlyList<ScheduleDoc>> LoadPageAsync(
+        string pageUrl, ScheduleCategory category, CancellationToken ct = default)
+        => Parse(await source.GetHtmlAsync(pageUrl, ct), category, pageUrl);
 
-    public IReadOnlyList<ScheduleDoc> Parse(string html, string? baseUrl = null)
+    public IReadOnlyList<ScheduleDoc> Parse(string html, ScheduleCategory category, string pageUrl)
     {
         var document = _parser.ParseDocument(html);
-        var pageUri = baseUrl is null ? null : new Uri(baseUrl);
+        var pageUri = new Uri(pageUrl);
 
-        var article = document.QuerySelector("article") ?? document.Body;
+        var article = document.QuerySelector("main.content-area article") ?? document.Body;
         if (article is null)
             return Array.Empty<ScheduleDoc>();
 
-        var seen = new HashSet<string>();
-        var result = new List<ScheduleDoc>();
+        var headings = new string?[PseudoHeadingLevel + 1];
+        var fallbackSection = Collapse(article.QuerySelector("h1.page-title")?.TextContent) ?? "Документи";
 
-        foreach (var anchor in article.QuerySelectorAll("a[href]"))
+        var seen = new HashSet<string>();
+        var docs = new List<ScheduleDoc>();
+
+        foreach (var element in article.QuerySelectorAll("*"))
         {
-            var href = anchor.GetAttribute("href");
-            if (href is null || !href.Contains(".pdf", StringComparison.OrdinalIgnoreCase))
+            var level = HeadingLevel(element);
+            if (level > 0)
+            {
+                headings[level] = Collapse(element.TextContent);
+                for (var deeper = level + 1; deeper < headings.Length; deeper++)
+                    headings[deeper] = null;
+            }
+
+            if (!IsPdfLink(element))
                 continue;
 
-            var url = Absolutize(href, pageUri);
+            var url = Absolutize(element.GetAttribute("href"), pageUri);
             if (url is null || !seen.Add(url))
                 continue;
 
-            var text = Collapse(anchor.TextContent) ?? "Документ";
-            var section = NearestHeading(anchor);
-            var title = text.Length <= ShortTitleThreshold && section is not null
-                ? $"{section} — {text}"
-                : text;
+            var ownLevel = AncestorHeadingLevel(element, article);
+            var section = NearestSection(headings, ownLevel) ?? fallbackSection;
 
-            result.Add(new ScheduleDoc(section ?? "Розклади", title, url));
+            docs.Add(new ScheduleDoc(category, section, TitleFor(element), url, pageUrl));
         }
 
-        return result;
+        return Disambiguate(docs);
     }
 
-    private static string? NearestHeading(IElement anchor)
+    private static int HeadingLevel(IElement element) => element.TagName.ToUpperInvariant() switch
     {
-        var block = anchor;
-        while (block.ParentElement is { } parent
-               && !string.Equals(parent.TagName, "ARTICLE", StringComparison.OrdinalIgnoreCase)
-               && !string.Equals(parent.TagName, "BODY", StringComparison.OrdinalIgnoreCase))
+        "H1" => 1,
+        "H2" => 2,
+        "H3" => 3,
+        "H4" => 4,
+        "P" when IsPseudoHeading(element) => PseudoHeadingLevel,
+        _ => 0,
+    };
+
+    private static bool IsPseudoHeading(IElement paragraph) =>
+        paragraph.QuerySelector("a") is null
+        && paragraph.QuerySelector("strong, b") is not null
+        && !string.IsNullOrWhiteSpace(paragraph.TextContent)
+        && Collapse(paragraph.TextContent)!.Length
+           == Collapse(paragraph.QuerySelectorAll("strong, b").LastOrDefault()?.TextContent)?.Length;
+
+    private static int AncestorHeadingLevel(IElement anchor, IElement article)
+    {
+        for (var node = anchor.ParentElement; node is not null && node != article; node = node.ParentElement)
         {
-            block = parent;
-            if (parent.TagName is "P" or "LI" or "H2" or "H3" or "H4" or "DIV")
-                break;
+            var level = HeadingLevel(node);
+            if (level > 0)
+                return level;
         }
 
-        for (var sibling = block.PreviousElementSibling; sibling is not null; sibling = sibling.PreviousElementSibling)
+        return 0;
+    }
+
+    private static string? NearestSection(string?[] headings, int ownLevel)
+    {
+        var from = ownLevel > 0 ? ownLevel - 1 : headings.Length - 1;
+
+        for (var level = from; level >= 1; level--)
         {
-            if (sibling.TagName is "H1" or "H2" or "H3" or "H4" && sibling.QuerySelector("a") is null)
-                return Collapse(sibling.TextContent);
+            if (headings[level] is { Length: > 0 } heading)
+                return heading;
         }
 
         return null;
     }
 
+    private static string TitleFor(IElement anchor)
+    {
+        var block = BlockOf(anchor);
+        var text = Collapse(anchor.TextContent);
+
+        var useBlock = text is null
+                       || text.Length <= ShortTitleThreshold
+                       || CountPdfLinks(block) > 1;
+
+        var title = useBlock ? Collapse(block.TextContent) ?? text : text;
+
+        return Truncate(title ?? "Документ", MaxTitleLength);
+    }
+
+    private static int CountPdfLinks(IElement block) => block.QuerySelectorAll("a[href]").Count(IsPdfLink);
+
+    private static IElement BlockOf(IElement anchor)
+    {
+        for (var node = anchor.ParentElement; node is not null; node = node.ParentElement)
+        {
+            if (node.TagName is "LI" or "P" or "TD" or "H1" or "H2" or "H3" or "H4")
+                return node;
+        }
+
+        return anchor;
+    }
+
+    private static List<ScheduleDoc> Disambiguate(List<ScheduleDoc> docs) => docs
+        .GroupBy(d => (d.Section, d.Title))
+        .SelectMany(group => group.Count() == 1
+            ? group
+            : group.Select(d => d with { Title = $"{d.Title} ({FileNameOf(d.Url)})" }))
+        .ToList();
+
+    private static string FileNameOf(string url) =>
+        Uri.TryCreate(url, UriKind.Absolute, out var uri) ? Path.GetFileName(uri.AbsolutePath) : url;
+
+    private static bool IsPdfLink(IElement element) =>
+        element.TagName.Equals("A", StringComparison.OrdinalIgnoreCase)
+        && element.GetAttribute("href") is { } href
+        && href.Contains(".pdf", StringComparison.OrdinalIgnoreCase);
+
+    private static string Truncate(string value, int max) =>
+        value.Length <= max ? value : value[..max].TrimEnd() + "...";
+
     private static string? Collapse(string? value) =>
         string.IsNullOrWhiteSpace(value) ? null : WhitespaceRun.Replace(value, " ").Trim();
 
-    private static string? Absolutize(string? href, Uri? pageUri)
+    private static string? Absolutize(string? href, Uri pageUri)
     {
         if (string.IsNullOrWhiteSpace(href))
             return null;
 
-        if (pageUri is null || Uri.IsWellFormedUriString(href, UriKind.Absolute))
+        if (Uri.IsWellFormedUriString(href, UriKind.Absolute))
             return href;
 
         return Uri.TryCreate(pageUri, href, out var absolute) ? absolute.ToString() : href;

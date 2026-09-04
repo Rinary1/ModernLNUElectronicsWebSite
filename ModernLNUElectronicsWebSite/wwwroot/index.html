@@ -33,6 +33,26 @@
                     this.apply(dark);
                 }
             };
+            window.mlnSearch = {
+                handler: null,
+                registerHotkey: function (ref) {
+                    this.unregisterHotkey();
+                    this.handler = function (e) {
+                        if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) {
+                            e.preventDefault();
+                            ref.invokeMethodAsync('OpenFromHotkeyAsync');
+                        }
+                    };
+                    document.addEventListener('keydown', this.handler);
+                },
+                unregisterHotkey: function () {
+                    if (this.handler) {
+                        document.removeEventListener('keydown', this.handler);
+                        this.handler = null;
+                    }
+                }
+            };
+
             window.mlnTheme.apply(window.mlnTheme.resolve());
         })();
     </script>

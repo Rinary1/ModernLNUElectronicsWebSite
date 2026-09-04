@@ -40,15 +40,18 @@
 
 @if (_items.Count > 0)
 {
-    <MudText Typo="Typo.h5" Class="mt-10 mb-3 fw-600">Останні новини</MudText>
-    <MudText Typo="Typo.subtitle2" Color="Color.Secondary" Class="mb-2">
-        Новин: @_items.Count@(_nextPage is not null ? $"  ·  наступна сторінка: {_nextPage}" : string.Empty)
-    </MudText>
+    <div class="d-flex align-center justify-space-between mt-10 mb-3">
+        <MudText Typo="Typo.h5" Class="fw-600">Останні новини</MudText>
+        <MudButton Href="news" Variant="Variant.Text" Color="Color.Primary" Size="Size.Small"
+                   EndIcon="@Icons.Material.Filled.ArrowForward">
+            Уся стрічка (@_items.Count)
+        </MudButton>
+    </div>
 
-    @foreach (var item in _items)
+    @foreach (var item in _items.Take(RecentNewsCount))
     {
         <MudPaper Outlined="true" Class="pa-4 mb-3">
-            <MudLink Href="@item.Url" Target="_blank" rel="noopener" Typo="Typo.subtitle1">@item.Title</MudLink>
+            <MudLink Href="@($"news/{item.Slug}")" Typo="Typo.subtitle1">@item.Title</MudLink>
             <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block mt-1">
                 @(item.PublishedAt?.ToString("dd.MM.yyyy HH:mm") ?? item.RawDate)
             </MudText>
@@ -61,8 +64,9 @@
 }
 
 @code {
+    private const int RecentNewsCount = 5;
+
     private readonly List<NewsItem> _items = new();
-    private string? _nextPage;
     private string? _note;
     private Severity _noteSeverity = Severity.Info;
     private bool _busy;
@@ -100,7 +104,6 @@
         _busy = true;
         _note = null;
         _items.Clear();
-        _nextPage = null;
         try
         {
             await action();
@@ -113,12 +116,6 @@
         {
             _busy = false;
         }
-    }
-
-    private void Fill(NewsPage page)
-    {
-        _items.AddRange(page.Items);
-        _nextPage = page.NextPageUrl;
     }
 
     private void Set(string message, Severity severity)

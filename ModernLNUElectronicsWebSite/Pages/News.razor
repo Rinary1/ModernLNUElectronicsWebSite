@@ -25,7 +25,14 @@ else
     @foreach (var item in _items)
     {
         <MudPaper Outlined="true" Class="pa-3 mb-2">
-            <MudLink Href="@item.Url" Target="_blank" rel="noopener" Typo="Typo.subtitle1">@item.Title</MudLink>
+            <div class="d-flex align-start gap-2">
+                <MudLink Href="@($"news/{item.Slug}")" Typo="Typo.subtitle1" Class="flex-grow-1">@item.Title</MudLink>
+                <MudTooltip Text="Оригінал новини на сайті факультету" Arrow="true">
+                    <MudIconButton Icon="@Icons.Material.Filled.OpenInNew" Size="Size.Small"
+                                   Href="@item.Url" Target="_blank" rel="noopener noreferrer"
+                                   aria-label="Відкрити оригінал" />
+                </MudTooltip>
+            </div>
             <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block mt-1">
                 @(item.PublishedAt?.ToString("dd.MM.yyyy HH:mm") ?? item.RawDate)
             </MudText>
@@ -36,11 +43,8 @@ else
         </MudPaper>
     }
 
-    <MudButton Href="https://electronics.lnu.edu.ua/news/" Target="_blank" rel="noopener"
-               Variant="Variant.Text" Color="Color.Primary" Class="mt-2"
-               EndIcon="@Icons.Material.Filled.OpenInNew">
-        Уся стрічка на оригінальному сайті
-    </MudButton>
+    <SourceLink Url="https://electronics.lnu.edu.ua/news/" Class="mt-4"
+                Prefix="Стрічка-джерело:" Label="Уся стрічка на оригінальному сайті" />
 }
 
 @code {

@@ -1,0 +1,269 @@
+@using ModernLNUElectronicsWebSite.Search
+@implements IAsyncDisposable
+@inject SearchService Search
+@inject NavigationManager Nav
+@inject IJSRuntime JS
+
+
+@if (_open)
+{
+    <div class="search-overlay" @onkeydown="OnKeyDown">
+        <div class="search-overlay__backdrop" @onclick="Close"></div>
+
+        <MudPaper Class="search-overlay__panel" Elevation="12">
+            <div class="search-overlay__field">
+                <MudIcon Icon="@Icons.Material.Filled.Search" Color="Color.Secondary" />
+
+                <MudTextField @ref="_input"
+                              T="string"
+                              Value="_query"
+                              ValueChanged="OnQueryChangedAsync"
+                              Immediate="true"
+                              DebounceInterval="150"
+                              Variant="Variant.Text"
+                              Margin="Margin.Dense"
+                              Underline="false"
+                              Placeholder="Пошук по дзеркалу: прізвище, кафедра, новина, розклад..."
+                              Class="search-overlay__input" />
+
+                @if (!string.IsNullOrEmpty(_query))
+                {
+                    <MudTooltip Text="Очистити" Arrow="true">
+                        <MudIconButton Icon="@Icons.Material.Filled.Backspace"
+                                       Size="Size.Small"
+                                       OnClick="ClearAsync"
+                                       aria-label="Очистити запит" />
+                    </MudTooltip>
+                }
+
+                <MudTooltip Text="Закрити (Esc)" Arrow="true">
+                    <MudIconButton Icon="@Icons.Material.Filled.Close"
+                                   Size="Size.Small"
+                                   OnClick="Close"
+                                   aria-label="Закрити пошук" />
+                </MudTooltip>
+            </div>
+
+            <MudDivider />
+
+            <div class="search-overlay__results">
+                @if (!Search.IsLoaded)
+                {
+                    <MudProgressLinear Indeterminate="true" Color="Color.Primary" />
+                    <MudText Typo="Typo.body2" Color="Color.Secondary" Class="pa-4">Готуємо індекс...</MudText>
+                }
+                else if (string.IsNullOrWhiteSpace(_query))
+                {
+                    <div class="pa-4">
+                        <MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-3">
+                            В індексі @Search.DocumentCount записів: новини, співробітники, кафедри,
+                            адміністрація, розклади й перенесені розділи.
+                        </MudText>
+                        <div class="search-overlay__hints">
+                            @foreach (var hint in Hints)
+                            {
+                                <MudChip T="string" Size="Size.Small" Variant="Variant.Outlined"
+                                         OnClick="@(() => OnQueryChangedAsync(hint))">@hint</MudChip>
+                            }
+                        </div>
+                    </div>
+                }
+                else if (_hits.Count == 0)
+                {
+                    <MudText Typo="Typo.body2" Color="Color.Secondary" Class="pa-4">
+                        За запитом «@_query» нічого не знайдено.
+                    </MudText>
+                }
+                else
+                {
+                    <MudText Typo="Typo.caption" Color="Color.Secondary" Class="px-4 pt-3 d-block">
+                        Знайдено @_hits.Count · ↑↓ вибір · Enter відкрити · Esc закрити
+                    </MudText>
+
+                    @for (var i = 0; i < _hits.Count; i++)
+                    {
+                        var index = i;
+                        var hit = _hits[i];
+
+                        <div class="search-hit @(index == _active ? "search-hit--active" : null)"
+                             @onclick="@(() => Go(hit))"
+                             @onmouseenter="@(() => _active = index)">
+
+                            <div class="search-hit__main">
+                                <div class="search-hit__head">
+                                    <MudChip T="string" Size="Size.Small" Variant="Variant.Text"
+                                             Color="@KindColor(hit.Doc.Kind)" Class="ma-0">
+                                        @KindLabel(hit.Doc.Kind)
+                                    </MudChip>
+                                    <MudText Typo="Typo.subtitle2" Class="search-hit__title">
+                                        @SearchHighlighter.Highlight(hit.Doc.Title, _tokens)
+                                    </MudText>
+                                </div>
+
+                                @if (!string.IsNullOrWhiteSpace(hit.Doc.Subtitle))
+                                {
+                                    <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block">
+                                        @SearchHighlighter.Highlight(hit.Doc.Subtitle, _tokens)
+                                    </MudText>
+                                }
+
+                                @if (HasUsefulSnippet(hit))
+                                {
+                                    <MudText Typo="Typo.body2" Class="search-hit__snippet">
+                                        @SearchHighlighter.Highlight(hit.Snippet, _tokens)
+                                    </MudText>
+                                }
+                            </div>
+
+                            @if (hit.Doc.SourceUrl is { Length: > 0 } source)
+                            {
+                                <MudTooltip Text="Відкрити першоджерело на оригінальному сайті" Arrow="true">
+                                    <MudIconButton Icon="@Icons.Material.Filled.OpenInNew"
+                                                   Size="Size.Small"
+                                                   Color="Color.Default"
+                                                   Href="@source"
+                                                   Target="_blank"
+                                                   @onclick:stopPropagation="true"
+                                                   aria-label="Відкрити джерело" />
+                                </MudTooltip>
+                            }
+                        </div>
+                    }
+                }
+            </div>
+        </MudPaper>
+    </div>
+}
+
+@code {
+    private static readonly string[] Hints = ["розклад", "деканат", "кафедра", "вступ", "конференції"];
+
+    private DotNetObjectReference<SearchOverlay>? _selfRef;
+    private MudTextField<string>? _input;
+
+    private bool _open;
+    private bool _focusPending;
+    private string? _query;
+    private string[] _tokens = [];
+    private IReadOnlyList<SearchHit> _hits = Array.Empty<SearchHit>();
+    private int _active;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _selfRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("mlnSearch.registerHotkey", _selfRef);
+        }
+
+        if (_focusPending && _input is not null)
+        {
+            _focusPending = false;
+            await _input.FocusAsync();
+        }
+    }
+
+    [JSInvokable]
+    public Task OpenFromHotkeyAsync() => OpenAsync();
+
+    public async Task OpenAsync()
+    {
+        _open = true;
+        _focusPending = true;
+        StateHasChanged();
+
+        await Search.EnsureLoadedAsync();
+        Apply(_query);
+    }
+
+    private void Close()
+    {
+        _open = false;
+    }
+
+    private Task ClearAsync() => OnQueryChangedAsync(null);
+
+    private Task OnQueryChangedAsync(string? value)
+    {
+        Apply(value);
+        _focusPending = true;
+        return Task.CompletedTask;
+    }
+
+    private void Apply(string? value)
+    {
+        _query = value;
+        _tokens = SearchHighlighter.Tokenize(value);
+        _hits = Search.Query(value);
+        _active = 0;
+        StateHasChanged();
+    }
+
+    private void OnKeyDown(KeyboardEventArgs e)
+    {
+        switch (e.Key)
+        {
+            case "Escape":
+                Close();
+                break;
+
+            case "ArrowDown" when _hits.Count > 0:
+                _active = (_active + 1) % _hits.Count;
+                break;
+
+            case "ArrowUp" when _hits.Count > 0:
+                _active = (_active - 1 + _hits.Count) % _hits.Count;
+                break;
+
+            case "Enter" or "NumpadEnter" when _active < _hits.Count:
+                Go(_hits[_active]);
+                break;
+        }
+    }
+
+    private void Go(SearchHit hit)
+    {
+        _open = false;
+        Nav.NavigateTo(hit.Doc.Route.Length == 0 ? "./" : hit.Doc.Route);
+    }
+
+    private static bool HasUsefulSnippet(SearchHit hit) =>
+        hit.Snippet.Length > 60
+        && !hit.Snippet.StartsWith(hit.Doc.Title, StringComparison.OrdinalIgnoreCase);
+
+    private static string KindLabel(SearchKind kind) => kind switch
+    {
+        SearchKind.News => "Новина",
+        SearchKind.Staff => "Співробітник",
+        SearchKind.Administration => "Адміністрація",
+        SearchKind.Partner => "Партнер",
+        SearchKind.Department => "Підрозділ",
+        SearchKind.Schedule => "Розклад",
+        SearchKind.Page => "Сторінка",
+        _ => kind.ToString(),
+    };
+
+    private static Color KindColor(SearchKind kind) => kind switch
+    {
+        SearchKind.News => Color.Info,
+        SearchKind.Staff => Color.Primary,
+        SearchKind.Administration => Color.Secondary,
+        SearchKind.Partner => Color.Tertiary,
+        SearchKind.Department => Color.Success,
+        SearchKind.Schedule => Color.Warning,
+        _ => Color.Default,
+    };
+
+    public async ValueTask DisposeAsync()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("mlnSearch.unregisterHotkey");
+        }
+        catch (JSDisconnectedException)
+        {
+        }
+
+        _selfRef?.Dispose();
+    }
+}

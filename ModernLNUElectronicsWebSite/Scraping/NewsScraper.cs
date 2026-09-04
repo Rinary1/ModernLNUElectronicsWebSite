@@ -64,6 +64,7 @@ public sealed class NewsScraper(IHtmlSource source)
         return new NewsItem
         {
             Title = title,
+            Slug = SiteUrls.Slug(url),
             Url = url,
             Excerpt = string.IsNullOrEmpty(excerpt) ? null : excerpt,
             PublishedAt = TryParseDate(rawDate),

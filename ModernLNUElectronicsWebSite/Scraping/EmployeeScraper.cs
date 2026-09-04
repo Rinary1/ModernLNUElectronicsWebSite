@@ -30,6 +30,7 @@ public sealed class EmployeeScraper(IHtmlSource source)
         return new EmployeeProfile
         {
             ProfileUrl = profileUrl,
+            Slug = SiteUrls.Slug(profileUrl),
             FullName = Collapse(article.QuerySelector("h1.page-title")?.TextContent) ?? string.Empty,
             PhotoUrl = ReadPhotoUrl(article, pageUri),
             PositionText = Collapse(positionValue?.TextContent),
@@ -41,7 +42,27 @@ public sealed class EmployeeScraper(IHtmlSource source)
             Profiles = ReadProfiles(fields),
             ResearchInterests = Collapse(SectionBody(article, "Наукові інтереси")?.TextContent),
             Courses = ReadCourses(article, pageUri),
+            Sections = ReadSections(article, pageUri),
         };
+    }
+
+    private static IReadOnlyList<ContentSection> ReadSections(IElement article, Uri pageUri)
+    {
+        var sections = new List<ContentSection>();
+
+        foreach (var section in article.QuerySelectorAll("section.section"))
+        {
+            var title = Collapse(section.QuerySelector("h2")?.TextContent);
+            var body = section.QuerySelector("div");
+            if (title is null || body is null)
+                continue;
+
+            var html = ContentSanitizer.Sanitize(body, pageUri);
+            if (html.Length > 0)
+                sections.Add(new ContentSection(title, html));
+        }
+
+        return sections;
     }
 
     private static Dictionary<string, IElement> ReadInfoFields(IElement article)

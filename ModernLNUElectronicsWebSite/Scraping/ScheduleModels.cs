@@ -1,3 +1,15 @@
 namespace ModernLNUElectronicsWebSite.Scraping;
 
-public sealed record ScheduleDoc(string Section, string Title, string Url);
+public enum ScheduleCategory
+{
+    Classes,
+
+    Exams,
+}
+
+public sealed record ScheduleDoc(
+    ScheduleCategory Category,
+    string Section,
+    string Title,
+    string Url,
+    string SourceUrl);

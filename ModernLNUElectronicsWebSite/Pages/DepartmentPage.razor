@@ -1,0 +1,75 @@
+@page "/departments/{Slug}"
+@using System.Net.Http.Json
+@using ModernLNUElectronicsWebSite.Content
+@using ModernLNUElectronicsWebSite.Scraping
+@inject MirrorContentClient Content
+@inject HttpClient Http
+
+<PageTitle>@(_page?.Title ?? "Підрозділ") - Факультет Електроніки ЛНУ</PageTitle>
+
+<MudButton Href="departments" Variant="Variant.Text" Color="Color.Primary" Class="mb-4"
+           StartIcon="@Icons.Material.Filled.ArrowBack">
+    Усі кафедри
+</MudButton>
+
+@if (_busy)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+}
+else
+{
+    <MirrorArticleView Page="_page" SourceUrl="@SourceUrl" />
+
+    @if (_people.Count > 0)
+    {
+        <MudDivider Class="my-6" />
+        <MudText Typo="Typo.h5" Class="fw-600 mb-3">Склад підрозділу (@_people.Count)</MudText>
+
+        <MudGrid Spacing="2">
+            @foreach (var person in _people)
+            {
+                <MudItem xs="12" sm="6" md="4" Class="d-flex">
+                    <MudPaper Outlined="true" Class="pa-3 flex-grow-1">
+                        <MudLink Href="@($"staff/{SiteUrls.Slug(person.ProfileUrl)}")" Typo="Typo.subtitle2">
+                            @person.FullName
+                        </MudLink>
+                        <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block mt-1">
+                            @person.Position
+                        </MudText>
+                    </MudPaper>
+                </MudItem>
+            }
+        </MudGrid>
+    }
+}
+
+@code {
+    [Parameter]
+    public string Slug { get; set; } = string.Empty;
+
+    private MirrorPage? _page;
+    private readonly List<StaffItem> _people = new();
+    private bool _busy = true;
+
+    private string SourceUrl => _people.FirstOrDefault()?.Group.Url
+                               ?? $"{SiteUrls.Origin}/department/{Slug}/";
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _busy = true;
+        _people.Clear();
+
+        _page = await Content.TryGetDepartmentAsync(Slug);
+
+        try
+        {
+            var staff = await Http.GetFromJsonAsync<List<StaffItem>>("data/staff.json") ?? new();
+            _people.AddRange(staff.Where(s => s.Group.Url is not null && SiteUrls.Slug(s.Group.Url) == Slug));
+        }
+        catch (HttpRequestException)
+        {
+        }
+
+        _busy = false;
+    }
+}

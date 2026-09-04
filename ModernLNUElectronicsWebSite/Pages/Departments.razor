@@ -41,10 +41,10 @@ else
                         </MudButton>
                         @if (d.Url is not null)
                         {
-                            <MudButton Href="@d.Url" Target="_blank" rel="noopener"
+                            <MudButton Href="@($"departments/{SiteUrls.Slug(d.Url)}")"
                                        Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Small"
-                                       StartIcon="@Icons.Material.Filled.OpenInNew">
-                                Сторінка на сайті
+                                       StartIcon="@Icons.Material.Filled.Article">
+                                Про підрозділ
                             </MudButton>
                         }
                     </div>

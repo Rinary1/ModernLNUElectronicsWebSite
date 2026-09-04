@@ -4,6 +4,8 @@ public sealed record EmployeeProfile
 {
     public required string ProfileUrl { get; init; }
 
+    public required string Slug { get; init; }
+
     public required string FullName { get; init; }
 
     public string? PhotoUrl { get; init; }
@@ -26,6 +28,8 @@ public sealed record EmployeeProfile
     public string? ResearchInterests { get; init; }
 
     public IReadOnlyList<CourseLink> Courses { get; init; } = Array.Empty<CourseLink>();
+
+    public IReadOnlyList<ContentSection> Sections { get; init; } = Array.Empty<ContentSection>();
 }
 
 public sealed record CourseLink(string Title, string Url);

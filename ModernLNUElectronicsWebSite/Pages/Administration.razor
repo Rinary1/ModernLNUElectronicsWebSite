@@ -35,6 +35,8 @@ else
         Показано @Filtered().Count() із @_all.Count
     </MudText>
 
+    <SourceLink Url="https://electronics.lnu.edu.ua/about/administration/" Class="mb-4" />
+
     @foreach (var section in _sections)
     {
         var people = Filtered().Where(p => p.Section == section.Kind).ToList();
@@ -60,7 +62,7 @@ else
                                 <MudPaper Outlined="true" Class="pa-3" Style="height:100%">
                                     @if (person.ProfileUrl is not null)
                                     {
-                                        <MudLink Href="@person.ProfileUrl" Target="_blank" rel="noopener" Typo="Typo.subtitle2">
+                                        <MudLink Href="@($"staff/{SiteUrls.Slug(person.ProfileUrl)}")" Typo="Typo.subtitle2">
                                             @person.Name
                                         </MudLink>
                                     }

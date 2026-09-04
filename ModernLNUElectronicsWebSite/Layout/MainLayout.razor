@@ -1,6 +1,6 @@
 @inherits LayoutComponentBase
+@using ModernLNUElectronicsWebSite.Components
 @inject IJSRuntime JS
-@inject NavigationManager Navigation
 
 <MudThemeProvider Theme="_theme" @bind-IsDarkMode="_isDarkMode" />
 <MudPopoverProvider />
@@ -48,17 +48,16 @@
 
             <MudDivider Vertical="true" FlexItem="true" Class="app-island__divider" />
 
-            <MudTextField @bind-Value="_search"
-                          @onkeydown="OnSearchKeyDown"
-                          Immediate="true"
-                          Variant="Variant.Text"
-                          Margin="Margin.Dense"
-                          Placeholder="Пошук по сайту..."
-                          Adornment="Adornment.Start"
-                          AdornmentIcon="@Icons.Material.Filled.Search"
-                          Clearable="true"
-                          Class="app-island__search"
-                          Underline="false" />
+            @*
+                Не поле, а кнопка: єдиний ввід живе в оверлеї, тож на сторінці ніколи
+                не буває двох різних пошуків.
+            *@
+            <button type="button" class="app-island__search" @onclick="OpenSearchAsync"
+                    aria-label="Відкрити пошук по сайту">
+                <MudIcon Icon="@Icons.Material.Filled.Search" Size="Size.Small" Color="Color.Secondary" />
+                <span class="app-island__search-label">Пошук по сайту</span>
+                <kbd class="app-island__kbd">Ctrl K</kbd>
+            </button>
 
             <MudDivider Vertical="true" FlexItem="true" Class="app-island__divider" />
 
@@ -70,6 +69,8 @@
             </MudTooltip>
         </MudPaper>
     </div>
+
+    <SearchOverlay @ref="_search" />
 
     <MudMainContent Class="app-content">
         <MudContainer MaxWidth="MaxWidth.Large">
@@ -103,9 +104,9 @@
 </MudLayout>
 
 @code {
+    private SearchOverlay? _search;
     private bool _navOpen;
     private bool _isDarkMode;
-    private string? _search;
 
     private readonly MudTheme _theme = new()
     {
@@ -146,9 +147,5 @@
         await JS.InvokeVoidAsync("mlnTheme.set", _isDarkMode);
     }
 
-    private void OnSearchKeyDown(KeyboardEventArgs e)
-    {
-        if (e.Key is "Enter" or "NumpadEnter" && !string.IsNullOrWhiteSpace(_search))
-            Navigation.NavigateTo($"search?q={Uri.EscapeDataString(_search.Trim())}");
-    }
+    private Task OpenSearchAsync() => _search?.OpenAsync() ?? Task.CompletedTask;
 }

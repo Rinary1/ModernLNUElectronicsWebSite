@@ -4,6 +4,8 @@ public sealed record NewsItem
 {
     public required string Title { get; init; }
 
+    public required string Slug { get; init; }
+
     public required string Url { get; init; }
 
     public string? Excerpt { get; init; }

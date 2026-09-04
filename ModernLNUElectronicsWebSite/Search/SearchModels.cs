@@ -6,13 +6,17 @@ public enum SearchKind
     Staff,
     Administration,
     Partner,
+    Department,
+    Schedule,
+    Page,
 }
 
 public sealed record SearchDoc(
     string Id,
     SearchKind Kind,
     string Title,
-    string Url,
+    string Route,
+    string? SourceUrl,
     string? Subtitle,
     string Text,
     DateTime? Date);

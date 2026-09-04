@@ -2,26 +2,14 @@
 @using System.Net.Http.Json
 @using ModernLNUElectronicsWebSite.Scraping
 @inject HttpClient Http
+@inject NavigationManager Nav
 
 <PageTitle>Розклад - Факультет Електроніки ЛНУ</PageTitle>
 
 <MudText Typo="Typo.h4" GutterBottom="true" Class="fw-600">Розклад</MudText>
-
-<MudPaper Outlined="true" Class="pa-4 mb-6">
-    <MudText Typo="Typo.h6" Class="fw-600 mb-1">Розклад занять</MudText>
-    <MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-3">
-        Актуальний розклад пар веде деканат в окремій системі. Оберіть там
-        «Факультет електроніки та комп'ютерних технологій», курс і групу.
-    </MudText>
-    <MudButton Href="https://dekanat.lnu.edu.ua/cgi-bin/timetable.cgi"
-               Target="_blank" rel="noopener"
-               Variant="Variant.Filled" Color="Color.Primary"
-               EndIcon="@Icons.Material.Filled.OpenInNew">
-        Відкрити розклад деканату
-    </MudButton>
-</MudPaper>
-
-<MudText Typo="Typo.h6" Class="fw-600 mb-2">Іспити, заліки, графіки (PDF)</MudText>
+<MudText Typo="Typo.body2" Color="Color.Secondary" Class="mb-4">
+    Розклад занять і документи сесії - у вигляді, який відкривається тут, без переходу на оригінал.
+</MudText>
 
 @if (_busy)
 {
@@ -31,37 +19,94 @@ else if (_note is not null)
 {
     <MudAlert Severity="@_noteSeverity" Dense="true" Class="mb-4">@_note</MudAlert>
 }
-else if (_docs.Count == 0)
+else if (_selected is not null)
 {
-    <MudText Color="Color.Secondary">Документів поки немає.</MudText>
+    <MudButton OnClick="CloseDocument" Variant="Variant.Text" Color="Color.Primary" Class="mb-3"
+               StartIcon="@Icons.Material.Filled.ArrowBack">
+        До списку розкладів
+    </MudButton>
+
+    <MudText Typo="Typo.h6" Class="fw-600 mb-1">@_selected.Title</MudText>
+    <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block mb-3">@_selected.Section</MudText>
+
+    <iframe class="pdf-frame" src="@_selected.Url" title="@_selected.Title"></iframe>
+
+    <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block mt-2">
+        Якщо документ не відображається (так буває в деяких мобільних браузерах) - відкрийте його окремо.
+    </MudText>
+
+    <div class="d-flex flex-wrap gap-3 mt-3">
+        <MudButton Href="@_selected.Url" Target="_blank" rel="noopener"
+                   Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Small"
+                   EndIcon="@Icons.Material.Filled.OpenInNew">
+            Відкрити PDF окремо
+        </MudButton>
+        <SourceLink Url="@_selected.SourceUrl" Prefix="Сторінка-джерело:" />
+    </div>
 }
 else
 {
-    @foreach (var group in _docs.GroupBy(d => d.Section))
-    {
-        <div class="mt-4">
-            <MudText Typo="Typo.subtitle2" Color="Color.Primary" Class="mb-1">@group.Key</MudText>
-            <MudList T="string" Dense="true" Class="pa-0">
-                @foreach (var doc in group)
-                {
-                    <MudListItem T="string" Icon="@Icons.Material.Filled.PictureAsPdf"
-                                 Href="@doc.Url" Target="_blank" rel="noopener">
-                        <MudText Typo="Typo.body2">@doc.Title</MudText>
-                    </MudListItem>
-                }
-            </MudList>
-        </div>
-    }
+    <MudTabs Elevation="0" Rounded="true" ApplyEffectsToContainer="true">
+        @foreach (var category in Categories)
+        {
+            var docs = _docs.Where(d => d.Category == category.Kind).ToList();
 
-    <MudText Typo="Typo.caption" Color="Color.Secondary" Class="mt-4 d-block">
-        Джерело:
-        <MudLink Href="https://electronics.lnu.edu.ua/students/rozklad-format-pdf/" Target="_blank"
-                 rel="noopener" Typo="Typo.caption">students/rozklad-format-pdf ↗</MudLink>
-    </MudText>
+            <MudTabPanel Text="@category.Title" Icon="@category.Icon" BadgeData="@docs.Count">
+                @if (category.Kind == ScheduleCategory.Classes)
+                {
+                    <MudAlert Severity="Severity.Info" Dense="true" Class="mb-4">
+                        Живий розклад пар із можливістю обрати групу веде деканат в окремій системі.
+                        <MudLink Href="https://dekanat.lnu.edu.ua/cgi-bin/timetable.cgi" Target="_blank" rel="noopener">
+                            Відкрити розклад деканату ↗
+                        </MudLink>
+                    </MudAlert>
+                }
+
+                @if (docs.Count == 0)
+                {
+                    <MudText Color="Color.Secondary">Документів у цьому розділі поки немає.</MudText>
+                }
+                else
+                {
+                    @foreach (var group in docs.GroupBy(d => d.Section))
+                    {
+                        <div class="mb-5">
+                            <MudText Typo="Typo.subtitle2" Color="Color.Primary" Class="mb-1">@group.Key</MudText>
+                            <MudList T="string" Dense="true" Class="pa-0">
+                                @foreach (var doc in group)
+                                {
+                                    <MudListItem T="string"
+                                                 Icon="@Icons.Material.Filled.PictureAsPdf"
+                                                 OnClick="@(() => OpenDocument(doc))">
+                                        <MudText Typo="Typo.body2">@doc.Title</MudText>
+                                    </MudListItem>
+                                }
+                            </MudList>
+                        </div>
+                    }
+
+                    <SourceLink Url="@docs[0].SourceUrl" Class="mt-2" />
+                }
+            </MudTabPanel>
+        }
+    </MudTabs>
 }
 
 @code {
+    private sealed record CategoryInfo(ScheduleCategory Kind, string Title, string Icon);
+
+    private static readonly CategoryInfo[] Categories =
+    {
+        new(ScheduleCategory.Classes, "Заняття", Icons.Material.Filled.CalendarMonth),
+        new(ScheduleCategory.Exams, "Сесія", Icons.Material.Filled.FactCheck),
+    };
+
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "doc")]
+    public string? Doc { get; set; }
+
     private readonly List<ScheduleDoc> _docs = new();
+    private ScheduleDoc? _selected;
     private string? _note;
     private Severity _noteSeverity = Severity.Info;
     private bool _busy = true;
@@ -87,5 +132,20 @@ else
         {
             _busy = false;
         }
+    }
+
+    protected override void OnParametersSet() =>
+        _selected = Doc is null ? null : _docs.FirstOrDefault(d => d.Url == Doc);
+
+    private void OpenDocument(ScheduleDoc doc)
+    {
+        _selected = doc;
+        Nav.NavigateTo($"schedule?doc={Uri.EscapeDataString(doc.Url)}");
+    }
+
+    private void CloseDocument()
+    {
+        _selected = null;
+        Nav.NavigateTo("schedule");
     }
 }

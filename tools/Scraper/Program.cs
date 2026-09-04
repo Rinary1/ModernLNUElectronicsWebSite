@@ -3,110 +3,276 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using ModernLNUElectronicsWebSite.Scraping;
 
-var outDir = args.Length > 0 && !IsFlag(args[0]) ? args[0]
-    : Path.Combine("ModernLNUElectronicsWebSite", "wwwroot", "data");
+var options = ScraperOptions.Parse(args);
 
-var newsPages = args.Skip(1).Select(a => int.TryParse(a, out var n) ? n : 0).FirstOrDefault(n => n > 0);
-if (newsPages == 0) newsPages = 3;
-
-var profilesArg = args.FirstOrDefault(a => a.StartsWith("profiles", StringComparison.OrdinalIgnoreCase));
-var withProfiles = profilesArg is not null;
-var profilesLimit = profilesArg?.Split(':') is [_, var raw] && int.TryParse(raw, out var lim) ? lim : int.MaxValue;
+Console.WriteLine($"Каталог даних: {Path.GetFullPath(options.OutDir)}");
+Console.WriteLine(options.Refresh
+    ? "Режим: повне перезавантаження"
+    : "Режим: доповнення (наявні статті та профілі не перезавантажуються)");
 
 using var http = new HttpClient { Timeout = TimeSpan.FromSeconds(30) };
 http.DefaultRequestHeaders.UserAgent.ParseAdd(
     "ModernLNUElectronicsMirror/1.0 (+https://github.com/OWNER/REPO; scheduled scraper)");
 
 var htmlSource = new HttpHtmlSource(http);
-var jsonOptions = new JsonSerializerOptions
-{
-    WriteIndented = true,
-    Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
-    DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
-};
+var articles = new ArticleScraper(htmlSource);
+var store = new JsonStore(options.OutDir);
 
-var newsScraper = new NewsScraper(htmlSource);
-var news = new List<NewsItem>();
-string? pageUrl = "https://electronics.lnu.edu.ua/news/";
+await ScrapeNewsAsync();
+var staff = await ScrapeStaffAsync();
+await ScrapeAdministrationAsync();
+await ScrapePartnersAsync();
+await ScrapeScheduleAsync();
+await ScrapeMirroredPagesAsync();
+await ScrapeDepartmentsAsync(staff);
+await ScrapeEmployeesAsync(staff);
 
-for (var page = 1; page <= newsPages && pageUrl is not null; page++)
+Console.WriteLine("Готово.");
+return;
+
+async Task ScrapeNewsAsync()
 {
-    Console.WriteLine($"news [{page}/{newsPages}] {pageUrl}");
-    var result = await newsScraper.LoadPageAsync(pageUrl);
-    news.AddRange(result.Items);
-    pageUrl = result.NextPageUrl;
-    if (pageUrl is not null)
-        await Task.Delay(TimeSpan.FromSeconds(1.5));
+    var scraper = new NewsScraper(htmlSource);
+    var collected = new List<NewsItem>();
+    string? pageUrl = $"{SiteUrls.Origin}/news/";
+
+    for (var page = 1; page <= options.NewsPages && pageUrl is not null; page++)
+    {
+        Console.WriteLine($"news [{page}/{options.NewsPages}] {pageUrl}");
+        var result = await scraper.LoadPageAsync(pageUrl);
+        collected.AddRange(result.Items);
+        pageUrl = result.NextPageUrl;
+
+        if (pageUrl is not null)
+            await Delay();
+    }
+
+    var index = collected
+        .GroupBy(i => i.Url)
+        .Select(g => g.First())
+        .OrderByDescending(i => i.PublishedAt ?? DateTime.MinValue)
+        .ToList();
+
+    await store.WriteAsync("news.json", index);
+    Console.WriteLine($"  -> {index.Count} новин у стрічці");
+
+    await MirrorEachAsync("news", index.Select(i => (i.Slug, i.Url)));
 }
 
-var newsDeduped = news
-    .GroupBy(i => i.Url)
-    .Select(g => g.First())
-    .OrderByDescending(i => i.PublishedAt ?? DateTime.MinValue)
-    .ToList();
-
-await WriteJson(Path.Combine(outDir, "news.json"), newsDeduped);
-Console.WriteLine($"  -> {newsDeduped.Count} новин");
-
-var staffScraper = new StaffScraper(htmlSource);
-var staff = await staffScraper.LoadPageAsync("https://electronics.lnu.edu.ua/about/staff/");
-
-await WriteJson(Path.Combine(outDir, "staff.json"), staff);
-Console.WriteLine($"staff -> {staff.Count} осіб, груп: {staff.Select(s => s.Group.Title).Distinct().Count()}");
-
-var administrationScraper = new AdministrationScraper(htmlSource);
-var administration = await administrationScraper.LoadPageAsync("https://electronics.lnu.edu.ua/about/administration/");
-
-await WriteJson(Path.Combine(outDir, "administration.json"), administration);
-Console.WriteLine($"administration -> {administration.Count} " +
-    $"(рада: {administration.Count(p => p.Section == AdministrationSection.Council)})");
-
-var partnersScraper = new PartnersScraper(htmlSource);
-var partners = await partnersScraper.LoadPageAsync("https://electronics.lnu.edu.ua/about/introduction/");
-
-await WriteJson(Path.Combine(outDir, "partners.json"), partners);
-Console.WriteLine($"partners -> {partners.Count}");
-
-var scheduleScraper = new SchedulePdfScraper(htmlSource);
-var schedule = await scheduleScraper.LoadPageAsync("https://electronics.lnu.edu.ua/students/rozklad-format-pdf/");
-
-await WriteJson(Path.Combine(outDir, "schedule.json"), schedule);
-Console.WriteLine($"schedule -> {schedule.Count} документів");
-
-if (withProfiles)
+async Task<List<StaffItem>> ScrapeStaffAsync()
 {
-    var employeeScraper = new EmployeeScraper(htmlSource);
-    var profileUrls = staff.Select(s => s.ProfileUrl).Distinct().Take(profilesLimit).ToList();
-    var profiles = new List<EmployeeProfile>(profileUrls.Count);
+    var staffList = await new StaffScraper(htmlSource).LoadPageAsync($"{SiteUrls.Origin}/about/staff/");
+    await store.WriteAsync("staff.json", staffList);
+    Console.WriteLine($"staff -> {staffList.Count} осіб, підрозділів: " +
+        $"{staffList.Select(s => s.Group.Title).Distinct().Count()}");
 
-    for (var i = 0; i < profileUrls.Count; i++)
+    return staffList.ToList();
+}
+
+async Task ScrapeAdministrationAsync()
+{
+    var people = await new AdministrationScraper(htmlSource).LoadPageAsync($"{SiteUrls.Origin}/about/administration/");
+    await store.WriteAsync("administration.json", people);
+    Console.WriteLine($"administration -> {people.Count} " +
+        $"(рада: {people.Count(p => p.Section == AdministrationSection.Council)})");
+}
+
+async Task ScrapePartnersAsync()
+{
+    var partners = await new PartnersScraper(htmlSource).LoadPageAsync($"{SiteUrls.Origin}/about/introduction/");
+    await store.WriteAsync("partners.json", partners);
+    Console.WriteLine($"partners -> {partners.Count}");
+}
+
+async Task ScrapeScheduleAsync()
+{
+    var scraper = new SchedulePdfScraper(htmlSource);
+    var docs = new List<ScheduleDoc>();
+
+    var sources = new (string Url, ScheduleCategory Category)[]
     {
-        var link = profileUrls[i];
-        Console.WriteLine($"employee [{i + 1}/{profileUrls.Count}] {link}");
+        ($"{SiteUrls.Origin}/students/career/", ScheduleCategory.Classes),
+        ($"{SiteUrls.Origin}/students/rozklad-format-pdf/", ScheduleCategory.Exams),
+    };
+
+    foreach (var (url, category) in sources)
+    {
+        var found = await scraper.LoadPageAsync(url, category);
+        docs.AddRange(found);
+        Console.WriteLine($"schedule [{category}] -> {found.Count} PDF");
+        await Delay();
+    }
+
+    await store.WriteAsync("schedule.json", docs);
+}
+
+async Task ScrapeMirroredPagesAsync()
+{
+    foreach (var page in MirrorCatalog.Pages)
+    {
+        var path = $"pages/{page.Group}-{page.Slug}.json";
+        if (!options.Refresh && store.Exists(path))
+            continue;
+
+        Console.WriteLine($"page [{page.Group}] {page.SourceUrl}");
+        await TryMirrorAsync(page.SourceUrl, path, page.Title);
+        await Delay();
+    }
+
+    Console.WriteLine($"pages -> {MirrorCatalog.Pages.Count} розділів");
+}
+
+async Task ScrapeDepartmentsAsync(List<StaffItem> staffList)
+{
+    var urls = staffList
+        .Select(s => s.Group.Url)
+        .OfType<string>()
+        .Distinct()
+        .ToList();
+
+    await MirrorEachAsync("departments", urls.Select(u => (SiteUrls.Slug(u), u)));
+    Console.WriteLine($"departments -> {urls.Count} сторінок підрозділів");
+}
+
+async Task ScrapeEmployeesAsync(List<StaffItem> staffList)
+{
+    if (options.SkipProfiles)
+    {
+        Console.WriteLine("employees -> пропущено (--skip-profiles)");
+        return;
+    }
+
+    var scraper = new EmployeeScraper(htmlSource);
+    var urls = staffList.Select(s => s.ProfileUrl).Distinct().ToList();
+    var written = 0;
+
+    foreach (var url in urls)
+    {
+        var path = $"employees/{SiteUrls.Slug(url)}.json";
+        if (!options.Refresh && store.Exists(path))
+            continue;
+
+        Console.WriteLine($"employee [{written + 1}] {url}");
         try
         {
-            profiles.Add(await employeeScraper.LoadAsync(link));
+            await store.WriteAsync(path, await scraper.LoadAsync(url));
+            written++;
         }
         catch (Exception ex)
         {
             Console.WriteLine($"  ! пропущено: {ex.Message}");
         }
 
-        await Task.Delay(TimeSpan.FromSeconds(1));
+        await Delay();
     }
 
-    await WriteJson(Path.Combine(outDir, "employees.json"), profiles);
-    Console.WriteLine($"employees -> {profiles.Count}/{profileUrls.Count}");
+    Console.WriteLine($"employees -> завантажено {written}, всього в списку {urls.Count}");
 }
 
-return;
-
-async Task WriteJson<T>(string relativePath, T value)
+async Task MirrorEachAsync(string folder, IEnumerable<(string Slug, string Url)> items)
 {
-    var full = Path.GetFullPath(relativePath);
-    Directory.CreateDirectory(Path.GetDirectoryName(full)!);
-    await File.WriteAllTextAsync(full, JsonSerializer.Serialize(value, jsonOptions) + Environment.NewLine);
+    var written = 0;
+
+    foreach (var (slug, url) in items)
+    {
+        if (slug.Length == 0)
+            continue;
+
+        var path = $"{folder}/{slug}.json";
+        if (!options.Refresh && store.Exists(path))
+            continue;
+
+        Console.WriteLine($"{folder} [{written + 1}] {url}");
+        if (await TryMirrorAsync(url, path))
+            written++;
+
+        await Delay();
+    }
+
+    Console.WriteLine($"  -> {folder}: завантажено {written}");
 }
 
-static bool IsFlag(string arg) =>
-    arg.StartsWith("profiles", StringComparison.OrdinalIgnoreCase) || int.TryParse(arg, out _);
+async Task<bool> TryMirrorAsync(string url, string path, string? titleOverride = null)
+{
+    try
+    {
+        var page = await articles.LoadAsync(url);
+        if (titleOverride is not null)
+            page = page with { Title = titleOverride };
+
+        await store.WriteAsync(path, page);
+        return true;
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"  ! пропущено {url}: {ex.Message}");
+        return false;
+    }
+}
+
+Task Delay() => Task.Delay(options.DelayMs);
+
+file sealed class JsonStore(string root)
+{
+    private static readonly JsonSerializerOptions Options = new()
+    {
+        WriteIndented = true,
+        Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+        DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+    };
+
+    public bool Exists(string relativePath) => File.Exists(Path.Combine(root, relativePath));
+
+    public async Task WriteAsync<T>(string relativePath, T value)
+    {
+        var full = Path.GetFullPath(Path.Combine(root, relativePath));
+        Directory.CreateDirectory(Path.GetDirectoryName(full)!);
+        await File.WriteAllTextAsync(full, JsonSerializer.Serialize(value, Options) + Environment.NewLine);
+    }
+}
+
+file sealed record ScraperOptions(string OutDir, int NewsPages, bool SkipProfiles, bool Refresh, int DelayMs)
+{
+    public static ScraperOptions Parse(string[] args)
+    {
+        var outDir = Path.Combine("ModernLNUElectronicsWebSite", "wwwroot", "data");
+        var newsPages = 3;
+        var skipProfiles = false;
+        var refresh = false;
+        var delayMs = 1000;
+
+        for (var i = 0; i < args.Length; i++)
+        {
+            switch (args[i])
+            {
+                case "--out" when i + 1 < args.Length:
+                    outDir = args[++i];
+                    break;
+
+                case "--news-pages" when i + 1 < args.Length && int.TryParse(args[i + 1], out var pages):
+                    newsPages = Math.Max(1, pages);
+                    i++;
+                    break;
+
+                case "--delay" when i + 1 < args.Length && int.TryParse(args[i + 1], out var delay):
+                    delayMs = Math.Max(0, delay);
+                    i++;
+                    break;
+
+                case "--skip-profiles":
+                    skipProfiles = true;
+                    break;
+
+                case "--refresh":
+                    refresh = true;
+                    break;
+
+                default:
+                    Console.WriteLine($"Невідомий аргумент: {args[i]}");
+                    break;
+            }
+        }
+
+        return new ScraperOptions(outDir, newsPages, skipProfiles, refresh, delayMs);
+    }
+}
