@@ -1,4 +1,5 @@
 ﻿using System.Text.Encodings.Web;
+using System.Text.RegularExpressions;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using ModernLNUElectronicsWebSite.Data;
@@ -36,6 +37,14 @@ if (options.PagesOnly)
     return;
 }
 
+if (options.CoursesOnly)
+{
+    await ScrapeCoursesAsync(await store.ReadAsync<List<StaffItem>>("staff.json") ?? []);
+    await BuildSearchIndexAsync();
+    Console.WriteLine("Готово (лише дисципліни).");
+    return;
+}
+
 var newsCount = await ScrapeNewsAsync();
 var staff = await ScrapeStaffAsync();
 await ScrapeAdministrationAsync();
@@ -44,6 +53,7 @@ var scheduleCount = await ScrapeScheduleAsync();
 await ScrapeMirroredPagesAsync();
 var departmentCount = await ScrapeDepartmentsAsync(staff);
 var profileCount = await ScrapeEmployeesAsync(staff);
+var courseCount = await ScrapeCoursesAsync(staff);
 
 await EnrichStaffPhotosAsync();
 await BuildSearchIndexAsync();
@@ -56,6 +66,7 @@ await store.WriteAsync("meta.json", new MirrorMeta
     EmployeeProfileCount = profileCount,
     DepartmentCount = departmentCount,
     ScheduleDocCount = scheduleCount,
+    CourseCount = courseCount,
 });
 
 Console.WriteLine("Готово.");
@@ -78,9 +89,6 @@ async Task<int> ScrapeNewsAsync()
             await Delay();
     }
 
-    // Стрічка-джерело має 260+ сторінок, а обходимо ми лише кілька перших.
-    // Якби ми просто перезаписували news.json, архів був би ковзним вікном
-    // і старі новини випадали б із дзеркала, хоча їхні статті вже збережені.
     var archive = await store.ReadAsync<List<NewsItem>>("news.json") ?? [];
     var byUrl = archive.ToDictionary(i => i.Url, StringComparer.Ordinal);
     var added = 0;
@@ -89,7 +97,6 @@ async Task<int> ScrapeNewsAsync()
     {
         if (byUrl.TryGetValue(item.Url, out var known))
         {
-            // Свіжі дані виграють, але обкладинку, знайдену раніше, не губимо.
             byUrl[item.Url] = item with { CoverImageUrl = item.CoverImageUrl ?? known.CoverImageUrl };
             continue;
         }
@@ -112,8 +119,94 @@ async Task<int> ScrapeNewsAsync()
     return index.Count;
 }
 
-/// У списку співробітників на джерелі фотографій немає - беремо їх зі
-/// сторінок профілів, які й так уже завантажені.
+async Task<int> ScrapeCoursesAsync(List<StaffItem> staffList)
+{
+    var urls = new Dictionary<string, string>(StringComparer.Ordinal);
+    var linkTitles = new Dictionary<string, string>(StringComparer.Ordinal);
+    var lecturers = new Dictionary<string, List<CourseLecturer>>(StringComparer.Ordinal);
+
+    foreach (var person in staffList.DistinctBy(s => s.ProfileUrl))
+    {
+        var personSlug = SiteUrls.Slug(person.ProfileUrl);
+        var profile = await store.ReadAsync<EmployeeProfile>($"employees/{SiteUrls.FileName(personSlug)}.json");
+        if (profile is null)
+            continue;
+
+        foreach (var course in profile.Courses)
+        {
+            if (!SiteUrls.IsOriginalSite(course.Url) || SiteUrls.Kind(course.Url) is not "course")
+                continue;
+
+            var slug = SiteUrls.Slug(course.Url);
+            if (slug.Length == 0)
+                continue;
+
+            urls.TryAdd(slug, course.Url);
+            linkTitles.TryAdd(slug, course.Title);
+
+            if (!lecturers.TryGetValue(slug, out var people))
+                lecturers[slug] = people = [];
+
+            if (people.All(l => l.Slug != personSlug))
+                people.Add(new CourseLecturer(person.FullName, personSlug));
+        }
+    }
+
+    Console.WriteLine($"courses -> знайдено {urls.Count} дисциплін у профілях");
+
+    var fromText = await CollectCourseLinksAsync(urls);
+    Console.WriteLine($"  -> ще {fromText} з навчальних планів і сторінок кафедр");
+
+    await MirrorEachAsync("courses", urls.Select(kv => (kv.Key, kv.Value)));
+
+    var index = new List<CourseRef>(urls.Count);
+
+    foreach (var (slug, url) in urls)
+    {
+        var page = await store.ReadAsync<MirrorPage>($"courses/{SiteUrls.FileName(slug)}.json");
+
+        index.Add(new CourseRef
+        {
+            Slug = slug,
+            Title = page?.Title is { Length: > 0 } title
+                ? title
+                : linkTitles.TryGetValue(slug, out var linkTitle) ? linkTitle : slug,
+            SourceUrl = url,
+            Lecturers = lecturers.TryGetValue(slug, out var people) ? people : [],
+        });
+    }
+
+    index.Sort((a, b) => string.Compare(a.Title, b.Title, StringComparison.CurrentCultureIgnoreCase));
+
+    await store.WriteAsync("courses.json", index);
+    Console.WriteLine($"  -> у каталозі {index.Count} дисциплін");
+
+    return index.Count;
+}
+
+async Task<int> CollectCourseLinksAsync(IDictionary<string, string> urls)
+{
+    var added = 0;
+
+    foreach (var folder in new[] { "employees", "departments", "pages", "news", "courses" })
+    {
+        foreach (var file in store.FilesIn(folder))
+        {
+            var raw = await File.ReadAllTextAsync(file);
+
+            foreach (Match match in CourseLinks.Href.Matches(raw))
+            {
+                var slug = match.Groups["slug"].Value;
+
+                if (slug.Length > 0 && urls.TryAdd(slug, $"{SiteUrls.Origin}/course/{slug}/"))
+                    added++;
+            }
+        }
+    }
+
+    return added;
+}
+
 async Task EnrichStaffPhotosAsync()
 {
     var staffList = await store.ReadAsync<List<StaffItem>>("staff.json");
@@ -140,8 +233,6 @@ async Task EnrichStaffPhotosAsync()
     Console.WriteLine($"staff -> фото у {updated.Count(p => p.PhotoUrl is not null)} із {updated.Count}");
 }
 
-/// Один файл замість 230+: пошук по тілах новин, профілів і сторінок
-/// підрозділів інакше означав би 3 МБ запитів із браузера.
 async Task BuildSearchIndexAsync()
 {
     var docs = new List<SearchDoc>(SearchIndexBuilder.StaticPages());
@@ -298,13 +389,29 @@ async Task BuildSearchIndexAsync()
             Date: page.PublishedAt));
     }
 
+    foreach (var course in await store.ReadAsync<List<CourseRef>>("courses.json") ?? [])
+    {
+        var page = await store.ReadAsync<MirrorPage>($"courses/{SiteUrls.FileName(course.Slug)}.json");
+
+        docs.Add(new SearchDoc(
+            Id: $"course:{course.Slug}",
+            Kind: SearchKind.Course,
+            Title: course.Title,
+            Route: $"courses/{course.Slug}",
+            SourceUrl: course.SourceUrl,
+            Subtitle: course.Lecturers.Count > 0
+                ? $"Дисципліна · {string.Join(", ", course.Lecturers.Take(2).Select(l => l.Name))}"
+                : "Навчальна дисципліна",
+            Text: SearchIndexBuilder.Plain(page?.PlainText, SearchIndexBuilder.MaxCourseText),
+            Date: null));
+    }
+
     var index = docs.GroupBy(d => d.Id).Select(g => g.First()).ToList();
     await store.WriteAsync("search-index.json", index, indented: false);
     Console.WriteLine($"search-index -> {index.Count} записів, " +
         $"{index.Sum(d => d.Text.Length) / 1024} КБ тексту");
 }
 
-/// Обкладинки немає у стрічці-джерелі - беремо її з уже збереженої статті.
 async Task<string?> CoverOfAsync(string slug) =>
     (await store.ReadAsync<MirrorPage>($"news/{SiteUrls.FileName(slug)}.json"))?.CoverImageUrl;
 
@@ -478,6 +585,12 @@ file sealed class JsonStore(string root)
 
     public bool Exists(string relativePath) => File.Exists(Path.Combine(root, relativePath));
 
+    public IEnumerable<string> FilesIn(string folder)
+    {
+        var directory = Path.Combine(root, folder);
+        return Directory.Exists(directory) ? Directory.EnumerateFiles(directory, "*.json") : [];
+    }
+
     public int Count(string folder)
     {
         var path = Path.Combine(root, folder);
@@ -511,7 +624,7 @@ file sealed class JsonStore(string root)
 }
 
 file sealed record ScraperOptions(
-    string OutDir, int NewsPages, bool SkipProfiles, bool Refresh, bool IndexOnly, bool PagesOnly, int DelayMs)
+    string OutDir, int NewsPages, bool SkipProfiles, bool Refresh, bool IndexOnly, bool PagesOnly, bool CoursesOnly, int DelayMs)
 {
     public static ScraperOptions Parse(string[] args)
     {
@@ -521,6 +634,7 @@ file sealed record ScraperOptions(
         var refresh = false;
         var indexOnly = false;
         var pagesOnly = false;
+        var coursesOnly = false;
         var delayMs = 1000;
 
         for (var i = 0; i < args.Length; i++)
@@ -557,12 +671,23 @@ file sealed record ScraperOptions(
                     pagesOnly = true;
                     break;
 
+                case "--courses-only":
+                    coursesOnly = true;
+                    break;
+
                 default:
                     Console.WriteLine($"Невідомий аргумент: {args[i]}");
                     break;
             }
         }
 
-        return new ScraperOptions(outDir, newsPages, skipProfiles, refresh, indexOnly, pagesOnly, delayMs);
+        return new ScraperOptions(outDir, newsPages, skipProfiles, refresh, indexOnly, pagesOnly, coursesOnly, delayMs);
     }
+}
+
+file static class CourseLinks
+{
+    public static readonly Regex Href = new(
+        @"electronics\.lnu\.edu\.ua/course/(?<slug>[a-zA-Z0-9\-]+)|href=[\\""]*courses/(?<slug>[a-zA-Z0-9\-]+)",
+        RegexOptions.Compiled);
 }

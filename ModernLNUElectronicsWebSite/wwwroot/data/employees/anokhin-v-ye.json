@@ -39,7 +39,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Розподілені технології та бази даних (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnolohii-analizu-danykh-technologies-of-data-analysis-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології аналізу даних / Technologies of Data Analysis (122 КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/bazy-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Бази даних (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/veb-prohramuvannia-na-storoni-kliienta/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб програмування на стороні клієнта</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/khmarni-obchyslennia-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Хмарні обчислення (КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2\">Розподілені технології та бази даних (ВПК)</a></li>\n<li><a href=\"courses/tekhnolohii-analizu-danykh-technologies-of-data-analysis-122-kn\">Технології аналізу даних / Technologies of Data Analysis (122 КН)</a></li>\n<li><a href=\"courses/bazy-danykh-ipz\">Бази даних (ІПЗ)</a></li>\n<li><a href=\"courses/veb-prohramuvannia-na-storoni-kliienta\">Веб програмування на стороні клієнта</a></li>\n<li><a href=\"courses/khmarni-obchyslennia-kn\">Хмарні обчислення (КН)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

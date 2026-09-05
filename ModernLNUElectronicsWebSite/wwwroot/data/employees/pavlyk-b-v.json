@@ -33,7 +33,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/aktualni-pytannya-sensornoji-elektroniky/\" target=\"_blank\" rel=\"noopener noreferrer\">Актуальні питання сенсорної електроніки</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tverdotilna-elektronika-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Твердотільна електроніка</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/aktualni-pytannya-sensornoji-elektroniky\">Актуальні питання сенсорної електроніки</a></li>\n<li><a href=\"courses/tverdotilna-elektronika-2\">Твердотільна електроніка</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

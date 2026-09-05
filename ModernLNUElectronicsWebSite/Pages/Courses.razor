@@ -1,0 +1,100 @@
+@page "/courses"
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using ModernLNUElectronicsWebSite.Content
+@using ModernLNUElectronicsWebSite.Data
+@inject MirrorContentClient Content
+
+<PageMeta Title="Навчальні дисципліни"
+          Description="Каталог навчальних дисциплін факультету електроніки та комп'ютерних технологій ЛНУ з пошуком за назвою та викладачем."
+          Canonical="@($"{SiteUrls.Origin}/about/staff/")" />
+
+<MudText Typo="Typo.h4" HtmlTag="h1" GutterBottom="true" Class="fw-600">Навчальні дисципліни</MudText>
+<MudText Typo="Typo.body2" Class="mud-text-secondary mb-4">
+    Курси, які ведуть співробітники факультету. Сторінка кожного відкривається тут, без переходу на оригінал.
+</MudText>
+
+<MudTextField T="string"
+              Value="_query"
+              ValueChanged="OnQueryChanged"
+              Immediate="true"
+              DebounceInterval="250"
+              Placeholder="Пошук за назвою дисципліни або прізвищем викладача..."
+              Adornment="Adornment.Start"
+              AdornmentIcon="@Icons.Material.Filled.Search"
+              Clearable="true"
+              Variant="Variant.Outlined"
+              Margin="Margin.Dense"
+              Class="mb-3" />
+
+@if (_busy)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+}
+else if (_all.Count == 0)
+{
+    <MudAlert Severity="Severity.Info" Dense="true" Class="mb-4">
+        Каталог дисциплін ще не сформовано.
+    </MudAlert>
+}
+else
+{
+    <MudText Typo="Typo.subtitle2" Class="mud-text-secondary mb-2">
+        Показано @_shown із @_all.Count
+    </MudText>
+
+    @if (_shown == 0)
+    {
+        <MudText Class="mt-6 mud-text-secondary">За запитом "@_query" нічого не знайдено.</MudText>
+    }
+    else
+    {
+        <Virtualize Items="_filtered" ItemSize="64" OverscanCount="8" Context="course">
+            <div class="course-row">
+                <MudLink Href="@($"courses/{course.Slug}")" Typo="Typo.body1">@course.Title</MudLink>
+                @if (course.Lecturers.Count > 0)
+                {
+                    <MudText Typo="Typo.caption" Class="mud-text-secondary d-block">
+                        @string.Join(", ", course.Lecturers.Select(l => l.Name))
+                    </MudText>
+                }
+            </div>
+        </Virtualize>
+    }
+}
+
+@code {
+    private List<CourseRef> _all = [];
+    private List<CourseRef> _filtered = [];
+    private int _shown;
+
+    private string? _query;
+    private bool _busy = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _all = await Content.TryGetCourseIndexAsync() ?? [];
+        Rebuild();
+        _busy = false;
+    }
+
+    private void OnQueryChanged(string? value)
+    {
+        _query = value;
+        Rebuild();
+    }
+
+    private void Rebuild()
+    {
+        var q = _query?.Trim();
+
+        _filtered = string.IsNullOrEmpty(q)
+            ? _all
+            : _all.Where(c => Matches(c, q)).ToList();
+
+        _shown = _filtered.Count;
+    }
+
+    private static bool Matches(CourseRef course, string q) =>
+        course.Title.Contains(q, StringComparison.OrdinalIgnoreCase)
+        || course.Lecturers.Any(l => l.Name.Contains(q, StringComparison.OrdinalIgnoreCase));
+}

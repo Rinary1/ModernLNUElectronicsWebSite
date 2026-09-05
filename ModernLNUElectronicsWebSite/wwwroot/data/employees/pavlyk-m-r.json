@@ -42,7 +42,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vbudovani-i-mobil-ni-operatsiyni-systemy-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Вбудовані і мобільні операційні системи (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/informatsiyna-bezpeka-prohram-ta-danykh-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Інформаційна безпека програм та даних (ІПЗ та ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/operatsiyni-systemy-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Операційні системи реального часу (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/operatsiyni-systemy-ta-systemne-prohramuvannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Операційні системи та системне програмування (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-vbudovanykh-system-ipz-2022/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи вбудованих систем (ІПЗ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/vbudovani-i-mobil-ni-operatsiyni-systemy-ist\">Вбудовані і мобільні операційні системи (ІСТ)</a></li>\n<li><a href=\"courses/informatsiyna-bezpeka-prohram-ta-danykh-121-ipz\">Інформаційна безпека програм та даних (ІПЗ та ВПК)</a></li>\n<li><a href=\"courses/operatsiyni-systemy-ipz\">Операційні системи реального часу (ІПЗ)</a></li>\n<li><a href=\"courses/operatsiyni-systemy-ta-systemne-prohramuvannia-ist\">Операційні системи та системне програмування (ІСТ)</a></li>\n<li><a href=\"courses/osnovy-vbudovanykh-system-ipz-2022\">Основи вбудованих систем (ІПЗ)</a></li>\n</ul>"
     },
     {
       "Title": "Вибрані публікації",

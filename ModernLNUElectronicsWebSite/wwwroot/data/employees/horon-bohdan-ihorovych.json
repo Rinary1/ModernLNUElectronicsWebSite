@@ -38,7 +38,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/analiz-skladnykh-system-i-merezh-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Аналіз складних систем і мереж (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-optoelektroniky-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Оптоелектронна інформатика (F3 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-komp-iuternoi-linhvistyky-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи комп'ютерної лінгвістики (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mova-prohramuvannia-python-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування мовою Python (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/analiz-skladnykh-system-i-merezh-122-komp-iuterni-nauky\">Аналіз складних систем і мереж (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/fizychni-osnovy-optoelektroniky-kn\">Оптоелектронна інформатика (F3 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/osnovy-komp-iuternoi-linhvistyky-122-kn\">Основи комп'ютерної лінгвістики (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/mova-prohramuvannia-python-kn\">Програмування мовою Python (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

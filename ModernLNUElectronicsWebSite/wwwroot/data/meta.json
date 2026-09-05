@@ -1,8 +1,9 @@
 {
-  "GeneratedAt": "2026-09-05T04:38:35.9045673Z",
+  "GeneratedAt": "2026-09-05T10:00:30.5916402Z",
   "NewsCount": 40,
   "StaffCount": 186,
   "EmployeeProfileCount": 167,
   "DepartmentCount": 14,
-  "ScheduleDocCount": 28
+  "ScheduleDocCount": 28,
+  "CourseCount": 434
 }

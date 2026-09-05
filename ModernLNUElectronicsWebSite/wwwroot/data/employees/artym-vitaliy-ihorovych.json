@@ -21,7 +21,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка інформації (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/tsyfrova-obrobka-informatsii\">Цифрова обробка інформації (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Біографія",

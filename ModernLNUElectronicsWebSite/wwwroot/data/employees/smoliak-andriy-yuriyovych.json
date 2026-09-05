@@ -21,7 +21,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-pryjnyattya-rishen/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія прийняття рішень (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/teoriya-pryjnyattya-rishen\">Теорія прийняття рішень (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Біографія",

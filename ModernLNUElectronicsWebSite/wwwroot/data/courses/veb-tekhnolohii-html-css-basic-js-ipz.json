@@ -1,0 +1,7 @@
+{
+  "Slug": "veb-tekhnolohii-html-css-basic-js-ipz",
+  "SourceUrl": "https://electronics.lnu.edu.ua/course/veb-tekhnolohii-html-css-basic-js-ipz/",
+  "Title": "Веб-технології (ІСТ)",
+  "BodyHtml": "<p>Тип: Нормативний</p>\n<p>Кафедра: <a href=\"departments/system-design\">системного проектування</a></p>\n<h2>Навчальний план</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>Кредити</td><td>Звітність</td></tr>\n<tr><td>5</td><td>3.5</td><td>Іспит</td></tr>\n</tbody>\n</table>\n\n\n<h2>Лекції</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>К-сть годин</td><td>Лектор</td><td>Група(и)</td></tr>\n<tr><td>5</td><td>32</td><td><a href=\"./\">Лозинський&nbsp;В.&nbsp;М.</a></td><td>ФеС-31</td></tr>\n</tbody>\n</table>\n\n\n<h2>Лабораторні</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>К-сть годин</td><td>Група</td><td>Викладач(і)</td></tr>\n<tr><td rowspan=\"1\">5</td><td rowspan=\"1\">32</td><td>ФеС-31</td><td><a href=\"./\">Лозинський&nbsp;В.&nbsp;М.</a></td></tr>\n</tbody>\n</table>",
+  "PlainText": "Тип: Нормативний Кафедра: системного проектування Навчальний план СеместрКредитиЗвітність 53.5Іспит Лекції СеместрК-сть годинЛекторГрупа(и) 532Лозинський В. М.ФеС-31 Лабораторні СеместрК-сть годинГрупаВикладач(і) 532ФеС-31Лозинський В. М."
+}

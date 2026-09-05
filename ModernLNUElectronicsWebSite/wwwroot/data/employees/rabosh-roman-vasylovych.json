@@ -36,7 +36,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitektura-pz-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура ПЗ (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vybrani-rozdily-suchasnykh-mov-ta-zasobiv-prohramuvannia-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Вибрані розділи сучасних мов та засобів програмування (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nechitki-systemy-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Нечіткі системи (ІПЗ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/arkhitektura-pz-ipz\">Архітектура ПЗ (ІПЗ)</a></li>\n<li><a href=\"courses/vybrani-rozdily-suchasnykh-mov-ta-zasobiv-prohramuvannia-vpk\">Вибрані розділи сучасних мов та засобів програмування (ВПК)</a></li>\n<li><a href=\"courses/nechitki-systemy-ipz\">Нечіткі системи (ІПЗ)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

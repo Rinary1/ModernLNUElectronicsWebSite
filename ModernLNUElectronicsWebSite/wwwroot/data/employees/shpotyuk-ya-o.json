@@ -23,7 +23,7 @@
   "Sections": [
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів і  програмування (171 Електроніка та комп’ютерні системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/personalni-kompyutery/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів та комп'ютерні технології (Сенсорні та діагностичні автоматизовані системи)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt\">Архітектура комп'ютерів і  програмування (171 Електроніка та комп’ютерні системи)</a></li>\n<li><a href=\"courses/personalni-kompyutery\">Архітектура комп'ютерів та комп'ютерні технології (Сенсорні та діагностичні автоматизовані системи)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

@@ -33,7 +33,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/bazy-danykh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Бази даних (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/veb-prohramuvannia-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб-технології і програмування (ч.2) (ІПЗ та ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/web-tekhnolohii-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб-технології та програмування ч.1 (HTML, CSS, basic JS) (ІПЗ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/bazy-danykh-vpk\">Бази даних (ВПК)</a></li>\n<li><a href=\"courses/veb-prohramuvannia-kn\">Веб-технології і програмування (ч.2) (ІПЗ та ВПК)</a></li>\n<li><a href=\"courses/web-tekhnolohii-ipz\">Веб-технології та програмування ч.1 (HTML, CSS, basic JS) (ІПЗ)</a></li>\n</ul>"
     },
     {
       "Title": "Розклад",

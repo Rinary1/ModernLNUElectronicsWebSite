@@ -39,7 +39,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/chysel-ni-metody-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи обчислень (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-obchyslen-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи та технології обчислень(ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи інженерії програмного забезпечення (ІПЗ та ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/chyselni-metody-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Чисельні методи (КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/chysel-ni-metody-ist\">Методи обчислень (ІСТ)</a></li>\n<li><a href=\"courses/metody-obchyslen-ipz\">Методи та технології обчислень(ІПЗ)</a></li>\n<li><a href=\"courses/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz\">Основи інженерії програмного забезпечення (ІПЗ та ВПК)</a></li>\n<li><a href=\"courses/chyselni-metody-2\">Чисельні методи (КН)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

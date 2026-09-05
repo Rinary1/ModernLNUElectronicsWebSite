@@ -40,7 +40,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/bezprovidni-ta-mobilni-merezhi-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Безпровідні та мобільні мережі (121 ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/proektuvannia-prystroiv-tsyfrovoi-ta-analohovoi-elektroniky-2022-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Проектування пристроїв цифрової та аналогової електроніки 2022 (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-ta-analohova-elektronika-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова та аналогова електроніка (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannya/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритмізація та програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-alhorytmiv/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія обчислень, алгоритми і структури даних (122)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/bezprovidni-ta-mobilni-merezhi-121-ipz\">Безпровідні та мобільні мережі (121 ІПЗ)</a></li>\n<li><a href=\"courses/proektuvannia-prystroiv-tsyfrovoi-ta-analohovoi-elektroniky-2022-ipz\">Проектування пристроїв цифрової та аналогової електроніки 2022 (ІПЗ)</a></li>\n<li><a href=\"courses/tsyfrova-ta-analohova-elektronika-ipz\">Цифрова та аналогова електроніка (ІПЗ)</a></li>\n<li><a href=\"courses/prohramuvannya\">Алгоритмізація та програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/teoriya-alhorytmiv\">Теорія обчислень, алгоритми і структури даних (122)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

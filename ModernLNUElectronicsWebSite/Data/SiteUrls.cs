@@ -1,4 +1,4 @@
-namespace ModernLNUElectronicsWebSite.Data;
+﻿namespace ModernLNUElectronicsWebSite.Data;
 
 public static class SiteUrls
 {
@@ -34,6 +34,7 @@ public static class SiteUrls
         ["news"] = "news",
         ["employee"] = "staff",
         ["department"] = "departments",
+        ["course"] = "courses",
     };
 
     public static string Slug(string url)

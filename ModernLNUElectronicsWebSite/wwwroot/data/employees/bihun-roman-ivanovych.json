@@ -38,7 +38,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/elektronni-protsesy-v-nanorozmirnyh-systemah/\" target=\"_blank\" rel=\"noopener noreferrer\">Електронні процеси в нанорозмірних системах (176 – Мікро- та наносистемна техніка)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kiberfizychni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Кіберфізичні системи</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mikro-i-nanospetsializovani-elementy-ta-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Мікро- і наноспеціалізовані елементи та системи</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnolohii-ta-materialy-system-hnuchkoi-elektroniky/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології та матеріали систем гнучкої електроніки</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/elektronni-protsesy-v-nanorozmirnyh-systemah\">Електронні процеси в нанорозмірних системах (176 – Мікро- та наносистемна техніка)</a></li>\n<li><a href=\"courses/kiberfizychni-systemy\">Кіберфізичні системи</a></li>\n<li><a href=\"courses/mikro-i-nanospetsializovani-elementy-ta-systemy\">Мікро- і наноспеціалізовані елементи та системи</a></li>\n<li><a href=\"courses/tekhnolohii-ta-materialy-system-hnuchkoi-elektroniky\">Технології та матеріали систем гнучкої електроніки</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

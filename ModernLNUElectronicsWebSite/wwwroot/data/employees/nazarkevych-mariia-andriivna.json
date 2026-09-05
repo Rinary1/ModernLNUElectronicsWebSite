@@ -39,7 +39,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/systemy-kompyuternoji-matematyky/\" target=\"_blank\" rel=\"noopener noreferrer\">Високорівневі системи комп’ютерного захисту  (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannia-vbudovanykh-system-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування вбудованих та конфігурованих систем (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/proektuvannia-skhem-drukovanykh-plat-126-informatsiyni-systemy-ta-tekhnolohii/\" target=\"_blank\" rel=\"noopener noreferrer\">Проектування схем (друкованих плат) (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-informatsiji/\" target=\"_blank\" rel=\"noopener noreferrer\">Прикладна теорія інформації / Applied Information Theory (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/systemy-kompyuternoji-matematyky\">Високорівневі системи комп’ютерного захисту  (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/prohramuvannia-vbudovanykh-system-121-ipz\">Програмування вбудованих та конфігурованих систем (ІПЗ)</a></li>\n<li><a href=\"courses/proektuvannia-skhem-drukovanykh-plat-126-informatsiyni-systemy-ta-tekhnolohii\">Проектування схем (друкованих плат) (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"courses/teoriya-informatsiji\">Прикладна теорія інформації / Applied Information Theory (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

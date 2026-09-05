@@ -33,7 +33,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритми і структури даних (ІПЗ ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Об'єктно-орієнтоване програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Об'єктно-орієнтоване програмування (ІПЗ, ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnolohii-stvorennia-prohramnykh-produktiv-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології створення програмних  продуктів (КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia\">Алгоритми і структури даних (ІПЗ ВПК)</a></li>\n<li><a href=\"courses/ob-iektno-oriientovane-prohramuvannia-kn\">Об'єктно-орієнтоване програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/ob-iektno-oriientovane-prohramuvannia-ipz\">Об'єктно-орієнтоване програмування (ІПЗ, ВПК)</a></li>\n<li><a href=\"courses/tekhnolohii-stvorennia-prohramnykh-produktiv-kn\">Технології створення програмних  продуктів (КН)</a></li>\n</ul>"
     },
     {
       "Title": "Біографія",

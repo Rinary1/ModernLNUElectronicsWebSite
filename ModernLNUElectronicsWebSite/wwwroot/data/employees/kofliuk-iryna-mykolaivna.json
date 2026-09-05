@@ -40,7 +40,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/zahalna-fizyka/\" target=\"_blank\" rel=\"noopener noreferrer\">Загальна фізика (Сенсорні та діагностичні автоматизовані системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/biofizyka/\" target=\"_blank\" rel=\"noopener noreferrer\">Інженерія біомедичних систем 176</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-elektroniky/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи електроніки (122 - Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-elektroniky-eikt/\" target=\"_blank\" rel=\"noopener noreferrer\">Фізичні основи електроніки (171 - Електроніка та комп’ютерні системи)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/zahalna-fizyka\">Загальна фізика (Сенсорні та діагностичні автоматизовані системи)</a></li>\n<li><a href=\"courses/biofizyka\">Інженерія біомедичних систем 176</a></li>\n<li><a href=\"courses/fizychni-osnovy-elektroniky\">Основи електроніки (122 - Комп'ютерні науки)</a></li>\n<li><a href=\"courses/fizychni-osnovy-elektroniky-eikt\">Фізичні основи електроніки (171 - Електроніка та комп’ютерні системи)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

@@ -41,7 +41,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/optoelektronika-171-eks/\" target=\"_blank\" rel=\"noopener noreferrer\">Оптоелектроніка (171 Електроніка)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/optoelektronika/\" target=\"_blank\" rel=\"noopener noreferrer\">Оптоелектроніка (176 Мікро- та наносистемна техніка)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-optoelektroniky-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Оптоелектронна інформатика (F3 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/intelektualni-sensorni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Сучасні інтелектуальні сенсори та системи (F3 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/optoelektronika-171-eks\">Оптоелектроніка (171 Електроніка)</a></li>\n<li><a href=\"courses/optoelektronika\">Оптоелектроніка (176 Мікро- та наносистемна техніка)</a></li>\n<li><a href=\"courses/fizychni-osnovy-optoelektroniky-kn\">Оптоелектронна інформатика (F3 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/intelektualni-sensorni-systemy\">Сучасні інтелектуальні сенсори та системи (F3 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

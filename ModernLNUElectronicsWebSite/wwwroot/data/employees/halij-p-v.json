@@ -38,7 +38,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nanoinzheneriia-ta-elektronna-spektroskopiia-poverkhni/\" target=\"_blank\" rel=\"noopener noreferrer\">Наноінженерія та електронна спектроскопія поверхні</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nanosystemy-ta-nanotechnologii/\" target=\"_blank\" rel=\"noopener noreferrer\">Наносистеми та нанотехнології (176 Мікро- та наносистемна техніка)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/napivprovidnykova-elektronika-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Напівпровідникова електроніка</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/funktsionalna-elektronika/\" target=\"_blank\" rel=\"noopener noreferrer\">Функціональна електроніка</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/nanoinzheneriia-ta-elektronna-spektroskopiia-poverkhni\">Наноінженерія та електронна спектроскопія поверхні</a></li>\n<li><a href=\"courses/nanosystemy-ta-nanotechnologii\">Наносистеми та нанотехнології (176 Мікро- та наносистемна техніка)</a></li>\n<li><a href=\"courses/napivprovidnykova-elektronika-2\">Напівпровідникова електроніка</a></li>\n<li><a href=\"courses/funktsionalna-elektronika\">Функціональна електроніка</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

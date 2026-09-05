@@ -41,7 +41,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ekspertni-systemy-126-informatsiyni-systemy-ta-tekhnolohii-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Експертні системи (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-shtuchnoho-intelektu-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи штучного інтелекту  (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-ta-systemy-shtuchnoho-intelektu/\" target=\"_blank\" rel=\"noopener noreferrer\">Системи штучного інтелекту (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-shtuchnoho-intelektu-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Системи штучного інтелекту (126 Інформаційні системи та технології)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/ekspertni-systemy-126-informatsiyni-systemy-ta-tekhnolohii-2\">Експертні системи (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"courses/osnovy-shtuchnoho-intelektu-ipz\">Основи штучного інтелекту  (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"courses/metody-ta-systemy-shtuchnoho-intelektu\">Системи штучного інтелекту (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/osnovy-shtuchnoho-intelektu-ist\">Системи штучного інтелекту (126 Інформаційні системи та технології)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

@@ -30,7 +30,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mikroprotsesorna-tekhnika-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Мікропроцесорна техніка (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mikroprotsesorni-systemy-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Мікропроцесорні системи (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/mikroprotsesorna-tekhnika-kn\">Мікропроцесорна техніка (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/mikroprotsesorni-systemy-2\">Мікропроцесорні системи (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

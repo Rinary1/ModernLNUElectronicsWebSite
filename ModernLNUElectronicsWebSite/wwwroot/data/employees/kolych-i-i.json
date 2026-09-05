@@ -33,7 +33,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-mashynnoho-navchannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Системи машинного навчання (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ta-systemy-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп’ютерні інформаційні мережі та системи (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/komp-iuterni-merezhi-ta-protokoly-peredachi-danykh-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп’ютерні мережі та протоколи передачі даних (КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/osnovy-mashynnoho-navchannia-ist\">Системи машинного навчання (ІСТ)</a></li>\n<li><a href=\"courses/komp-iuterni-informatsiyni-merezhi-ta-systemy-ist\">Комп’ютерні інформаційні мережі та системи (ІПЗ)</a></li>\n<li><a href=\"courses/komp-iuterni-merezhi-ta-protokoly-peredachi-danykh-kn\">Комп’ютерні мережі та протоколи передачі даних (КН)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

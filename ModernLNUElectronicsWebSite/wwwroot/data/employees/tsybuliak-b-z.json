@@ -26,7 +26,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ta-systemy-ipz-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп'ютерні інформаційні мережі та системи (ІПЗ, ВПК?)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ta-systemy-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп’ютерні інформаційні мережі та системи (ІПЗ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/komp-iuterni-informatsiyni-merezhi-ta-systemy-ipz-vpk\">Комп'ютерні інформаційні мережі та системи (ІПЗ, ВПК?)</a></li>\n<li><a href=\"courses/komp-iuterni-informatsiyni-merezhi-ta-systemy-ist\">Комп’ютерні інформаційні мережі та системи (ІПЗ)</a></li>\n</ul>"
     },
     {
       "Title": "Вибрані публікації",

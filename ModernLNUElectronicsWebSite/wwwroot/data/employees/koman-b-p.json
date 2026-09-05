@@ -30,7 +30,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-ta-komp-iuterna-skhemotekhnika-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів та комп'ютерна електроніка (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kompyuterna-shemotehnika-ta-arhitektura-kompyuteriv/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура обчислювальних систем та комп'ютерна схемотехніка (КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/arkhitektura-komp-iuteriv-ta-komp-iuterna-skhemotekhnika-ipz\">Архітектура комп'ютерів та комп'ютерна електроніка (ІПЗ)</a></li>\n<li><a href=\"courses/kompyuterna-shemotehnika-ta-arhitektura-kompyuteriv\">Архітектура обчислювальних систем та комп'ютерна схемотехніка (КН)</a></li>\n</ul>"
     },
     {
       "Title": "Вибрані публікації",

@@ -99,10 +99,19 @@ else
         <MudList T="string" Dense="true" Class="pa-0">
             @foreach (var course in _profile.Courses)
             {
-                <MudListItem T="string" Icon="@Icons.Material.Filled.MenuBook"
-                             Href="@course.Url" Target="_blank" rel="noopener noreferrer">
-                    <MudText Typo="Typo.body2">@course.Title</MudText>
-                </MudListItem>
+                @if (SiteUrls.ToMirrorRoute(course.Url) is { } route)
+                {
+                    <MudListItem T="string" Icon="@Icons.Material.Filled.MenuBook" Href="@route">
+                        <MudText Typo="Typo.body2">@course.Title</MudText>
+                    </MudListItem>
+                }
+                else
+                {
+                    <MudListItem T="string" Icon="@Icons.Material.Filled.MenuBook"
+                                 Href="@course.Url" Target="_blank" rel="noopener noreferrer">
+                        <MudText Typo="Typo.body2">@course.Title</MudText>
+                    </MudListItem>
+                }
             }
         </MudList>
     }

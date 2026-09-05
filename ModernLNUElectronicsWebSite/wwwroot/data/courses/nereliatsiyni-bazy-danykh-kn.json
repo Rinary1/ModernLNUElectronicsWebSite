@@ -1,0 +1,7 @@
+{
+  "Slug": "nereliatsiyni-bazy-danykh-kn",
+  "SourceUrl": "https://electronics.lnu.edu.ua/course/nereliatsiyni-bazy-danykh-kn/",
+  "Title": "Нереляційні бази даних (КН)",
+  "BodyHtml": "<p>Тип: На вибір студента</p>\n<p>Кафедра: <a href=\"departments/system-design\">системного проектування</a></p>\n\n\n<h2>Лекції</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>К-сть годин</td><td>Лектор</td><td>Група(и)</td></tr>\n<tr><td>7</td><td>16</td><td></td><td>ФеІ-42, ФеІ-43</td></tr>\n</tbody>\n</table>\n\n\n<h2>Лабораторні</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>К-сть годин</td><td>Група</td><td>Викладач(і)</td></tr>\n<tr><td rowspan=\"2\">7</td><td rowspan=\"2\">32</td><td>ФеІ-42</td><td><a href=\"staff/kaskun-o-d\">Каськун&nbsp;О.&nbsp;Д.</a></td></tr>\n<tr><td>ФеІ-43</td><td><a href=\"staff/kaskun-o-d\">Каськун&nbsp;О.&nbsp;Д.</a></td></tr>\n</tbody>\n</table>",
+  "PlainText": "Тип: На вибір студента Кафедра: системного проектування Лекції СеместрК-сть годинЛекторГрупа(и) 716ФеІ-42, ФеІ-43 Лабораторні СеместрК-сть годинГрупаВикладач(і) 732ФеІ-42Каськун О. Д. ФеІ-43Каськун О. Д."
+}

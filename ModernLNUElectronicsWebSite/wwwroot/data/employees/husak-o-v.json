@@ -15,7 +15,7 @@
   "Sections": [
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/orhanizatsiya-baz-danyh-ta-znan-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Організація баз даних та знань (КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/orhanizatsiya-baz-danyh-ta-znan-2\">Організація баз даних та знань (КН)</a></li>\n</ul>"
     },
     {
       "Title": "Біографія",

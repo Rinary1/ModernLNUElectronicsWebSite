@@ -34,7 +34,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/zasoby-hlybynnoho-navchannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Засоби глибинного навчання (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/zasoby-mashynnoho-navchannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Засоби машинного навчання (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannia-na-gp-gpu-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Програмування з використанням технологій GPGPU (ВПК)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/zasoby-hlybynnoho-navchannia-ipz\">Засоби глибинного навчання (ІПЗ)</a></li>\n<li><a href=\"courses/zasoby-mashynnoho-navchannia-ipz\">Засоби машинного навчання (ІПЗ)</a></li>\n<li><a href=\"courses/prohramuvannia-na-gp-gpu-vpk\">Програмування з використанням технологій GPGPU (ВПК)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

@@ -25,7 +25,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи інженерії програмного забезпечення (ІПЗ та ВПК)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz\">Основи інженерії програмного забезпечення (ІПЗ та ВПК)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

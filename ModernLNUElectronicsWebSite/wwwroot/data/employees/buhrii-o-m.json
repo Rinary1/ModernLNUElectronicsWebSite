@@ -29,7 +29,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-obchyslen-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи обчислень (ВПК)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/metody-obchyslen-vpk\">Методи обчислень (ВПК)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

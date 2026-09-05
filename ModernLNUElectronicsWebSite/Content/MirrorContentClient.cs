@@ -1,4 +1,4 @@
-using System.Net.Http.Json;
+﻿using System.Net.Http.Json;
 using System.Text.Json;
 using ModernLNUElectronicsWebSite.Data;
 
@@ -25,6 +25,12 @@ public sealed class MirrorContentClient(HttpClient http)
 
     public Task<MirrorMeta?> TryGetMetaAsync(CancellationToken ct = default) =>
         TryGetAsync<MirrorMeta>("data/meta.json", ct);
+
+    public Task<MirrorPage?> TryGetCourseAsync(string slug, CancellationToken ct = default) =>
+        TryGetAsync<MirrorPage>($"data/courses/{SiteUrls.FileName(slug)}.json", ct);
+
+    public Task<List<CourseRef>?> TryGetCourseIndexAsync(CancellationToken ct = default) =>
+        TryGetAsync<List<CourseRef>>("data/courses.json", ct);
 
     public Task<EmployeeProfile?> TryGetEmployeeAsync(string slug, CancellationToken ct = default) =>
         TryGetAsync<EmployeeProfile>($"data/employees/{SiteUrls.FileName(slug)}.json", ct);

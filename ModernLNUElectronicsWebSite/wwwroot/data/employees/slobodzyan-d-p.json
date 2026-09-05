@@ -41,7 +41,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів і  програмування (171 Електроніка та комп’ютерні системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/personalni-kompyutery/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів та комп'ютерні технології (Сенсорні та діагностичні автоматизовані системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-syhnaliv-171-elektronika-ta-komp-iuterni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка сигналів  (171 Електроніка та комп'ютерні системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrovi-syhnaly-mnt/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка сигналів 176</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt\">Архітектура комп'ютерів і  програмування (171 Електроніка та комп’ютерні системи)</a></li>\n<li><a href=\"courses/personalni-kompyutery\">Архітектура комп'ютерів та комп'ютерні технології (Сенсорні та діагностичні автоматизовані системи)</a></li>\n<li><a href=\"courses/tsyfrova-obrobka-syhnaliv-171-elektronika-ta-komp-iuterni-systemy\">Цифрова обробка сигналів  (171 Електроніка та комп'ютерні системи)</a></li>\n<li><a href=\"courses/tsyfrovi-syhnaly-mnt\">Цифрова обробка сигналів 176</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

@@ -1,0 +1,7 @@
+{
+  "Slug": "mova-prohramuvannia-javascript",
+  "SourceUrl": "https://electronics.lnu.edu.ua/course/mova-prohramuvannia-javascript/",
+  "Title": "Мова програмування JavaScript (ІСТ)",
+  "BodyHtml": "<p>Тип: На вибір студента</p>\n<p>Кафедра: <a href=\"departments/system-design\">системного проектування</a></p>\n<h2>Навчальний план</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>Кредити</td><td>Звітність</td></tr>\n<tr><td>7</td><td>6</td><td>Залік</td></tr>\n</tbody>\n</table>\n\n\n<h2>Лекції</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>К-сть годин</td><td>Лектор</td><td>Група(и)</td></tr>\n<tr><td>7</td><td>32</td><td></td><td>ФеС-42</td></tr>\n</tbody>\n</table>\n\n\n<h2>Лабораторні</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>К-сть годин</td><td>Група</td><td>Викладач(і)</td></tr>\n<tr><td rowspan=\"1\">7</td><td rowspan=\"1\">32</td><td>ФеС-42</td><td><a href=\"./\">Поляков&nbsp;А.&nbsp;С.</a></td></tr>\n</tbody>\n</table>",
+  "PlainText": "Тип: На вибір студента Кафедра: системного проектування Навчальний план СеместрКредитиЗвітність 76Залік Лекції СеместрК-сть годинЛекторГрупа(и) 732ФеС-42 Лабораторні СеместрК-сть годинГрупаВикладач(і) 732ФеС-42Поляков А. С."
+}

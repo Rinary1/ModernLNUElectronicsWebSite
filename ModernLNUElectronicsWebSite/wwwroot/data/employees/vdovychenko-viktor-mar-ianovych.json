@@ -21,7 +21,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/opratsiuvannia-pryrodnoi-movy-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Опрацювання природної мови (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/opratsiuvannia-pryrodnoi-movy-122-komp-iuterni-nauky\">Опрацювання природної мови (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

@@ -23,7 +23,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychni-osnovy-elektroniky/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи електроніки (122 - Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/fizychni-osnovy-elektroniky\">Основи електроніки (122 - Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Біографія",

@@ -19,7 +19,7 @@
   "Sections": [
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритми і структури даних (ІПЗ ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannya/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритмізація та програмування (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia\">Алгоритми і структури даних (ІПЗ ВПК)</a></li>\n<li><a href=\"courses/prohramuvannya\">Алгоритмізація та програмування (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Розклад",

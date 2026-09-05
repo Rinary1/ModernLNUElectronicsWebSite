@@ -37,7 +37,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-provedennia-tekhnichnoho-kontroliu-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи проведення технічного контролю</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/pryntsypy-pobudovy-tonkoplivkovykh-davachiv/\" target=\"_blank\" rel=\"noopener noreferrer\">Принципи побудови тонкоплівкових давачів</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tonkoplivkovi-tekhnolohii-v-mikroelektronitsi/\" target=\"_blank\" rel=\"noopener noreferrer\">Тонкоплівкові технології в мікроелектроніці</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizyka-i-khimiia-tekhnolohichnoho-protsesu-v-elektronitsi-171-elektronika-ta-komp-iuterni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Фізика і хімія технологічного процесу в електроніці (171 Електроніка та комп'ютерні системи)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/metody-provedennia-tekhnichnoho-kontroliu-2\">Методи проведення технічного контролю</a></li>\n<li><a href=\"courses/pryntsypy-pobudovy-tonkoplivkovykh-davachiv\">Принципи побудови тонкоплівкових давачів</a></li>\n<li><a href=\"courses/tonkoplivkovi-tekhnolohii-v-mikroelektronitsi\">Тонкоплівкові технології в мікроелектроніці</a></li>\n<li><a href=\"courses/fizyka-i-khimiia-tekhnolohichnoho-protsesu-v-elektronitsi-171-elektronika-ta-komp-iuterni-systemy\">Фізика і хімія технологічного процесу в електроніці (171 Електроніка та комп'ютерні системи)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

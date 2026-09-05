@@ -32,7 +32,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/systemy-biometrychnoji-identyfikatsiji/\" target=\"_blank\" rel=\"noopener noreferrer\">Системи біометричної ідентифікації</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnolohii-zakhystu-informatsii-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології захисту інформації (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tehnolohiji-zahystu-informatsiji/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології захисту інформації (КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/systemy-biometrychnoji-identyfikatsiji\">Системи біометричної ідентифікації</a></li>\n<li><a href=\"courses/tekhnolohii-zakhystu-informatsii-ist\">Технології захисту інформації (ІСТ)</a></li>\n<li><a href=\"courses/tehnolohiji-zahystu-informatsiji\">Технології захисту інформації (КН)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

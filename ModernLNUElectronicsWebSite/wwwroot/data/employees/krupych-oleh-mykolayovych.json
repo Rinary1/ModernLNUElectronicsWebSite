@@ -40,7 +40,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/opratsiuvannia-zobrazhen-122-komp-iuterni-nauky/\" target=\"_blank\" rel=\"noopener noreferrer\">Опрацювання зображень (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи програмування (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/opratsiuvannia-zobrazhen-126-informatsiyni-systemy-ta-tekhnolohii/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрове опрацювання зображень (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-syhnaliv-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка сигналів (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/opratsiuvannia-zobrazhen-122-komp-iuterni-nauky\">Опрацювання зображень (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/osnovy-prohramuvannia-ipz\">Основи програмування (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"courses/opratsiuvannia-zobrazhen-126-informatsiyni-systemy-ta-tekhnolohii\">Цифрове опрацювання зображень (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"courses/tsyfrova-obrobka-syhnaliv-2\">Цифрова обробка сигналів (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

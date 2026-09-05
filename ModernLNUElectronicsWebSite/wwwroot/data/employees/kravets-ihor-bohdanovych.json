@@ -25,7 +25,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnichna-elektrodynamika-171-elektronika-ta-komp-iuterni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Технічна електродинаміка (171 Електроніка та комп'ютерні системи)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/tekhnichna-elektrodynamika-171-elektronika-ta-komp-iuterni-systemy\">Технічна електродинаміка (171 Електроніка та комп'ютерні системи)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

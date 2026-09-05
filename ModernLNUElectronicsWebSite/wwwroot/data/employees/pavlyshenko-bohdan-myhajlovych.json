@@ -41,7 +41,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/cloud-computing-and-big-data-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Cloud Computing and Big Data (122 КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи та технології інженерії даних (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи та технології опрацювання даних (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nereliatsiyni-bazy-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Нереляційні бази даних (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka-internship-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Виробнича практика / Internship (122 КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/cloud-computing-and-big-data-122-kn\">Cloud Computing and Big Data (122 КН)</a></li>\n<li><a href=\"courses/metody-ta-tekhnolohii-opratsiuvannia-danykh-ipz\">Методи та технології інженерії даних (ІПЗ)</a></li>\n<li><a href=\"courses/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2\">Методи та технології опрацювання даних (ВПК)</a></li>\n<li><a href=\"courses/nereliatsiyni-bazy-danykh-ipz\">Нереляційні бази даних (ІПЗ)</a></li>\n<li><a href=\"courses/vyrobnycha-praktyka-internship-122-kn\">Виробнича практика / Internship (122 КН)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

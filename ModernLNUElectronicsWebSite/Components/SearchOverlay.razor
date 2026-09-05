@@ -1,4 +1,4 @@
-@using ModernLNUElectronicsWebSite.Data
+﻿@using ModernLNUElectronicsWebSite.Data
 @using ModernLNUElectronicsWebSite.Search
 @implements IAsyncDisposable
 @inject SearchService Search
@@ -241,6 +241,7 @@
         SearchKind.Partner => "Партнер",
         SearchKind.Department => "Підрозділ",
         SearchKind.Schedule => "Розклад",
+        SearchKind.Course => "Дисципліна",
         SearchKind.Page => "Сторінка",
         _ => kind.ToString(),
     };
@@ -253,6 +254,7 @@
         SearchKind.Partner => Color.Tertiary,
         SearchKind.Department => Color.Success,
         SearchKind.Schedule => Color.Warning,
+        SearchKind.Course => Color.Info,
         _ => Color.Default,
     };
 

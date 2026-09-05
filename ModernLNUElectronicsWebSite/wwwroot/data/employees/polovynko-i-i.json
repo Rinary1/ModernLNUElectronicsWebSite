@@ -37,7 +37,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка інформації (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка інформації (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-syhnaliv-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Цифрова обробка сигналів (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/tsyfrova-obrobka-informatsii-vpk\">Цифрова обробка інформації (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"courses/tsyfrova-obrobka-informatsii\">Цифрова обробка інформації (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/tsyfrova-obrobka-syhnaliv-2\">Цифрова обробка сигналів (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

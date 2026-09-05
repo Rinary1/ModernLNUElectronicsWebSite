@@ -32,7 +32,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/elektronna-20mikroskopiia/\" target=\"_blank\" rel=\"noopener noreferrer\">Електронна мікроскопія</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tonkoplivkovi-mikroelektronni-prystroi/\" target=\"_blank\" rel=\"noopener noreferrer\">Тонкоплівкові мікроелектронні пристрої</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizyka-i-khimiia-tekhnolohichnoho-protsesu-v-elektronitsi-171-elektronika-ta-komp-iuterni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Фізика і хімія технологічного процесу в електроніці (171 Електроніка та комп'ютерні системи)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/elektronna-20mikroskopiia\">Електронна мікроскопія</a></li>\n<li><a href=\"courses/tonkoplivkovi-mikroelektronni-prystroi\">Тонкоплівкові мікроелектронні пристрої</a></li>\n<li><a href=\"courses/fizyka-i-khimiia-tekhnolohichnoho-protsesu-v-elektronitsi-171-elektronika-ta-komp-iuterni-systemy\">Фізика і хімія технологічного процесу в електроніці (171 Електроніка та комп'ютерні системи)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

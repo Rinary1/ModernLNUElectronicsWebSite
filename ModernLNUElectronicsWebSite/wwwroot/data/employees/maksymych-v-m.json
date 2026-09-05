@@ -40,7 +40,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/analohova-i-tsyfrova-shemotehnika/\" target=\"_blank\" rel=\"noopener noreferrer\">Аналогова і цифрова схемотехніка (Сенсорні та діагностичні автоматизовані системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/analohova-ta-tsyfrova-skhemotekhnika/\" target=\"_blank\" rel=\"noopener noreferrer\">Аналогова та цифрова схемотехніка</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizyka-elektronnykh-protsesiv/\" target=\"_blank\" rel=\"noopener noreferrer\">Фізика електронних процесів</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fizychna-elektronika-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Фізична електроніка</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/elektronni-protsesy-v-nanorozmirnyh-systemah/\" target=\"_blank\" rel=\"noopener noreferrer\">Електронні процеси в нанорозмірних системах (176 – Мікро- та наносистемна техніка)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/analohova-i-tsyfrova-shemotehnika\">Аналогова і цифрова схемотехніка (Сенсорні та діагностичні автоматизовані системи)</a></li>\n<li><a href=\"courses/analohova-ta-tsyfrova-skhemotekhnika\">Аналогова та цифрова схемотехніка</a></li>\n<li><a href=\"courses/fizyka-elektronnykh-protsesiv\">Фізика електронних процесів</a></li>\n<li><a href=\"courses/fizychna-elektronika-2\">Фізична електроніка</a></li>\n<li><a href=\"courses/elektronni-protsesy-v-nanorozmirnyh-systemah\">Електронні процеси в нанорозмірних системах (176 – Мікро- та наносистемна техніка)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

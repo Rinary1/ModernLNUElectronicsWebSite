@@ -32,7 +32,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп'ютерні інформаційні мережі (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kompyuterni-informatsijni-merezhi/\" target=\"_blank\" rel=\"noopener noreferrer\">Комп'ютерні інформаційні мережі (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/qqq/\" target=\"_blank\" rel=\"noopener noreferrer\">Веб-технології (дисципліна вільного вибору)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/komp-iuterni-informatsiyni-merezhi-ist\">Комп'ютерні інформаційні мережі (ІСТ)</a></li>\n<li><a href=\"courses/kompyuterni-informatsijni-merezhi\">Комп'ютерні інформаційні мережі (КН)</a></li>\n<li><a href=\"courses/qqq\">Веб-технології (дисципліна вільного вибору)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

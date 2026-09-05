@@ -41,7 +41,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kompyuterna-shemotehnika-ta-arhitektura-kompyuteriv/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура обчислювальних систем та комп'ютерна схемотехніка (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи паралельного програмування (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paralelne-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Паралельні та розподілені обчислення</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paralelni-ta-rozpodileni-obchyslennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Паралельні та розподілені обчислення (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/chyselni-metody-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Чисельні методи (КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/kompyuterna-shemotehnika-ta-arhitektura-kompyuteriv\">Архітектура обчислювальних систем та комп'ютерна схемотехніка (КН)</a></li>\n<li><a href=\"courses/osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist\">Основи паралельного програмування (ІСТ)</a></li>\n<li><a href=\"courses/paralelne-prohramuvannia-ipz\">Паралельні та розподілені обчислення</a></li>\n<li><a href=\"courses/paralelni-ta-rozpodileni-obchyslennia\">Паралельні та розподілені обчислення (КН)</a></li>\n<li><a href=\"courses/chyselni-metody-2\">Чисельні методи (КН)</a></li>\n</ul>"
     },
     {
       "Title": "Біографія",

@@ -1,0 +1,7 @@
+{
+  "Slug": "zasoby-inzhenerii-danykh-ipz",
+  "SourceUrl": "https://electronics.lnu.edu.ua/course/zasoby-inzhenerii-danykh-ipz/",
+  "Title": "Засоби інженерії даних (ІПЗ)",
+  "BodyHtml": "<p>Тип: Нормативний</p>\n<p>Кафедра: <a href=\"departments/system-design\">системного проектування</a></p>\n<h2>Навчальний план</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>Кредити</td><td>Звітність</td></tr>\n<tr><td>5</td><td>4</td><td>Іспит</td></tr>\n</tbody>\n</table>\n\n\n<h2>Лекції</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>К-сть годин</td><td>Лектор</td><td>Група(и)</td></tr>\n<tr><td>5</td><td>32</td><td><a href=\"staff/demkiv-l-s\">доцент Демків&nbsp;Л.&nbsp;С.</a></td><td>ФеП-31</td></tr>\n</tbody>\n</table>\n\n\n<h2>Лабораторні</h2>\n<table>\n<tbody>\n<tr><td>Семестр</td><td>К-сть годин</td><td>Група</td><td>Викладач(і)</td></tr>\n<tr><td rowspan=\"1\">5</td><td rowspan=\"1\">32</td><td>ФеП-31</td><td><a href=\"staff/demkiv-l-s\">доцент Демків&nbsp;Л.&nbsp;С.</a></td></tr>\n</tbody>\n</table>",
+  "PlainText": "Тип: Нормативний Кафедра: системного проектування Навчальний план СеместрКредитиЗвітність 54Іспит Лекції СеместрК-сть годинЛекторГрупа(и) 532доцент Демків Л. С.ФеП-31 Лабораторні СеместрК-сть годинГрупаВикладач(і) 532ФеП-31доцент Демків Л. С."
+}

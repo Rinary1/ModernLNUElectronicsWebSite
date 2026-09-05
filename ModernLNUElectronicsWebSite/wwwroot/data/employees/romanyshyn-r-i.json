@@ -29,7 +29,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/khmarni-tekhnolohii-dlia-iot-ta-vbudovanykh-system-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Хмарні технології для IoT та вбудованих систем (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/dyskretna-matematyka/\" target=\"_blank\" rel=\"noopener noreferrer\">Дискретна математика (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/khmarni-tekhnolohii-dlia-iot-ta-vbudovanykh-system-kn\">Хмарні технології для IoT та вбудованих систем (КН)</a></li>\n<li><a href=\"courses/dyskretna-matematyka\">Дискретна математика (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

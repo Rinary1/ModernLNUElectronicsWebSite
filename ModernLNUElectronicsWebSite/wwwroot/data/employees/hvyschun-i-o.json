@@ -36,7 +36,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prohramuvannya/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритмізація та програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kros-platformne-prohramuvannya/\" target=\"_blank\" rel=\"noopener noreferrer\">Крос-платформне програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Об'єктно-орієнтоване програмування (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/prohramuvannya\">Алгоритмізація та програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/kros-platformne-prohramuvannya\">Крос-платформне програмування (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/ob-iektno-oriientovane-prohramuvannia-kn\">Об'єктно-орієнтоване програмування (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

@@ -16,7 +16,7 @@
   "Sections": [
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/kiberfizychni-systemy-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Кіберфізичні системи (ІСТ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/kiberfizychni-systemy-ist\">Кіберфізичні системи (ІСТ)</a></li>\n</ul>"
     },
     {
       "Title": "Розклад",

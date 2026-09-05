@@ -41,7 +41,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Основи паралельного програмування (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paralelne-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Паралельні та розподілені обчислення</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paralelni-ta-rozpodileni-obchyslennia/\" target=\"_blank\" rel=\"noopener noreferrer\">Паралельні та розподілені обчислення (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/tekhnolohii-analizu-danykh-technologies-of-data-analysis-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Технології аналізу даних / Technologies of Data Analysis (122 КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist\">Основи паралельного програмування (ІСТ)</a></li>\n<li><a href=\"courses/paralelne-prohramuvannia-ipz\">Паралельні та розподілені обчислення</a></li>\n<li><a href=\"courses/paralelni-ta-rozpodileni-obchyslennia\">Паралельні та розподілені обчислення (КН)</a></li>\n<li><a href=\"courses/tekhnolohii-analizu-danykh-technologies-of-data-analysis-122-kn\">Технології аналізу даних / Technologies of Data Analysis (122 КН)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

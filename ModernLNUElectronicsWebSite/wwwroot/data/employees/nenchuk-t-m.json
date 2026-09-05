@@ -42,7 +42,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/proektuvannya-informatsijnyh-system/\" target=\"_blank\" rel=\"noopener noreferrer\">Проектування інформаційних систем (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/rozv-iazannia-konfliktnykh-sytuatsiy-i-navyky-taym-menedzhment-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Розв’язання конфліктних ситуацій і  навики тайм-менеджмент (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/upravlinnia-it-proektamy/\" target=\"_blank\" rel=\"noopener noreferrer\">Управління ІТ проектами (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/upravlinnya-it-proektamy-inzheneriya-prohramnoho-zabezpechennya/\" target=\"_blank\" rel=\"noopener noreferrer\">Управління ІТ-проектами (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/upravlinnia-it-proektamy-menedzhment/\" target=\"_blank\" rel=\"noopener noreferrer\">Управління ІТ-проектами (Менеджмент) (ІСТ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/proektuvannya-informatsijnyh-system\">Проектування інформаційних систем (КН)</a></li>\n<li><a href=\"courses/rozv-iazannia-konfliktnykh-sytuatsiy-i-navyky-taym-menedzhment-vpk\">Розв’язання конфліктних ситуацій і  навики тайм-менеджмент (ВПК)</a></li>\n<li><a href=\"courses/upravlinnia-it-proektamy\">Управління ІТ проектами (КН)</a></li>\n<li><a href=\"courses/upravlinnya-it-proektamy-inzheneriya-prohramnoho-zabezpechennya\">Управління ІТ-проектами (ІПЗ)</a></li>\n<li><a href=\"courses/upravlinnia-it-proektamy-menedzhment\">Управління ІТ-проектами (Менеджмент) (ІСТ)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

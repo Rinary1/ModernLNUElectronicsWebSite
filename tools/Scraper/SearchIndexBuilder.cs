@@ -1,4 +1,4 @@
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using ModernLNUElectronicsWebSite.Data;
 
 namespace ModernLNUElectronicsWebSite.Scraper;
@@ -7,13 +7,15 @@ public static partial class SearchIndexBuilder
 {
     private const int MaxTextLength = 8000;
 
+    public const int MaxCourseText = 1200;
+
     [GeneratedRegex(@"\s+")]
     private static partial Regex WhitespaceRun();
 
     [GeneratedRegex(@"<[^>]+>")]
     private static partial Regex HtmlTag();
 
-    public static string Plain(string? html)
+    public static string Plain(string? html, int? maxLength = null)
     {
         if (string.IsNullOrWhiteSpace(html))
             return string.Empty;
@@ -22,7 +24,8 @@ public static partial class SearchIndexBuilder
         text = System.Net.WebUtility.HtmlDecode(text);
         text = WhitespaceRun().Replace(text, " ").Trim();
 
-        return text.Length <= MaxTextLength ? text : text[..MaxTextLength];
+        var limit = maxLength ?? MaxTextLength;
+        return text.Length <= limit ? text : text[..limit];
     }
 
     public static string Join(params string?[] parts) =>

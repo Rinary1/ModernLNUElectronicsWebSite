@@ -27,7 +27,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/sensorna-elektronika/\" target=\"_blank\" rel=\"noopener noreferrer\">Сенсорна електроніка</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/sensorni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Сенсорні системи</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/sensorna-elektronika\">Сенсорна електроніка</a></li>\n<li><a href=\"courses/sensorni-systemy\">Сенсорні системи</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

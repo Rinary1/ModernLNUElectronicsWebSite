@@ -1,4 +1,4 @@
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 namespace ModernLNUElectronicsWebSite.Data;
 
@@ -11,6 +11,7 @@ public enum SearchKind
     Partner,
     Department,
     Schedule,
+    Course,
     Page,
 }
 

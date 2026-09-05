@@ -29,7 +29,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/m-iaki-navychky-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">М'які навички (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Розподілені технології та бази даних (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/khmarni-zasoby-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Хмарні засоби (Хмарні засоби та технології 2022) (ІПЗ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/m-iaki-navychky-ist\">М'які навички (ІСТ)</a></li>\n<li><a href=\"courses/rozpodileni-tekhnolohii-ta-bazy-danykh-ipz\">Розподілені технології та бази даних (ІПЗ)</a></li>\n<li><a href=\"courses/khmarni-zasoby-ipz\">Хмарні засоби (Хмарні засоби та технології 2022) (ІПЗ)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

@@ -23,7 +23,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/elementarna-baza-v-mikroelektronitsi-153-sensorni-ta-diahnostychni-elektronni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Елементарна база в мікроелектроніці (153 - Сенсорні та діагностичні електронні системи)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/elementarna-baza-v-mikroelektronitsi-153-sensorni-ta-diahnostychni-elektronni-systemy\">Елементарна база в мікроелектроніці (153 - Сенсорні та діагностичні електронні системи)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

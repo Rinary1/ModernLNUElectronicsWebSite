@@ -17,7 +17,7 @@
   "Sections": [
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Об'єктно-орієнтоване програмування (ІПЗ, ВПК)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/ob-iektno-oriientovane-prohramuvannia-ipz\">Об'єктно-орієнтоване програмування (ІПЗ, ВПК)</a></li>\n</ul>"
     },
     {
       "Title": "Біографія",

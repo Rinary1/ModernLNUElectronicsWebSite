@@ -41,7 +41,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/algorithms-and-data-structures-126-information-systems-and-technologies/\" target=\"_blank\" rel=\"noopener noreferrer\">Алгоритми та структури даних (126 ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/dyskretna-matematyka/\" target=\"_blank\" rel=\"noopener noreferrer\">Дискретна математика (122 Комп'ютерні науки)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/dyskretna-matematyka-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Дискретна математика (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-alhorytmiv/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія обчислень, алгоритми і структури даних (122)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/algorithms-and-data-structures-126-information-systems-and-technologies\">Алгоритми та структури даних (126 ІСТ)</a></li>\n<li><a href=\"courses/dyskretna-matematyka\">Дискретна математика (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/dyskretna-matematyka-2\">Дискретна математика (126 Інформаційні системи та технології)</a></li>\n<li><a href=\"courses/teoriya-alhorytmiv\">Теорія обчислень, алгоритми і структури даних (122)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

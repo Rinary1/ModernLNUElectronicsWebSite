@@ -38,7 +38,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/enerhetychni-systemy-ta-kompleksy/\" target=\"_blank\" rel=\"noopener noreferrer\">Енергетичні системи та комплекси</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/nanomaterialy-u-sensorytsi/\" target=\"_blank\" rel=\"noopener noreferrer\">Наноматеріали у сенсориці</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prylady-i-prystroi-kvantovoi-elektroniky/\" target=\"_blank\" rel=\"noopener noreferrer\">Прилади і пристрої квантової електроніки</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/soniachna-enerhetyka/\" target=\"_blank\" rel=\"noopener noreferrer\">Сонячна енергетика</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/enerhetychni-systemy-ta-kompleksy\">Енергетичні системи та комплекси</a></li>\n<li><a href=\"courses/nanomaterialy-u-sensorytsi\">Наноматеріали у сенсориці</a></li>\n<li><a href=\"courses/prylady-i-prystroi-kvantovoi-elektroniky\">Прилади і пристрої квантової електроніки</a></li>\n<li><a href=\"courses/soniachna-enerhetyka\">Сонячна енергетика</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

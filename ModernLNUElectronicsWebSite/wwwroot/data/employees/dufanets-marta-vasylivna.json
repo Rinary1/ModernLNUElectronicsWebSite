@@ -43,7 +43,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/systemy-pryyniattia-rishen-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Системи прийняття рішень (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-cv-ta-nlp-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи та технології CV та NLP (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/opratsiuvannia-informatsii-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Опрацювання інформації (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/systemy-pryyniattia-rishen-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Системи прийняття рішень (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriya-pryjnyattya-rishen/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія прийняття рішень (122 Комп'ютерні науки)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/systemy-pryyniattia-rishen-ipz\">Системи прийняття рішень (121 Інженерія програмного забезпечення)</a></li>\n<li><a href=\"courses/metody-ta-tekhnolohii-cv-ta-nlp-vpk\">Методи та технології CV та NLP (ВПК)</a></li>\n<li><a href=\"courses/opratsiuvannia-informatsii-vpk\">Опрацювання інформації (ВПК)</a></li>\n<li><a href=\"courses/systemy-pryyniattia-rishen-vpk\">Системи прийняття рішень (ВПК)</a></li>\n<li><a href=\"courses/teoriya-pryjnyattya-rishen\">Теорія прийняття рішень (122 Комп'ютерні науки)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

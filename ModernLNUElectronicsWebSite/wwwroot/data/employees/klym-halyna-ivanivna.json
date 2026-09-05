@@ -32,7 +32,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/edge-fog-obchyslennia-121-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Edge/Fog технології та обчислення (121-ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fog-edge-komp-iutynh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Fog/Edge комп'ютинг (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fpga-cpld-komp-iutynh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">FPGA/CPLD комп'ютинг (ВПК)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/edge-fog-obchyslennia-121-ipz\">Edge/Fog технології та обчислення (121-ІПЗ)</a></li>\n<li><a href=\"courses/fog-edge-komp-iutynh-vpk\">Fog/Edge комп'ютинг (ВПК)</a></li>\n<li><a href=\"courses/fpga-cpld-komp-iutynh-vpk\">FPGA/CPLD комп'ютинг (ВПК)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

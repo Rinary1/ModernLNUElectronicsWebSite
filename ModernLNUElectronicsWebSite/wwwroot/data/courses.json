@@ -1,0 +1,4554 @@
+[
+  {
+    "Slug": "3d-modeliuvannia-komponentiv-elektronnykh-prystroiv",
+    "Title": "3Д моделювання компонентів електронних пристроїв",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/3d-modeliuvannia-komponentiv-elektronnykh-prystroiv/",
+    "Lecturers": [
+      {
+        "Name": "КУШЛИК Маркіян Олегович",
+        "Slug": "kushlyk-markiyan-olehovych"
+      }
+    ]
+  },
+  {
+    "Slug": "cloud-computing-and-big-data-122-kn",
+    "Title": "Cloud Computing and Big Data (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/cloud-computing-and-big-data-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИШЕНКО Богдан Михайлович",
+        "Slug": "pavlyshenko-bohdan-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "devops-vpk",
+    "Title": "DevOps (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/devops-vpk/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "digital-image-processing-and-pattern-recognition-122-kn",
+    "Title": "Digital Image Processing and Pattern Recognition (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/digital-image-processing-and-pattern-recognition-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "ФУРГАЛА Юрій Михайлович",
+        "Slug": "furhala-yurij-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "edge-fog-obchyslennia-121-ipz",
+    "Title": "Edge/Fog технології та обчислення (121-ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/edge-fog-obchyslennia-121-ipz/",
+    "Lecturers": [
+      {
+        "Name": "КЛИМ Галина Іванівна",
+        "Slug": "klym-halyna-ivanivna"
+      }
+    ]
+  },
+  {
+    "Slug": "fog-edge-komp-iutynh-vpk",
+    "Title": "Fog/Edge комп’ютинг (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fog-edge-komp-iutynh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "КЛИМ Галина Іванівна",
+        "Slug": "klym-halyna-ivanivna"
+      }
+    ]
+  },
+  {
+    "Slug": "fpga-cpld-komp-iutynh-vpk",
+    "Title": "FPGA/CPLD комп’ютинг (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fpga-cpld-komp-iutynh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "КЛИМ Галина Іванівна",
+        "Slug": "klym-halyna-ivanivna"
+      },
+      {
+        "Name": "БОЙКО Ярослав Васильович",
+        "Slug": "bojko-ya-v"
+      }
+    ]
+  },
+  {
+    "Slug": "internet-of-things-122-kn",
+    "Title": "Internet of Things (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/internet-of-things-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "КАРБОВНИК Іван Дмитрович",
+        "Slug": "karbovnyk-i-d"
+      }
+    ]
+  },
+  {
+    "Slug": "web-analityka",
+    "Title": "Web-аналітика (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/web-analityka/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "biofizyka",
+    "Title": "Інженерія біомедичних систем 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/biofizyka/",
+    "Lecturers": [
+      {
+        "Name": "КОФЛЮК Ірина Миколаївна",
+        "Slug": "kofliuk-iryna-mykolaivna"
+      },
+      {
+        "Name": "БОРДУН Олег Михайлович",
+        "Slug": "bordun-o-m"
+      },
+      {
+        "Name": "МЕДВІДЬ Іванна Іванівна",
+        "Slug": "medvid-ivanna-i"
+      }
+    ]
+  },
+  {
+    "Slug": "inzheneriia-danykh-kn-2",
+    "Title": "Інженерія даних (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inzheneriia-danykh-kn-2/",
+    "Lecturers": [
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      }
+    ]
+  },
+  {
+    "Slug": "inzhenerna-ta-komp-iuterna-hrafika",
+    "Title": "Інженерна та комп’ютерна графіка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inzhenerna-ta-komp-iuterna-hrafika/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "inzhenerna-ta-komp-iuterna-hrafika-176",
+    "Title": "Інженерна та комп’ютерна графіка 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inzhenerna-ta-komp-iuterna-hrafika-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "innovatsii-ta-pidpryiemnytstvo-v-it-vpk",
+    "Title": "Інновації та підприємництво в ІТ (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/innovatsii-ta-pidpryiemnytstvo-v-it-vpk/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРНЯК Ігор Богданович",
+        "Slug": "katernyak-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "innovatsii-ta-pidpryiemnytstvo-v-it-haluzi-122-komp-iuterni-nauky",
+    "Title": "Інновації та підприємництво в ІТ галузі",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/innovatsii-ta-pidpryiemnytstvo-v-it-haluzi-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРНЯК Ігор Богданович",
+        "Slug": "katernyak-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "innovatsii-technologii-ta-pidpryiemnytstvo",
+    "Title": "Інновації, технології та підприємництво",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/innovatsii-technologii-ta-pidpryiemnytstvo/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРНЯК Ігор Богданович",
+        "Slug": "katernyak-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "innovatsiynyy-menedzhment-176",
+    "Title": "Інноваційний менеджмент 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/innovatsiynyy-menedzhment-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "inozemna-mova-2",
+    "Title": "Іноземна мова",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "inozemna-mova",
+    "Title": "Іноземна мова",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "inozemna-mova-171",
+    "Title": "Іноземна мова 171",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova-171/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "inozemna-mova-g7",
+    "Title": "Іноземна мова g7",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova-g7/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "anhl-mova-fakhovoho-spriamuvannia",
+    "Title": "Іноземна мова фахового спрямування",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/anhl-mova-fakhovoho-spriamuvannia/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "instrumentariy-roboty-z-danymy-kn",
+    "Title": "Інструментарій роботи з даними (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/instrumentariy-roboty-z-danymy-kn/",
+    "Lecturers": [
+      {
+        "Name": "СВЕЛЕБА Сергій Андрійович",
+        "Slug": "sveleba-serhij-andrijovych"
+      }
+    ]
+  },
+  {
+    "Slug": "intehratsiia-informatsiynykh-system-kn",
+    "Title": "Інтеграція інформаційних систем (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/intehratsiia-informatsiynykh-system-kn/",
+    "Lecturers": [
+      {
+        "Name": "СІНЬКЕВИЧ Олег Олександрович",
+        "Slug": "o_sinkevych"
+      }
+    ]
+  },
+  {
+    "Slug": "intelektualnyj-analiz-danyh",
+    "Title": "Інтелектуальний аналіз даних (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/intelektualnyj-analiz-danyh/",
+    "Lecturers": [
+      {
+        "Name": "ЛЮБУНЬ Зіновій Михайлович",
+        "Slug": "lyubun-z-m"
+      }
+    ]
+  },
+  {
+    "Slug": "informatsiyna-bezpeka-prohram-ta-danykh-121-ipz",
+    "Title": "Інформаційна безпека програм та даних (ІПЗ та ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/informatsiyna-bezpeka-prohram-ta-danykh-121-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИК Михайло Романович",
+        "Slug": "pavlyk-m-r"
+      }
+    ]
+  },
+  {
+    "Slug": "istoriia-ukrainy-2",
+    "Title": "Історія України",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "istoriia-ukrainy",
+    "Title": "Історія України",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "istoriia-ukrainy-3",
+    "Title": "Історія України",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy-3/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "istoriia-ukrainskoi-kultury-3",
+    "Title": "Історія української культури",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-3/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "istoriia-ukrainskoi-kultury-2",
+    "Title": "Історія Української культури",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "istoriia-ukrainskoi-kultury",
+    "Title": "Історія Української культури",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "istoriia-ukrainskoi-kultury-4",
+    "Title": "Історія Української культури",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-4/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "avtomatyzatsiia-eksperymentu-mnt",
+    "Title": "Автоматизація експерименту (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/avtomatyzatsiia-eksperymentu-mnt/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "adaptyvni-systemy-opratsyuvannya-informatsiji",
+    "Title": "Адаптивні системи опрацювання інформації (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/adaptyvni-systemy-opratsyuvannya-informatsiji/",
+    "Lecturers": [
+      {
+        "Name": "ЛЮБУНЬ Зіновій Михайлович",
+        "Slug": "lyubun-z-m"
+      },
+      {
+        "Name": "РАБИК Василь Григорович",
+        "Slug": "rabyk-v-h"
+      }
+    ]
+  },
+  {
+    "Slug": "aktualni-pytannya-sensornoji-elektroniky",
+    "Title": "Актуальні питання сенсорної електроніки",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/aktualni-pytannya-sensornoji-elektroniky/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИК Богдан Васильович",
+        "Slug": "pavlyk-b-v"
+      }
+    ]
+  },
+  {
+    "Slug": "prohramuvannya",
+    "Title": "Алгоритмізація та програмування (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prohramuvannya/",
+    "Lecturers": [
+      {
+        "Name": "РЕНДЗІНЯК Сергій Йосипович",
+        "Slug": "rendziniak-serhiy-yosypovych"
+      },
+      {
+        "Name": "ЛЮБУНЬ Зіновій Михайлович",
+        "Slug": "lyubun-z-m"
+      },
+      {
+        "Name": "ХВИЩУН Іван Олександрович",
+        "Slug": "hvyschun-i-o"
+      },
+      {
+        "Name": "ДЗІКОВСЬКИЙ Віктор Євгенович",
+        "Slug": "dzikovskyy-viktor-yevhenovych"
+      }
+    ]
+  },
+  {
+    "Slug": "alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia",
+    "Title": "Алгоритми і структури даних (ІПЗ ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/alhorytmy-ta-struktury-danykh-121-inzheneriia-prohramnoho-zabezpechennia/",
+    "Lecturers": [
+      {
+        "Name": "СЕРЕДНИЦЬКА Христина Ігорівна",
+        "Slug": "serednytska-khrystyna-ihorivna"
+      },
+      {
+        "Name": "ДЗІКОВСЬКИЙ Віктор Євгенович",
+        "Slug": "dzikovskyy-viktor-yevhenovych"
+      },
+      {
+        "Name": "ЛЕВУШ Павло Назарович",
+        "Slug": "levush-pavlo-nazarovych"
+      },
+      {
+        "Name": "РИКОВСЬКИЙ Петро Антонович",
+        "Slug": "rykovskyj-petro-a"
+      },
+      {
+        "Name": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
+        "Slug": "shmyhelskyj-ya-a"
+      }
+    ]
+  },
+  {
+    "Slug": "alhorytmy-i-typy-danykh-171-elektronika-ta-komp-iuterni-systemy",
+    "Title": "Алгоритми і типи даних (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/alhorytmy-i-typy-danykh-171-elektronika-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "БІГДАЙ Володимир Гаррійович",
+        "Slug": "bihday-volodymyr-harriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-ta-alhorytmy-nechitkoho-modelyuvannya",
+    "Title": "Алгоритми та методи нечіткого моделювання (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-alhorytmy-nechitkoho-modelyuvannya/",
+    "Lecturers": [
+      {
+        "Name": "ОЛЕНИЧ Ігор Богданович",
+        "Slug": "olenych-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "algorithms-and-data-structures-126-information-systems-and-technologies",
+    "Title": "Алгоритми та структури даних (126 ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/algorithms-and-data-structures-126-information-systems-and-technologies/",
+    "Lecturers": [
+      {
+        "Name": "ВЕЛЬГОШ Сергій Романович",
+        "Slug": "velhosh-s-r"
+      },
+      {
+        "Name": "СЕРЕДНИЦЬКА Христина Ігорівна",
+        "Slug": "serednytska-khrystyna-ihorivna"
+      }
+    ]
+  },
+  {
+    "Slug": "analiz-danykh",
+    "Title": "Аналіз даних (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/analiz-danykh/",
+    "Lecturers": [
+      {
+        "Name": "ЛЮБУНЬ Зіновій Михайлович",
+        "Slug": "lyubun-z-m"
+      }
+    ]
+  },
+  {
+    "Slug": "analiz-skladnykh-system-i-merezh-122-komp-iuterni-nauky",
+    "Title": "Аналіз складних систем і мереж (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/analiz-skladnykh-system-i-merezh-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олег Степанович",
+        "Slug": "kushnir-o-s"
+      },
+      {
+        "Name": "ГОРОН Богдан Ігорович",
+        "Slug": "horon-bohdan-ihorovych"
+      }
+    ]
+  },
+  {
+    "Slug": "analiz-ta-refaktorynh-kodu-modeliuvannia-ta-proektuvannia-pz-ipz",
+    "Title": "Аналіз та рефакторинг коду, моделювання та проектування ПЗ (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/analiz-ta-refaktorynh-kodu-modeliuvannia-ta-proektuvannia-pz-ipz/",
+    "Lecturers": [
+      {
+        "Name": "МОНАСТИРСЬКИЙ Любомир Степанович",
+        "Slug": "monastyrskyj-lyubomyr-stepanovych"
+      }
+    ]
+  },
+  {
+    "Slug": "analiz-tekstovoi-informatsii-122-komp-iuterni-nauky",
+    "Title": "Аналіз текстової інформації (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/analiz-tekstovoi-informatsii-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олег Степанович",
+        "Slug": "kushnir-o-s"
+      }
+    ]
+  },
+  {
+    "Slug": "analiz-chasovykh-poslidovnostey",
+    "Title": "Аналіз часових послідовностей (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/analiz-chasovykh-poslidovnostey/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "analityka-velykykh-danykh-u-khmarnykh-tekhnolohiiakh-kn",
+    "Title": "Аналітика великих даних у хмарних технологіях (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/analityka-velykykh-danykh-u-khmarnykh-tekhnolohiiakh-kn/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "analityka-danykh-ta-bazy-danykh-176",
+    "Title": "Аналітика даних та бази даних 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/analityka-danykh-ta-bazy-danykh-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "analohova-i-tsyfrova-shemotehnika",
+    "Title": "Аналогова і цифрова схемотехніка (Сенсорні та діагностичні автоматизовані системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/analohova-i-tsyfrova-shemotehnika/",
+    "Lecturers": [
+      {
+        "Name": "МАКСИМИЧ Віталій Миколайович",
+        "Slug": "maksymych-v-m"
+      }
+    ]
+  },
+  {
+    "Slug": "analohova-ta-tsyfrova-skhemotekhnika",
+    "Title": "Аналогова та цифрова схемотехніка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/analohova-ta-tsyfrova-skhemotekhnika/",
+    "Lecturers": [
+      {
+        "Name": "МАКСИМИЧ Віталій Миколайович",
+        "Slug": "maksymych-v-m"
+      }
+    ]
+  },
+  {
+    "Slug": "anhl-mova-fakhovoho-spriamuvannia-professional-english-122-kn",
+    "Title": "Англійська мова фахового спрямування / Professional English (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/anhl-mova-fakhovoho-spriamuvannia-professional-english-122-kn/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "aparatne-zabezpechennia-vbudovanykh-system-inzheneriia-prohramnoho-zabezpechennia",
+    "Title": "Апаратне забезпечення вбудованих систем (Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/aparatne-zabezpechennia-vbudovanykh-system-inzheneriia-prohramnoho-zabezpechennia/",
+    "Lecturers": [
+      {
+        "Name": "КАРБОВНИК Іван Дмитрович",
+        "Slug": "karbovnyk-i-d"
+      }
+    ]
+  },
+  {
+    "Slug": "aparatno-prohramni-zasoby-lokalizatsii-176",
+    "Title": "Апаратно-програмні засоби локалізації 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/aparatno-prohramni-zasoby-lokalizatsii-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "osnovni-pryntsypy-pobudovy-synerhetychnoho-komp-iutera-kn",
+    "Title": "Архітектура даних (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovni-pryntsypy-pobudovy-synerhetychnoho-komp-iutera-kn/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "osnovy-kompyuternoji-elektroniky-ta-arhitektura-kompyuteriv",
+    "Title": "Архітектура комп’ютерів (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-kompyuternoji-elektroniky-ta-arhitektura-kompyuteriv/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРИНЧУК Іван Миколайович",
+        "Slug": "katerynchuk-ivan-mykolajovych"
+      },
+      {
+        "Name": "МРУЦЬ Володимир Михайлович",
+        "Slug": "mruts-volodymyr-mykhaylovych"
+      }
+    ]
+  },
+  {
+    "Slug": "arkhitektura-komp-iuteriv-i-prohramuvannia-eikt",
+    "Title": "Архітектура комп’ютерів і програмування (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/",
+    "Lecturers": [
+      {
+        "Name": "КАРПІН Олександр Олександрович",
+        "Slug": "karpin-oleksandr-oleksandrovych"
+      },
+      {
+        "Name": "ЛИС Роман Мирославович",
+        "Slug": "lys-r-m"
+      },
+      {
+        "Name": "СЛОБОДЗЯН Дмитро Петрович",
+        "Slug": "slobodzyan-d-p"
+      },
+      {
+        "Name": "ШПОТЮК Ярослав Олегович",
+        "Slug": "shpotyuk-ya-o"
+      }
+    ]
+  },
+  {
+    "Slug": "personalni-kompyutery",
+    "Title": "Архітектура комп’ютерів та комп’ютерні технології (Сенсорні та діагностичні автоматизовані системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/personalni-kompyutery/",
+    "Lecturers": [
+      {
+        "Name": "ЛИС Роман Мирославович",
+        "Slug": "lys-r-m"
+      },
+      {
+        "Name": "СЛОБОДЗЯН Дмитро Петрович",
+        "Slug": "slobodzyan-d-p"
+      },
+      {
+        "Name": "ШПОТЮК Ярослав Олегович",
+        "Slug": "shpotyuk-ya-o"
+      }
+    ]
+  },
+  {
+    "Slug": "arkhitektura-komp-iuteriv-ta-komp-iuterna-skhemotekhnika-ipz",
+    "Title": "Архітектура комп’ютерів та комп’ютерна електроніка (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-ta-komp-iuterna-skhemotekhnika-ipz/",
+    "Lecturers": [
+      {
+        "Name": "КОМАН Богдан Петрович",
+        "Slug": "koman-b-p"
+      }
+    ]
+  },
+  {
+    "Slug": "kompyuterna-shemotehnika-ta-arhitektura-kompyuteriv",
+    "Title": "Архітектура обчислювальних систем та комп’ютерна схемотехніка (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kompyuterna-shemotehnika-ta-arhitektura-kompyuteriv/",
+    "Lecturers": [
+      {
+        "Name": "КОМАН Богдан Петрович",
+        "Slug": "koman-b-p"
+      },
+      {
+        "Name": "КУЛИК Петро Русланович",
+        "Slug": "kulyk-p-r"
+      }
+    ]
+  },
+  {
+    "Slug": "arkhitektura-pz-ipz",
+    "Title": "Архітектура ПЗ (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/arkhitektura-pz-ipz/",
+    "Lecturers": [
+      {
+        "Name": "РАБОШ Роман Васильович",
+        "Slug": "rabosh-roman-vasylovych"
+      }
+    ]
+  },
+  {
+    "Slug": "arkhitektura-pz-ch-1-vpk",
+    "Title": "Архітектура ПЗ (ч.1) (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/arkhitektura-pz-ch-1-vpk/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "arkhitektura-pz-ch-2-vpk",
+    "Title": "Архітектура ПЗ (ч.2) (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/arkhitektura-pz-ch-2-vpk/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "arkhitektura-prohramnoho-zabezpechennia-ist",
+    "Title": "Архітектура програмного забезпечення (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/arkhitektura-prohramnoho-zabezpechennia-ist/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "arkhitektura-ta-tekhnolohiia-hlybynnoho-navchannia-vpk",
+    "Title": "Архітектура та технологія глибинного навчання (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/arkhitektura-ta-tekhnolohiia-hlybynnoho-navchannia-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "arkhitektury-ta-tekhnolohii-hlybynnoho-navchannia-vpk",
+    "Title": "Архітектури та технології глибинного навчання (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/arkhitektury-ta-tekhnolohii-hlybynnoho-navchannia-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "arkhitekturni-paterny-vysokoproduktyvnykh-system-vpk",
+    "Title": "Архітектурні патерни високопродуктивних систем (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/arkhitekturni-paterny-vysokoproduktyvnykh-system-vpk/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      }
+    ]
+  },
+  {
+    "Slug": "atestatsiynyy-ekzamen-2",
+    "Title": "Атестаційний екзамен",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/atestatsiynyy-ekzamen-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "biznes-analityka-zasobamy-shtuchnoho-intelektu",
+    "Title": "Бізнес-аналітика засобами штучного інтелекту (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/biznes-analityka-zasobamy-shtuchnoho-intelektu/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "bioelektronika",
+    "Title": "Біоелектроніка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bioelektronika/",
+    "Lecturers": [
+      {
+        "Name": "БОРДУН Олег Михайлович",
+        "Slug": "bordun-o-m"
+      }
+    ]
+  },
+  {
+    "Slug": "biomedychni-sensory",
+    "Title": "Біомедичні сенсори",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/biomedychni-sensory/",
+    "Lecturers": [
+      {
+        "Name": "ЛУЧЕЧКО Андрій Петрович",
+        "Slug": "luchechko-a-p"
+      }
+    ]
+  },
+  {
+    "Slug": "bahatorivnevi-systemy-keruvannia-tekhnolohichnymy-protsesamy-176",
+    "Title": "Багаторівневі системи керування технологічними процесами 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bahatorivnevi-systemy-keruvannia-tekhnolohichnymy-protsesamy-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "bazy-danykh-ipz",
+    "Title": "Бази даних (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bazy-danykh-ipz/",
+    "Lecturers": [
+      {
+        "Name": "АНОХІН Володимир Євгенович",
+        "Slug": "anokhin-v-ye"
+      }
+    ]
+  },
+  {
+    "Slug": "bazy-danykh-vpk",
+    "Title": "Бази даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bazy-danykh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ГЕРА Орест Богданович",
+        "Slug": "hera-o-b"
+      },
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "bazy-danykh-ta-znan",
+    "Title": "Бази даних та знань (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bazy-danykh-ta-znan/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-2",
+    "Title": "Безпека життєдіяльності та охорона праці",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-3",
+    "Title": "Безпека життєдіяльності та охорона праці",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-3/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi",
+    "Title": "Безпека життєдіяльності та охорона праці",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-176",
+    "Title": "Безпека життєдіяльності та охорона праці 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "bezperervne-rozghortannia-obchysliuvalnykh-system-ist",
+    "Title": "Безперервне розгортання обчислювальних систем (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezperervne-rozghortannia-obchysliuvalnykh-system-ist/",
+    "Lecturers": [
+      {
+        "Name": "СІНЬКЕВИЧ Олег Олександрович",
+        "Slug": "o_sinkevych"
+      }
+    ]
+  },
+  {
+    "Slug": "bezprovidni-ta-mobilni-merezhi-121-ipz",
+    "Title": "Безпровідні та мобільні мережі (121 ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezprovidni-ta-mobilni-merezhi-121-ipz/",
+    "Lecturers": [
+      {
+        "Name": "РЕНДЗІНЯК Сергій Йосипович",
+        "Slug": "rendziniak-serhiy-yosypovych"
+      }
+    ]
+  },
+  {
+    "Slug": "budova-i-fizychni-vlastyvosti-krystaliv-mnt",
+    "Title": "Будова і фізичні властивості кристалів (МНТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/budova-i-fizychni-vlastyvosti-krystaliv-mnt/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vizualizatsiia-informatsii",
+    "Title": "Візуалізація інформації",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vizualizatsiia-informatsii/",
+    "Lecturers": [
+      {
+        "Name": "МЕДВІДЬ Іванна Іванівна",
+        "Slug": "medvid-ivanna-i"
+      }
+    ]
+  },
+  {
+    "Slug": "vizualizatsiia-danykh-ipz",
+    "Title": "Візуалізація даних (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vizualizatsiia-danykh-ipz/",
+    "Lecturers": [
+      {
+        "Name": "СТАХІРА Роман Йосипович",
+        "Slug": "stahira-roman-josypovych"
+      }
+    ]
+  },
+  {
+    "Slug": "vbudovani-i-mobil-ni-operatsiyni-systemy-ist",
+    "Title": "Вбудовані і мобільні операційні системи (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vbudovani-i-mobil-ni-operatsiyni-systemy-ist/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИК Михайло Романович",
+        "Slug": "pavlyk-m-r"
+      }
+    ]
+  },
+  {
+    "Slug": "vbudovani-neyromerezhevi-prystroi-122-komp-iuterni-nauky",
+    "Title": "Вбудовані нейромережеві пристрої (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vbudovani-neyromerezhevi-prystroi-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "ЛЮБУНЬ Зіновій Михайлович",
+        "Slug": "lyubun-z-m"
+      },
+      {
+        "Name": "РАБИК Василь Григорович",
+        "Slug": "rabyk-v-h"
+      }
+    ]
+  },
+  {
+    "Slug": "vbudovani-systemy-opratsiuvannia-danykh-ta-upravlinnia-na-osnovi-neyromerezh-121-ipz",
+    "Title": "Вбудовані системи опрацювання даних та управління на основі нейромереж (121 ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vbudovani-systemy-opratsiuvannia-danykh-ta-upravlinnia-na-osnovi-neyromerezh-121-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ЛЮБУНЬ Зіновій Михайлович",
+        "Slug": "lyubun-z-m"
+      }
+    ]
+  },
+  {
+    "Slug": "veb-prohramuvannia-na-storoni-kliienta",
+    "Title": "Веб програмування на стороні клієнта",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/veb-prohramuvannia-na-storoni-kliienta/",
+    "Lecturers": [
+      {
+        "Name": "АНОХІН Володимир Євгенович",
+        "Slug": "anokhin-v-ye"
+      },
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      }
+    ]
+  },
+  {
+    "Slug": "veb-prohramuvannia-na-storoni-servera",
+    "Title": "Веб програмування на стороні сервера",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/veb-prohramuvannia-na-storoni-servera/",
+    "Lecturers": [
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      }
+    ]
+  },
+  {
+    "Slug": "veb-tekhnolohii-html-css-basic-js-ipz",
+    "Title": "Веб-технології (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/veb-tekhnolohii-html-css-basic-js-ipz/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "qqq",
+    "Title": "Веб-технології (дисципліна вільного вибору)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/qqq/",
+    "Lecturers": [
+      {
+        "Name": "ПРОДИВУС Андрій Михайлович",
+        "Slug": "prodyvus-andrij-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "veb-prohramuvannia-kn",
+    "Title": "Веб-технології і програмування (ч.2) (ІПЗ та ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/veb-prohramuvannia-kn/",
+    "Lecturers": [
+      {
+        "Name": "ГЕРА Орест Богданович",
+        "Slug": "hera-o-b"
+      },
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      }
+    ]
+  },
+  {
+    "Slug": "web-tekhnolohii-ipz",
+    "Title": "Веб-технології та програмування ч.1 (HTML, CSS, basic JS) (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/web-tekhnolohii-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ГЕРА Орест Богданович",
+        "Slug": "hera-o-b"
+      },
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      }
+    ]
+  },
+  {
+    "Slug": "velyki-dani-ist",
+    "Title": "Великі дані (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/velyki-dani-ist/",
+    "Lecturers": [
+      {
+        "Name": "СТАХІРА Роман Йосипович",
+        "Slug": "stahira-roman-josypovych"
+      }
+    ]
+  },
+  {
+    "Slug": "vybrani-rozdily-movy-prohramuvannia-s-ipz",
+    "Title": "Вибрані розділи мови програмування С (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vybrani-rozdily-movy-prohramuvannia-s-ipz/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vybrani-rozdily-nauky-pro-dani-122-komp-iuterni-nauky",
+    "Title": "Вибрані розділи науки про дані (122 – Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vybrani-rozdily-nauky-pro-dani-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "ЮЗЕВИЧ Володимир Миколайович",
+        "Slug": "yuzevych-volodymyr-mykolajovych"
+      }
+    ]
+  },
+  {
+    "Slug": "aktual-ni-pytannia-nauky-pro-dani",
+    "Title": "Вибрані розділи науки про дані / Selected Sections of Data Science (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/aktual-ni-pytannia-nauky-pro-dani/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "vybrani-rozdily-suchasnykh-mov-ta-zasobiv-prohramuvannia-vpk",
+    "Title": "Вибрані розділи сучасних мов та засобів програмування (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vybrani-rozdily-suchasnykh-mov-ta-zasobiv-prohramuvannia-vpk/",
+    "Lecturers": [
+      {
+        "Name": "РАБОШ Роман Васильович",
+        "Slug": "rabosh-roman-vasylovych"
+      }
+    ]
+  },
+  {
+    "Slug": "vyrobnycha-pereddyplomna-praktyka",
+    "Title": "Виробнича (переддипломна) практика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-pereddyplomna-praktyka/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyrobnycha-pereddyplomna-praktyka-ipz",
+    "Title": "Виробнича (переддипломна) практика (ІПЗ та ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-pereddyplomna-praktyka-ipz/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyrobnycha-pereddyplomna-praktyka-kn",
+    "Title": "Виробнича (переддипломна) практика (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-pereddyplomna-praktyka-kn/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyrobnycha-pereddyplomna-praktyka-pre-thesis-internship",
+    "Title": "Виробнича (переддипломна) практика / Pre-Thesis Internship",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-pereddyplomna-praktyka-pre-thesis-internship/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyrobnycha-pereddyplomna-praktyka-176",
+    "Title": "Виробнича (переддипломна) практика 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-pereddyplomna-praktyka-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyrobnycha-praktyka-2",
+    "Title": "Виробнича практика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyrobnycha-praktyka",
+    "Title": "Виробнича практика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyrobnycha-praktyka-internship-122-kn",
+    "Title": "Виробнича практика / Internship (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka-internship-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИШЕНКО Богдан Михайлович",
+        "Slug": "pavlyshenko-bohdan-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "systemy-kompyuternoji-matematyky",
+    "Title": "Високорівневі системи комп’ютерного захисту (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/systemy-kompyuternoji-matematyky/",
+    "Lecturers": [
+      {
+        "Name": "НАЗАРКЕВИЧ Марія Андріївна",
+        "Slug": "nazarkevych-mariia-andriivna"
+      }
+    ]
+  },
+  {
+    "Slug": "vyshcha-matematyka-2",
+    "Title": "Вища математика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyshcha-matematyka-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyshcha-matematyka-122-komp-iuterni-nauky",
+    "Title": "Вища математика (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyshcha-matematyka-122-komp-iuterni-nauky/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyshcha-matematyka",
+    "Title": "Вища математика (ІПЗ та ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyshcha-matematyka/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyshcha-matematyka-176",
+    "Title": "Вища математика 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyshcha-matematyka-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "volokonno-optychni-sensorni-systemy-176",
+    "Title": "Волоконно-оптичні сенсорні системи 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/volokonno-optychni-sensorni-systemy-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "grafichne-programuvannia-kn",
+    "Title": "Графічне програмування в Labview (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/grafichne-programuvannia-kn/",
+    "Lecturers": [
+      {
+        "Name": "КАРБОВНИК Іван Дмитрович",
+        "Slug": "karbovnyk-i-d"
+      }
+    ]
+  },
+  {
+    "Slug": "dyskretna-matematyka",
+    "Title": "Дискретна математика (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/dyskretna-matematyka/",
+    "Lecturers": [
+      {
+        "Name": "ВЕЛЬГОШ Сергій Романович",
+        "Slug": "velhosh-s-r"
+      },
+      {
+        "Name": "КАЛІВОШКА Богдана Михайлівна",
+        "Slug": "kalivoshka-bohdana-myhajlivna"
+      },
+      {
+        "Name": "РОМАНИШИН Ростислав Ігорович",
+        "Slug": "romanyshyn-r-i"
+      },
+      {
+        "Name": "СЕРЕДНИЦЬКА Христина Ігорівна",
+        "Slug": "serednytska-khrystyna-ihorivna"
+      },
+      {
+        "Name": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
+        "Slug": "shmyhelskyj-ya-a"
+      }
+    ]
+  },
+  {
+    "Slug": "dyskretna-matematyka-2",
+    "Title": "Дискретна математика (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/dyskretna-matematyka-2/",
+    "Lecturers": [
+      {
+        "Name": "ВЕЛЬГОШ Сергій Романович",
+        "Slug": "velhosh-s-r"
+      },
+      {
+        "Name": "СЕРЕДНИЦЬКА Христина Ігорівна",
+        "Slug": "serednytska-khrystyna-ihorivna"
+      }
+    ]
+  },
+  {
+    "Slug": "dyskretna-matematyka-ipz",
+    "Title": "Дискретна математика (ІПЗ та ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/dyskretna-matematyka-ipz/",
+    "Lecturers": [
+      {
+        "Name": "СЕРЕДНИЦЬКА Христина Ігорівна",
+        "Slug": "serednytska-khrystyna-ihorivna"
+      }
+    ]
+  },
+  {
+    "Slug": "evoliutsiyni-henetychni-evrystychni-ta-metaevrestychni-alhorytmy-vpk",
+    "Title": "Еволюційні, генетичні, евристичні та метаеврестичні алгоритми (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/evoliutsiyni-henetychni-evrystychni-ta-metaevrestychni-alhorytmy-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ФРАНІВ Володимир Андрійович",
+        "Slug": "franiv-volodymyr-andriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "ekspertni-systemy-126-informatsiyni-systemy-ta-tekhnolohii-2",
+    "Title": "Експертні системи (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ekspertni-systemy-126-informatsiyni-systemy-ta-tekhnolohii-2/",
+    "Lecturers": [
+      {
+        "Name": "ГРАБОВСЬКИЙ Володимир Андрійович",
+        "Slug": "hrabovskyj-volodymyr-andrijovych-2"
+      }
+    ]
+  },
+  {
+    "Slug": "elektromekhanichni-systemy-avtomatyzatsii",
+    "Title": "Електромеханічні системи автоматизації",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/elektromekhanichni-systemy-avtomatyzatsii/",
+    "Lecturers": [
+      {
+        "Name": "КУШЛИК Маркіян Олегович",
+        "Slug": "kushlyk-markiyan-olehovych"
+      }
+    ]
+  },
+  {
+    "Slug": "fizychnyj-praktykum-2",
+    "Title": "Електроніка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychnyj-praktykum-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "elektronni-zasoby-ta-prystroi-medychnoho-monitorynhu-176",
+    "Title": "Електронні засоби та пристрої медичного моніторингу 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/elektronni-zasoby-ta-prystroi-medychnoho-monitorynhu-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "elektronni-protsesy-v-nanorozmirnyh-systemah",
+    "Title": "Електронні процеси в нанорозмірних системах (176 – Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/elektronni-protsesy-v-nanorozmirnyh-systemah/",
+    "Lecturers": [
+      {
+        "Name": "БІГУН Роман Іванович",
+        "Slug": "bihun-roman-ivanovych"
+      },
+      {
+        "Name": "МАКСИМИЧ Віталій Миколайович",
+        "Slug": "maksymych-v-m"
+      }
+    ]
+  },
+  {
+    "Slug": "elektronni-ta-komp-iuterni-systemy",
+    "Title": "Електронні та комп’ютерні системи",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/elektronni-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "БІГДАЙ Володимир Гаррійович",
+        "Slug": "bihday-volodymyr-harriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "elektronna-20mikroskopiia",
+    "Title": "Електронна мікроскопія",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/elektronna-20mikroskopiia/",
+    "Lecturers": [
+      {
+        "Name": "ПЕНЮХ Богдан Романович",
+        "Slug": "penyuh-bohdan-romanovych"
+      }
+    ]
+  },
+  {
+    "Slug": "elektrotehnika-i-elektronika",
+    "Title": "Електротехніка та електроніка (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/elektrotehnika-i-elektronika/",
+    "Lecturers": [
+      {
+        "Name": "КАРБОВНИК Іван Дмитрович",
+        "Slug": "karbovnyk-i-d"
+      }
+    ]
+  },
+  {
+    "Slug": "teoriya-elektrychnyh-ta-elektronnyh-kil",
+    "Title": "Електротехніка(176)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriya-elektrychnyh-ta-elektronnyh-kil/",
+    "Lecturers": [
+      {
+        "Name": "КУШЛИК Маркіян Олегович",
+        "Slug": "kushlyk-markiyan-olehovych"
+      },
+      {
+        "Name": "МАТВІЇШИН Ігор Михайлович",
+        "Slug": "matvijishyn-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "elementarna-baza-v-mikroelektronitsi-153-sensorni-ta-diahnostychni-elektronni-systemy",
+    "Title": "Елементарна база в мікроелектроніці (153 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/elementarna-baza-v-mikroelektronitsi-153-sensorni-ta-diahnostychni-elektronni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "ЛИС Роман Мирославович",
+        "Slug": "lys-r-m"
+      },
+      {
+        "Name": "КАЮН Ігор Валерійович",
+        "Slug": "kayun-ihor-valerijovych"
+      }
+    ]
+  },
+  {
+    "Slug": "enerhetychni-systemy-ta-kompleksy",
+    "Title": "Енергетичні системи та комплекси",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/enerhetychni-systemy-ta-kompleksy/",
+    "Lecturers": [
+      {
+        "Name": "КОСТИК Людмила Василівна",
+        "Slug": "16673"
+      }
+    ]
+  },
+  {
+    "Slug": "enerhetychna-elektronika",
+    "Title": "Енергетична електроніка (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/enerhetychna-elektronika/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "zhyttievyy-tsykl-pz-ipz",
+    "Title": "Життєвий цикл ПЗ (121 Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/zhyttievyy-tsykl-pz-ipz/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРИНЧУК Іван Миколайович",
+        "Slug": "katerynchuk-ivan-mykolajovych"
+      },
+      {
+        "Name": "ФРАНІВ Володимир Андрійович",
+        "Slug": "franiv-volodymyr-andriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "zhyttievyy-tsykl-pz-upravlinnia-it-proektamy-vpk",
+    "Title": "Життєвий цикл ПЗ. Управління IT проектами (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/zhyttievyy-tsykl-pz-upravlinnia-it-proektamy-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ФРАНІВ Володимир Андрійович",
+        "Slug": "franiv-volodymyr-andriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "zahalna-fizyka-2",
+    "Title": "Загальна фізика (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/zahalna-fizyka-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "zahalna-fizyka",
+    "Title": "Загальна фізика (Сенсорні та діагностичні автоматизовані системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/zahalna-fizyka/",
+    "Lecturers": [
+      {
+        "Name": "КОФЛЮК Ірина Миколаївна",
+        "Slug": "kofliuk-iryna-mykolaivna"
+      },
+      {
+        "Name": "БОРДУН Олег Михайлович",
+        "Slug": "bordun-o-m"
+      }
+    ]
+  },
+  {
+    "Slug": "zasoby-inzhenerii-danykh-ipz",
+    "Title": "Засоби інженерії даних (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/zasoby-inzhenerii-danykh-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      }
+    ]
+  },
+  {
+    "Slug": "zasoby-vidobrazhennia-informatsii",
+    "Title": "Засоби відображення інформації",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/zasoby-vidobrazhennia-informatsii/",
+    "Lecturers": [
+      {
+        "Name": "МЕДВІДЬ Іванна Іванівна",
+        "Slug": "medvid-ivanna-i"
+      }
+    ]
+  },
+  {
+    "Slug": "zasoby-hlybynnoho-navchannia-ipz",
+    "Title": "Засоби глибинного навчання (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/zasoby-hlybynnoho-navchannia-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ПАРУБОЧИЙ Віталій Олегович",
+        "Slug": "parubochyj-v"
+      }
+    ]
+  },
+  {
+    "Slug": "zasoby-mashynnoho-navchannia-ipz",
+    "Title": "Засоби машинного навчання (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/zasoby-mashynnoho-navchannia-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ПАРУБОЧИЙ Віталій Олегович",
+        "Slug": "parubochyj-v"
+      }
+    ]
+  },
+  {
+    "Slug": "zasoby-roboty-z-velykymy-danymy-ipz",
+    "Title": "Засоби роботи з великими даними (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/zasoby-roboty-z-velykymy-danymy-ipz/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "informatsijna-arhitektura",
+    "Title": "Засоби та технології аналітики даних (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/informatsijna-arhitektura/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "ymovirnisni-protsesy-kn",
+    "Title": "Ймовірнісні процеси (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ymovirnisni-protsesy-kn/",
+    "Lecturers": [
+      {
+        "Name": "БОЛЕСТА Іван Михайлович",
+        "Slug": "bolesta-i-m"
+      },
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      },
+      {
+        "Name": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
+        "Slug": "shmyhelskyj-ya-a"
+      }
+    ]
+  },
+  {
+    "Slug": "kiberfizychni-systemy",
+    "Title": "Кіберфізичні системи",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kiberfizychni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "БІГУН Роман Іванович",
+        "Slug": "bihun-roman-ivanovych"
+      }
+    ]
+  },
+  {
+    "Slug": "kiberfizychni-systemy-ist",
+    "Title": "Кіберфізичні системи (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kiberfizychni-systemy-ist/",
+    "Lecturers": [
+      {
+        "Name": "БОРДУН Іван Олегович",
+        "Slug": "bordun-ivan-olehovych"
+      }
+    ]
+  },
+  {
+    "Slug": "kiberfizychni-systemy-176",
+    "Title": "Кіберфізичні системи 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kiberfizychni-systemy-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "mahisterska-robota",
+    "Title": "Кваліфікаційна (магістерська) робота",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mahisterska-robota/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "kvalifikatsiyna-robota-ipz",
+    "Title": "Кваліфікаційна робота (ІПЗ та ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kvalifikatsiyna-robota-ipz/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "kvalifikatsiyna-robota-176",
+    "Title": "Кваліфікаційна робота 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kvalifikatsiyna-robota-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "kvantovi-obchyslennia-quantum-computing-122-kn",
+    "Title": "Квантові обчислення / Quantum Computing (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kvantovi-obchyslennia-quantum-computing-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "БОЛЕСТА Іван Михайлович",
+        "Slug": "bolesta-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "kvantova-elektronika",
+    "Title": "Квантова електроніка (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kvantova-elektronika/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "kvantova-fizyka-ta-obchyslennia-122-komp-iuterni-nauky",
+    "Title": "Квантова фізика та обчислення (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kvantova-fizyka-ta-obchyslennia-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "БОЛЕСТА Іван Михайлович",
+        "Slug": "bolesta-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "komp-iuterni-informatsiyni-merezhi-ist",
+    "Title": "Комп’ютерні інформаційні мережі (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ist/",
+    "Lecturers": [
+      {
+        "Name": "ПРОДИВУС Андрій Михайлович",
+        "Slug": "prodyvus-andrij-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "kompyuterni-informatsijni-merezhi",
+    "Title": "Комп’ютерні інформаційні мережі (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kompyuterni-informatsijni-merezhi/",
+    "Lecturers": [
+      {
+        "Name": "КАСЬКУН Олег Данилович",
+        "Slug": "kaskun-o-d"
+      },
+      {
+        "Name": "ПРОДИВУС Андрій Михайлович",
+        "Slug": "prodyvus-andrij-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "komp-iuterni-informatsiyni-merezhi-ta-systemy-ist",
+    "Title": "Комп’ютерні інформаційні мережі та системи (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ta-systemy-ist/",
+    "Lecturers": [
+      {
+        "Name": "КОЛИЧ Ігор Іванович",
+        "Slug": "kolych-i-i"
+      },
+      {
+        "Name": "ЦИБУЛЯК Богдан Зіновійович",
+        "Slug": "tsybuliak-b-z"
+      },
+      {
+        "Name": "КАСЬКУН Олег Данилович",
+        "Slug": "kaskun-o-d"
+      }
+    ]
+  },
+  {
+    "Slug": "komp-iuterni-informatsiyni-merezhi-ta-systemy-ipz-vpk",
+    "Title": "Комп’ютерні інформаційні мережі та системи (ІПЗ, ВПК?)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/komp-iuterni-informatsiyni-merezhi-ta-systemy-ipz-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЦИБУЛЯК Богдан Зіновійович",
+        "Slug": "tsybuliak-b-z"
+      }
+    ]
+  },
+  {
+    "Slug": "komp-iuterni-merezhi-ta-protokoly-peredachi-danykh-kn",
+    "Title": "Комп’ютерні мережі та протоколи передачі даних (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/komp-iuterni-merezhi-ta-protokoly-peredachi-danykh-kn/",
+    "Lecturers": [
+      {
+        "Name": "КОЛИЧ Ігор Іванович",
+        "Slug": "kolych-i-i"
+      }
+    ]
+  },
+  {
+    "Slug": "komp-iuterni-metody-v-elektronitsi-122-komp-terni-nauky",
+    "Title": "Комп’ютерні методи в електроніці (122 Комп’терні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/komp-iuterni-metody-v-elektronitsi-122-komp-terni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "БОЛЕСТА Іван Михайлович",
+        "Slug": "bolesta-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "komp-iuterna-elektronika-ta-tsyfrova-skhemotekhnika-ist",
+    "Title": "Комп’ютерна електроніка та цифрова схемотехніка (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/komp-iuterna-elektronika-ta-tsyfrova-skhemotekhnika-ist/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "obrobka-pryrodnoi-movy-ist",
+    "Title": "Комп’ютерна лінгвістика (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/obrobka-pryrodnoi-movy-ist/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олег Степанович",
+        "Slug": "kushnir-o-s"
+      },
+      {
+        "Name": "ВАСЮТА Василь Михайлович",
+        "Slug": "vasiuta-vasyl-mykhaylovych"
+      }
+    ]
+  },
+  {
+    "Slug": "komp-iuterna-linhvistyka-ta-obrobka-pryrodnoi-movy-121-ipz-2022",
+    "Title": "Комп’ютерна лінгвістика та обробка природної мови (121 Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/komp-iuterna-linhvistyka-ta-obrobka-pryrodnoi-movy-121-ipz-2022/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олег Степанович",
+        "Slug": "kushnir-o-s"
+      }
+    ]
+  },
+  {
+    "Slug": "kompiuterne-3d-modeliuvannia-176",
+    "Title": "Комп’ютерне 3D моделювання 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kompiuterne-3d-modeliuvannia-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "komp-iuterne-proektuvannia-elementiv-tsyfrovoi-elektrotekhniky",
+    "Title": "Комп’ютерне проектування елементів цифрової електротехніки",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/komp-iuterne-proektuvannia-elementiv-tsyfrovoi-elektrotekhniky/",
+    "Lecturers": [
+      {
+        "Name": "КУШЛИК Маркіян Олегович",
+        "Slug": "kushlyk-markiyan-olehovych"
+      }
+    ]
+  },
+  {
+    "Slug": "komunikatsiyni-navyky-vpk",
+    "Title": "Комунікаційні навики ВПК",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/komunikatsiyni-navyky-vpk/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "konstruiuvannia-prohramnoho-zabezpechennia-171-elektronika-ta-komp-iuterni-systemy",
+    "Title": "Конструювання програмного забезпечення (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/konstruiuvannia-prohramnoho-zabezpechennia-171-elektronika-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "БІГДАЙ Володимир Гаррійович",
+        "Slug": "bihday-volodymyr-harriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "konstruiuvannia-prohramnoho-zabezpechennia-176",
+    "Title": "Конструювання програмного забезпечення 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/konstruiuvannia-prohramnoho-zabezpechennia-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "konstruiuvannia-ta-nadiynist-internet-rechey-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Конструювання та надійність Інтернет речей (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/konstruiuvannia-ta-nadiynist-internet-rechey-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      }
+    ]
+  },
+  {
+    "Slug": "kontrol-iakosti-prohramnoho-zabezpechennia-ist",
+    "Title": "Контроль якості програмного забезпечення (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kontrol-iakosti-prohramnoho-zabezpechennia-ist/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "kontseptsii-pobudovy-iot-rishen",
+    "Title": "Концепції побудови ІоТ рішень (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kontseptsii-pobudovy-iot-rishen/",
+    "Lecturers": [
+      {
+        "Name": "КАРБОВНИК Іван Дмитрович",
+        "Slug": "karbovnyk-i-d"
+      }
+    ]
+  },
+  {
+    "Slug": "kros-platformne-prohramuvannya",
+    "Title": "Крос-платформне програмування (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kros-platformne-prohramuvannya/",
+    "Lecturers": [
+      {
+        "Name": "ХВИЩУН Іван Олександрович",
+        "Slug": "hvyschun-i-o"
+      }
+    ]
+  },
+  {
+    "Slug": "kursova-robota-course-work-122-kn",
+    "Title": "Курсова робота / Course Work (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/kursova-robota-course-work-122-kn/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "mikro-i-nanospetsializovani-elementy-ta-systemy",
+    "Title": "Мікро- і наноспеціалізовані елементи та системи",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikro-i-nanospetsializovani-elementy-ta-systemy/",
+    "Lecturers": [
+      {
+        "Name": "БІГУН Роман Іванович",
+        "Slug": "bihun-roman-ivanovych"
+      }
+    ]
+  },
+  {
+    "Slug": "mikroelektronni-prystroi",
+    "Title": "Мікроелектронні пристрої",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikroelektronni-prystroi/",
+    "Lecturers": [
+      {
+        "Name": "КАРПІН Олександр Олександрович",
+        "Slug": "karpin-oleksandr-oleksandrovych"
+      }
+    ]
+  },
+  {
+    "Slug": "mikroelektronni-sensorni-prystroi-microelectronic-sensor-devices-122-kn",
+    "Title": "Мікроелектронні сенсорні пристрої / Microelectronic Sensor Devices (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikroelektronni-sensorni-prystroi-microelectronic-sensor-devices-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "ЛИС Роман Мирославович",
+        "Slug": "lys-r-m"
+      }
+    ]
+  },
+  {
+    "Slug": "mikrokontrolery",
+    "Title": "Мікроконтролери",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikrokontrolery/",
+    "Lecturers": [
+      {
+        "Name": "КАРПІН Олександр Олександрович",
+        "Slug": "karpin-oleksandr-oleksandrovych"
+      }
+    ]
+  },
+  {
+    "Slug": "mikrokontrolery-na-bazi-gl-embedded-starter-kits-ipz",
+    "Title": "Мікроконтролери (на базі GL Embedded Starter Kits) (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikrokontrolery-na-bazi-gl-embedded-starter-kits-ipz/",
+    "Lecturers": [
+      {
+        "Name": "БОЙКО Ярослав Васильович",
+        "Slug": "bojko-ya-v"
+      }
+    ]
+  },
+  {
+    "Slug": "mikrokontrolery-ta-vbudovani-systemy-176",
+    "Title": "Мікроконтролери та вбудовані системи 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikrokontrolery-ta-vbudovani-systemy-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "mikroprotsesorni-prystroi-ta-systemy",
+    "Title": "Мікропроцесорні пристрої та системи",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikroprotsesorni-prystroi-ta-systemy/",
+    "Lecturers": [
+      {
+        "Name": "РАБИК Василь Григорович",
+        "Slug": "rabyk-v-h"
+      }
+    ]
+  },
+  {
+    "Slug": "mikroprotsesorni-systemy-2",
+    "Title": "Мікропроцесорні системи (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikroprotsesorni-systemy-2/",
+    "Lecturers": [
+      {
+        "Name": "БЛАГІТКО Богдан Ярославович",
+        "Slug": "blahitko-b-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "mikroprotsesorna-tekhnika-kn",
+    "Title": "Мікропроцесорна техніка (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikroprotsesorna-tekhnika-kn/",
+    "Lecturers": [
+      {
+        "Name": "БЛАГІТКО Богдан Ярославович",
+        "Slug": "blahitko-b-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "mikroprotsesorna-tekhnika-153-mikro-ta-nanosystemna-tekhnika",
+    "Title": "Мікропроцесорна техніка 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mikroprotsesorna-tekhnika-153-mikro-ta-nanosystemna-tekhnika/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "mahisterska-robota-master-thesis-122-kn",
+    "Title": "Магістерська робота / Master Thesis (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mahisterska-robota-master-thesis-122-kn/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "mahisterskyy-seminar",
+    "Title": "Магістерський семінар",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mahisterskyy-seminar/",
+    "Lecturers": [
+      {
+        "Name": "ЛУЧЕЧКО Андрій Петрович",
+        "Slug": "luchechko-a-p"
+      },
+      {
+        "Name": "ЛИС Роман Мирославович",
+        "Slug": "lys-r-m"
+      }
+    ]
+  },
+  {
+    "Slug": "matematychni-metody-doslidzhennia-operatsiy-kn",
+    "Title": "Математичні методи дослідження операцій (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/matematychni-metody-doslidzhennia-operatsiy-kn/",
+    "Lecturers": [
+      {
+        "Name": "ВАСЮТА Василь Михайлович",
+        "Slug": "vasiuta-vasyl-mykhaylovych"
+      },
+      {
+        "Name": "ІЖИК Олег Борисович",
+        "Slug": "izhyk-oleh-borysovych"
+      }
+    ]
+  },
+  {
+    "Slug": "materialy-ta-komponenty-suchasnoi-elektroniky-eikt",
+    "Title": "Матеріали та компоненти сучасної електроніки (171 Електроніка та комп’ютерні системи",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/materialy-ta-komponenty-suchasnoi-elektroniky-eikt/",
+    "Lecturers": [
+      {
+        "Name": "МАТВІЇШИН Ігор Михайлович",
+        "Slug": "matvijishyn-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "mashynne-navchannia",
+    "Title": "Машинне навчання (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mashynne-navchannia/",
+    "Lecturers": [
+      {
+        "Name": "СІНЬКЕВИЧ Олег Олександрович",
+        "Slug": "o_sinkevych"
+      }
+    ]
+  },
+  {
+    "Slug": "mashynne-navchannia-ta-shtuchnyy-intelekt-176",
+    "Title": "Машинне навчання та штучний інтелект 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mashynne-navchannia-ta-shtuchnyy-intelekt-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "merezhi-ta-interfeysy-171-elektronika-ta-komp-iuterni-systemy",
+    "Title": "Мережі та інтерфейси (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/merezhi-ta-interfeysy-171-elektronika-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "БІГДАЙ Володимир Гаррійович",
+        "Slug": "bihday-volodymyr-harriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "merezhi-ta-protokoly-mnt",
+    "Title": "Мережі та протоколи (153 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/merezhi-ta-protokoly-mnt/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "metaevrystychni-alhorytmy-metaheuristic-algorithms-122-kn",
+    "Title": "Метаевристичні алгоритми / Metaheuristic Algorithms (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metaevrystychni-alhorytmy-metaheuristic-algorithms-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "СОКОЛОВСЬКИЙ Богдан Степанович",
+        "Slug": "sokolovskyj-bohdan-stepanovych-2"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-komp-iuternoi-interpretatsii-danykh-kn",
+    "Title": "Методи комп’ютерної інтерпретації даних (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-komp-iuternoi-interpretatsii-danykh-kn/",
+    "Lecturers": [
+      {
+        "Name": "ЛЮБУНЬ Зіновій Михайлович",
+        "Slug": "lyubun-z-m"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-obrobky-velykykh-ta-nadvelykykh-danykh-vpk",
+    "Title": "Методи обробки великих та надвеликих даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-obrobky-velykykh-ta-nadvelykykh-danykh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      },
+      {
+        "Name": "СТАХІРА Роман Йосипович",
+        "Slug": "stahira-roman-josypovych"
+      }
+    ]
+  },
+  {
+    "Slug": "chysel-ni-metody-ist",
+    "Title": "Методи обчислень (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/chysel-ni-metody-ist/",
+    "Lecturers": [
+      {
+        "Name": "МИСЮК Роман Володимирович",
+        "Slug": "mysiuk-r-v"
+      },
+      {
+        "Name": "ПАТИНКО Андрій Михайлович",
+        "Slug": "patynko-andriy"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-obchyslen-vpk",
+    "Title": "Методи обчислень (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-obchyslen-vpk/",
+    "Lecturers": [
+      {
+        "Name": "БУГРІЙ Олег Миколайович",
+        "Slug": "buhrii-o-m"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-provedennia-tekhnichnoho-kontroliu-2",
+    "Title": "Методи проведення технічного контролю",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-provedennia-tekhnichnoho-kontroliu-2/",
+    "Lecturers": [
+      {
+        "Name": "ПТАШНИК Вадим Вікторович",
+        "Slug": "ptashnyk-vadym-viktorovych"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-ta-zasoby-diahnostyky-avtomatyzovanykh-system-176",
+    "Title": "Методи та засоби діагностики автоматизованих систем 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-zasoby-diahnostyky-avtomatyzovanykh-system-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "metody-ta-tekhnolohii-cv-ta-nlp-vpk",
+    "Title": "Методи та технології CV та NLP (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-cv-ta-nlp-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ДУФАНЕЦЬ Марта Василівна",
+        "Slug": "dufanets-marta-vasylivna"
+      },
+      {
+        "Name": "КУШНІР Олег Степанович",
+        "Slug": "kushnir-o-s"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-ta-tekhnolohii-opratsiuvannia-danykh-ipz",
+    "Title": "Методи та технології інженерії даних (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИШЕНКО Богдан Михайлович",
+        "Slug": "pavlyshenko-bohdan-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-i-tekhnolohii-analizu-danykh-ipz",
+    "Title": "Методи та технології аналізу даних (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-i-tekhnolohii-analizu-danykh-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ЮЗЕВИЧ Володимир Миколайович",
+        "Slug": "yuzevych-volodymyr-mykolajovych"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-ta-tekhnolohii-analizu-danykh-vpk",
+    "Title": "Методи та технології аналізу даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-analizu-danykh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЮЗЕВИЧ Володимир Миколайович",
+        "Slug": "yuzevych-volodymyr-mykolajovych"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-ipz",
+    "Title": "Методи та технології машинного навчання (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-ipz/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk",
+    "Title": "Методи та технології машинного навчання (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2",
+    "Title": "Методи та технології машинного навчання (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-obchyslen-ipz",
+    "Title": "Методи та технології обчислень(ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-obchyslen-ipz/",
+    "Lecturers": [
+      {
+        "Name": "МИСЮК Роман Володимирович",
+        "Slug": "mysiuk-r-v"
+      },
+      {
+        "Name": "КАСЬКУН Олег Данилович",
+        "Slug": "kaskun-o-d"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk",
+    "Title": "Методи та технології опрацювання даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2",
+    "Title": "Методи та технології опрацювання даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИШЕНКО Богдан Михайлович",
+        "Slug": "pavlyshenko-bohdan-myhajlovych"
+      },
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "metodolohii-doslidzhennia-danykh-vpk",
+    "Title": "Методології дослідження даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metodolohii-doslidzhennia-danykh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "metodolohii-doslidzhennia-danykh-vpk-2",
+    "Title": "Методології дослідження даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metodolohii-doslidzhennia-danykh-vpk-2/",
+    "Lecturers": [
+      {
+        "Name": "ЮЗЕВИЧ Володимир Миколайович",
+        "Slug": "yuzevych-volodymyr-mykolajovych"
+      },
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "metodolohiya-naukovyh-doslidzhen-2",
+    "Title": "Методологія наукових досліджень / Methodology of Scientific Research (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metodolohiya-naukovyh-doslidzhen-2/",
+    "Lecturers": [
+      {
+        "Name": "БОЛЕСТА Іван Михайлович",
+        "Slug": "bolesta-i-m"
+      },
+      {
+        "Name": "КАТЕРНЯК Ігор Богданович",
+        "Slug": "katernyak-i-b"
+      },
+      {
+        "Name": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
+        "Slug": "shmyhelskyj-ya-a"
+      }
+    ]
+  },
+  {
+    "Slug": "metrolohiia-153",
+    "Title": "Метрологія (Сенсорні та діагностичні автоматизовані системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metrolohiia-153/",
+    "Lecturers": [
+      {
+        "Name": "МЕДВІДЬ Іванна Іванівна",
+        "Slug": "medvid-ivanna-i"
+      }
+    ]
+  },
+  {
+    "Slug": "mekhatronni-systemy-176",
+    "Title": "Мехатронні системи 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mekhatronni-systemy-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "mobil-ni-informatsiyni-systemy",
+    "Title": "Мобільні інформаційні системи (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mobil-ni-informatsiyni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "СТАХІРА Роман Йосипович",
+        "Slug": "stahira-roman-josypovych"
+      }
+    ]
+  },
+  {
+    "Slug": "mobilna-rozrobka-platforma-android-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Мобільна розробка (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mobilna-rozrobka-platforma-android-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      }
+    ]
+  },
+  {
+    "Slug": "mobilnyy-komp-iutynh-vpk",
+    "Title": "Мобільний компʼютинг (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mobilnyy-komp-iutynh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      }
+    ]
+  },
+  {
+    "Slug": "mova-prohramuvannia-java-ist",
+    "Title": "Мова програмування Java (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mova-prohramuvannia-java-ist/",
+    "Lecturers": [
+      {
+        "Name": "ФРАНІВ Володимир Андрійович",
+        "Slug": "franiv-volodymyr-andriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "mova-prohramuvannia-javascript",
+    "Title": "Мова програмування JavaScript (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mova-prohramuvannia-javascript/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "mova-prohramuvannia-python-ist-2",
+    "Title": "Мова програмування Python (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mova-prohramuvannia-python-ist-2/",
+    "Lecturers": [
+      {
+        "Name": "СІНЬКЕВИЧ Олег Олександрович",
+        "Slug": "o_sinkevych"
+      }
+    ]
+  },
+  {
+    "Slug": "modeliuvannia-v-elektronitsi-171-elektronika-ta-komp-iuterni-systemy",
+    "Title": "Моделювання в електроніці (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/modeliuvannia-v-elektronitsi-171-elektronika-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "ЛУЧЕЧКО Андрій Петрович",
+        "Slug": "luchechko-a-p"
+      }
+    ]
+  },
+  {
+    "Slug": "modeliuvannia-nanotekhnolohiy-modeling-of-nanotechnologies-122-kn",
+    "Title": "Моделювання нанотехнологій / Modeling of Nanotechnologies (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/modeliuvannia-nanotekhnolohiy-modeling-of-nanotechnologies-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "БОРДУН Олег Михайлович",
+        "Slug": "bordun-o-m"
+      }
+    ]
+  },
+  {
+    "Slug": "modeliuvannia-protsesiv-ta-system-153-sensorni-ta-diahnostychni-elektroni-systemy",
+    "Title": "Моделювання процесів та систем (153 – Сенсорні та діагностичні електроні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/modeliuvannia-protsesiv-ta-system-153-sensorni-ta-diahnostychni-elektroni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "ЛУЧЕЧКО Андрій Петрович",
+        "Slug": "luchechko-a-p"
+      }
+    ]
+  },
+  {
+    "Slug": "modelyuvannya-v-elektronitsi",
+    "Title": "Моделювання процесів та систем 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/modelyuvannya-v-elektronitsi/",
+    "Lecturers": [
+      {
+        "Name": "ЛУЧЕЧКО Андрій Петрович",
+        "Slug": "luchechko-a-p"
+      }
+    ]
+  },
+  {
+    "Slug": "m-iaki-navychky-ist",
+    "Title": "М’які навички (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/m-iaki-navychky-ist/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Марія Юріївна",
+        "Slug": "liashkevych-m-yu"
+      }
+    ]
+  },
+  {
+    "Slug": "m-iaki-obchyslennia-ipz-2022",
+    "Title": "М’які обчислення (ІПЗ) 2022",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/m-iaki-obchyslennia-ipz-2022/",
+    "Lecturers": [
+      {
+        "Name": "ОЛЕНИЧ Ігор Богданович",
+        "Slug": "olenych-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "navchalna-komp-iuterna-praktyka",
+    "Title": "Навчальна (комп’ютерна) практика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/navchalna-komp-iuterna-praktyka/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "navchalna-proektna-praktyka-ipz",
+    "Title": "Навчальна (проектна) практика (ІПЗ та ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/navchalna-proektna-praktyka-ipz/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "navchalna-komp-iuterna-praktyka-176",
+    "Title": "Навчальна-комп’ютерна практика 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/navchalna-komp-iuterna-praktyka-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "proektuvannya-mems-dlya-intelektualnyh-system",
+    "Title": "Надійність програмно-апаратних систем (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proektuvannya-mems-dlya-intelektualnyh-system/",
+    "Lecturers": [
+      {
+        "Name": "МОНАСТИРСЬКИЙ Любомир Степанович",
+        "Slug": "monastyrskyj-lyubomyr-stepanovych"
+      }
+    ]
+  },
+  {
+    "Slug": "nadiynist-prohramno-aparatnykh-system-122-komp-iuterni-nauky",
+    "Title": "Надійність програмно-апаратних систем (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nadiynist-prohramno-aparatnykh-system-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "МОНАСТИРСЬКИЙ Любомир Степанович",
+        "Slug": "monastyrskyj-lyubomyr-stepanovych"
+      },
+      {
+        "Name": "ГУРА Володимир Тарасович",
+        "Slug": "hura-volodymyr-tarasovych"
+      }
+    ]
+  },
+  {
+    "Slug": "nanoinzheneriia-ta-elektronna-spektroskopiia-poverkhni",
+    "Title": "Наноінженерія та електронна спектроскопія поверхні",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nanoinzheneriia-ta-elektronna-spektroskopiia-poverkhni/",
+    "Lecturers": [
+      {
+        "Name": "ГАЛІЙ Павло Васильович",
+        "Slug": "halij-p-v"
+      }
+    ]
+  },
+  {
+    "Slug": "nanoelektronni-systemy-mnt",
+    "Title": "Наноелектронні системи (176 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nanoelektronni-systemy-mnt/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "nanoelektronni-systemy-176",
+    "Title": "Наноелектронні системи 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nanoelektronni-systemy-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "nanomaterialy-u-sensorytsi",
+    "Title": "Наноматеріали у сенсориці",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nanomaterialy-u-sensorytsi/",
+    "Lecturers": [
+      {
+        "Name": "КОСТИК Людмила Василівна",
+        "Slug": "16673"
+      }
+    ]
+  },
+  {
+    "Slug": "nanosystemy-ta-nanotechnologii",
+    "Title": "Наносистеми та нанотехнології (176 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nanosystemy-ta-nanotechnologii/",
+    "Lecturers": [
+      {
+        "Name": "ГАЛІЙ Павло Васильович",
+        "Slug": "halij-p-v"
+      }
+    ]
+  },
+  {
+    "Slug": "napivprovidnykova-elektronika-2",
+    "Title": "Напівпровідникова електроніка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/napivprovidnykova-elektronika-2/",
+    "Lecturers": [
+      {
+        "Name": "ГАЛІЙ Павло Васильович",
+        "Slug": "halij-p-v"
+      }
+    ]
+  },
+  {
+    "Slug": "napivprovidnykova-elektronika",
+    "Title": "Напівпровідникова електроніка (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/napivprovidnykova-elektronika/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "nejromerezhi-ta-nechitki-nejromerezhi",
+    "Title": "Нейромережі та нечіткі нейромережі (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nejromerezhi-ta-nechitki-nejromerezhi/",
+    "Lecturers": [
+      {
+        "Name": "СВЕЛЕБА Сергій Андрійович",
+        "Slug": "sveleba-serhij-andrijovych"
+      },
+      {
+        "Name": "КУНЬО Іван Михайлович",
+        "Slug": "kuno-ivan-mykolayovych"
+      }
+    ]
+  },
+  {
+    "Slug": "neyronni-merezhi-ist",
+    "Title": "Нейронні мережі (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/neyronni-merezhi-ist/",
+    "Lecturers": [
+      {
+        "Name": "ФРАНІВ Володимир Андрійович",
+        "Slug": "franiv-volodymyr-andriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "nereliatsiyni-bazy-danykh-ipz",
+    "Title": "Нереляційні бази даних (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nereliatsiyni-bazy-danykh-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИШЕНКО Богдан Михайлович",
+        "Slug": "pavlyshenko-bohdan-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "nereliatsiyni-bazy-danykh-kn",
+    "Title": "Нереляційні бази даних (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nereliatsiyni-bazy-danykh-kn/",
+    "Lecturers": [
+      {
+        "Name": "КАСЬКУН Олег Данилович",
+        "Slug": "kaskun-o-d"
+      }
+    ]
+  },
+  {
+    "Slug": "nechitki-systemy-ipz",
+    "Title": "Нечіткі системи (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nechitki-systemy-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ОЛЕНИЧ Ігор Богданович",
+        "Slug": "olenych-i-b"
+      },
+      {
+        "Name": "РАБОШ Роман Васильович",
+        "Slug": "rabosh-roman-vasylovych"
+      }
+    ]
+  },
+  {
+    "Slug": "nechitka-lohika-ta-systemy-nechitkoi-lohiky-vpk",
+    "Title": "Нечітка логіка та системи нечіткої логіки (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nechitka-lohika-ta-systemy-nechitkoi-lohiky-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ОЛЕНИЧ Ігор Богданович",
+        "Slug": "olenych-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "nyzkorivneve-prohramuvannya",
+    "Title": "Низькорівнева архітектура обчислювальних систем (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/nyzkorivneve-prohramuvannya/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "ob-iektno-oriientovane-prohramuvannia-kn",
+    "Title": "Об’єктно-орієнтоване програмування (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-kn/",
+    "Lecturers": [
+      {
+        "Name": "РАБИК Василь Григорович",
+        "Slug": "rabyk-v-h"
+      },
+      {
+        "Name": "ХВИЩУН Іван Олександрович",
+        "Slug": "hvyschun-i-o"
+      },
+      {
+        "Name": "ЛЕВУШ Павло Назарович",
+        "Slug": "levush-pavlo-nazarovych"
+      }
+    ]
+  },
+  {
+    "Slug": "objektno-orijentovane-prohramuvannya",
+    "Title": "Об’єктно-орієнтоване програмування (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/objektno-orijentovane-prohramuvannya/",
+    "Lecturers": [
+      {
+        "Name": "ЗЛОБІН Григорій Григорович",
+        "Slug": "zlobin-h-h"
+      }
+    ]
+  },
+  {
+    "Slug": "ob-iektno-oriientovane-prohramuvannia-ipz",
+    "Title": "Об’єктно-орієнтоване програмування (ІПЗ, ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ob-iektno-oriientovane-prohramuvannia-ipz/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      },
+      {
+        "Name": "ЛЕВУШ Павло Назарович",
+        "Slug": "levush-pavlo-nazarovych"
+      },
+      {
+        "Name": "ШЕВЧУК Валерій Дмитрович",
+        "Slug": "shevchuk-valerij-dmytrovych"
+      }
+    ]
+  },
+  {
+    "Slug": "operatsijni-systemy",
+    "Title": "Операційні системи (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/operatsijni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "БОЙКО Ярослав Васильович",
+        "Slug": "bojko-ya-v"
+      }
+    ]
+  },
+  {
+    "Slug": "operatsiyni-systemy-ipz",
+    "Title": "Операційні системи реального часу (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/operatsiyni-systemy-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИК Михайло Романович",
+        "Slug": "pavlyk-m-r"
+      }
+    ]
+  },
+  {
+    "Slug": "operatsiyni-systemy-ta-systemne-prohramuvannia-ist",
+    "Title": "Операційні системи та системне програмування (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/operatsiyni-systemy-ta-systemne-prohramuvannia-ist/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИК Михайло Романович",
+        "Slug": "pavlyk-m-r"
+      }
+    ]
+  },
+  {
+    "Slug": "operatsiyni-systemy-systemne-prohramuvannia-ipz",
+    "Title": "Операційні системи, системне програмування (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/operatsiyni-systemy-systemne-prohramuvannia-ipz/",
+    "Lecturers": [
+      {
+        "Name": "БОЙКО Ярослав Васильович",
+        "Slug": "bojko-ya-v"
+      }
+    ]
+  },
+  {
+    "Slug": "opratsiuvannia-informatsii-vpk",
+    "Title": "Опрацювання інформації (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/opratsiuvannia-informatsii-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ФУРГАЛА Юрій Михайлович",
+        "Slug": "furhala-yurij-myhajlovych"
+      },
+      {
+        "Name": "ДУФАНЕЦЬ Марта Василівна",
+        "Slug": "dufanets-marta-vasylivna"
+      },
+      {
+        "Name": "ІЖИК Олег Борисович",
+        "Slug": "izhyk-oleh-borysovych"
+      }
+    ]
+  },
+  {
+    "Slug": "opratsiuvannia-zobrazhen-122-komp-iuterni-nauky",
+    "Title": "Опрацювання зображень (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/opratsiuvannia-zobrazhen-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "КРУПИЧ Олег Миколайович",
+        "Slug": "krupych-oleh-mykolayovych"
+      }
+    ]
+  },
+  {
+    "Slug": "opratsiuvannia-pryrodnoi-movy-122-komp-iuterni-nauky",
+    "Title": "Опрацювання природної мови (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/opratsiuvannia-pryrodnoi-movy-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олег Степанович",
+        "Slug": "kushnir-o-s"
+      },
+      {
+        "Name": "КУНЬО Іван Михайлович",
+        "Slug": "kuno-ivan-mykolayovych"
+      },
+      {
+        "Name": "ВАСЮТА Василь Михайлович",
+        "Slug": "vasiuta-vasyl-mykhaylovych"
+      },
+      {
+        "Name": "ВДОВИЧЕНКО Віктор Мар'янович",
+        "Slug": "vdovychenko-viktor-mar-ianovych"
+      }
+    ]
+  },
+  {
+    "Slug": "optoelektronika-171-eks",
+    "Title": "Оптоелектроніка (171 Електроніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/optoelektronika-171-eks/",
+    "Lecturers": [
+      {
+        "Name": "КОРЧАК Юрій Михайлович",
+        "Slug": "korchak-yu-m"
+      },
+      {
+        "Name": "РУСИНЯК Михайло Омелянович",
+        "Slug": "rusyniak-mykhaylo-omelianovych"
+      }
+    ]
+  },
+  {
+    "Slug": "optoelektronika",
+    "Title": "Оптоелектроніка (176 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/optoelektronika/",
+    "Lecturers": [
+      {
+        "Name": "КОРЧАК Юрій Михайлович",
+        "Slug": "korchak-yu-m"
+      }
+    ]
+  },
+  {
+    "Slug": "optoelektronni-komponenty-diahnostychnykh-system-176",
+    "Title": "Оптоелектронні компоненти діагностичних систем 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/optoelektronni-komponenty-diahnostychnykh-system-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "optoelektronni-prylady-i-prystroi",
+    "Title": "Оптоелектронні прилади і пристрої",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/optoelektronni-prylady-i-prystroi/",
+    "Lecturers": [
+      {
+        "Name": "КУХАРСЬКИЙ Ігор Йосифович",
+        "Slug": "kukharsky-ihor-josyfovych"
+      }
+    ]
+  },
+  {
+    "Slug": "fizychni-osnovy-optoelektroniky-kn",
+    "Title": "Оптоелектронна інформатика (F3 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-optoelektroniky-kn/",
+    "Lecturers": [
+      {
+        "Name": "КОРЧАК Юрій Михайлович",
+        "Slug": "korchak-yu-m"
+      },
+      {
+        "Name": "ГОРОН Богдан Ігорович",
+        "Slug": "horon-bohdan-ihorovych"
+      },
+      {
+        "Name": "РУСИНЯК Михайло Омелянович",
+        "Slug": "rusyniak-mykhaylo-omelianovych"
+      },
+      {
+        "Name": "ІЖИК Олег Борисович",
+        "Slug": "izhyk-oleh-borysovych"
+      }
+    ]
+  },
+  {
+    "Slug": "orhanizatsiya-baz-danyh-ta-znan-2",
+    "Title": "Організація баз даних та знань (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/orhanizatsiya-baz-danyh-ta-znan-2/",
+    "Lecturers": [
+      {
+        "Name": "ГАЛЯТКІН Олександр Олександрович",
+        "Slug": "haliatkin-o-o"
+      },
+      {
+        "Name": "ГУСАК Олег Васильович",
+        "Slug": "husak-o-v"
+      }
+    ]
+  },
+  {
+    "Slug": "velyki-dani",
+    "Title": "Основи інженерії даних (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/velyki-dani/",
+    "Lecturers": [
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz",
+    "Title": "Основи інженерії програмного забезпечення (ІПЗ та ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-inzhenerii-prohramnoho-zabezpechennia-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      },
+      {
+        "Name": "МИСЮК Роман Володимирович",
+        "Slug": "mysiuk-r-v"
+      },
+      {
+        "Name": "МИСЮК Ірина Володимирівна",
+        "Slug": "mysiuk-i-v"
+      },
+      {
+        "Name": "ЦУДЗЕНКО Юрій Євгенович",
+        "Slug": "tsudzenko-yuriy-yevhenovych"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-analizu-danykh-122-komp-iuterni-nauky",
+    "Title": "Основи аналізу даних (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-analizu-danykh-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "ЮЗЕВИЧ Володимир Миколайович",
+        "Slug": "yuzevych-volodymyr-mykolajovych"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-analityky-danykh-122-komp-iuterni-nauky",
+    "Title": "Основи аналітики даних (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-analityky-danykh-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "ЮЗЕВИЧ Володимир Миколайович",
+        "Slug": "yuzevych-volodymyr-mykolajovych"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-vbudovanykh-system-ipz-2022",
+    "Title": "Основи вбудованих систем (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-vbudovanykh-system-ipz-2022/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИК Михайло Романович",
+        "Slug": "pavlyk-m-r"
+      }
+    ]
+  },
+  {
+    "Slug": "fizychni-osnovy-elektroniky",
+    "Title": "Основи електроніки (122 – Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-elektroniky/",
+    "Lecturers": [
+      {
+        "Name": "КОФЛЮК Ірина Миколаївна",
+        "Slug": "kofliuk-iryna-mykolaivna"
+      },
+      {
+        "Name": "БОРДУН Олег Михайлович",
+        "Slug": "bordun-o-m"
+      },
+      {
+        "Name": "МЕДВІДЬ Іванна Іванівна",
+        "Slug": "medvid-ivanna-i"
+      },
+      {
+        "Name": "КОПЛАК Ольга Михайлівна",
+        "Slug": "koplak-olha-myhajlivna"
+      },
+      {
+        "Name": "ХОМИШИН Іван Юрійович",
+        "Slug": "khomyshyn-i-yu"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-kvantovykh-komp-iuteriv-ta-obchyslen-vpk",
+    "Title": "Основи квантових компʼютерів та обчислень (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-kvantovykh-komp-iuteriv-ta-obchyslen-vpk/",
+    "Lecturers": [
+      {
+        "Name": "БОЛЕСТА Іван Михайлович",
+        "Slug": "bolesta-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-komp-iuternoi-linhvistyky-122-kn",
+    "Title": "Основи комп’ютерної лінгвістики (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-komp-iuternoi-linhvistyky-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олег Степанович",
+        "Slug": "kushnir-o-s"
+      },
+      {
+        "Name": "ГОРОН Богдан Ігорович",
+        "Slug": "horon-bohdan-ihorovych"
+      },
+      {
+        "Name": "КАТЕРИНЧУК Іван Миколайович",
+        "Slug": "katerynchuk-ivan-mykolajovych"
+      },
+      {
+        "Name": "ІЖИК Олег Борисович",
+        "Slug": "izhyk-oleh-borysovych"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-konstruiuvannia-ta-sapr-176",
+    "Title": "Основи конструювання та САПР 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-konstruiuvannia-ta-sapr-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "osnovy-metrolohii-ta-standartyzatsii-eikt",
+    "Title": "Основи метрології та стандартизації (171 –Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-metrolohii-ta-standartyzatsii-eikt/",
+    "Lecturers": [
+      {
+        "Name": "МЕДВІДЬ Іванна Іванівна",
+        "Slug": "medvid-ivanna-i"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-m-iakykh-obchyslen-122-komp-iuterni-nauky",
+    "Title": "Основи м’яких обчислень (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-m-iakykh-obchyslen-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "ОЛЕНИЧ Ігор Богданович",
+        "Slug": "olenych-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist",
+    "Title": "Основи паралельного програмування (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-paralel-noho-i-rozpodilenoho-prohramuvannia-ist/",
+    "Lecturers": [
+      {
+        "Name": "ШУВАР Роман Ярославович",
+        "Slug": "shuvar-r-ya-2"
+      },
+      {
+        "Name": "КУЛИК Петро Русланович",
+        "Slug": "kulyk-p-r"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-prohramuvannia-ipz",
+    "Title": "Основи програмування (121 Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-prohramuvannia-ipz/",
+    "Lecturers": [
+      {
+        "Name": "КРУПИЧ Олег Миколайович",
+        "Slug": "krupych-oleh-mykolayovych"
+      },
+      {
+        "Name": "ВАСЮТА Василь Михайлович",
+        "Slug": "vasiuta-vasyl-mykhaylovych"
+      },
+      {
+        "Name": "ІЖИК Олег Борисович",
+        "Slug": "izhyk-oleh-borysovych"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-robototekhniky-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Основи робототехніки (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-robototekhniky-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-robototekhniky-176",
+    "Title": "Основи робототехніки 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-robototekhniky-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "osnovy-termometrii-mnt",
+    "Title": "Основи термометрії (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-termometrii-mnt/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "osnovy-shtuchnoho-intelektu-ipz",
+    "Title": "Основи штучного інтелекту (121 Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-shtuchnoho-intelektu-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ГРАБОВСЬКИЙ Володимир Андрійович",
+        "Slug": "hrabovskyj-volodymyr-andrijovych-2"
+      },
+      {
+        "Name": "РУСИНЯК Михайло Омелянович",
+        "Slug": "rusyniak-mykhaylo-omelianovych"
+      }
+    ]
+  },
+  {
+    "Slug": "paralelne-prohramuvannia-ipz",
+    "Title": "Паралельні та розподілені обчислення",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/paralelne-prohramuvannia-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ШУВАР Роман Ярославович",
+        "Slug": "shuvar-r-ya-2"
+      },
+      {
+        "Name": "КАСЬКУН Олег Данилович",
+        "Slug": "kaskun-o-d"
+      },
+      {
+        "Name": "КУЛИК Петро Русланович",
+        "Slug": "kulyk-p-r"
+      }
+    ]
+  },
+  {
+    "Slug": "paralelni-ta-rozpodileni-obchyslennia",
+    "Title": "Паралельні та розподілені обчислення (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/paralelni-ta-rozpodileni-obchyslennia/",
+    "Lecturers": [
+      {
+        "Name": "ШУВАР Роман Ярославович",
+        "Slug": "shuvar-r-ya-2"
+      },
+      {
+        "Name": "КУЛИК Петро Русланович",
+        "Slug": "kulyk-p-r"
+      }
+    ]
+  },
+  {
+    "Slug": "paterny-proektuvannia-ipz",
+    "Title": "Патерни проектування (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/paterny-proektuvannia-ipz/",
+    "Lecturers": [
+      {
+        "Name": "СІНЬКЕВИЧ Олег Олександрович",
+        "Slug": "o_sinkevych"
+      }
+    ]
+  },
+  {
+    "Slug": "platformy-internetu-rechey-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Платформи Інтернету речей (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/platformy-internetu-rechey-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": [
+      {
+        "Name": "КАРБОВНИК Іван Дмитрович",
+        "Slug": "karbovnyk-i-d"
+      }
+    ]
+  },
+  {
+    "Slug": "podannia-znan-i-bazy-znan-122-komp-iuterni-nauky",
+    "Title": "Подання знань і бази знань (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/podannia-znan-i-bazy-znan-122-komp-iuterni-nauky/",
+    "Lecturers": [
+      {
+        "Name": "СВЕЛЕБА Сергій Андрійович",
+        "Slug": "sveleba-serhij-andrijovych"
+      },
+      {
+        "Name": "РУСИНЯК Михайло Омелянович",
+        "Slug": "rusyniak-mykhaylo-omelianovych"
+      }
+    ]
+  },
+  {
+    "Slug": "pravo-it-ipz",
+    "Title": "Право ІТ (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/pravo-it-ipz/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "prezentatsiyni-navyky-vpk",
+    "Title": "Презентаційні навики ВПК",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prezentatsiyni-navyky-vpk/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "prykladna-statystyka-ta-jmovirnisni-procesy-ipz",
+    "Title": "Прикладна статистика та ймовірнісні процеси (ІПЗ ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prykladna-statystyka-ta-jmovirnisni-procesy-ipz/",
+    "Lecturers": [
+      {
+        "Name": "КАЛІВОШКА Богдана Михайлівна",
+        "Slug": "kalivoshka-bohdana-myhajlivna"
+      }
+    ]
+  },
+  {
+    "Slug": "applied-statistics-and-probabilistic-processes-ks",
+    "Title": "Прикладна статистика та ймовірнісні процеси (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/applied-statistics-and-probabilistic-processes-ks/",
+    "Lecturers": [
+      {
+        "Name": "БОЛЕСТА Іван Михайлович",
+        "Slug": "bolesta-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "teoriya-informatsiji",
+    "Title": "Прикладна теорія інформації / Applied Information Theory (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriya-informatsiji/",
+    "Lecturers": [
+      {
+        "Name": "БОЛЕСТА Іван Михайлович",
+        "Slug": "bolesta-i-m"
+      },
+      {
+        "Name": "НАЗАРКЕВИЧ Марія Андріївна",
+        "Slug": "nazarkevych-mariia-andriivna"
+      },
+      {
+        "Name": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
+        "Slug": "shmyhelskyj-ya-a"
+      }
+    ]
+  },
+  {
+    "Slug": "prylady-i-prystroi-biomedychnoi-diahnostyky",
+    "Title": "Прилади і пристрої біомедичної діагностики (176 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prylady-i-prystroi-biomedychnoi-diahnostyky/",
+    "Lecturers": [
+      {
+        "Name": "КУХАРСЬКИЙ Ігор Йосифович",
+        "Slug": "kukharsky-ihor-josyfovych"
+      }
+    ]
+  },
+  {
+    "Slug": "prylady-i-prystroi-kvantovoi-elektroniky",
+    "Title": "Прилади і пристрої квантової електроніки",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prylady-i-prystroi-kvantovoi-elektroniky/",
+    "Lecturers": [
+      {
+        "Name": "КОСТИК Людмила Василівна",
+        "Slug": "16673"
+      }
+    ]
+  },
+  {
+    "Slug": "pryntsypy-pobudovy-analitychnykh-system-mnt",
+    "Title": "Принципи побудови аналітичних систем (МНТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/pryntsypy-pobudovy-analitychnykh-system-mnt/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "pryntsypy-pobudovy-tonkoplivkovykh-davachiv",
+    "Title": "Принципи побудови тонкоплівкових давачів",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/pryntsypy-pobudovy-tonkoplivkovykh-davachiv/",
+    "Lecturers": [
+      {
+        "Name": "ПТАШНИК Вадим Вікторович",
+        "Slug": "ptashnyk-vadym-viktorovych"
+      }
+    ]
+  },
+  {
+    "Slug": "proiekt-z-rozrobky-vbudovanoi-systemy",
+    "Title": "Проєкт з розробки вбудованої системи",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proiekt-z-rozrobky-vbudovanoi-systemy/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "proekt-z-rozrobky-system-opratsiuvannia-danykh",
+    "Title": "Проєкт з розробки системи опрацювання даних",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proekt-z-rozrobky-system-opratsiuvannia-danykh/",
+    "Lecturers": [
+      {
+        "Name": "ВАСЮТА Василь Михайлович",
+        "Slug": "vasiuta-vasyl-mykhaylovych"
+      }
+    ]
+  },
+  {
+    "Slug": "proiektuvannia-vbudovanykh-system",
+    "Title": "Проєктування вбудованих систем (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proiektuvannia-vbudovanykh-system/",
+    "Lecturers": [
+      {
+        "Name": "КОЧАН Роман Володимирович",
+        "Slug": "kochan-roman-volodymyrovych"
+      },
+      {
+        "Name": "ГАБРІЄЛЬ Ігор Ігорович",
+        "Slug": "habrijel-ihor-ihorovych"
+      }
+    ]
+  },
+  {
+    "Slug": "prohramno-vyznacheni-systemy-vpk",
+    "Title": "Програмно-визначені системи (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prohramno-vyznacheni-systemy-vpk/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРИНЧУК Іван Миколайович",
+        "Slug": "katerynchuk-ivan-mykolajovych"
+      }
+    ]
+  },
+  {
+    "Slug": "prohramuvannya-2",
+    "Title": "Програмування (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prohramuvannya-2/",
+    "Lecturers": [
+      {
+        "Name": "ЗЛОБІН Григорій Григорович",
+        "Slug": "zlobin-h-h"
+      }
+    ]
+  },
+  {
+    "Slug": "prohramuvannia",
+    "Title": "Програмування (176)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prohramuvannia/",
+    "Lecturers": [
+      {
+        "Name": "ЛИС Роман Мирославович",
+        "Slug": "lys-r-m"
+      },
+      {
+        "Name": "МАТВІЇШИН Ігор Михайлович",
+        "Slug": "matvijishyn-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "prohramuvannia-vbudovanykh-system-121-ipz",
+    "Title": "Програмування вбудованих та конфігурованих систем (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prohramuvannia-vbudovanykh-system-121-ipz/",
+    "Lecturers": [
+      {
+        "Name": "НАЗАРКЕВИЧ Марія Андріївна",
+        "Slug": "nazarkevych-mariia-andriivna"
+      }
+    ]
+  },
+  {
+    "Slug": "prohramuvannia-na-gp-gpu-vpk",
+    "Title": "Програмування з використанням технологій GPGPU (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prohramuvannia-na-gp-gpu-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ПАРУБОЧИЙ Віталій Олегович",
+        "Slug": "parubochyj-v"
+      }
+    ]
+  },
+  {
+    "Slug": "mova-prohramuvannia-python-kn",
+    "Title": "Програмування мовою Python (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mova-prohramuvannia-python-kn/",
+    "Lecturers": [
+      {
+        "Name": "СВЕЛЕБА Сергій Андрійович",
+        "Slug": "sveleba-serhij-andrijovych"
+      },
+      {
+        "Name": "ГОРОН Богдан Ігорович",
+        "Slug": "horon-bohdan-ihorovych"
+      }
+    ]
+  },
+  {
+    "Slug": "prohramuvannia-robotekhnichnykh-system-inzheneriia-prohramnoho-zabezpechennia",
+    "Title": "Програмування роботехнічних систем (Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prohramuvannia-robotekhnichnykh-system-inzheneriia-prohramnoho-zabezpechennia/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      }
+    ]
+  },
+  {
+    "Slug": "prohramuvannia-robototekhnichnykh-system-121-ipz",
+    "Title": "Програмування робототехнічних систем (121 ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/prohramuvannia-robototekhnichnykh-system-121-ipz/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      }
+    ]
+  },
+  {
+    "Slug": "web-tehnolohiji",
+    "Title": "Програмування та підтримка веб-застосувань (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/web-tehnolohiji/",
+    "Lecturers": [
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      }
+    ]
+  },
+  {
+    "Slug": "proekt-z-intehratsii-informatsiynykh-system",
+    "Title": "Проект з інтеграції інформаційних систем",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proekt-z-intehratsii-informatsiynykh-system/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "proekt-z-rozrobky-vbudovanoi-systemy",
+    "Title": "Проект з розробки вбудованої системи",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proekt-z-rozrobky-vbudovanoi-systemy/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "proektno-tekhnolohichna-praktyka",
+    "Title": "Проектно-технологічна практика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proektno-tekhnolohichna-praktyka/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "proektuvannia-internetu-rechey-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Проектування Інтернету речей (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proektuvannia-internetu-rechey-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "proektuvannya-informatsijnyh-system",
+    "Title": "Проектування інформаційних систем (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proektuvannya-informatsijnyh-system/",
+    "Lecturers": [
+      {
+        "Name": "ЮЗЕВИЧ Володимир Миколайович",
+        "Slug": "yuzevych-volodymyr-mykolajovych"
+      },
+      {
+        "Name": "НЕНЧУК Тарас Миколайович",
+        "Slug": "nenchuk-t-m"
+      }
+    ]
+  },
+  {
+    "Slug": "proektuvannia-prystroiv-tsyfrovoi-ta-analohovoi-elektroniky-2022-ipz",
+    "Title": "Проектування пристроїв цифрової та аналогової електроніки 2022 (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proektuvannia-prystroiv-tsyfrovoi-ta-analohovoi-elektroniky-2022-ipz/",
+    "Lecturers": [
+      {
+        "Name": "РЕНДЗІНЯК Сергій Йосипович",
+        "Slug": "rendziniak-serhiy-yosypovych"
+      }
+    ]
+  },
+  {
+    "Slug": "proektuvannia-system-avtomatyzatsii-176",
+    "Title": "Проектування систем автоматизації 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proektuvannia-system-avtomatyzatsii-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "proektuvannia-system-avtomatyzatsii-176-2",
+    "Title": "Проектування систем автоматизації 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proektuvannia-system-avtomatyzatsii-176-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "proektuvannia-skhem-drukovanykh-plat-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Проектування схем (друкованих плат) (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proektuvannia-skhem-drukovanykh-plat-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": [
+      {
+        "Name": "НАЗАРКЕВИЧ Марія Андріївна",
+        "Slug": "nazarkevych-mariia-andriivna"
+      },
+      {
+        "Name": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
+        "Slug": "shmyhelskyj-ya-a"
+      }
+    ]
+  },
+  {
+    "Slug": "mova-prohramuvannia-python-ist",
+    "Title": "Професійний Python (121 Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/mova-prohramuvannia-python-ist/",
+    "Lecturers": [
+      {
+        "Name": "СВЕЛЕБА Сергій Андрійович",
+        "Slug": "sveleba-serhij-andrijovych"
+      },
+      {
+        "Name": "КУНЬО Іван Михайлович",
+        "Slug": "kuno-ivan-mykolayovych"
+      }
+    ]
+  },
+  {
+    "Slug": "profesiynyy-phyton-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Професійний Python (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/profesiynyy-phyton-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": [
+      {
+        "Name": "СВЕЛЕБА Сергій Андрійович",
+        "Slug": "sveleba-serhij-andrijovych"
+      }
+    ]
+  },
+  {
+    "Slug": "ridki-krystaly-v-sensornij-elektronitsi",
+    "Title": "Рідкі кристали в сенсорній електроніці (176 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ridki-krystaly-v-sensornij-elektronitsi/",
+    "Lecturers": [
+      {
+        "Name": "МАТВІЇШИН Ігор Михайлович",
+        "Slug": "matvijishyn-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "radiatsiyna-sensoryka",
+    "Title": "Радіаційна сенсорика (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/radiatsiyna-sensoryka/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "robototekhnika-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Робототехніка (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/robototekhnika-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      }
+    ]
+  },
+  {
+    "Slug": "rozv-iazannia-konfliktnykh-sytuatsiy-i-navyky-taym-menedzhment-vpk",
+    "Title": "Розв’язання конфліктних ситуацій і навики тайм-менеджмент (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozv-iazannia-konfliktnykh-sytuatsiy-i-navyky-taym-menedzhment-vpk/",
+    "Lecturers": [
+      {
+        "Name": "НЕНЧУК Тарас Миколайович",
+        "Slug": "nenchuk-t-m"
+      }
+    ]
+  },
+  {
+    "Slug": "rozpiznavannia-obraziv-121-inzheneriia-prohramnoho-zabezpechennia",
+    "Title": "Розпізнавання образів (121 Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpiznavannia-obraziv-121-inzheneriia-prohramnoho-zabezpechennia/",
+    "Lecturers": [
+      {
+        "Name": "РУСИНЯК Михайло Омелянович",
+        "Slug": "rusyniak-mykhaylo-omelianovych"
+      }
+    ]
+  },
+  {
+    "Slug": "rozpiznavannya-obraziv",
+    "Title": "Розпізнавання образів (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpiznavannya-obraziv/",
+    "Lecturers": [
+      {
+        "Name": "ФУРГАЛА Юрій Михайлович",
+        "Slug": "furhala-yurij-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "rozpiznavannia-obraziv-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Розпізнавання образів (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpiznavannia-obraziv-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": [
+      {
+        "Name": "КУНЬО Іван Михайлович",
+        "Slug": "kuno-ivan-mykolayovych"
+      }
+    ]
+  },
+  {
+    "Slug": "rozpiznavannia-obraziv-kn",
+    "Title": "Розпізнавання образів (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpiznavannia-obraziv-kn/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "rozpodileni-tekhnolohii-ta-bazy-danykh-ipz",
+    "Title": "Розподілені технології та бази даних (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Марія Юріївна",
+        "Slug": "liashkevych-m-yu"
+      }
+    ]
+  },
+  {
+    "Slug": "rozpodileni-tekhnolohii-ta-bazy-danykh-vpk",
+    "Title": "Розподілені технології та бази даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2",
+    "Title": "Розподілені технології та бази даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2/",
+    "Lecturers": [
+      {
+        "Name": "АНОХІН Володимир Євгенович",
+        "Slug": "anokhin-v-ye"
+      },
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      },
+      {
+        "Name": "СТАХІРА Роман Йосипович",
+        "Slug": "stahira-roman-josypovych"
+      }
+    ]
+  },
+  {
+    "Slug": "rozrobka-ta-proektuvannia-informatsiynykh-system",
+    "Title": "Розробка та проектування інформаційних систем",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozrobka-ta-proektuvannia-informatsiynykh-system/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "sapr-v-elektronitsi",
+    "Title": "САПР в електроніці",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/sapr-v-elektronitsi/",
+    "Lecturers": [
+      {
+        "Name": "КУХАРСЬКИЙ Ігор Йосифович",
+        "Slug": "kukharsky-ihor-josyfovych"
+      }
+    ]
+  },
+  {
+    "Slug": "sapr-elektronnykh-system",
+    "Title": "САПР технологічних процесів 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/sapr-elektronnykh-system/",
+    "Lecturers": [
+      {
+        "Name": "КУХАРСЬКИЙ Ігор Йосифович",
+        "Slug": "kukharsky-ihor-josyfovych"
+      }
+    ]
+  },
+  {
+    "Slug": "sensory-i-vykonavchi-mekhanizmy-ist",
+    "Title": "Сенсори і виконавчі механізми (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/sensory-i-vykonavchi-mekhanizmy-ist/",
+    "Lecturers": [
+      {
+        "Name": "ОЛЕНИЧ Ігор Богданович",
+        "Slug": "olenych-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "sensory-ta-systemy-avtomatyzovanoho-pozytsionuvannia-176",
+    "Title": "Сенсори та системи автоматизованого позиціонування 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/sensory-ta-systemy-avtomatyzovanoho-pozytsionuvannia-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "sensorni-systemy",
+    "Title": "Сенсорні системи",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/sensorni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "МАНДЗІЙ Василь Миронович",
+        "Slug": "mandziy-vasyl-myronovych"
+      }
+    ]
+  },
+  {
+    "Slug": "sensorni-systemy-monitorynhu-navnolyshoho-seredovyshcha-176",
+    "Title": "Сенсорні системи моніторингу навнолишього середовища 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/sensorni-systemy-monitorynhu-navnolyshoho-seredovyshcha-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "sensorna-elektronika",
+    "Title": "Сенсорна електроніка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/sensorna-elektronika/",
+    "Lecturers": [
+      {
+        "Name": "МАНДЗІЙ Василь Миронович",
+        "Slug": "mandziy-vasyl-myronovych"
+      }
+    ]
+  },
+  {
+    "Slug": "sylova-elektronika",
+    "Title": "Силова електроніка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/sylova-elektronika/",
+    "Lecturers": [
+      {
+        "Name": "БІГДАЙ Володимир Гаррійович",
+        "Slug": "bihday-volodymyr-harriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "systemy-biometrychnoji-identyfikatsiji",
+    "Title": "Системи біометричної ідентифікації",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/systemy-biometrychnoji-identyfikatsiji/",
+    "Lecturers": [
+      {
+        "Name": "ФУТЕЙ Олександр Володимирович",
+        "Slug": "futej-oleksandr-volodymyrovych"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-mashynnoho-navchannia-ist",
+    "Title": "Системи машинного навчання (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-mashynnoho-navchannia-ist/",
+    "Lecturers": [
+      {
+        "Name": "КОЛИЧ Ігор Іванович",
+        "Slug": "kolych-i-i"
+      }
+    ]
+  },
+  {
+    "Slug": "systemy-nechitkoi-lohiky-ist",
+    "Title": "Системи нечіткої логіки (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/systemy-nechitkoi-lohiky-ist/",
+    "Lecturers": [
+      {
+        "Name": "ОЛЕНИЧ Ігор Богданович",
+        "Slug": "olenych-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "opratsiuvannia-danykh-ist",
+    "Title": "Системи опрацювання даних (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/opratsiuvannia-danykh-ist/",
+    "Lecturers": [
+      {
+        "Name": "ДЕМКІВ Лідія Степанівна",
+        "Slug": "demkiv-l-s"
+      }
+    ]
+  },
+  {
+    "Slug": "systemy-pidtrymky-pryyniattia-rishen-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Системи підтримки прийняття рішень (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/systemy-pidtrymky-pryyniattia-rishen-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "systemy-pryyniattia-rishen-ipz",
+    "Title": "Системи прийняття рішень (121 Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/systemy-pryyniattia-rishen-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ДУФАНЕЦЬ Марта Василівна",
+        "Slug": "dufanets-marta-vasylivna"
+      }
+    ]
+  },
+  {
+    "Slug": "systemy-pryyniattia-rishen-vpk",
+    "Title": "Системи прийняття рішень (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/systemy-pryyniattia-rishen-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ДУФАНЕЦЬ Марта Василівна",
+        "Slug": "dufanets-marta-vasylivna"
+      },
+      {
+        "Name": "КАТЕРИНЧУК Іван Миколайович",
+        "Slug": "katerynchuk-ivan-mykolajovych"
+      }
+    ]
+  },
+  {
+    "Slug": "systemy-ta-merezhi-peredachi-danykh-176",
+    "Title": "Системи та мережі передачі даних 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/systemy-ta-merezhi-peredachi-danykh-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "systemy-ta-modeli-mashynnoho-navchannia",
+    "Title": "Системи та моделі машинного навчання",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/systemy-ta-modeli-mashynnoho-navchannia/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "metody-ta-systemy-shtuchnoho-intelektu",
+    "Title": "Системи штучного інтелекту (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-systemy-shtuchnoho-intelektu/",
+    "Lecturers": [
+      {
+        "Name": "ГРАБОВСЬКИЙ Володимир Андрійович",
+        "Slug": "hrabovskyj-volodymyr-andrijovych-2"
+      },
+      {
+        "Name": "ІЖИК Олег Борисович",
+        "Slug": "izhyk-oleh-borysovych"
+      }
+    ]
+  },
+  {
+    "Slug": "osnovy-shtuchnoho-intelektu-ist",
+    "Title": "Системи штучного інтелекту (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/osnovy-shtuchnoho-intelektu-ist/",
+    "Lecturers": [
+      {
+        "Name": "ГРАБОВСЬКИЙ Володимир Андрійович",
+        "Slug": "hrabovskyj-volodymyr-andrijovych-2"
+      }
+    ]
+  },
+  {
+    "Slug": "soniachna-enerhetyka",
+    "Title": "Сонячна енергетика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/soniachna-enerhetyka/",
+    "Lecturers": [
+      {
+        "Name": "КОСТИК Людмила Василівна",
+        "Slug": "16673"
+      }
+    ]
+  },
+  {
+    "Slug": "spetsializovanyy-proekt-internetu-rechey",
+    "Title": "Спеціалізований проект інтернету речей",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/spetsializovanyy-proekt-internetu-rechey/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "startap-pidhotovka-do-zletu",
+    "Title": "Стартап в ІТ: підготовка до злету",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/startap-pidhotovka-do-zletu/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРНЯК Ігор Богданович",
+        "Slug": "katernyak-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "startapy-v-it-inzheneriia-prohramnoho-zabezpechennia",
+    "Title": "Стартапи в ІТ (Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/startapy-v-it-inzheneriia-prohramnoho-zabezpechennia/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРНЯК Ігор Богданович",
+        "Slug": "katernyak-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "startapy-v-it-vpk",
+    "Title": "Стартапи в ІТ (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/startapy-v-it-vpk/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРНЯК Ігор Богданович",
+        "Slug": "katernyak-i-b"
+      }
+    ]
+  },
+  {
+    "Slug": "stohastychne-modelyuvannya",
+    "Title": "Стохастичне моделювання / Stochastic Modeling (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/stohastychne-modelyuvannya/",
+    "Lecturers": [
+      {
+        "Name": "СОКОЛОВСЬКИЙ Богдан Степанович",
+        "Slug": "sokolovskyj-bohdan-stepanovych-2"
+      }
+    ]
+  },
+  {
+    "Slug": "intelektualni-sensorni-systemy",
+    "Title": "Сучасні інтелектуальні сенсори та системи (F3 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/intelektualni-sensorni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "КОРЧАК Юрій Михайлович",
+        "Slug": "korchak-yu-m"
+      },
+      {
+        "Name": "ДЕМЕДЮК Ігор Миколайович",
+        "Slug": "demediuk-ihor-mykolayovych"
+      }
+    ]
+  },
+  {
+    "Slug": "suchasni-paradyhmy-prohramuvannia-ist",
+    "Title": "Сучасні парадигми програмування (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/suchasni-paradyhmy-prohramuvannia-ist/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРИНЧУК Іван Миколайович",
+        "Slug": "katerynchuk-ivan-mykolajovych"
+      },
+      {
+        "Name": "ФРАНІВ Володимир Андрійович",
+        "Slug": "franiv-volodymyr-andriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "suchasni-sensory-fizychnykh-velychyn-176",
+    "Title": "Сучасні сенсори фізичних величин 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/suchasni-sensory-fizychnykh-velychyn-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "proektuvannia-kiberfizychnykh-system",
+    "Title": "Сучасні хмаркові сервіси та обчислення (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/proektuvannia-kiberfizychnykh-system/",
+    "Lecturers": [
+      {
+        "Name": "ЮЗЕВИЧ Володимир Миколайович",
+        "Slug": "yuzevych-volodymyr-mykolajovych"
+      }
+    ]
+  },
+  {
+    "Slug": "suchasna-elektroinzheneriia",
+    "Title": "Сучасна електроінженерія",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/suchasna-elektroinzheneriia/",
+    "Lecturers": [
+      {
+        "Name": "БІГДАЙ Володимир Гаррійович",
+        "Slug": "bihday-volodymyr-harriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "suchasna-teoriia-upravlinnia-modern-theory-of-control-122-kn",
+    "Title": "Сучасна теорія управління / Modern Theory of Control (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/suchasna-teoriia-upravlinnia-modern-theory-of-control-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "ФУРГАЛА Юрій Михайлович",
+        "Slug": "furhala-yurij-myhajlovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tverdotilna-elektronika-2",
+    "Title": "Твердотільна електроніка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tverdotilna-elektronika-2/",
+    "Lecturers": [
+      {
+        "Name": "ПАВЛИК Богдан Васильович",
+        "Slug": "pavlyk-b-v"
+      }
+    ]
+  },
+  {
+    "Slug": "tverdotilna-elektronika",
+    "Title": "Твердотільна електроніка (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tverdotilna-elektronika/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "temperaturni-sensory-ta-systemy-termometrii-176",
+    "Title": "Температурні сенсори та системи термометрії 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/temperaturni-sensory-ta-systemy-termometrii-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "teoriya-ihor",
+    "Title": "Теорія ігор (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriya-ihor/",
+    "Lecturers": [
+      {
+        "Name": "КАТЕРИНЧУК Іван Миколайович",
+        "Slug": "katerynchuk-ivan-mykolajovych"
+      }
+    ]
+  },
+  {
+    "Slug": "teoriia-ihor-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Теорія ігор (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriia-ihor-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "teoriia-imovirnosti-ta-matematychna-statystyka",
+    "Title": "Теорія імовірності та математична статистика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriia-imovirnosti-ta-matematychna-statystyka/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "teoriia-imovirnosti-ta-matematychna-statystyka-176",
+    "Title": "Теорія імовірності та математична статистика 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriia-imovirnosti-ta-matematychna-statystyka-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "teoriia-informatsii-121-ipz",
+    "Title": "Теорія інформації (126 ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriia-informatsii-121-ipz/",
+    "Lecturers": [
+      {
+        "Name": "БОЛЕСТА Іван Михайлович",
+        "Slug": "bolesta-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "teoriia-avtomatychnoho-keruvannia-ist",
+    "Title": "Теорія автоматичного керування (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriia-avtomatychnoho-keruvannia-ist/",
+    "Lecturers": [
+      {
+        "Name": "СОКОЛОВСЬКИЙ Богдан Степанович",
+        "Slug": "sokolovskyj-bohdan-stepanovych-2"
+      }
+    ]
+  },
+  {
+    "Slug": "teoriia-avtomatychnoho-keruvannia-176",
+    "Title": "Теорія автоматичного керування 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriia-avtomatychnoho-keruvannia-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "teoriia-elektrychnykh-kil-171-elektronika-ta-komp-iuterni-systemy",
+    "Title": "Теорія електричних кіл (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriia-elektrychnykh-kil-171-elektronika-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "МАТВІЇШИН Ігор Михайлович",
+        "Slug": "matvijishyn-i-m"
+      }
+    ]
+  },
+  {
+    "Slug": "teoriya-elektromahnitnoho-polya",
+    "Title": "Теорія електромагнітного поля (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriya-elektromahnitnoho-polya/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "teoriya-alhorytmiv",
+    "Title": "Теорія обчислень, алгоритми і структури даних (122)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriya-alhorytmiv/",
+    "Lecturers": [
+      {
+        "Name": "ВЕЛЬГОШ Сергій Романович",
+        "Slug": "velhosh-s-r"
+      },
+      {
+        "Name": "РЕНДЗІНЯК Сергій Йосипович",
+        "Slug": "rendziniak-serhiy-yosypovych"
+      },
+      {
+        "Name": "РИКОВСЬКИЙ Петро Антонович",
+        "Slug": "rykovskyj-petro-a"
+      },
+      {
+        "Name": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
+        "Slug": "shmyhelskyj-ya-a"
+      }
+    ]
+  },
+  {
+    "Slug": "teoriya-pryjnyattya-rishen",
+    "Title": "Теорія прийняття рішень (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriya-pryjnyattya-rishen/",
+    "Lecturers": [
+      {
+        "Name": "ДУФАНЕЦЬ Марта Василівна",
+        "Slug": "dufanets-marta-vasylivna"
+      },
+      {
+        "Name": "КАТЕРИНЧУК Іван Миколайович",
+        "Slug": "katerynchuk-ivan-mykolajovych"
+      },
+      {
+        "Name": "ФРАНІВ Володимир Андрійович",
+        "Slug": "franiv-volodymyr-andriyovych"
+      },
+      {
+        "Name": "ВАСЮТА Василь Михайлович",
+        "Slug": "vasiuta-vasyl-mykhaylovych"
+      },
+      {
+        "Name": "СМОЛЯК Андрій Юрійович",
+        "Slug": "smoliak-andriy-yuriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "teoriia-pryyniattia-rishen-fes",
+    "Title": "Теорія прийняття рішень (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/teoriia-pryyniattia-rishen-fes/",
+    "Lecturers": [
+      {
+        "Name": "КУНЬО Іван Михайлович",
+        "Slug": "kuno-ivan-mykolayovych"
+      }
+    ]
+  },
+  {
+    "Slug": "testuvannia-i-kharakteryzatsiia-system-mnt",
+    "Title": "Тестування і характеризація систем (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/testuvannia-i-kharakteryzatsiia-system-mnt/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "testuvannia-system-171-elektronika-ta-komp-iuterni-systemy",
+    "Title": "Тестування електронних систем (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/testuvannia-system-171-elektronika-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "КУШЛИК Маркіян Олегович",
+        "Slug": "kushlyk-markiyan-olehovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tehnika-fizychnoho-eksperymentu",
+    "Title": "Техніка фізичного експерименту (153 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tehnika-fizychnoho-eksperymentu/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "tekhnichni-zasoby-avtomatyzatsii-176",
+    "Title": "Технічні засоби автоматизації 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnichni-zasoby-avtomatyzatsii-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "tekhnichna-elektrodynamika-171-elektronika-ta-komp-iuterni-systemy",
+    "Title": "Технічна електродинаміка (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnichna-elektrodynamika-171-elektronika-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "ЛУЧЕЧКО Андрій Петрович",
+        "Slug": "luchechko-a-p"
+      },
+      {
+        "Name": "КРАВЕЦЬ Ігор Богданович",
+        "Slug": "kravets-ihor-bohdanovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tekhnolohii-3d-druku-176",
+    "Title": "Технології 3D друку 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohii-3d-druku-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "tekhnolohii-analizu-danykh-technologies-of-data-analysis-122-kn",
+    "Title": "Технології аналізу даних / Technologies of Data Analysis (122 КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohii-analizu-danykh-technologies-of-data-analysis-122-kn/",
+    "Lecturers": [
+      {
+        "Name": "ШУВАР Роман Ярославович",
+        "Slug": "shuvar-r-ya-2"
+      },
+      {
+        "Name": "АНОХІН Володимир Євгенович",
+        "Slug": "anokhin-v-ye"
+      }
+    ]
+  },
+  {
+    "Slug": "tekhnolohii-zakhystu-informatsii-ist",
+    "Title": "Технології захисту інформації (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohii-zakhystu-informatsii-ist/",
+    "Lecturers": [
+      {
+        "Name": "МОНАСТИРСЬКИЙ Любомир Степанович",
+        "Slug": "monastyrskyj-lyubomyr-stepanovych"
+      },
+      {
+        "Name": "ФУТЕЙ Олександр Володимирович",
+        "Slug": "futej-oleksandr-volodymyrovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tehnolohiji-zahystu-informatsiji",
+    "Title": "Технології захисту інформації (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tehnolohiji-zahystu-informatsiji/",
+    "Lecturers": [
+      {
+        "Name": "МОНАСТИРСЬКИЙ Любомир Степанович",
+        "Slug": "monastyrskyj-lyubomyr-stepanovych"
+      },
+      {
+        "Name": "ГУРА Володимир Тарасович",
+        "Slug": "hura-volodymyr-tarasovych"
+      },
+      {
+        "Name": "ФУТЕЙ Олександр Володимирович",
+        "Slug": "futej-oleksandr-volodymyrovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tekhnolohii-stvorennia-prohramnykh-produktiv-kn",
+    "Title": "Технології створення програмних продуктів (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohii-stvorennia-prohramnykh-produktiv-kn/",
+    "Lecturers": [
+      {
+        "Name": "КУШНІР Олексій Олександрович",
+        "Slug": "kushnir-o-o"
+      },
+      {
+        "Name": "ЛЕВУШ Павло Назарович",
+        "Slug": "levush-pavlo-nazarovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tekhnolohii-ta-zasoby-internetu-rechey-176",
+    "Title": "Технології та засоби Інтернету речей 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohii-ta-zasoby-internetu-rechey-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "tekhnolohii-ta-materialy-system-hnuchkoi-elektroniky",
+    "Title": "Технології та матеріали систем гнучкої електроніки",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohii-ta-materialy-system-hnuchkoi-elektroniky/",
+    "Lecturers": [
+      {
+        "Name": "БІГУН Роман Іванович",
+        "Slug": "bihun-roman-ivanovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tekhnolohii-ta-standarty-iot-ta-iiot",
+    "Title": "Технології та стандарти IOT та IIOT",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohii-ta-standarty-iot-ta-iiot/",
+    "Lecturers": [
+      {
+        "Name": "РАБИК Василь Григорович",
+        "Slug": "rabyk-v-h"
+      }
+    ]
+  },
+  {
+    "Slug": "tekhnolohii-tsyfrovoi-diahnostystyky-zdorov-ia-176",
+    "Title": "Технології цифрової діагностистики здоров’я 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohii-tsyfrovoi-diahnostystyky-zdorov-ia-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "tekhnolohichni-vymiriuvannia-ta-prylady-176",
+    "Title": "Технологічні вимірювання та прилади 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohichni-vymiriuvannia-ta-prylady-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "tekhnolohichni-systemy-ta-kompleksy-176",
+    "Title": "Технологічні системи та комплекси 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tekhnolohichni-systemy-ta-kompleksy-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "tonkoplivkovi-mikroelektronni-prystroi",
+    "Title": "Тонкоплівкові мікроелектронні пристрої",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tonkoplivkovi-mikroelektronni-prystroi/",
+    "Lecturers": [
+      {
+        "Name": "ПЕНЮХ Богдан Романович",
+        "Slug": "penyuh-bohdan-romanovych"
+      }
+    ]
+  },
+  {
+    "Slug": "fizychni-osnovy-tekhnolohiy-mikroelektroniky-mnt",
+    "Title": "Тонкоплівкові пристрої (153 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-tekhnolohiy-mikroelektroniky-mnt/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "tonkoplivkovi-tekhnolohii-v-mikroelektronitsi",
+    "Title": "Тонкоплівкові технології в мікроелектроніці",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tonkoplivkovi-tekhnolohii-v-mikroelektronitsi/",
+    "Lecturers": [
+      {
+        "Name": "ПТАШНИК Вадим Вікторович",
+        "Slug": "ptashnyk-vadym-viktorovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tonkoplivkovi-tehnolohiji-v-mikroelektronitsi",
+    "Title": "Тонкоплівкові технології в мікроелектроніці (153 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tonkoplivkovi-tehnolohiji-v-mikroelektronitsi/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-3",
+    "Title": "Українська мова (за професійним спрямуванням)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-3/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam",
+    "Title": "Українська мова (за професійним спрямуванням)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-2",
+    "Title": "Українська мова (за професійним спрямуванням)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-4",
+    "Title": "Українська мова (за професійним спрямуванням)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-4/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "upravlinnia-it-proektamy",
+    "Title": "Управління ІТ проектами (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/upravlinnia-it-proektamy/",
+    "Lecturers": [
+      {
+        "Name": "НЕНЧУК Тарас Миколайович",
+        "Slug": "nenchuk-t-m"
+      }
+    ]
+  },
+  {
+    "Slug": "upravlinnya-it-proektamy-inzheneriya-prohramnoho-zabezpechennya",
+    "Title": "Управління ІТ-проектами (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/upravlinnya-it-proektamy-inzheneriya-prohramnoho-zabezpechennya/",
+    "Lecturers": [
+      {
+        "Name": "НЕНЧУК Тарас Миколайович",
+        "Slug": "nenchuk-t-m"
+      }
+    ]
+  },
+  {
+    "Slug": "upravlinnia-it-proektamy-menedzhment",
+    "Title": "Управління ІТ-проектами (Менеджмент) (ІСТ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/upravlinnia-it-proektamy-menedzhment/",
+    "Lecturers": [
+      {
+        "Name": "НЕНЧУК Тарас Миколайович",
+        "Slug": "nenchuk-t-m"
+      }
+    ]
+  },
+  {
+    "Slug": "upravlinnia-biznes-protsesamy-176",
+    "Title": "Управління бізнес процесами 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/upravlinnia-biznes-protsesamy-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fizyka-i-khimiia-tekhnolohichnoho-protsesu-v-elektronitsi-171-elektronika-ta-komp-iuterni-systemy",
+    "Title": "Фізика і хімія технологічного процесу в електроніці (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizyka-i-khimiia-tekhnolohichnoho-protsesu-v-elektronitsi-171-elektronika-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "ПЕНЮХ Богдан Романович",
+        "Slug": "penyuh-bohdan-romanovych"
+      },
+      {
+        "Name": "ПТАШНИК Вадим Вікторович",
+        "Slug": "ptashnyk-vadym-viktorovych"
+      }
+    ]
+  },
+  {
+    "Slug": "fizyka-elektronnykh-protsesiv",
+    "Title": "Фізика електронних процесів",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizyka-elektronnykh-protsesiv/",
+    "Lecturers": [
+      {
+        "Name": "МАКСИМИЧ Віталій Миколайович",
+        "Slug": "maksymych-v-m"
+      }
+    ]
+  },
+  {
+    "Slug": "fizychni-osnovy-elektroniky-eikt",
+    "Title": "Фізичні основи електроніки (171 – Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-elektroniky-eikt/",
+    "Lecturers": [
+      {
+        "Name": "КОФЛЮК Ірина Миколаївна",
+        "Slug": "kofliuk-iryna-mykolaivna"
+      },
+      {
+        "Name": "БОРДУН Олег Михайлович",
+        "Slug": "bordun-o-m"
+      },
+      {
+        "Name": "ДЕМКІВ Тарас Михайлович",
+        "Slug": "demkiv-taras-mykhaylovych"
+      }
+    ]
+  },
+  {
+    "Slug": "fizychni-osnovy-metodiv-medychnoji-diahnostyky",
+    "Title": "Фізичні основи роботи біомедичної апаратури (153 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-metodiv-medychnoji-diahnostyky/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fizychni-osnovy-sensoryky",
+    "Title": "Фізичні основи сенсорики (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychni-osnovy-sensoryky/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fizychna-elektronika-2",
+    "Title": "Фізична електроніка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychna-elektronika-2/",
+    "Lecturers": [
+      {
+        "Name": "МАКСИМИЧ Віталій Миколайович",
+        "Slug": "maksymych-v-m"
+      }
+    ]
+  },
+  {
+    "Slug": "fizychna-elektronika",
+    "Title": "Фізична електроніка (153 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychna-elektronika/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fizychne-vykhovannia",
+    "Title": "Фізичне виховання",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychne-vykhovannia/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fizvykhovannia",
+    "Title": "Фізичне виховання",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizvykhovannia/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fizychnyj-praktykum",
+    "Title": "Фізичний практикум (153 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychnyj-praktykum/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "filosofiia-3",
+    "Title": "Філософія",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/filosofiia-3/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "filosofiia-2",
+    "Title": "Філософія",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/filosofiia-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "filosofiia",
+    "Title": "Філософія",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/filosofiia/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "filosofiia-176",
+    "Title": "Філософія 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/filosofiia-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fotoelektrychni-systemy-176",
+    "Title": "Фотоелектричні системи 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fotoelektrychni-systemy-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "photometrychni-metody",
+    "Title": "Фотометричні методи в медико-екологічній експертизі (153 – Сенсорні та діагностичні електронні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/photometrychni-metody/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fotometrychni-metody-v-medychniy-ta-ekolohichniy-ekspertyzi-176",
+    "Title": "Фотометричні методи в медичній та екологічній експертизі 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fotometrychni-metody-v-medychniy-ta-ekolohichniy-ekspertyzi-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fotonika-mnt",
+    "Title": "Фотоніка (153 Мікро- та наносистемна техніка)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fotonika-mnt/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "funktsional-ne-prohramuvannia",
+    "Title": "Функційне програмування (121 Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/funktsional-ne-prohramuvannia/",
+    "Lecturers": [
+      {
+        "Name": "СВЕЛЕБА Сергій Андрійович",
+        "Slug": "sveleba-serhij-andrijovych"
+      },
+      {
+        "Name": "ОСТРІКОВ Данило Андрійович",
+        "Slug": "ostrikov-danylo-andriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "funktsionalna-elektronika",
+    "Title": "Функціональна електроніка",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/funktsionalna-elektronika/",
+    "Lecturers": [
+      {
+        "Name": "ГАЛІЙ Павло Васильович",
+        "Slug": "halij-p-v"
+      }
+    ]
+  },
+  {
+    "Slug": "funktsionalne-prohramuvannia-vpk",
+    "Title": "Функціональне програмування (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/funktsionalne-prohramuvannia-vpk/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "khmarni-zasoby-ipz",
+    "Title": "Хмарні засоби (Хмарні засоби та технології 2022) (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarni-zasoby-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Марія Юріївна",
+        "Slug": "liashkevych-m-yu"
+      }
+    ]
+  },
+  {
+    "Slug": "khmarni-obchyslennia-kn",
+    "Title": "Хмарні обчислення (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarni-obchyslennia-kn/",
+    "Lecturers": [
+      {
+        "Name": "АНОХІН Володимир Євгенович",
+        "Slug": "anokhin-v-ye"
+      },
+      {
+        "Name": "КАСЬКУН Олег Данилович",
+        "Slug": "kaskun-o-d"
+      }
+    ]
+  },
+  {
+    "Slug": "khmarni-tekhnolohii-dlia-iot-ta-vbudovanykh-system-kn",
+    "Title": "Хмарні технології для IoT та вбудованих систем (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarni-tekhnolohii-dlia-iot-ta-vbudovanykh-system-kn/",
+    "Lecturers": [
+      {
+        "Name": "РОМАНИШИН Ростислав Ігорович",
+        "Slug": "romanyshyn-r-i"
+      }
+    ]
+  },
+  {
+    "Slug": "khmarni-tekhnolohii-ta-velyki-dani-kn",
+    "Title": "Хмарні технології та великі дані (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarni-tekhnolohii-ta-velyki-dani-kn/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "khmarnyy-komp-iutynh-vpk",
+    "Title": "Хмарний комп’ютинг (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "khmarnyy-komp-iutynh-vpk-2",
+    "Title": "Хмарний комп’ютинг (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk-2/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "tsyfrova-obrobka-informatsii-vpk",
+    "Title": "Цифрова обробка інформації (121 Інженерія програмного забезпечення)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ПОЛОВИНКО Ігор Іванович",
+        "Slug": "polovynko-i-i"
+      }
+    ]
+  },
+  {
+    "Slug": "tsyfrova-obrobka-informatsii",
+    "Title": "Цифрова обробка інформації (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii/",
+    "Lecturers": [
+      {
+        "Name": "ПОЛОВИНКО Ігор Іванович",
+        "Slug": "polovynko-i-i"
+      },
+      {
+        "Name": "ІЖИК Олег Борисович",
+        "Slug": "izhyk-oleh-borysovych"
+      },
+      {
+        "Name": "ФЕСЮК Андрій Вікторович",
+        "Slug": "fesiuk-andriy-viktorovych"
+      },
+      {
+        "Name": "АРТИМ Віталій Ігорович",
+        "Slug": "artym-vitaliy-ihorovych"
+      },
+      {
+        "Name": "ОСТРІКОВ Данило Андрійович",
+        "Slug": "ostrikov-danylo-andriyovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tsyfrova-obrobka-informatsii-ist",
+    "Title": "Цифрова обробка інформації (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-informatsii-ist/",
+    "Lecturers": [
+      {
+        "Name": "ФУРГАЛА Юрій Михайлович",
+        "Slug": "furhala-yurij-myhajlovych"
+      },
+      {
+        "Name": "ФЕСЮК Андрій Вікторович",
+        "Slug": "fesiuk-andriy-viktorovych"
+      }
+    ]
+  },
+  {
+    "Slug": "tsyfrova-obrobka-syhnaliv-2",
+    "Title": "Цифрова обробка сигналів (122 Комп’ютерні науки)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-syhnaliv-2/",
+    "Lecturers": [
+      {
+        "Name": "КРУПИЧ Олег Миколайович",
+        "Slug": "krupych-oleh-mykolayovych"
+      },
+      {
+        "Name": "ПОЛОВИНКО Ігор Іванович",
+        "Slug": "polovynko-i-i"
+      }
+    ]
+  },
+  {
+    "Slug": "tsyfrova-obrobka-syhnaliv-171-elektronika-ta-komp-iuterni-systemy",
+    "Title": "Цифрова обробка сигналів (171 Електроніка та комп’ютерні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tsyfrova-obrobka-syhnaliv-171-elektronika-ta-komp-iuterni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "СЛОБОДЗЯН Дмитро Петрович",
+        "Slug": "slobodzyan-d-p"
+      }
+    ]
+  },
+  {
+    "Slug": "tsyfrovi-syhnaly-mnt",
+    "Title": "Цифрова обробка сигналів 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tsyfrovi-syhnaly-mnt/",
+    "Lecturers": [
+      {
+        "Name": "СЛОБОДЗЯН Дмитро Петрович",
+        "Slug": "slobodzyan-d-p"
+      }
+    ]
+  },
+  {
+    "Slug": "tsyfrova-ta-analohova-elektronika-ipz",
+    "Title": "Цифрова та аналогова електроніка (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/tsyfrova-ta-analohova-elektronika-ipz/",
+    "Lecturers": [
+      {
+        "Name": "РЕНДЗІНЯК Сергій Йосипович",
+        "Slug": "rendziniak-serhiy-yosypovych"
+      }
+    ]
+  },
+  {
+    "Slug": "opratsiuvannia-zobrazhen-126-informatsiyni-systemy-ta-tekhnolohii",
+    "Title": "Цифрове опрацювання зображень (126 Інформаційні системи та технології)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/opratsiuvannia-zobrazhen-126-informatsiyni-systemy-ta-tekhnolohii/",
+    "Lecturers": [
+      {
+        "Name": "КРУПИЧ Олег Миколайович",
+        "Slug": "krupych-oleh-mykolayovych"
+      }
+    ]
+  },
+  {
+    "Slug": "chyselni-metody-153-sensorni-ta-diahnostychni-systemy",
+    "Title": "Чисельні методи (176 – Сенсорні та діагностичні системи)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/chyselni-metody-153-sensorni-ta-diahnostychni-systemy/",
+    "Lecturers": [
+      {
+        "Name": "ЛИС Роман Мирославович",
+        "Slug": "lys-r-m"
+      }
+    ]
+  },
+  {
+    "Slug": "chyselni-metody-2",
+    "Title": "Чисельні методи (КН)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/chyselni-metody-2/",
+    "Lecturers": [
+      {
+        "Name": "МИСЮК Роман Володимирович",
+        "Slug": "mysiuk-r-v"
+      },
+      {
+        "Name": "КУЛИК Петро Русланович",
+        "Slug": "kulyk-p-r"
+      },
+      {
+        "Name": "ПАТИНКО Андрій Михайлович",
+        "Slug": "patynko-andriy"
+      }
+    ]
+  },
+  {
+    "Slug": "chyselni-metody-176",
+    "Title": "Чисельні методи 176",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/chyselni-metody-176/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "yakist-ta-testuvannia-pz-ipz",
+    "Title": "Якість та тестування ПЗ (ІПЗ)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/yakist-ta-testuvannia-pz-ipz/",
+    "Lecturers": [
+      {
+        "Name": "ЛЮБУНЬ Зіновій Михайлович",
+        "Slug": "lyubun-z-m"
+      }
+    ]
+  },
+  {
+    "Slug": "yakist-ta-testuvannia-pz-vpk",
+    "Title": "Якість та тестування ПЗ (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/yakist-ta-testuvannia-pz-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ОЛЕНИЧ Ігор Богданович",
+        "Slug": "olenych-i-b"
+      },
+      {
+        "Name": "МОНАСТИРСЬКИЙ Любомир Степанович",
+        "Slug": "monastyrskyj-lyubomyr-stepanovych"
+      }
+    ]
+  }
+]

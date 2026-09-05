@@ -44,7 +44,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/bezperervne-rozghortannia-obchysliuvalnykh-system-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Безперервне розгортання обчислювальних систем (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/intehratsiia-informatsiynykh-system-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Інтеграція інформаційних систем (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mashynne-navchannia/\" target=\"_blank\" rel=\"noopener noreferrer\">Машинне навчання (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mova-prohramuvannia-python-ist-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Мова програмування Python (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/paterny-proektuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Патерни проектування (ІПЗ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/bezperervne-rozghortannia-obchysliuvalnykh-system-ist\">Безперервне розгортання обчислювальних систем (ІСТ)</a></li>\n<li><a href=\"courses/intehratsiia-informatsiynykh-system-kn\">Інтеграція інформаційних систем (КН)</a></li>\n<li><a href=\"courses/mashynne-navchannia\">Машинне навчання (КН)</a></li>\n<li><a href=\"courses/mova-prohramuvannia-python-ist-2\">Мова програмування Python (ІСТ)</a></li>\n<li><a href=\"courses/paterny-proektuvannia-ipz\">Патерни проектування (ІПЗ)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

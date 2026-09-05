@@ -37,7 +37,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metaevrystychni-alhorytmy-metaheuristic-algorithms-122-kn/\" target=\"_blank\" rel=\"noopener noreferrer\">Метаевристичні алгоритми / Metaheuristic Algorithms (122 КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/stohastychne-modelyuvannya/\" target=\"_blank\" rel=\"noopener noreferrer\">Стохастичне моделювання / Stochastic Modeling (122 КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/teoriia-avtomatychnoho-keruvannia-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Теорія автоматичного керування (ІСТ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/metaevrystychni-alhorytmy-metaheuristic-algorithms-122-kn\">Метаевристичні алгоритми / Metaheuristic Algorithms (122 КН)</a></li>\n<li><a href=\"courses/stohastychne-modelyuvannya\">Стохастичне моделювання / Stochastic Modeling (122 КН)</a></li>\n<li><a href=\"courses/teoriia-avtomatychnoho-keruvannia-ist\">Теорія автоматичного керування (ІСТ)</a></li>\n</ul>"
     },
     {
       "Title": "Вибрані публікації",

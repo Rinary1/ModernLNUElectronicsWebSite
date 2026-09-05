@@ -1,4 +1,4 @@
-namespace ModernLNUElectronicsWebSite.Data;
+﻿namespace ModernLNUElectronicsWebSite.Data;
 
 public sealed record MirrorMeta
 {
@@ -13,4 +13,6 @@ public sealed record MirrorMeta
     public int DepartmentCount { get; init; }
 
     public int ScheduleDocCount { get; init; }
+
+    public int CourseCount { get; init; }
 }

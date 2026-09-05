@@ -38,7 +38,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/fpga-cpld-komp-iutynh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">FPGA/CPLD комп'ютинг (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mikrokontrolery-na-bazi-gl-embedded-starter-kits-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Мікроконтролери (на базі GL  Embedded Starter Kits) (ІПЗ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/operatsijni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Операційні системи (КН)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/operatsiyni-systemy-systemne-prohramuvannia-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Операційні системи, системне програмування (ІПЗ)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/fpga-cpld-komp-iutynh-vpk\">FPGA/CPLD комп'ютинг (ВПК)</a></li>\n<li><a href=\"courses/mikrokontrolery-na-bazi-gl-embedded-starter-kits-ipz\">Мікроконтролери (на базі GL  Embedded Starter Kits) (ІПЗ)</a></li>\n<li><a href=\"courses/operatsijni-systemy\">Операційні системи (КН)</a></li>\n<li><a href=\"courses/operatsiyni-systemy-systemne-prohramuvannia-ipz\">Операційні системи, системне програмування (ІПЗ)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

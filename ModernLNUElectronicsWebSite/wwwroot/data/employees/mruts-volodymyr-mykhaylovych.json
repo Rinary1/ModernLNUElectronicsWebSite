@@ -15,7 +15,7 @@
   "Sections": [
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/osnovy-kompyuternoji-elektroniky-ta-arhitektura-kompyuteriv/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів (126 Інформаційні системи та технології)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/osnovy-kompyuternoji-elektroniky-ta-arhitektura-kompyuteriv\">Архітектура комп'ютерів (126 Інформаційні системи та технології)</a></li>\n</ul>"
     },
     {
       "Title": "Розклад",

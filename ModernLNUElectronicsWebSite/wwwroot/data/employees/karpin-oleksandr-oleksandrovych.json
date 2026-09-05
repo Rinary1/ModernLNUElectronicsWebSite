@@ -32,7 +32,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mikroelektronni-prystroi/\" target=\"_blank\" rel=\"noopener noreferrer\">Мікроелектронні пристрої</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mikrokontrolery/\" target=\"_blank\" rel=\"noopener noreferrer\">Мікроконтролери</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt/\" target=\"_blank\" rel=\"noopener noreferrer\">Архітектура комп'ютерів і  програмування (171 Електроніка та комп’ютерні системи)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/mikroelektronni-prystroi\">Мікроелектронні пристрої</a></li>\n<li><a href=\"courses/mikrokontrolery\">Мікроконтролери</a></li>\n<li><a href=\"courses/arkhitektura-komp-iuteriv-i-prohramuvannia-eikt\">Архітектура комп'ютерів і  програмування (171 Електроніка та комп’ютерні системи)</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

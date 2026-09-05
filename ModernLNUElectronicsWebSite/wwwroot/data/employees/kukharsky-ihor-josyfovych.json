@@ -41,7 +41,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/optoelektronni-prylady-i-prystroi/\" target=\"_blank\" rel=\"noopener noreferrer\">Оптоелектронні прилади і пристрої</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/prylady-i-prystroi-biomedychnoi-diahnostyky/\" target=\"_blank\" rel=\"noopener noreferrer\">Прилади і пристрої біомедичної діагностики (176 – Сенсорні та діагностичні електронні системи)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/sapr-v-elektronitsi/\" target=\"_blank\" rel=\"noopener noreferrer\">САПР в електроніці</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/sapr-elektronnykh-system/\" target=\"_blank\" rel=\"noopener noreferrer\">САПР технологічних процесів 176</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/optoelektronni-prylady-i-prystroi\">Оптоелектронні прилади і пристрої</a></li>\n<li><a href=\"courses/prylady-i-prystroi-biomedychnoi-diahnostyky\">Прилади і пристрої біомедичної діагностики (176 – Сенсорні та діагностичні електронні системи)</a></li>\n<li><a href=\"courses/sapr-v-elektronitsi\">САПР в електроніці</a></li>\n<li><a href=\"courses/sapr-elektronnykh-system\">САПР технологічних процесів 176</a></li>\n</ul>"
     },
     {
       "Title": "Публікації",

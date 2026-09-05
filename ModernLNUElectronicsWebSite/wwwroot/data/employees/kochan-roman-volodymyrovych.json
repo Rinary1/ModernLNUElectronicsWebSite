@@ -17,7 +17,7 @@
   "Sections": [
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/proiektuvannia-vbudovanykh-system/\" target=\"_blank\" rel=\"noopener noreferrer\">Проєктування вбудованих систем (КН)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/proiektuvannia-vbudovanykh-system\">Проєктування вбудованих систем (КН)</a></li>\n</ul>"
     },
     {
       "Title": "Розклад",

@@ -41,7 +41,7 @@
     },
     {
       "Title": "Навчальні дисципліни",
-      "Html": "<ul>\n<li><a href=\"https://electronics.lnu.edu.ua/course/vizualizatsiia-danykh-ipz/\" target=\"_blank\" rel=\"noopener noreferrer\">Візуалізація даних (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/mobil-ni-informatsiyni-systemy/\" target=\"_blank\" rel=\"noopener noreferrer\">Мобільні інформаційні системи (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/velyki-dani-ist/\" target=\"_blank\" rel=\"noopener noreferrer\">Великі дані (ІСТ)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/metody-obrobky-velykykh-ta-nadvelykykh-danykh-vpk/\" target=\"_blank\" rel=\"noopener noreferrer\">Методи обробки великих та надвеликих даних (ВПК)</a></li>\n<li><a href=\"https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Розподілені технології та бази даних (ВПК)</a></li>\n</ul>"
+      "Html": "<ul>\n<li><a href=\"courses/vizualizatsiia-danykh-ipz\">Візуалізація даних (ІСТ)</a></li>\n<li><a href=\"courses/mobil-ni-informatsiyni-systemy\">Мобільні інформаційні системи (ІСТ)</a></li>\n<li><a href=\"courses/velyki-dani-ist\">Великі дані (ІСТ)</a></li>\n<li><a href=\"courses/metody-obrobky-velykykh-ta-nadvelykykh-danykh-vpk\">Методи обробки великих та надвеликих даних (ВПК)</a></li>\n<li><a href=\"courses/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2\">Розподілені технології та бази даних (ВПК)</a></li>\n</ul>"
     },
     {
       "Title": "Проекти",
