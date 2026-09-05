@@ -113,7 +113,7 @@ async Task<int> ScrapeNewsAsync()
     foreach (var item in byUrl.Values.OrderByDescending(i => i.PublishedAt ?? DateTime.MinValue))
         index.Add(item with { CoverImageUrl = item.CoverImageUrl ?? await CoverOfAsync(item.Slug) });
 
-    await store.WriteAsync("news.json", index);
+    await WriteListAsync("news.json", index);
     Console.WriteLine($"  -> {index.Count} новин у стрічці, з обкладинками {index.Count(i => i.CoverImageUrl is not null)}");
 
     return index.Count;
@@ -178,10 +178,31 @@ async Task<int> ScrapeCoursesAsync(List<StaffItem> staffList)
 
     index.Sort((a, b) => string.Compare(a.Title, b.Title, StringComparison.CurrentCultureIgnoreCase));
 
-    await store.WriteAsync("courses.json", index);
+    await WriteListAsync("courses.json", index);
     Console.WriteLine($"  -> у каталозі {index.Count} дисциплін");
 
     return index.Count;
+}
+
+/// Джерело час від часу міняє верстку, і тоді парсер тихо повертає порожньо.
+/// Якщо це записати, workflow закомітить порожні дані й задеплоїть їх - сайт
+/// стане порожнім, а дізнаємось ми про це від студентів. Тому список, який
+/// раптово схуд удвічі, не перезаписуємо і валимо запуск, щоб Action почервонів.
+async Task WriteListAsync<T>(string relativePath, IReadOnlyList<T> items)
+{
+    var existing = (await store.ReadAsync<List<T>>(relativePath))?.Count ?? 0;
+
+    if (!options.AllowShrink && existing > 0 && items.Count * 2 < existing)
+    {
+        Console.Error.WriteLine(
+            $"! {relativePath}: було {existing}, стало {items.Count}. Схоже на зламаний парсер - " +
+            "файл лишаю як є. Якщо джерело справді так змінилося, перезапустіть з --allow-shrink.");
+
+        Environment.ExitCode = 1;
+        return;
+    }
+
+    await store.WriteAsync(relativePath, items);
 }
 
 async Task<int> CollectCourseLinksAsync(IDictionary<string, string> urls)
@@ -384,7 +405,7 @@ async Task BuildSearchIndexAsync()
             Title: reference.Title,
             Route: $"{reference.Group}/{reference.Slug}",
             SourceUrl: reference.SourceUrl,
-            Subtitle: reference.Group == MirrorCatalog.Applicants ? "Абітурієнту" : "Наука",
+            Subtitle: MirrorCatalog.LabelOf(reference.Group),
             Text: SearchIndexBuilder.Plain(page.PlainText),
             Date: page.PublishedAt));
     }
@@ -418,7 +439,7 @@ async Task<string?> CoverOfAsync(string slug) =>
 async Task<List<StaffItem>> ScrapeStaffAsync()
 {
     var staffList = await new StaffScraper(htmlSource).LoadPageAsync($"{SiteUrls.Origin}/about/staff/");
-    await store.WriteAsync("staff.json", staffList);
+    await WriteListAsync("staff.json", staffList);
     Console.WriteLine($"staff -> {staffList.Count} осіб, підрозділів: " +
         $"{staffList.Select(s => s.Group.Title).Distinct().Count()}");
 
@@ -428,7 +449,7 @@ async Task<List<StaffItem>> ScrapeStaffAsync()
 async Task ScrapeAdministrationAsync()
 {
     var people = await new AdministrationScraper(htmlSource).LoadPageAsync($"{SiteUrls.Origin}/about/administration/");
-    await store.WriteAsync("administration.json", people);
+    await WriteListAsync("administration.json", people);
     Console.WriteLine($"administration -> {people.Count} " +
         $"(рада: {people.Count(p => p.Section == AdministrationSection.Council)})");
 }
@@ -436,7 +457,7 @@ async Task ScrapeAdministrationAsync()
 async Task ScrapePartnersAsync()
 {
     var partners = await new PartnersScraper(htmlSource).LoadPageAsync($"{SiteUrls.Origin}/about/introduction/");
-    await store.WriteAsync("partners.json", partners);
+    await WriteListAsync("partners.json", partners);
     Console.WriteLine($"partners -> {partners.Count}");
 }
 
@@ -459,7 +480,7 @@ async Task<int> ScrapeScheduleAsync()
         await Delay();
     }
 
-    await store.WriteAsync("schedule.json", docs);
+    await WriteListAsync("schedule.json", docs);
     return docs.Count;
 }
 
@@ -624,7 +645,7 @@ file sealed class JsonStore(string root)
 }
 
 file sealed record ScraperOptions(
-    string OutDir, int NewsPages, bool SkipProfiles, bool Refresh, bool IndexOnly, bool PagesOnly, bool CoursesOnly, int DelayMs)
+    string OutDir, int NewsPages, bool SkipProfiles, bool Refresh, bool IndexOnly, bool PagesOnly, bool CoursesOnly, bool AllowShrink, int DelayMs)
 {
     public static ScraperOptions Parse(string[] args)
     {
@@ -635,6 +656,7 @@ file sealed record ScraperOptions(
         var indexOnly = false;
         var pagesOnly = false;
         var coursesOnly = false;
+        var allowShrink = false;
         var delayMs = 1000;
 
         for (var i = 0; i < args.Length; i++)
@@ -675,13 +697,17 @@ file sealed record ScraperOptions(
                     coursesOnly = true;
                     break;
 
+                case "--allow-shrink":
+                    allowShrink = true;
+                    break;
+
                 default:
                     Console.WriteLine($"Невідомий аргумент: {args[i]}");
                     break;
             }
         }
 
-        return new ScraperOptions(outDir, newsPages, skipProfiles, refresh, indexOnly, pagesOnly, coursesOnly, delayMs);
+        return new ScraperOptions(outDir, newsPages, skipProfiles, refresh, indexOnly, pagesOnly, coursesOnly, allowShrink, delayMs);
     }
 }
 

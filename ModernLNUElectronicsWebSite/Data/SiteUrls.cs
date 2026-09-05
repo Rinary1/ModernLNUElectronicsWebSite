@@ -19,6 +19,8 @@ public static class SiteUrls
         ["/about/administration"] = "administration",
         ["/about/staff"] = "staff",
         ["/about/departments"] = "departments",
+        ["/academics"] = "academics",
+        ["/students"] = "students",
         ["/students/career"] = "schedule",
         ["/students/rozklad-format-pdf"] = "schedule",
         ["/contacts"] = "contacts",

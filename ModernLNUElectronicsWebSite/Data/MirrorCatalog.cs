@@ -11,6 +11,8 @@ public static class MirrorCatalog
 {
     public const string Applicants = "applicants";
     public const string Science = "science";
+    public const string Academics = "academics";
+    public const string Students = "students";
 
     public static IReadOnlyList<MirrorPageRef> Pages { get; } =
     [
@@ -51,8 +53,6 @@ public static class MirrorCatalog
         new(Applicants, "master-sensor-devices",
             "Прилади та матеріали сенсорної електроніки (магістр)",
             $"{SiteUrls.Origin}/academics/master/curriculum-micro-and-nanotechnics", Listed: false),
-        new(Applicants, "zaochna-forma", "Заочна форма навчання",
-            $"{SiteUrls.Origin}/academics/zaochna-forma/", Listed: false),
 
         new(Science, "research-areas", "Напрями досліджень",
             $"{SiteUrls.Origin}/research/research-areas/"),
@@ -68,6 +68,44 @@ public static class MirrorCatalog
             $"{SiteUrls.Origin}/research/conferences/"),
         new(Science, "publications", "Видання",
             $"{SiteUrls.Origin}/research/publications/"),
+
+        new(Academics, "bachelor", "Бакалавр",
+            $"{SiteUrls.Origin}/academics/bachelor/"),
+        new(Academics, "master", "Магістр",
+            $"{SiteUrls.Origin}/academics/master/"),
+        new(Academics, "zaochna-forma", "Заочна форма",
+            $"{SiteUrls.Origin}/academics/zaochna-forma/"),
+        new(Academics, "postgraduates", "Аспірантура та докторантура",
+            $"{SiteUrls.Origin}/academics/postgraduates/"),
+        new(Academics, "practice", "Практика",
+            $"{SiteUrls.Origin}/academics/practice/"),
+        new(Academics, "metodychni-materialy", "Методичні матеріали",
+            $"{SiteUrls.Origin}/academics/metodychni-materialy/"),
+        new(Academics, "library", "Бібліотеки",
+            $"{SiteUrls.Origin}/academics/library/"),
+        new(Academics, "osvitnie-seredovyshche", "Освітнє середовище",
+            $"{SiteUrls.Origin}/academics/osvitnie-seredovyshche/"),
+        new(Academics, "tsentr-3d-tekhnolohiy", "Центр 3D-технологій",
+            $"{SiteUrls.Origin}/academics/tsentr-3d-tekhnolohiy/"),
+        new(Academics, "informal-education", "Неформальна освіта",
+            $"{SiteUrls.Origin}/academics/informal-education/"),
+        new(Academics, "hromadske-obhovorennia", "Громадське обговорення",
+            $"{SiteUrls.Origin}/academics/hromadske-obhovorennia/"),
+
+        new(Students, "korysna-informatsiya", "Корисна інформація",
+            $"{SiteUrls.Origin}/students/korysna-informatsiya/"),
+        new(Students, "government", "Студентське самоврядування",
+            $"{SiteUrls.Origin}/students/government/"),
+        new(Students, "group-leaders-and-advisers", "Старости та порадники",
+            $"{SiteUrls.Origin}/students/group-leaders-and-advisers/"),
+        new(Students, "akademichna-mobilnist", "Академічна мобільність",
+            $"{SiteUrls.Origin}/students/akademichna-mobilnist/"),
+        new(Students, "zaochne-navchannia", "Заочне навчання",
+            $"{SiteUrls.Origin}/students/zaochne-navchannia/"),
+        new(Students, "oplata-za-navchannia", "Оплата за навчання",
+            $"{SiteUrls.Origin}/students/oplata-za-navchannia-2023-2024-n-r/"),
+        new(Students, "informatsiia-dlia-vypusknykiv", "Інформація для випускників",
+            $"{SiteUrls.Origin}/students/informatsiia-dlia-vypusknykiv/"),
     ];
 
     public static IEnumerable<MirrorPageRef> In(string group) =>
@@ -83,6 +121,8 @@ public static class MirrorCatalog
     {
         Applicants => "Абітурієнту",
         Science => "Наука",
+        Academics => "Навчання",
+        Students => "Студенту",
         _ => group,
     };
 }

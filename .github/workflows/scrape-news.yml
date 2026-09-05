@@ -13,6 +13,10 @@ on:
         description: "Перезавантажити вже збережені статті та профілі, а не лише нові"
         type: boolean
         default: false
+      allow_shrink:
+        description: "Дозволити запис, навіть якщо список раптово скоротився вдвічі (за замовчуванням такий запуск падає)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -45,6 +49,7 @@ jobs:
           --out ModernLNUElectronicsWebSite/wwwroot/data
           --news-pages ${{ inputs.news_pages || '6' }}
           ${{ (github.event_name == 'workflow_dispatch' && inputs.refresh) && '--refresh' || '' }}
+          ${{ (github.event_name == 'workflow_dispatch' && inputs.allow_shrink) && '--allow-shrink' || '' }}
 
       - name: Розібрати PDF розкладу
         run: python tools/schedule/parse_schedules.py ModernLNUElectronicsWebSite/wwwroot/data

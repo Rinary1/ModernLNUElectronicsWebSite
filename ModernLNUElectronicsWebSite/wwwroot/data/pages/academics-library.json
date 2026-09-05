@@ -1,0 +1,7 @@
+{
+  "Slug": "library",
+  "SourceUrl": "https://electronics.lnu.edu.ua/academics/library/",
+  "Title": "Бібліотеки",
+  "BodyHtml": "<ul>\n<li><a href=\"https://www.lnulibrary.lviv.ua/\" target=\"_blank\" rel=\"noopener noreferrer\">Наукова бібліотека Львівського університету</a></li>\n<li><a href=\"http://www.lsl.lviv.ua/\" target=\"_blank\" rel=\"noopener noreferrer\">Львівська національна наукова бібліотека імені В. Стефаника</a></li>\n<li><a href=\"http://www.nbuv.gov.ua/\" target=\"_blank\" rel=\"noopener noreferrer\">Національна бібліотека України імені В. І. Вернадського</a></li>\n<li><a href=\"http://www.bl.uk/\" target=\"_blank\" rel=\"noopener noreferrer\">The British Library</a></li>\n<li><a href=\"http://www.loc.gov/\" target=\"_blank\" rel=\"noopener noreferrer\">Library of Congress (Бібліотека Конгресу США)</a></li>\n</ul>",
+  "PlainText": "Наукова бібліотека Львівського університету Львівська національна наукова бібліотека імені В. Стефаника Національна бібліотека України імені В. І. Вернадського The British Library Library of Congress (Бібліотека Конгресу США)"
+}
