@@ -269,7 +269,7 @@ async Task BuildSearchIndexAsync()
             Route: $"news/{item.Slug}",
             SourceUrl: item.Url,
             Subtitle: item.PublishedAt?.ToString("dd.MM.yyyy") ?? item.RawDate,
-            Text: SearchIndexBuilder.Plain(page?.PlainText ?? item.Excerpt ?? item.Title),
+            Text: SearchIndexBuilder.Plain(page?.BodyHtml ?? item.Excerpt ?? item.Title),
             Date: item.PublishedAt));
     }
 
@@ -317,7 +317,7 @@ async Task BuildSearchIndexAsync()
             Text: SearchIndexBuilder.Plain(SearchIndexBuilder.Join(
                 group.First().Group.Title,
                 "кафедра підрозділ лабораторія",
-                page?.PlainText,
+                page?.BodyHtml,
                 string.Join(' ', group.Select(s => s.FullName)))),
             Date: null));
     }
@@ -406,7 +406,7 @@ async Task BuildSearchIndexAsync()
             Route: $"{reference.Group}/{reference.Slug}",
             SourceUrl: reference.SourceUrl,
             Subtitle: MirrorCatalog.LabelOf(reference.Group),
-            Text: SearchIndexBuilder.Plain(page.PlainText),
+            Text: SearchIndexBuilder.Plain(page.BodyHtml),
             Date: page.PublishedAt));
     }
 
@@ -423,7 +423,7 @@ async Task BuildSearchIndexAsync()
             Subtitle: course.Lecturers.Count > 0
                 ? $"Дисципліна · {string.Join(", ", course.Lecturers.Take(2).Select(l => l.Name))}"
                 : "Навчальна дисципліна",
-            Text: SearchIndexBuilder.Plain(page?.PlainText, SearchIndexBuilder.MaxCourseText),
+            Text: SearchIndexBuilder.Plain(page?.BodyHtml, SearchIndexBuilder.MaxCourseText),
             Date: null));
     }
 

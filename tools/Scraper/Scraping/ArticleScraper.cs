@@ -1,4 +1,4 @@
-using System.Globalization;
+﻿using System.Globalization;
 using System.Text.RegularExpressions;
 using AngleSharp.Dom;
 using AngleSharp.Html.Parser;
@@ -21,6 +21,8 @@ public sealed class ArticleScraper(IHtmlSource source)
     };
 
     private static readonly Regex WhitespaceRun = new(@"\s+", RegexOptions.Compiled);
+
+    private static readonly Regex HtmlTag = new(@"<[^>]+>", RegexOptions.Compiled);
 
     private readonly HtmlParser _parser = new();
 
@@ -57,7 +59,7 @@ public sealed class ArticleScraper(IHtmlSource source)
             PublishedAt = ParseDate(rawDate) ?? ParseMetaDate(document),
             CoverImageUrl = ReadCoverImage(document, bodyHtml),
             BodyHtml = bodyHtml,
-            PlainText = Collapse(article.TextContent) ?? string.Empty,
+            PlainText = PlainFrom(bodyHtml),
         };
     }
 
@@ -99,6 +101,9 @@ public sealed class ArticleScraper(IHtmlSource source)
         && DateTime.TryParseExact(raw, DateFormats, CultureInfo.InvariantCulture, DateTimeStyles.None, out var parsed)
             ? parsed
             : null;
+
+    private static string PlainFrom(string html) =>
+        Collapse(System.Net.WebUtility.HtmlDecode(HtmlTag.Replace(html, " "))) ?? string.Empty;
 
     private static string? Collapse(string? value) =>
         string.IsNullOrWhiteSpace(value) ? null : WhitespaceRun.Replace(value, " ").Trim();

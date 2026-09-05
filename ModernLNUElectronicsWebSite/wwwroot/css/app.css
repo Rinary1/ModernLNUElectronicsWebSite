@@ -294,6 +294,14 @@ mark {
     gap: 6px;
 }
 
+.search-overlay__kinds {
+    flex: 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 8px 16px;
+}
+
 .search-hit {
     display: flex;
     align-items: flex-start;

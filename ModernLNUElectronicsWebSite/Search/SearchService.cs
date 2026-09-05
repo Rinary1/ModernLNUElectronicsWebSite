@@ -41,14 +41,14 @@ public sealed partial class SearchService(HttpClient http)
         }
     }
 
-    public IReadOnlyList<SearchHit> Query(string? raw, int limit = 50)
+    public SearchResults Query(string? raw, SearchKind? kind = null, int limit = 50)
     {
         if (_entries is null || string.IsNullOrWhiteSpace(raw))
-            return [];
+            return SearchResults.Empty;
 
         var terms = Stems(raw);
         if (terms.Length == 0)
-            return [];
+            return SearchResults.Empty;
 
         var hits = new List<SearchHit>();
 
@@ -85,12 +85,22 @@ public sealed partial class SearchService(HttpClient http)
             hits.Add(new SearchHit(entry.Doc, score, Snippet(entry.Doc.Text, terms)));
         }
 
-        return hits
+        var counts = hits
+            .GroupBy(h => h.Doc.Kind)
+            .Select(g => new KindCount(g.Key, g.Count()))
+            .OrderByDescending(c => c.Count)
+            .ThenBy(c => c.Kind)
+            .ToList();
+
+        var ranked = hits
+            .Where(h => kind is null || h.Doc.Kind == kind)
             .OrderByDescending(h => h.Score)
             .ThenByDescending(h => h.Doc.Date ?? DateTime.MinValue)
             .ThenBy(h => h.Doc.Title, StringComparer.OrdinalIgnoreCase)
             .Take(limit)
             .ToList();
+
+        return new SearchResults(ranked, counts, hits.Count);
     }
 
     public static string[] Stems(string? value) =>
