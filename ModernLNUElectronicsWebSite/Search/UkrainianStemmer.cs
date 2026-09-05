@@ -1,4 +1,4 @@
-namespace ModernLNUElectronicsWebSite.Search;
+﻿namespace ModernLNUElectronicsWebSite.Search;
 
 public static class UkrainianStemmer
 {
@@ -19,7 +19,7 @@ public static class UkrainianStemmer
     private static readonly string[] Verbal =
         ["увала", "ували", "увало", "увати", "ував", "ються", "ити", "іти", "ати", "яти",
          "ють", "ать", "ять", "уть", "ила", "ило", "или", "ена", "ено", "ені", "ете", "йте",
-         "ла", "ло", "ли", "ти", "ть"];
+         "ла", "ло", "ли", "ть"];
 
     private static readonly string[] Nouns =
         ["іями", "иями", "ами", "ями", "ові", "еві", "ієї", "ією", "іях", "ах", "ях", "ов", "ев", "ів", "ей", "ой",

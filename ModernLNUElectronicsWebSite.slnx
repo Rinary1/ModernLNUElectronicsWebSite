@@ -1,4 +1,5 @@
-<Solution>
+﻿<Solution>
   <Project Path="ModernLNUElectronicsWebSite/ModernLNUElectronicsWebSite.csproj" />
   <Project Path="tools/Scraper/Scraper.csproj" />
+  <Project Path="tools/Scraper.Tests/Scraper.Tests.csproj" />
 </Solution>
