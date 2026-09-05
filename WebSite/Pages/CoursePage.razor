@@ -1,0 +1,64 @@
+@page "/courses/{Slug}"
+@using WebSite.Content
+@using WebSite.Data
+@inject MirrorContentClient Content
+
+<PageMeta Title="@(_page?.Title ?? _reference?.Title ?? "Дисципліна")"
+          Description="@Summary"
+          Canonical="@SourceUrl" />
+
+<MudButton Href="courses" Variant="Variant.Text" Color="Color.Primary" Class="mb-4"
+           StartIcon="@Icons.Material.Filled.ArrowBack">
+    Усі дисципліни
+</MudButton>
+
+@if (_busy)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+}
+else
+{
+    <MirrorArticleView Page="_page" SourceUrl="@SourceUrl" FallbackTitle="@(_reference?.Title ?? "Дисципліна")" />
+
+    @if (_reference is { Lecturers.Count: > 0 })
+    {
+        <MudDivider Class="my-6" />
+        <MudText Typo="Typo.h6" HtmlTag="h2" Class="fw-600 mb-2">Викладають</MudText>
+        <div class="d-flex flex-wrap gap-2">
+            @foreach (var lecturer in _reference.Lecturers)
+            {
+                <MudChip T="string"
+                         Href="@($"staff/{lecturer.Slug}")"
+                         Variant="Variant.Outlined"
+                         Color="Color.Primary"
+                         Size="Size.Small"
+                         Class="ma-0">
+                    @lecturer.Name
+                </MudChip>
+            }
+        </div>
+    }
+}
+
+@code {
+    [Parameter]
+    public string Slug { get; set; } = string.Empty;
+
+    private MirrorPage? _page;
+    private CourseRef? _reference;
+    private bool _busy = true;
+
+    private string SourceUrl => _reference?.SourceUrl ?? $"{SiteUrls.Origin}/course/{Slug}/";
+
+    private string? Summary => MetaText.Summarize(_page?.PlainText);
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _busy = true;
+
+        _page = await Content.TryGetCourseAsync(Slug);
+        _reference = (await Content.TryGetCourseIndexAsync())?.FirstOrDefault(c => c.Slug == Slug);
+
+        _busy = false;
+    }
+}

@@ -25,13 +25,13 @@ jobs:
           dotnet-version: "10.0.x"
 
       - name: Tests
-        run: dotnet test tools/Scraper.Tests/Scraper.Tests.csproj -c Release
+        run: dotnet test WebSite.Scraper.Tests/WebSite.Scraper.Tests.csproj -c Release
 
       - name: Restore workloads
-        run: dotnet workload restore ModernLNUElectronicsWebSite/ModernLNUElectronicsWebSite.csproj
+        run: dotnet workload restore WebSite/WebSite.csproj
 
       - name: Publish
-        run: dotnet publish ModernLNUElectronicsWebSite/ModernLNUElectronicsWebSite.csproj -c Release -o publish
+        run: dotnet publish WebSite/WebSite.csproj -c Release -o publish
 
       - name: Rewrite <base href>
         run: |

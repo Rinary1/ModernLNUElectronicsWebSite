@@ -1,0 +1,170 @@
+﻿@inherits LayoutComponentBase
+@using WebSite.Components
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+
+<MudThemeProvider Theme="_theme" @bind-IsDarkMode="_isDarkMode" />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+
+    <MudDrawer @bind-Open="_navOpen"
+               Variant="DrawerVariant.Responsive"
+               Breakpoint="Breakpoint.Lg"
+               Anchor="Anchor.Left"
+               Elevation="1"
+               ClipMode="DrawerClipMode.Never">
+        <MudDrawerHeader Class="d-flex align-center gap-3">
+            <MudIcon Icon="@Icons.Material.Filled.Bolt" Color="Color.Primary" Size="Size.Large" />
+            <div>
+                <MudText Typo="Typo.subtitle1" Class="fw-600">Факультет Електроніки ЛНУ</MudText>
+                <MudText Typo="Typo.caption" Class="mud-text-secondary">Зручне дзеркало</MudText>
+            </div>
+        </MudDrawerHeader>
+
+        <MudNavMenu Bordered="true">
+            <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Головна</MudNavLink>
+            <MudNavLink Href="about" Icon="@Icons.Material.Filled.Info">Про факультет</MudNavLink>
+
+            <MudNavLink Href="departments" Icon="@Icons.Material.Filled.AccountBalance">Кафедри</MudNavLink>
+            <MudNavLink Href="staff" Icon="@Icons.Material.Filled.Groups">Співробітники</MudNavLink>
+            <MudNavLink Href="administration" Icon="@Icons.Material.Filled.AccountBalanceWallet">Адміністрація</MudNavLink>
+            <MudNavLink Href="news" Icon="@Icons.Material.Filled.Article">Новини та події</MudNavLink>
+            <MudNavLink Href="schedule" Icon="@Icons.Material.Filled.CalendarMonth">Розклад</MudNavLink>
+            <MudNavLink Href="academics" Icon="@Icons.Material.Filled.CastForEducation">Навчання</MudNavLink>
+            <MudNavLink Href="courses" Icon="@Icons.Material.Filled.MenuBook">Дисципліни</MudNavLink>
+            <MudNavLink Href="students" Icon="@Icons.Material.Filled.Backpack">Студенту</MudNavLink>
+            <MudNavLink Href="applicants" Icon="@Icons.Material.Filled.School">Абітурієнту</MudNavLink>
+            <MudNavLink Href="science" Icon="@Icons.Material.Filled.Science">Наука</MudNavLink>
+            <MudNavLink Href="contacts" Icon="@Icons.Material.Filled.Place">Контакти</MudNavLink>
+        </MudNavMenu>
+    </MudDrawer>
+
+    <div class="app-island">
+        <MudPaper Class="app-island__inner" Elevation="8">
+            <MudTooltip Text="@(_navOpen ? "Сховати навігацію" : "Навігація")" Arrow="true">
+                <MudIconButton Icon="@Icons.Material.Filled.Menu"
+                               Color="Color.Default"
+                               OnClick="@(() => _navOpen = !_navOpen)"
+                               aria-label="Перемкнути навігацію" />
+            </MudTooltip>
+
+            <MudDivider Vertical="true" FlexItem="true" Class="app-island__divider" />
+
+            <button type="button" class="app-island__search" @onclick="OpenSearchAsync"
+                    aria-label="Відкрити пошук по сайту">
+                <MudIcon Icon="@Icons.Material.Filled.Search" Size="Size.Small" Class="mud-text-secondary" />
+                <span class="app-island__search-label">Пошук по сайту</span>
+                <kbd class="app-island__kbd">Ctrl K</kbd>
+            </button>
+
+            <MudDivider Vertical="true" FlexItem="true" Class="app-island__divider" />
+
+            <MudTooltip Text="@(_isDarkMode ? "Світла тема" : "Темна тема")" Arrow="true">
+                <MudIconButton Icon="@(_isDarkMode ? Icons.Material.Rounded.LightMode : Icons.Material.Rounded.DarkMode)"
+                               Color="Color.Default"
+                               OnClick="ToggleThemeAsync"
+                               aria-label="Перемкнути тему" />
+            </MudTooltip>
+        </MudPaper>
+    </div>
+
+    <SearchOverlay @ref="_search" />
+
+    <MudMainContent Class="app-content">
+        <MudContainer MaxWidth="MaxWidth.Large">
+            @Body
+
+            <footer class="app-footer">
+                <MudDivider Class="mb-3" />
+                <p class="app-footer__note">
+                    Неофіційне дзеркало сайту факультету електроніки та комп'ютерних технологій
+                    ЛНУ ім. Івана Франка. Дані підтягуються з
+                    <a href="https://electronics.lnu.edu.ua/" target="_blank" rel="noopener">оригінального сайту</a>.
+                </p>
+                <p class="app-footer__meta">
+                    <span>© @DateTime.Now.Year</span>
+                    <span class="app-footer__sep">·</span>
+                    <DataFreshness />
+                    <span class="app-footer__sep">·</span>
+                    <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" target="_blank" rel="noopener">Blazor</a>
+                    <span class="app-footer__sep">+</span>
+                    <a href="https://mudblazor.com" target="_blank" rel="noopener">MudBlazor</a>
+                </p>
+            </footer>
+        </MudContainer>
+    </MudMainContent>
+
+</MudLayout>
+
+@code {
+    private const int WideLayoutWidth = 1280;
+
+    private SearchOverlay? _search;
+    private bool _navOpen;
+    private bool _isDarkMode;
+
+    private readonly MudTheme _theme = new()
+    {
+        PaletteLight = new PaletteLight
+        {
+            Primary = "#2563EB",
+            Secondary = "#7C3AED",
+            AppbarBackground = "rgba(255,255,255,0.85)",
+            AppbarText = "#1F2933",
+            Background = "#F5F6F8",
+            DrawerBackground = "#FFFFFF",
+        },
+        PaletteDark = new PaletteDark
+        {
+            Primary = "#60A5FA",
+            Secondary = "#A78BFA",
+            Surface = "#1E1F2B",
+            Background = "#14151C",
+            AppbarBackground = "rgba(30,31,43,0.85)",
+            DrawerBackground = "#1E1F2B",
+        },
+        LayoutProperties = new LayoutProperties
+        {
+            DefaultBorderRadius = "12px",
+        },
+    };
+
+    protected override void OnInitialized()
+    {
+        if (JS is not IJSInProcessRuntime js)
+            return;
+
+        _isDarkMode = js.Invoke<bool>("mlnTheme.resolve");
+
+        _navOpen = js.Invoke<int>("mlnLayout.width") >= WideLayoutWidth;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+            await JS.InvokeVoidAsync("mlnIsland.watch");
+    }
+
+    private async Task ToggleThemeAsync()
+    {
+        _isDarkMode = !_isDarkMode;
+
+        await JS.InvokeVoidAsync("mlnTheme.set", _isDarkMode);
+    }
+
+    private Task OpenSearchAsync() => _search?.OpenAsync() ?? Task.CompletedTask;
+
+    public async ValueTask DisposeAsync()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("mlnIsland.unwatch");
+        }
+        catch (JSDisconnectedException)
+        {
+        }
+    }
+}

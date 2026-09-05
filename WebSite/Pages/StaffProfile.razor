@@ -1,0 +1,155 @@
+@page "/staff/{Slug}"
+@using WebSite.Content
+@using WebSite.Data
+@inject MirrorContentClient Content
+
+<PageMeta Title="@(_profile?.FullName ?? "Профіль")"
+          Description="@Summary"
+          Canonical="@(_profile?.ProfileUrl ?? SourceUrl)" />
+
+<MudButton Href="staff" Variant="Variant.Text" Color="Color.Primary" Class="mb-4"
+           StartIcon="@Icons.Material.Filled.ArrowBack">
+    Усі співробітники
+</MudButton>
+
+@if (_busy)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+}
+else if (_profile is null)
+{
+    <MudText Typo="Typo.h4" HtmlTag="h1" Class="fw-600 mb-2">Профіль співробітника</MudText>
+
+    <MudAlert Severity="Severity.Info" Dense="true" Class="mb-4">
+        Профіль ще не перенесено в дзеркало.
+        <MudLink Href="@SourceUrl" Target="_blank" rel="noopener noreferrer">Відкрити оригінал ↗</MudLink>
+    </MudAlert>
+}
+else
+{
+    <div class="profile-head mb-6">
+        @if (_profile.PhotoUrl is { Length: > 0 } photo)
+        {
+            <img class="profile-photo" src="@photo" alt="@_profile.FullName" loading="lazy" />
+        }
+
+        <div class="flex-grow-1">
+            <MudText Typo="Typo.h4" HtmlTag="h1" Class="fw-600">@_profile.FullName</MudText>
+
+            @if (_profile.PositionText is { Length: > 0 } position)
+            {
+                <MudText Typo="Typo.body1" Class="mud-text-secondary mt-1">@position</MudText>
+            }
+
+            <MudList T="string" Dense="true" Class="pa-0 mt-3">
+                @if (_profile.AcademicDegree is { Length: > 0 } degree)
+                {
+                    <MudListItem T="string" Icon="@Icons.Material.Filled.School">
+                        <MudText Typo="Typo.body2">@degree</MudText>
+                    </MudListItem>
+                }
+                @if (_profile.AcademicTitle is { Length: > 0 } title)
+                {
+                    <MudListItem T="string" Icon="@Icons.Material.Filled.WorkspacePremium">
+                        <MudText Typo="Typo.body2">@title</MudText>
+                    </MudListItem>
+                }
+                @if (_profile.Email is { Length: > 0 } email)
+                {
+                    <MudListItem T="string" Icon="@Icons.Material.Filled.Email">
+                        <MudLink Href="@($"mailto:{email}")" Typo="Typo.body2">@email</MudLink>
+                    </MudListItem>
+                }
+                @if (_profile.Phone is { Length: > 0 } phone)
+                {
+                    <MudListItem T="string" Icon="@Icons.Material.Filled.Call">
+                        <MudText Typo="Typo.body2">@phone</MudText>
+                    </MudListItem>
+                }
+                @if (DepartmentRoute is { Length: > 0 } route)
+                {
+                    <MudListItem T="string" Icon="@Icons.Material.Filled.AccountBalance">
+                        <MudLink Href="@route" Typo="Typo.body2">Сторінка підрозділу</MudLink>
+                    </MudListItem>
+                }
+            </MudList>
+
+            @if (_profile.Profiles.Count > 0)
+            {
+                <div class="d-flex flex-wrap gap-2 mt-3">
+                    @foreach (var (name, url) in _profile.Profiles)
+                    {
+                        <MudChip T="string" Size="Size.Small" Variant="Variant.Outlined" Color="Color.Primary"
+                                 Href="@url" Target="_blank" Class="ma-0">@name ↗</MudChip>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+
+    @if (_profile.ResearchInterests is { Length: > 0 } interests)
+    {
+        <MudText Typo="Typo.h6" HtmlTag="h2" Class="fw-600 mt-6 mb-2">Наукові інтереси</MudText>
+        <MudText Typo="Typo.body2">@interests</MudText>
+    }
+
+    @if (_profile.Courses.Count > 0)
+    {
+        <MudText Typo="Typo.h6" HtmlTag="h2" Class="fw-600 mt-6 mb-2">Навчальні дисципліни</MudText>
+        <MudList T="string" Dense="true" Class="pa-0">
+            @foreach (var course in _profile.Courses)
+            {
+                @if (SiteUrls.ToMirrorRoute(course.Url) is { } route)
+                {
+                    <MudListItem T="string" Icon="@Icons.Material.Filled.MenuBook" Href="@route">
+                        <MudText Typo="Typo.body2">@course.Title</MudText>
+                    </MudListItem>
+                }
+                else
+                {
+                    <MudListItem T="string" Icon="@Icons.Material.Filled.MenuBook"
+                                 Href="@course.Url" Target="_blank" rel="noopener noreferrer">
+                        <MudText Typo="Typo.body2">@course.Title</MudText>
+                    </MudListItem>
+                }
+            }
+        </MudList>
+    }
+
+    @foreach (var section in _profile.Sections.Where(s => !RenderedSeparately.Contains(s.Title)))
+    {
+        <MudText Typo="Typo.h6" HtmlTag="h2" Class="fw-600 mt-6 mb-2">@section.Title</MudText>
+        <div class="article__body">@((MarkupString)section.Html)</div>
+    }
+
+    <MudDivider Class="my-6" />
+    <SourceLink Url="@_profile.ProfileUrl" />
+}
+
+@code {
+    private static readonly HashSet<string> RenderedSeparately =
+        new(StringComparer.OrdinalIgnoreCase) { "Наукові інтереси", "Навчальні дисципліни" };
+
+    [Parameter]
+    public string Slug { get; set; } = string.Empty;
+
+    private EmployeeProfile? _profile;
+    private bool _busy = true;
+
+    private string SourceUrl => $"{SiteUrls.Origin}/employee/{Slug}/";
+
+    private string? Summary => _profile is null
+        ? null
+        : MetaText.Summarize(MetaText.Join(
+            _profile.FullName, _profile.PositionText, _profile.AcademicDegree, _profile.AcademicTitle));
+
+    private string? DepartmentRoute =>
+        _profile?.DepartmentUrl is { } url ? SiteUrls.ToMirrorRoute(url) : null;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _busy = true;
+        _profile = await Content.TryGetEmployeeAsync(Slug);
+        _busy = false;
+    }
+}

@@ -1,0 +1,13 @@
+@page "/academics"
+@page "/academics/{Slug}"
+@using WebSite.Data
+
+<MirrorSectionView Group="@MirrorCatalog.Academics"
+                   Title="Навчання"
+                   Description="Освітні ступені, практика, методичні матеріали та освітнє середовище факультету."
+                   Slug="@Slug" />
+
+@code {
+    [Parameter]
+    public string? Slug { get; set; }
+}

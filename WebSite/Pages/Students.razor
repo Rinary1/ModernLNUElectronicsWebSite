@@ -1,0 +1,13 @@
+@page "/students"
+@page "/students/{Slug}"
+@using WebSite.Data
+
+<MirrorSectionView Group="@MirrorCatalog.Students"
+                   Title="Студенту"
+                   Description="Самоврядування, академічна мобільність, оплата навчання та інша інформація для студентів."
+                   Slug="@Slug" />
+
+@code {
+    [Parameter]
+    public string? Slug { get; set; }
+}

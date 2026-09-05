@@ -1,0 +1,75 @@
+@using WebSite.Content
+@using WebSite.Data
+@inject MirrorContentClient Content
+
+<PageMeta Title="@(_current is null ? Title : $"{_current.Title} - {Title}")"
+          Description="@Description"
+          Canonical="@_current?.SourceUrl" />
+
+<MudText Typo="Typo.h4" HtmlTag="h1" GutterBottom="true" Class="fw-600">@Title</MudText>
+<MudText Typo="Typo.body2" Class="mud-text-secondary mb-4">@Description</MudText>
+
+<div class="d-flex flex-wrap gap-2 mb-6">
+    @foreach (var reference in _references)
+    {
+        var active = reference.Slug == _current?.Slug;
+
+        <MudChip T="string"
+                 Href="@($"{Group}/{reference.Slug}")"
+                 Variant="@(active ? Variant.Filled : Variant.Outlined)"
+                 Color="@(active ? Color.Primary : Color.Default)"
+                 Size="Size.Small"
+                 Class="ma-0">
+            @reference.Title
+        </MudChip>
+    }
+
+    @if (_current is { Listed: false })
+    {
+        <MudChip T="string"
+                 Variant="Variant.Filled"
+                 Color="Color.Primary"
+                 Size="Size.Small"
+                 Class="ma-0">
+            @_current.Title
+        </MudChip>
+    }
+</div>
+
+@if (_busy)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
+}
+else
+{
+    <MirrorArticleView Page="_page" SourceUrl="@_current?.SourceUrl" TitleTag="h2" />
+}
+
+@code {
+    [Parameter]
+    public required string Group { get; set; }
+
+    [Parameter]
+    public required string Title { get; set; }
+
+    [Parameter]
+    public required string Description { get; set; }
+
+    [Parameter]
+    public string? Slug { get; set; }
+
+    private IReadOnlyList<MirrorPageRef> _references = [];
+    private MirrorPageRef? _current;
+    private MirrorPage? _page;
+    private bool _busy = true;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        _references = MirrorCatalog.ListedIn(Group).ToList();
+        _current = MirrorCatalog.Find(Group, Slug) ?? _references.FirstOrDefault();
+
+        _busy = true;
+        _page = _current is null ? null : await Content.TryGetPageAsync(_current);
+        _busy = false;
+    }
+}

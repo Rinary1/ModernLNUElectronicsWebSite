@@ -119,9 +119,9 @@ x86/
 .claude
 
 ### Generated files
-ModernLNUElectronicsWebSite/wwwroot/sitemap.xml
-ModernLNUElectronicsWebSite/wwwroot/robots.txt
+WebSite/wwwroot/sitemap.xml
+WebSite/wwwroot/robots.txt
 
 # Cache
-ModernLNUElectronicsWebSite/wwwroot/data/.pdf-cache/
+WebSite/wwwroot/data/.pdf-cache/
 __pycache__/
