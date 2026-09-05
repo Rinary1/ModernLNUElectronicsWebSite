@@ -11,6 +11,15 @@
 
 <MudText Typo="Typo.h4" HtmlTag="h1" GutterBottom="true" Class="fw-600">Розклад</MudText>
 
+<MudAlert Severity="Severity.Warning" Dense="true" Class="mb-4">
+    Цей сайт є дзеркалом, це значить що розклад має "відставання", воно є приблизно 6 годин, це означає що останні зміни на сайті деканату можуть ще не відобразитися тут. 
+    Також цей розклад є розібраним з PDF у таблицю, тому деякі деталі можуть бути втрачені. Також точність падає оскільки деканат передає не точний PDF, помилки у PDF вже були з розкладом англійської мови.
+    Завжди перевіряйте актуальність розкладу на сайті деканату. Це не є першоджерело, а лише зручний інтерфейс для перегляду розкладу.
+    <MudLink Href="https://dekanat.lnu.edu.ua/cgi-bin/timetable.cgi" Target="_blank" rel="noopener">
+        Відкрити розклад деканату ↗
+    </MudLink>
+</MudAlert>
+
 @if (_busy)
 {
     <MudProgressLinear Indeterminate="true" Color="Color.Primary" Class="my-4" />
@@ -112,15 +121,6 @@ else
             var docs = _docs.Where(d => d.Category == category.Kind).ToList();
 
             <MudTabPanel Text="@category.Title" Icon="@category.Icon" BadgeData="@docs.Count">
-                @if (category.Kind == ScheduleCategory.Classes)
-                {
-                    <MudAlert Severity="Severity.Info" Dense="true" Class="mb-4">
-                        Живий розклад пар із можливістю обрати групу веде деканат в окремій системі.
-                        <MudLink Href="https://dekanat.lnu.edu.ua/cgi-bin/timetable.cgi" Target="_blank" rel="noopener">
-                            Відкрити розклад деканату ↗
-                        </MudLink>
-                    </MudAlert>
-                }
 
                 @if (docs.Count == 0)
                 {
