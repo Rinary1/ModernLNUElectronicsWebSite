@@ -130,7 +130,7 @@ public static class ContentSanitizer
                 element.Remove();
                 break;
 
-            case "IMG":
+            case "IMG" when DeclaredWidth(element) is not null:
                 element.SetAttribute("loading", "lazy");
                 break;
         }

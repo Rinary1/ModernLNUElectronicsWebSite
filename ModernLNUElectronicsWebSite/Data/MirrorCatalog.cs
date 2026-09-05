@@ -13,6 +13,7 @@ public static class MirrorCatalog
     public const string Science = "science";
     public const string Academics = "academics";
     public const string Students = "students";
+    public const string About = "about";
 
     public static IReadOnlyList<MirrorPageRef> Pages { get; } =
     [
@@ -106,6 +107,23 @@ public static class MirrorCatalog
             $"{SiteUrls.Origin}/students/oplata-za-navchannia-2023-2024-n-r/"),
         new(Students, "informatsiia-dlia-vypusknykiv", "Інформація для випускників",
             $"{SiteUrls.Origin}/students/informatsiia-dlia-vypusknykiv/"),
+
+        new(About, "vitalne-slovo", "Вітальне слово",
+            $"{SiteUrls.Origin}/about/vitalne-slovo/"),
+        new(About, "history-of-faculty", "Історія",
+            $"{SiteUrls.Origin}/about/history-of-faculty/"),
+        new(About, "nashi-tsili-mission", "Наші цілі",
+            $"{SiteUrls.Origin}/about/nashi-tsili-mission/"),
+        new(About, "labs", "Лабораторії",
+            $"{SiteUrls.Origin}/about/labs/"),
+        new(About, "international-cooperation", "Міжнародна співпраця",
+            $"{SiteUrls.Origin}/about/international-cooperation/"),
+        new(About, "alumni", "Випускники",
+            $"{SiteUrls.Origin}/about/alumni/"),
+        new(About, "memory-book", "Меморіал полеглих Героїв",
+            $"{SiteUrls.Origin}/about/memory-book/"),
+        new(About, "korysni-posylannia", "Корисні посилання",
+            $"{SiteUrls.Origin}/about/korysni-posylannia/"),
     ];
 
     public static IEnumerable<MirrorPageRef> In(string group) =>
@@ -123,6 +141,7 @@ public static class MirrorCatalog
         Science => "Наука",
         Academics => "Навчання",
         Students => "Студенту",
+        About => "Про факультет",
         _ => group,
     };
 }
