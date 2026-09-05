@@ -1,4 +1,4 @@
-using System.Text.Encodings.Web;
+﻿using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using ModernLNUElectronicsWebSite.Data;
@@ -20,13 +20,19 @@ var htmlSource = new HttpHtmlSource(http);
 var articles = new ArticleScraper(htmlSource);
 var store = new JsonStore(options.OutDir);
 
-// --index-only не ходить у мережу: перебудувати пошуковий індекс із уже
-// збережених даних корисно під час розробки, коли міняється його формат.
 if (options.IndexOnly)
 {
     await EnrichStaffPhotosAsync();
     await BuildSearchIndexAsync();
     Console.WriteLine("Готово (лише похідні файли).");
+    return;
+}
+
+if (options.PagesOnly)
+{
+    await ScrapeMirroredPagesAsync();
+    await BuildSearchIndexAsync();
+    Console.WriteLine("Готово (лише розділи каталогу).");
     return;
 }
 
@@ -460,7 +466,6 @@ Task Delay() => Task.Delay(options.DelayMs);
 
 file sealed class JsonStore(string root)
 {
-    // Індентація потрібна лише щоб дифи даних читалися оком у git.
     private static readonly JsonSerializerOptions Options = new()
     {
         WriteIndented = true,
@@ -496,10 +501,6 @@ file sealed class JsonStore(string root)
         }
     }
 
-    /// <param name="indented">
-    /// Вимикається для файлів, які людина не читає: пошуковий індекс без відступів
-    /// на третину менший, а дифити його все одно немає сенсу.
-    /// </param>
     public async Task WriteAsync<T>(string relativePath, T value, bool indented = true)
     {
         var full = Path.GetFullPath(Path.Combine(root, relativePath));
@@ -509,7 +510,8 @@ file sealed class JsonStore(string root)
     }
 }
 
-file sealed record ScraperOptions(string OutDir, int NewsPages, bool SkipProfiles, bool Refresh, bool IndexOnly, int DelayMs)
+file sealed record ScraperOptions(
+    string OutDir, int NewsPages, bool SkipProfiles, bool Refresh, bool IndexOnly, bool PagesOnly, int DelayMs)
 {
     public static ScraperOptions Parse(string[] args)
     {
@@ -518,6 +520,7 @@ file sealed record ScraperOptions(string OutDir, int NewsPages, bool SkipProfile
         var skipProfiles = false;
         var refresh = false;
         var indexOnly = false;
+        var pagesOnly = false;
         var delayMs = 1000;
 
         for (var i = 0; i < args.Length; i++)
@@ -550,12 +553,16 @@ file sealed record ScraperOptions(string OutDir, int NewsPages, bool SkipProfile
                     indexOnly = true;
                     break;
 
+                case "--pages-only":
+                    pagesOnly = true;
+                    break;
+
                 default:
                     Console.WriteLine($"Невідомий аргумент: {args[i]}");
                     break;
             }
         }
 
-        return new ScraperOptions(outDir, newsPages, skipProfiles, refresh, indexOnly, delayMs);
+        return new ScraperOptions(outDir, newsPages, skipProfiles, refresh, indexOnly, pagesOnly, delayMs);
     }
 }

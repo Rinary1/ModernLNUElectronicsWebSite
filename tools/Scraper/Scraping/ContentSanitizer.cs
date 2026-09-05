@@ -29,7 +29,7 @@ public static class ContentSanitizer
     private static readonly Dictionary<string, string[]> AllowedAttributes = new(StringComparer.OrdinalIgnoreCase)
     {
         ["A"] = ["href"],
-        ["IMG"] = ["src", "alt"],
+        ["IMG"] = ["src", "alt", "width", "height"],
         ["TD"] = ["colspan", "rowspan"],
         ["TH"] = ["colspan", "rowspan"],
     };
@@ -159,17 +159,25 @@ public static class ContentSanitizer
         if (string.IsNullOrWhiteSpace(srcset))
             return;
 
+        var target = DeclaredWidth(image) is { } declared
+            ? Math.Min(declared * 2, PreferredImageWidth)
+            : PreferredImageWidth;
+
         var best = SrcSetEntry.Matches(srcset)
             .Select(m => (Url: m.Groups["url"].Value, Width: int.Parse(m.Groups["width"].Value)))
-            .OrderBy(c => Math.Abs(c.Width - PreferredImageWidth))
+            .OrderBy(c => Math.Abs(c.Width - target))
             .FirstOrDefault();
 
         if (best.Url is { Length: > 0 })
             image.SetAttribute("src", best.Url);
     }
 
+    private static int? DeclaredWidth(IElement image) =>
+        int.TryParse(image.GetAttribute("width"), out var width) && width > 0 ? width : null;
+
     private static bool IsEmptyNoise(IElement element) =>
         element.TagName is "P" or "UL" or "OL" or "LI" or "FIGURE" or "BLOCKQUOTE" or "TABLE"
+            or "H2" or "H3" or "H4" or "H5" or "H6"
         && element.Children.Length == 0
         && string.IsNullOrWhiteSpace(element.TextContent);
 

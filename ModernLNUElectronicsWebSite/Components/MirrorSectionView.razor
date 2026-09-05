@@ -23,6 +23,17 @@
             @reference.Title
         </MudChip>
     }
+
+    @if (_current is { Listed: false })
+    {
+        <MudChip T="string"
+                 Variant="Variant.Filled"
+                 Color="Color.Primary"
+                 Size="Size.Small"
+                 Class="ma-0">
+            @_current.Title
+        </MudChip>
+    }
 </div>
 
 @if (_busy)
@@ -54,8 +65,8 @@ else
 
     protected override async Task OnParametersSetAsync()
     {
-        _references = MirrorCatalog.In(Group).ToList();
-        _current = _references.FirstOrDefault(p => p.Slug == Slug) ?? _references.FirstOrDefault();
+        _references = MirrorCatalog.ListedIn(Group).ToList();
+        _current = MirrorCatalog.Find(Group, Slug) ?? _references.FirstOrDefault();
 
         _busy = true;
         _page = _current is null ? null : await Content.TryGetPageAsync(_current);

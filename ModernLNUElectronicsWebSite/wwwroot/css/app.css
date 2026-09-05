@@ -404,6 +404,11 @@ mark {
     border-radius: var(--mud-default-borderradius);
 }
 
+.article__body img:not([width]) {
+    max-height: 70vh;
+    width: auto;
+}
+
 .article__body a {
     color: var(--mud-palette-primary);
 }
