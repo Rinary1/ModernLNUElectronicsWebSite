@@ -174,15 +174,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "inozemna-mova-2",
-    "Title": "Іноземна мова",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova-2/",
-    "Lecturers": []
-  },
-  {
     "Slug": "inozemna-mova",
     "Title": "Іноземна мова",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "inozemna-mova-2",
+    "Title": "Іноземна мова",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova-2/",
     "Lecturers": []
   },
   {
@@ -248,9 +248,9 @@
     ]
   },
   {
-    "Slug": "istoriia-ukrainy-2",
+    "Slug": "istoriia-ukrainy",
     "Title": "Історія України",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy-2/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy/",
     "Lecturers": []
   },
   {
@@ -260,9 +260,9 @@
     "Lecturers": []
   },
   {
-    "Slug": "istoriia-ukrainy",
+    "Slug": "istoriia-ukrainy-2",
     "Title": "Історія України",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy-2/",
     "Lecturers": []
   },
   {
@@ -272,15 +272,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "istoriia-ukrainskoi-kultury-4",
-    "Title": "Історія Української культури",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-4/",
-    "Lecturers": []
-  },
-  {
     "Slug": "istoriia-ukrainskoi-kultury",
     "Title": "Історія Української культури",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "istoriia-ukrainskoi-kultury-4",
+    "Title": "Історія Української культури",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-4/",
     "Lecturers": []
   },
   {
@@ -1007,15 +1007,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "vyrobnycha-praktyka",
-    "Title": "Виробнича практика",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka/",
-    "Lecturers": []
-  },
-  {
     "Slug": "vyrobnycha-praktyka-2",
     "Title": "Виробнича практика",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyrobnycha-praktyka",
+    "Title": "Виробнича практика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka/",
     "Lecturers": []
   },
   {
@@ -2018,6 +2018,17 @@
     ]
   },
   {
+    "Slug": "metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk",
+    "Title": "Методи та технології опрацювання даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
     "Slug": "metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2",
     "Title": "Методи та технології опрацювання даних (ВПК)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2/",
@@ -2026,17 +2037,6 @@
         "Name": "ПАВЛИШЕНКО Богдан Михайлович",
         "Slug": "pavlyshenko-bohdan-myhajlovych"
       },
-      {
-        "Name": "ЛЯШКЕВИЧ Василь Яремович",
-        "Slug": "liashkevych-v-ya"
-      }
-    ]
-  },
-  {
-    "Slug": "metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk",
-    "Title": "Методи та технології опрацювання даних (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk/",
-    "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
         "Slug": "liashkevych-v-ya"
@@ -4078,27 +4078,27 @@
     "Lecturers": []
   },
   {
-    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-2",
-    "Title": "Українська мова (за професійним спрямуванням)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-2/",
-    "Lecturers": []
-  },
-  {
     "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-4",
     "Title": "Українська мова (за професійним спрямуванням)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-4/",
     "Lecturers": []
   },
   {
-    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam",
+    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-2",
     "Title": "Українська мова (за професійним спрямуванням)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-2/",
     "Lecturers": []
   },
   {
     "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-3",
     "Title": "Українська мова (за професійним спрямуванням)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-3/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam",
+    "Title": "Українська мова (за професійним спрямуванням)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam/",
     "Lecturers": []
   },
   {
@@ -4233,12 +4233,6 @@
     "Lecturers": []
   },
   {
-    "Slug": "filosofiia-2",
-    "Title": "Філософія",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/filosofiia-2/",
-    "Lecturers": []
-  },
-  {
     "Slug": "filosofiia-3",
     "Title": "Філософія",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/filosofiia-3/",
@@ -4248,6 +4242,12 @@
     "Slug": "filosofiia",
     "Title": "Філософія",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/filosofiia/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "filosofiia-2",
+    "Title": "Філософія",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/filosofiia-2/",
     "Lecturers": []
   },
   {
@@ -4356,9 +4356,9 @@
     "Lecturers": []
   },
   {
-    "Slug": "khmarnyy-komp-iutynh-vpk-2",
+    "Slug": "khmarnyy-komp-iutynh-vpk",
     "Title": "Хмарний комп’ютинг (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk-2/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk/",
     "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
@@ -4367,9 +4367,9 @@
     ]
   },
   {
-    "Slug": "khmarnyy-komp-iutynh-vpk",
+    "Slug": "khmarnyy-komp-iutynh-vpk-2",
     "Title": "Хмарний комп’ютинг (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk-2/",
     "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
