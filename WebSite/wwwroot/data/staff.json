@@ -803,6 +803,18 @@
       "Title": "Кафедра радіофізики та комп'ютерних технологій",
       "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
     },
+    "FullName": "ПАРАНЧУК Роман Ярославович",
+    "Position": "доцент",
+    "IsExternal": false,
+    "Email": "roman.paranchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/paranchuk-r-ya/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
     "FullName": "РАБИК Василь Григорович",
     "Position": "доцент",
     "IsExternal": false,
@@ -924,18 +936,6 @@
     "Email": "dmytro.myroniuk@lnu.edu.ua",
     "ProfileUrl": "https://electronics.lnu.edu.ua/employee/myroniuk-d-m/",
     "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Myroniuk-125x150.jpg"
-  },
-  {
-    "Group": {
-      "Kind": 4,
-      "Title": "Кафедра радіофізики та комп'ютерних технологій",
-      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
-    },
-    "FullName": "ПАРАНЧУК Роман Ярославович",
-    "Position": "асистент",
-    "IsExternal": false,
-    "Email": "roman.paranchuk@lnu.edu.ua",
-    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/paranchuk-r-ya/"
   },
   {
     "Group": {
