@@ -699,19 +699,6 @@
       "Title": "Кафедра радіофізики та комп'ютерних технологій",
       "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
     },
-    "FullName": "НАЗАРКЕВИЧ Марія Андріївна",
-    "Position": "професор",
-    "IsExternal": true,
-    "Email": "mariia.nazarkevych@lnu.edu.ua",
-    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/nazarkevych-mariia-andriivna/",
-    "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/10-125x150.jpg"
-  },
-  {
-    "Group": {
-      "Kind": 4,
-      "Title": "Кафедра радіофізики та комп'ютерних технологій",
-      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
-    },
     "FullName": "РЕНДЗІНЯК Сергій Йосипович",
     "Position": "професор",
     "IsExternal": false,
@@ -905,6 +892,19 @@
       "Title": "Кафедра радіофізики та комп'ютерних технологій",
       "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
     },
+    "FullName": "КАЛИНЧУК Тадей-Назарій Вікторович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "Tadei-Nazarii.Kalynchuk@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kalynchuk-tadey-nazariy-viktorovych/",
+    "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/photo_2026-08-29_18-22-24-125x150.jpg"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
     "FullName": "ЛЕВУШ Павло Назарович",
     "Position": "асистент",
     "IsExternal": false,
@@ -974,19 +974,6 @@
     "Email": "Yaroslav.Shmyhelskyy@lnu.edu.ua",
     "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shmyhelskyj-ya-a/",
     "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/SHmyhelskyy_YAA-125x150.png"
-  },
-  {
-    "Group": {
-      "Kind": 4,
-      "Title": "Кафедра радіофізики та комп'ютерних технологій",
-      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
-    },
-    "FullName": "РОМАНЯК Леся Іванівна",
-    "Position": "провідний інженер",
-    "IsExternal": true,
-    "Email": "Lesya.Romanyak@lnu.edu.ua",
-    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/romanyak-lesya-ivanivna/",
-    "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Romaniak-125x150.jpg"
   },
   {
     "Group": {
@@ -2053,19 +2040,6 @@
     "Email": "Valeriy.Shevchuk@lnu.edu.ua",
     "ProfileUrl": "https://electronics.lnu.edu.ua/employee/shevchuk-valerij-dmytrovych/",
     "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/krft_shevchuk-125x150.jpg"
-  },
-  {
-    "Group": {
-      "Kind": 8,
-      "Title": "Лабораторія (4) Радіофізики і комп'ютерних технологій",
-      "Url": "https://electronics.lnu.edu.ua/laboratory/navchalna-laboratoriya-radiofizyky-i-kompyuternyh-tehnolohij/"
-    },
-    "FullName": "РОМАНЯК Леся Іванівна",
-    "Position": "провідний інженер",
-    "IsExternal": false,
-    "Email": "Lesya.Romanyak@lnu.edu.ua",
-    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/romanyak-lesya-ivanivna/",
-    "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/Romaniak-125x150.jpg"
   },
   {
     "Group": {

@@ -1,0 +1,36 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/kalynchuk-tadey-nazariy-viktorovych/",
+  "Slug": "kalynchuk-tadey-nazariy-viktorovych",
+  "FullName": "Калинчук Тадей-Назарій Вікторович",
+  "PhotoUrl": "https://electronics.lnu.edu.ua/wp-content/uploads/photo_2026-08-29_18-22-24-125x150.jpg",
+  "PositionText": "асистент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "AcademicDegree": "кандидат технічних наук",
+  "Email": "Tadei-Nazarii.Kalynchuk@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?hl=uk&user=K-Ne3pUAAAAJ\u00A0",
+    "ORCID": "https://orcid.org/0009-0003-2811-2039",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=59478153900",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/QPB-0211-2026"
+  },
+  "ResearchInterests": "Високорівнева архітектура систем Міграція монолітної архітектури на мікросервіси Робототехніка",
+  "Courses": [],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<ul>\n<li><strong>\u202FВисокорівнева архітектура систем&nbsp;</strong></li>\n<li><strong>Міграція монолітної архітектури на мікросервіси&nbsp;</strong></li>\n<li><strong>Робототехніка&nbsp;</strong></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Калинчук, Т.-Н., Карбовник, І. (2023). Позиціонування в приміщенні з використанням Bluetooth Low Energy. <i>Електроніка та Інформаційні технології. </i>Issue 24.\u202F P. 13-22. <a href=\"https://doi.org/10.30970/eli.24.2\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli.24.2</a>\u202F&nbsp;</li>\n<li>Kalynchuk T.-N., Myroniuk D., Karbovnyk I. (2024). Indoor Positioning with Mobile Image Recognition and BLE. <i>2024 IEEE 17th International Conference on Advanced Trends in Radioelectronics, Telecommunications and Computer Engineering (TCSET).</i> <a href=\"https://doi.org/10.1109/TCSET64720.2024.10755566\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.1109/TCSET64720.2024.10755566</a>&nbsp;</li>\n<li>&nbsp;Kalynchuk T.-N., Shevchyk, V. (2025). Indoor positioning with Bluetooth low energy: a preliminary system design and results. <i>Advances in Cyber-Physical Systems</i> <i>(ACPS).</i> Volume 10, Number 1. P.\u202F 28-33. <a href=\"https://doi.org/10.23939/acps2025.01.028\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.23939/acps2025.01.028</a>\u202F&nbsp;</li>\n<li>&nbsp;Kalynchuk T.-N. (2026). Indoor positioning with Bluetooth Low Energy and extended Kalman filter. <i>Electronics and Information Technologies.</i> Issue 33. P. 31-42. <a href=\"https://doi.org/10.30970/eli\" target=\"_blank\" rel=\"noopener noreferrer\">https://doi.org/10.30970/eli</a>\u202F&nbsp;</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p><b>Дата народження :</b><b>\u202F</b>\u202F30.08.1997&nbsp;</p>\n<p><b>Освіта</b>:\u202F\u202F&nbsp;</p>\n<p>2013\u202F–\u202F2017 – Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій,\u202Fкафедра радіофізики та комп’ютерних технологій, бакалавр, спеціальність 122 “Комп’ютерні науки”\u202F&nbsp;</p>\n<p>2017\u202F–\u202F2018 – Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій,\u202Fкафедра радіофізики та комп’ютерних технологій,\u202Fмагістр, спеціальність 122 “Комп’ютерні науки”\u202F&nbsp;</p>\n<p><b>Навчання в аспірантурі:</b><b>\u202F</b>\u202F\u202F&nbsp;</p>\n<p>2022 – 2026 – Львівський національний університет імені Івана Франка, факультет електроніки та комп’ютерних технологій, кафедра радіофізики та комп’ютерних технологій, аспірантура, спеціальність 122 “Комп’ютерні науки”.\u202F&nbsp;</p>\n<p>2026 –\u202Fт.ч. – асистент кафедри радіофізики та комп’ютерних технологій.\u202F&nbsp;</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=40799&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=40799&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}

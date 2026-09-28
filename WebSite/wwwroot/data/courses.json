@@ -174,15 +174,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "inozemna-mova-2",
-    "Title": "Іноземна мова",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova-2/",
-    "Lecturers": []
-  },
-  {
     "Slug": "inozemna-mova",
     "Title": "Іноземна мова",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "inozemna-mova-2",
+    "Title": "Іноземна мова",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova-2/",
     "Lecturers": []
   },
   {
@@ -248,9 +248,9 @@
     ]
   },
   {
-    "Slug": "istoriia-ukrainy-2",
+    "Slug": "istoriia-ukrainy",
     "Title": "Історія України",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy-2/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy/",
     "Lecturers": []
   },
   {
@@ -260,9 +260,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "istoriia-ukrainy",
+    "Slug": "istoriia-ukrainy-2",
     "Title": "Історія України",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "istoriia-ukrainskoi-kultury-2",
+    "Title": "Історія Української культури",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-2/",
     "Lecturers": []
   },
   {
@@ -281,12 +287,6 @@
     "Slug": "istoriia-ukrainskoi-kultury",
     "Title": "Історія Української культури",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury/",
-    "Lecturers": []
-  },
-  {
-    "Slug": "istoriia-ukrainskoi-kultury-2",
-    "Title": "Історія Української культури",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-2/",
     "Lecturers": []
   },
   {
@@ -743,12 +743,6 @@
     "Lecturers": []
   },
   {
-    "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-2",
-    "Title": "Безпека життєдіяльності та охорона праці",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-2/",
-    "Lecturers": []
-  },
-  {
     "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi",
     "Title": "Безпека життєдіяльності та охорона праці",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi/",
@@ -758,6 +752,12 @@
     "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-3",
     "Title": "Безпека життєдіяльності та охорона праці",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-3/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-2",
+    "Title": "Безпека життєдіяльності та охорона праці",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-2/",
     "Lecturers": []
   },
   {
@@ -1007,15 +1007,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "vyrobnycha-praktyka",
-    "Title": "Виробнича практика",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka/",
-    "Lecturers": []
-  },
-  {
     "Slug": "vyrobnycha-praktyka-2",
     "Title": "Виробнича практика",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "vyrobnycha-praktyka",
+    "Title": "Виробнича практика",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/vyrobnycha-praktyka/",
     "Lecturers": []
   },
   {
@@ -1033,12 +1033,7 @@
     "Slug": "systemy-kompyuternoji-matematyky",
     "Title": "Високорівневі системи комп’ютерного захисту (122 Комп’ютерні науки)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/systemy-kompyuternoji-matematyky/",
-    "Lecturers": [
-      {
-        "Name": "НАЗАРКЕВИЧ Марія Андріївна",
-        "Slug": "nazarkevych-mariia-andriivna"
-      }
-    ]
+    "Lecturers": []
   },
   {
     "Slug": "vyshcha-matematyka-2",
@@ -1981,9 +1976,9 @@
     "Lecturers": []
   },
   {
-    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2",
+    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk",
     "Title": "Методи та технології машинного навчання (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk/",
     "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
@@ -1992,9 +1987,9 @@
     ]
   },
   {
-    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk",
+    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2",
     "Title": "Методи та технології машинного навчання (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2/",
     "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
@@ -2044,17 +2039,6 @@
     ]
   },
   {
-    "Slug": "metodolohii-doslidzhennia-danykh-vpk",
-    "Title": "Методології дослідження даних (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/metodolohii-doslidzhennia-danykh-vpk/",
-    "Lecturers": [
-      {
-        "Name": "ЛЯШКЕВИЧ Василь Яремович",
-        "Slug": "liashkevych-v-ya"
-      }
-    ]
-  },
-  {
     "Slug": "metodolohii-doslidzhennia-danykh-vpk-2",
     "Title": "Методології дослідження даних (ВПК)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/metodolohii-doslidzhennia-danykh-vpk-2/",
@@ -2063,6 +2047,17 @@
         "Name": "ЮЗЕВИЧ Володимир Миколайович",
         "Slug": "yuzevych-volodymyr-mykolajovych"
       },
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
+    "Slug": "metodolohii-doslidzhennia-danykh-vpk",
+    "Title": "Методології дослідження даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metodolohii-doslidzhennia-danykh-vpk/",
+    "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
         "Slug": "liashkevych-v-ya"
@@ -2988,10 +2983,6 @@
         "Slug": "bolesta-i-m"
       },
       {
-        "Name": "НАЗАРКЕВИЧ Марія Андріївна",
-        "Slug": "nazarkevych-mariia-andriivna"
-      },
-      {
         "Name": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
         "Slug": "shmyhelskyj-ya-a"
       }
@@ -3109,12 +3100,7 @@
     "Slug": "prohramuvannia-vbudovanykh-system-121-ipz",
     "Title": "Програмування вбудованих та конфігурованих систем (ІПЗ)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/prohramuvannia-vbudovanykh-system-121-ipz/",
-    "Lecturers": [
-      {
-        "Name": "НАЗАРКЕВИЧ Марія Андріївна",
-        "Slug": "nazarkevych-mariia-andriivna"
-      }
-    ]
+    "Lecturers": []
   },
   {
     "Slug": "prohramuvannia-na-gp-gpu-vpk",
@@ -3243,10 +3229,6 @@
     "SourceUrl": "https://electronics.lnu.edu.ua/course/proektuvannia-skhem-drukovanykh-plat-126-informatsiyni-systemy-ta-tekhnolohii/",
     "Lecturers": [
       {
-        "Name": "НАЗАРКЕВИЧ Марія Андріївна",
-        "Slug": "nazarkevych-mariia-andriivna"
-      },
-      {
         "Name": "ШМИГЕЛЬСЬКИЙ Ярослав Антонович",
         "Slug": "shmyhelskyj-ya-a"
       }
@@ -3368,6 +3350,17 @@
     ]
   },
   {
+    "Slug": "rozpodileni-tekhnolohii-ta-bazy-danykh-vpk",
+    "Title": "Розподілені технології та бази даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
     "Slug": "rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2",
     "Title": "Розподілені технології та бази даних (ВПК)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk-2/",
@@ -3383,17 +3376,6 @@
       {
         "Name": "СТАХІРА Роман Йосипович",
         "Slug": "stahira-roman-josypovych"
-      }
-    ]
-  },
-  {
-    "Slug": "rozpodileni-tekhnolohii-ta-bazy-danykh-vpk",
-    "Title": "Розподілені технології та бази даних (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/rozpodileni-tekhnolohii-ta-bazy-danykh-vpk/",
-    "Lecturers": [
-      {
-        "Name": "ЛЯШКЕВИЧ Василь Яремович",
-        "Slug": "liashkevych-v-ya"
       }
     ]
   },
@@ -4084,15 +4066,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-4",
-    "Title": "Українська мова (за професійним спрямуванням)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-4/",
-    "Lecturers": []
-  },
-  {
     "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam",
     "Title": "Українська мова (за професійним спрямуванням)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-4",
+    "Title": "Українська мова (за професійним спрямуванням)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-4/",
     "Lecturers": []
   },
   {
@@ -4215,15 +4197,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "fizychne-vykhovannia",
-    "Title": "Фізичне виховання",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychne-vykhovannia/",
-    "Lecturers": []
-  },
-  {
     "Slug": "fizvykhovannia",
     "Title": "Фізичне виховання",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/fizvykhovannia/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fizychne-vykhovannia",
+    "Title": "Фізичне виховання",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychne-vykhovannia/",
     "Lecturers": []
   },
   {
@@ -4356,9 +4338,9 @@
     "Lecturers": []
   },
   {
-    "Slug": "khmarnyy-komp-iutynh-vpk-2",
+    "Slug": "khmarnyy-komp-iutynh-vpk",
     "Title": "Хмарний комп’ютинг (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk-2/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk/",
     "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
@@ -4367,9 +4349,9 @@
     ]
   },
   {
-    "Slug": "khmarnyy-komp-iutynh-vpk",
+    "Slug": "khmarnyy-komp-iutynh-vpk-2",
     "Title": "Хмарний комп’ютинг (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/khmarnyy-komp-iutynh-vpk-2/",
     "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
