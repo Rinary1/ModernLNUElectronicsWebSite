@@ -174,15 +174,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "inozemna-mova",
-    "Title": "Іноземна мова",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova/",
-    "Lecturers": []
-  },
-  {
     "Slug": "inozemna-mova-2",
     "Title": "Іноземна мова",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "inozemna-mova",
+    "Title": "Іноземна мова",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/inozemna-mova/",
     "Lecturers": []
   },
   {
@@ -248,9 +248,9 @@
     ]
   },
   {
-    "Slug": "istoriia-ukrainy",
+    "Slug": "istoriia-ukrainy-2",
     "Title": "Історія України",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy-2/",
     "Lecturers": []
   },
   {
@@ -260,21 +260,21 @@
     "Lecturers": []
   },
   {
-    "Slug": "istoriia-ukrainy-2",
+    "Slug": "istoriia-ukrainy",
     "Title": "Історія України",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy-2/",
-    "Lecturers": []
-  },
-  {
-    "Slug": "istoriia-ukrainskoi-kultury-2",
-    "Title": "Історія Української культури",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-2/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainy/",
     "Lecturers": []
   },
   {
     "Slug": "istoriia-ukrainskoi-kultury-3",
     "Title": "Історія української культури",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-3/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "istoriia-ukrainskoi-kultury-2",
+    "Title": "Історія Української культури",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/istoriia-ukrainskoi-kultury-2/",
     "Lecturers": []
   },
   {
@@ -749,15 +749,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-3",
-    "Title": "Безпека життєдіяльності та охорона праці",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-3/",
-    "Lecturers": []
-  },
-  {
     "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-2",
     "Title": "Безпека життєдіяльності та охорона праці",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-2/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-3",
+    "Title": "Безпека життєдіяльності та охорона праці",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/bezpeka-zhyttiediialnosti-ta-okhorona-pratsi-3/",
     "Lecturers": []
   },
   {
@@ -1976,9 +1976,9 @@
     "Lecturers": []
   },
   {
-    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk",
+    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2",
     "Title": "Методи та технології машинного навчання (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2/",
     "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
@@ -1987,9 +1987,9 @@
     ]
   },
   {
-    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2",
+    "Slug": "metody-ta-tekhnolohii-mashynnoho-navchannia-vpk",
     "Title": "Методи та технології машинного навчання (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk-2/",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-mashynnoho-navchannia-vpk/",
     "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
@@ -2013,6 +2013,17 @@
     ]
   },
   {
+    "Slug": "metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk",
+    "Title": "Методи та технології опрацювання даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk/",
+    "Lecturers": [
+      {
+        "Name": "ЛЯШКЕВИЧ Василь Яремович",
+        "Slug": "liashkevych-v-ya"
+      }
+    ]
+  },
+  {
     "Slug": "metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2",
     "Title": "Методи та технології опрацювання даних (ВПК)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk-2/",
@@ -2028,9 +2039,9 @@
     ]
   },
   {
-    "Slug": "metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk",
-    "Title": "Методи та технології опрацювання даних (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/metody-ta-tekhnolohii-opratsiuvannia-danykh-vpk/",
+    "Slug": "metodolohii-doslidzhennia-danykh-vpk",
+    "Title": "Методології дослідження даних (ВПК)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/metodolohii-doslidzhennia-danykh-vpk/",
     "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
@@ -2047,17 +2058,6 @@
         "Name": "ЮЗЕВИЧ Володимир Миколайович",
         "Slug": "yuzevych-volodymyr-mykolajovych"
       },
-      {
-        "Name": "ЛЯШКЕВИЧ Василь Яремович",
-        "Slug": "liashkevych-v-ya"
-      }
-    ]
-  },
-  {
-    "Slug": "metodolohii-doslidzhennia-danykh-vpk",
-    "Title": "Методології дослідження даних (ВПК)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/metodolohii-doslidzhennia-danykh-vpk/",
-    "Lecturers": [
       {
         "Name": "ЛЯШКЕВИЧ Василь Яремович",
         "Slug": "liashkevych-v-ya"
@@ -4066,15 +4066,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam",
-    "Title": "Українська мова (за професійним спрямуванням)",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam/",
-    "Lecturers": []
-  },
-  {
     "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam-4",
     "Title": "Українська мова (за професійним спрямуванням)",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam-4/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "ukrainska-mova-za-profesiynym-spriamuvanniam",
+    "Title": "Українська мова (за професійним спрямуванням)",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/ukrainska-mova-za-profesiynym-spriamuvanniam/",
     "Lecturers": []
   },
   {
@@ -4197,15 +4197,15 @@
     "Lecturers": []
   },
   {
-    "Slug": "fizvykhovannia",
-    "Title": "Фізичне виховання",
-    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizvykhovannia/",
-    "Lecturers": []
-  },
-  {
     "Slug": "fizychne-vykhovannia",
     "Title": "Фізичне виховання",
     "SourceUrl": "https://electronics.lnu.edu.ua/course/fizychne-vykhovannia/",
+    "Lecturers": []
+  },
+  {
+    "Slug": "fizvykhovannia",
+    "Title": "Фізичне виховання",
+    "SourceUrl": "https://electronics.lnu.edu.ua/course/fizvykhovannia/",
     "Lecturers": []
   },
   {
