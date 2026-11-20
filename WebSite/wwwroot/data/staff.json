@@ -955,6 +955,18 @@
       "Title": "Кафедра радіофізики та комп'ютерних технологій",
       "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
     },
+    "FullName": "ТУЗЯК Микола Романович",
+    "Position": "асистент",
+    "IsExternal": false,
+    "Email": "mykola.tuziak@lnu.edu.ua",
+    "ProfileUrl": "https://electronics.lnu.edu.ua/employee/tuziak-mykola-romanovych/"
+  },
+  {
+    "Group": {
+      "Kind": 4,
+      "Title": "Кафедра радіофізики та комп'ютерних технологій",
+      "Url": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/"
+    },
     "FullName": "ШЕВЧУК Валерій Дмитрович",
     "Position": "асистент",
     "IsExternal": true,

@@ -1,0 +1,52 @@
+{
+  "ProfileUrl": "https://electronics.lnu.edu.ua/employee/tuziak-mykola-romanovych/",
+  "Slug": "tuziak-mykola-romanovych",
+  "FullName": "Тузяк Микола Романович",
+  "PositionText": "асистент кафедри радіофізики та комп’ютерних технологій",
+  "DepartmentUrl": "https://electronics.lnu.edu.ua/department/radiophysics-and-computer-technologies/",
+  "AcademicDegree": "кандидат фізико-математичних наук",
+  "Email": "mykola.tuziak@lnu.edu.ua",
+  "Profiles": {
+    "Google Scholar": "https://scholar.google.com/citations?user=AODdqgcAAAAJ&hl=en",
+    "ORCID": "https://orcid.org/my-orcid?emailVerified=true&orcid=0009-0000-1527-8310",
+    "Scopus": "https://www.scopus.com/authid/detail.uri?authorId=16204595700",
+    "Web of Science": "https://www.webofscience.com/wos/author/record/RND-7761-2026"
+  },
+  "ResearchInterests": "Застосування мікропроцесорів у навчальному процесі",
+  "Courses": [
+    {
+      "Title": "Мікропроцесорні системи (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/mikroprotsesorni-systemy-2/"
+    },
+    {
+      "Title": "Мікропроцесорна техніка (122 Комп'ютерні науки)",
+      "Url": "https://electronics.lnu.edu.ua/course/mikroprotsesorna-tekhnika-kn/"
+    }
+  ],
+  "Sections": [
+    {
+      "Title": "Наукові інтереси",
+      "Html": "<p>Застосування мікропроцесорів у навчальному процесі</p>"
+    },
+    {
+      "Title": "Навчальні дисципліни",
+      "Html": "<ul>\n<li><a href=\"courses/mikroprotsesorni-systemy-2\">Мікропроцесорні системи (122 Комп'ютерні науки)</a></li>\n<li><a href=\"courses/mikroprotsesorna-tekhnika-kn\">Мікропроцесорна техніка (122 Комп'ютерні науки)</a></li>\n</ul>"
+    },
+    {
+      "Title": "Публікації",
+      "Html": "<ol>\n<li>Stadnyk V. Yo. Effect of uniaxial pressure on the infrared spectra of (NH₄)₂SO₄ crystals / V. Yo. Stadnyk, M. O. Romanyuk, N. R. Tuzyak // Physics of the Solid State. – 2007. – V. 49, №4. – P. 696–700.</li>\n<li>Bovgyra O. V. The band energy structure KRbSO₄ crystals / O. V. Bovgyra, V. Y. Stadnyk, A. V. Franiv, M. R. Tuzyak, O. Z. Chyzh // Condensed Matter Phys. – 2007. – V. 10, №1. – P. 39–43.</li>\n<li>Andriyevsky B. Band structure and optical spectra of RbNH₄SO₄ crystals / B. Andriyevsky, W. Ciepluch-Trojanek, V. Stadnyk, M. Tuzyak, M. Romanyuk // J. Physics and Chemistry of Solids. – 2007. – V. 68. – P. 1892-1896.</li>\n<li>Стадник В. Кристалооптичний сенсор для вимірювання тиску / В. Стадник, М. Романюк, М. Тузяк, В. Курляк, Р. Брезвін // Вісник Львівського університету. Серія фізична. – 2008. – Вип. 42. – С. 201–206.</li>\n<li>Stadnyk, V. Yo. The influence of uniaxial pressures on birefringence of (NH4)2SO4 crystals / V. Yo. Stadnyk, M. O. Romanyuk, M. R. Tuzyak, V. Yu. Kurlyak // Ukrainian Journal of Physics .- 2009. – 54(6), &nbsp;– P. 587–593.</li>\n</ol>"
+    },
+    {
+      "Title": "Біографія",
+      "Html": "<p>Дата народження : 31.10.1981, м. Пустомити, Львівська обл.<br>\nОсвіта:<br>\n1988-1999 – навчання у Пустомитівській ЗОШ І-ІІІ ступенів.<br>\n1999 – 2003 – Львівський національний університет імені Івана Франка, фізичний факультет, бакалавратура<br>\n2003 – 2004 – Львівський національний університет імені Івана Франка, фізичний факультет, мігістратура<br>\n2004 – 2005 – Львівський національний університет імені Івана Франка, фізичний факультет, інженер міжкафедральної лабораторї обчислювальної техніки<br>\n2005 – 2008 – Львівський національний університет імені Івана Франка, фізичний факультет, аспірантура<br>\nСпівавтор наукових праць із кристалооптики, оптичних спектів та зонної структури кристалів.<br>\nПрактичний досвід у сфері програмування та інформаційних технологій із 2008 року.<br>\n2026 – т.ч. – асистент кафедри радіофізики та комп’ютерних технологій.</p>"
+    },
+    {
+      "Title": "Методичні матеріали",
+      "Html": "<p>В.Ю. Курляк, Л.Т. Карплюк, М.Р. Тузяк. Практикум з курсу “Атомна фізика”, ЛНУ ім. Івана Франка, 2008</p>"
+    },
+    {
+      "Title": "Розклад",
+      "Html": "<p><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=41225&amp;semester=1\" target=\"_blank\" rel=\"noopener noreferrer\">1-й семестр</a><br><a href=\"https://electronics.lnu.edu.ua/schedule-of-lecturers/?subpage=lecturer&amp;id=41225&amp;semester=2\" target=\"_blank\" rel=\"noopener noreferrer\">2-й семестр</a></p>"
+    }
+  ]
+}
